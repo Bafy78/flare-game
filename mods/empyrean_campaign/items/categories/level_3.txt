@@ -152,8 +152,8 @@ INCLUDE items/base/weapons/melee/dagger.txt
 level=3
 quality=epic
 price=300
-dmg_melee=25,30
-requires_stat=physical,5
+dmg=melee,25,30
+requires_stat=physical,4
 bonus=dmg_melee_min,10
 bonus=dmg_melee_max,10
 
@@ -164,8 +164,8 @@ INCLUDE items/base/weapons/ranged/slingshot.txt
 level=3
 quality=epic
 price=300
-dmg_ranged=25,30
-requires_stat=offense,5
+dmg=ranged,25,30
+requires_stat=offense,4
 bonus=dmg_ranged_min,10
 bonus=dmg_ranged_max,10
 
@@ -176,8 +176,8 @@ INCLUDE items/base/weapons/magic/wand.txt
 level=3
 quality=epic
 price=300
-dmg_ment=25,30
-requires_stat=mental,5
+dmg=ment,25,30
+requires_stat=mental,4
 bonus=dmg_ment_min,10
 bonus=dmg_ment_max,10
 
@@ -199,7 +199,7 @@ INCLUDE items/base/rings/gold_5.txt
 level=3
 quality=epic
 price=300
-bonus=fire_resist,4
+bonus=fire_resist,12
 
 [item]
 id=58
@@ -208,7 +208,7 @@ INCLUDE items/base/rings/silver_4.txt
 level=3
 quality=epic
 price=300
-bonus=ice_resist,4
+bonus=ice_resist,12
 
 [item]
 id=59
@@ -217,7 +217,7 @@ INCLUDE items/base/rings/silver_5.txt
 level=3
 quality=epic
 price=300
-bonus=lightning_resist,4
+bonus=lightning_resist,12
 
 [item]
 id=60
@@ -226,7 +226,7 @@ INCLUDE items/base/rings/gold_3.txt
 level=3
 quality=epic
 price=300
-bonus=dark_resist,4
+bonus=dark_resist,12
 
 [item]
 id=61

@@ -13,12 +13,13 @@ text=Clint Bellanger
 text=Justin Jacobs
 separator=32
 
-# TODO Art & Translations
 text=Visual Artists
 separator=16
 text=cron
 text=Justin Nichol
 text=rubberduck
+text=Short-Ribs
+text=Stefano Peris
 text=VWolfDog
 text=yd
 separator=32
@@ -27,5 +28,22 @@ text=Foley Artists
 separator=16
 text=adamgryu
 text=GuntherDorksen
+separator=32
+
+text=Translators
+separator=16
+text=Diego J. Romero López
+text=GunChleoc
+text=Igor Paliychuk
+text=Janet Hunt
+text=Микола Франчук
+text=MOB2
+text=Nea Retrogamer
+text=Pavel Maryanov
+text=Pawel Puszczyński
+text=Rui
+text=Sang-froid
+text=Stefano Peris
+text=sujiniku
 
 separator=64

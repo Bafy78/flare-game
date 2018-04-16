@@ -4,6 +4,7 @@ height=100
 tilewidth=64
 tileheight=32
 orientation=isometric
+background_color=0,0,0,255
 hero_pos=70,10
 music=music/dungeon_theme.ogg
 tileset=tilesetdefs/tileset_dungeon.txt
@@ -337,6 +338,7 @@ location=38,29,2,2
 activate=on_trigger
 hotspot=location
 intermap=maps/hyperspace.txt,28,28
+requires_status=emp_waypoint_6
 soundfx=soundfx/environment/teleporter.ogg,0,0
 tooltip=Hyperspace
 
@@ -541,6 +543,21 @@ hotspot=location
 intermap=maps/temple_of_mez_3.txt,26,31
 soundfx=soundfx/environment/stairs.ogg,0,0
 tooltip=Temple of Mez: Entrance
+
+[event]
+type=event
+location=45,51,2,1
+activate=on_trigger
+hotspot=location
+msg=You cut into your arm with the Knife of Sacrifices. The pain is excruciating. Shaking, you manage to collect some of your blood in a small vial. The knife quickly raises in temperature until it disintegrates. Your wound then begins to close itself, leaving no trace at all besides a warm feeling throughout your body.
+remove_item=1102
+repeat=false
+requires_not_status=emp_main_bloodvial
+requires_status=emp_main_knife
+reward_item=1103
+set_status=emp_main_bloodvial
+soundfx=soundfx/enemies/zombie_hit.ogg
+tooltip=Red Altar
 
 [enemy]
 type=enemy

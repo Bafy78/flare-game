@@ -1,6 +1,6 @@
 # Flare
 
-Flare is a a single-player 2D action RPG with fast-paced action and a dark fantasy style.
+Flare is a single-player 2D action RPG with fast-paced action and a dark fantasy style.
 
 It is built on the FLARE engine (Free/Libre Action Roleplaying Engine). Its repo is at https://github.com/clintbellanger/flare-engine
 
@@ -9,6 +9,8 @@ Flare uses simple file formats (INI style config files) for most of the game dat
 For best results, please use the latest version of the FLARE engine with the game data in this repository. Using an older version of the engine could result in some game elements not working correctly.
 
 ![Flare screenshot](distribution/screenshot1.jpg)
+
+The flare-game content contains depictions of violence, blood, and mild gore.
 
 ## Copyright and License
 
@@ -48,15 +50,14 @@ See the Flare-Engine repo for instructions on how to build/install Flare:
 
 https://github.com/clintbellanger/flare-engine
 
-Flare Game is installed as a set of mods for Flare Engine. Place the contents of the "mods" folder inside Flare Engine's mods folder.
+The mods folder should be in the same directory as the flare executable when building from source.
 
-* On Windows, the mods folder will be in the same directory as the flare executable.
-* On OSX, this will be inside the Flare.app folder, in Resources/mods
+Flare Game is installed as a set of mods for Flare Engine. Place the contents of the "mods" folder inside Flare Engine's mods folder.
 
 Then enable these mods in Flare's Configuration screen.
 
     fantasycore
-    alpha_demo
+    empyrean_campaign
 
 
 ### Building and Running on Linux
@@ -84,7 +85,7 @@ Install the game system-wide (requires root access):
 	cd ../flare-game
 	cmake . && sudo make install
 	cd ~ #this step is important because we don't want to load mods from the repo folders
-	flare --game=flare-game #alternatively, launch Flare from the desktop application menu
+	flare #alternatively, launch Flare from the desktop application menu
 
 
 Option 2
@@ -95,7 +96,7 @@ Run the game without installing:
 	cd mods
 	ln -s ../../flare-engine/mods/default default
 	cd ..
-	./flare --game=flare-game
+	./flare
 
 
 

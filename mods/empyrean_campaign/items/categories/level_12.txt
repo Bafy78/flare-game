@@ -8,7 +8,7 @@ level=12
 quality=rare
 price=360
 abs=5,6
-requires_stat=defense,28
+requires_stat=defense,21
 requires_stat=physical,10
 bonus=poise,6
 
@@ -20,7 +20,7 @@ level=12
 quality=rare
 price=360
 abs=5
-requires_stat=defense,27
+requires_stat=defense,20
 requires_stat=offense,11
 bonus=accuracy,6
 
@@ -32,31 +32,31 @@ level=12
 quality=rare
 price=360
 abs=4,5
-requires_stat=defense,26
+requires_stat=defense,19
 requires_stat=mental,12
 bonus=mp,18
 
 [item]
 id=279
-name=Warlord Chain Curiass
+name=Warlord Chain Cuirass
 INCLUDE items/base/armor/chain/chest.txt
 level=12
 quality=rare
 price=900
 abs=6,7
-requires_stat=defense,28
+requires_stat=defense,20
 requires_stat=physical,10
 bonus=hp,225
 
 [item]
 id=280
-name=Sniper Chain Curiass
+name=Sniper Chain Cuirass
 INCLUDE items/base/armor/chain/chest.txt
 level=12
 quality=rare
 price=900
 abs=6
-requires_stat=defense,27
+requires_stat=defense,19
 requires_stat=offense,11
 bonus=accuracy,9
 
@@ -68,7 +68,7 @@ level=12
 quality=rare
 price=900
 abs=5,6
-requires_stat=defense,26
+requires_stat=defense,18
 requires_stat=mental,12
 bonus=mp,27
 
@@ -80,7 +80,7 @@ level=12
 quality=rare
 price=600
 abs=6
-requires_stat=defense,28
+requires_stat=defense,20
 requires_stat=physical,10
 bonus=poise,18
 
@@ -92,7 +92,7 @@ level=12
 quality=rare
 price=600
 abs=5,6
-requires_stat=defense,27
+requires_stat=defense,19
 requires_stat=offense,11
 bonus=avoidance,9
 
@@ -104,7 +104,7 @@ level=12
 quality=rare
 price=600
 abs=5
-requires_stat=defense,26
+requires_stat=defense,18
 requires_stat=mental,12
 bonus=mp,18
 
@@ -116,7 +116,7 @@ level=12
 quality=rare
 price=360
 abs=5,6
-requires_stat=defense,28
+requires_stat=defense,20
 requires_stat=physical,10
 bonus=poise,9
 
@@ -128,7 +128,7 @@ level=12
 quality=rare
 price=360
 abs=5
-requires_stat=defense,27
+requires_stat=defense,19
 requires_stat=offense,11
 bonus=avoidance,18
 
@@ -140,7 +140,7 @@ level=12
 quality=rare
 price=360
 abs=4,5
-requires_stat=defense,26
+requires_stat=defense,18
 requires_stat=mental,12
 bonus=mp_regen,9
 
@@ -152,7 +152,7 @@ level=12
 quality=rare
 price=300
 abs=5,6
-requires_stat=defense,28
+requires_stat=defense,20
 requires_stat=physical,10
 bonus=crit,9
 
@@ -164,7 +164,7 @@ level=12
 quality=rare
 price=300
 abs=5
-requires_stat=defense,27
+requires_stat=defense,19
 requires_stat=offense,11
 bonus=accuracy,18
 
@@ -176,7 +176,7 @@ level=12
 quality=rare
 price=300
 abs=4,5
-requires_stat=defense,26
+requires_stat=defense,18
 requires_stat=mental,12
 bonus=mp_regen,18
 
@@ -187,7 +187,7 @@ INCLUDE items/base/armor/belt.txt
 level=12
 quality=rare
 price=600
-requires_stat=defense,28
+requires_stat=defense,20
 requires_stat=physical,10
 bonus=hp_regen,225
 
@@ -198,7 +198,7 @@ INCLUDE items/base/necklaces/gold_1.txt
 level=12
 quality=rare
 price=600
-requires_stat=defense,27
+requires_stat=defense,19
 requires_stat=offense,11
 bonus=avoidance,9
 
@@ -209,7 +209,7 @@ INCLUDE items/base/misc/spellbook.txt
 level=12
 quality=rare
 price=600
-requires_stat=defense,26
+requires_stat=defense,18
 requires_stat=mental,12
 bonus=mp_regen,18
 
@@ -220,8 +220,8 @@ INCLUDE items/base/weapons/melee/longsword.txt
 level=12
 quality=rare
 price=1200
-dmg_melee=65,70
-requires_stat=physical,32
+dmg=melee,65,70
+requires_stat=physical,22
 bonus=dmg_melee_min,15
 bonus=dmg_melee_max,15
 
@@ -232,8 +232,8 @@ INCLUDE items/base/weapons/ranged/longbow.txt
 level=12
 quality=rare
 price=1200
-dmg_ranged=65,70
-requires_stat=offense,32
+dmg=ranged,65,70
+requires_stat=offense,22
 bonus=dmg_ranged_min,15
 bonus=dmg_ranged_max,15
 
@@ -244,8 +244,8 @@ INCLUDE items/base/weapons/magic/staff.txt
 level=12
 quality=rare
 price=1200
-dmg_ment=65,70
-requires_stat=mental,32
+dmg=ment,65,70
+requires_stat=mental,22
 bonus=dmg_ment_min,15
 bonus=dmg_ment_max,15
 
@@ -257,7 +257,7 @@ level=12
 quality=rare
 price=900
 abs=12
-requires_stat=defense,30
+requires_stat=defense,21
 bonus=absorb_max,3
 
 [item]
@@ -268,7 +268,7 @@ level=12
 quality=rare
 price=1200
 requires_level=10
-bonus=fire_resist,18
+bonus=fire_resist,26
 
 [item]
 id=299
@@ -278,7 +278,7 @@ level=12
 quality=rare
 price=1200
 requires_level=10
-bonus=ice_resist,18
+bonus=ice_resist,26
 
 [item]
 id=300
@@ -288,7 +288,7 @@ level=12
 quality=rare
 price=1200
 requires_level=10
-bonus=lightning_resist,18
+bonus=lightning_resist,26
 
 [item]
 id=301
@@ -298,7 +298,7 @@ level=12
 quality=rare
 price=1200
 requires_level=10
-bonus=dark_resist,18
+bonus=dark_resist,26
 
 [item]
 id=302

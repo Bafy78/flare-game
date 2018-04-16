@@ -44,6 +44,7 @@ INCLUDE items/categories/level_13.txt
 INCLUDE items/categories/level_14.txt
 INCLUDE items/categories/level_15.txt
 INCLUDE items/categories/level_16.txt
+INCLUDE items/categories/level_16_unique.txt
 
 # Quest items (starts at 1000)
 INCLUDE items/categories/quest.txt
@@ -58,4 +59,11 @@ bonus=stealth,100
 power=500
 power_desc=Use: Teleport to target position.
 
-
+[item]
+id=2001
+name=DEV Invisibility Boots
+INCLUDE items/base/armor/magic_boots.txt
+quality=unique
+bonus=stealth,100
+power=501
+power_desc=Use: Turn Invisible

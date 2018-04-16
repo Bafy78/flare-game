@@ -2,7 +2,7 @@ Project (Flare-Game)
 cmake_minimum_required (VERSION 2.6)
 
 Set (PACKAGE "FLARE-GAME")
-Set (VERSION "0.19")
+Set (VERSION "1.02")
 
 set(BINDIR  "games"             CACHE STRING "Directory from CMAKE_INSTALL_PREFIX where game executable will be installed.")
 set(DATADIR "share/games/flare" CACHE STRING "Directory from CMAKE_INSTALL_PREFIX where game data files will be installed.")
@@ -15,5 +15,16 @@ EndIf(NOT IS_ABSOLUTE "${DATADIR}")
 
 # installing to the proper places
 install(DIRECTORY
-  "${CMAKE_CURRENT_SOURCE_DIR}/mods"
-  DESTINATION ${DATADIR})
+  "${CMAKE_CURRENT_SOURCE_DIR}/mods/fantasycore"
+  DESTINATION ${DATADIR}/mods)
+install(DIRECTORY
+  "${CMAKE_CURRENT_SOURCE_DIR}/mods/empyrean_campaign"
+  DESTINATION ${DATADIR}/mods)
+install(DIRECTORY
+  "${CMAKE_CURRENT_SOURCE_DIR}/mods/centered_statbars"
+  DESTINATION ${DATADIR}/mods)
+
+# installing appdata
+install(FILES
+  "${CMAKE_CURRENT_SOURCE_DIR}/distribution/org.flarerpg.Flare.appdata.xml"
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/appdata)

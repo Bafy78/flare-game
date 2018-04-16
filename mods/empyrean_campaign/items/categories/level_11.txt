@@ -8,7 +8,7 @@ level=11
 quality=epic
 price=330
 abs=5
-requires_stat=defense,25
+requires_stat=defense,19
 requires_stat=physical,9
 bonus=poise,5
 
@@ -20,7 +20,7 @@ level=11
 quality=epic
 price=330
 abs=4,5
-requires_stat=defense,24
+requires_stat=defense,18
 requires_stat=offense,10
 bonus=accuracy,5
 
@@ -32,31 +32,31 @@ level=11
 quality=epic
 price=330
 abs=4
-requires_stat=defense,23
+requires_stat=defense,17
 requires_stat=mental,11
 bonus=mp,15
 
 [item]
 id=250
-name=Warrior Chain Curiass
+name=Warrior Chain Cuirass
 INCLUDE items/base/armor/chain/chest.txt
 level=11
 quality=epic
 price=825
 abs=6
-requires_stat=defense,25
+requires_stat=defense,18
 requires_stat=physical,9
 bonus=hp,200
 
 [item]
 id=251
-name=Ranger Chain Curiass
+name=Ranger Chain Cuirass
 INCLUDE items/base/armor/chain/chest.txt
 level=11
 quality=epic
 price=825
 abs=5,6
-requires_stat=defense,24
+requires_stat=defense,17
 requires_stat=offense,10
 bonus=accuracy,8
 
@@ -68,7 +68,7 @@ level=11
 quality=epic
 price=825
 abs=5
-requires_stat=defense,23
+requires_stat=defense,16
 requires_stat=mental,11
 bonus=mp,24
 
@@ -80,7 +80,7 @@ level=11
 quality=epic
 price=550
 abs=5,6
-requires_stat=defense,25
+requires_stat=defense,18
 requires_stat=physical,9
 bonus=poise,16
 
@@ -92,7 +92,7 @@ level=11
 quality=epic
 price=550
 abs=5
-requires_stat=defense,24
+requires_stat=defense,17
 requires_stat=offense,10
 bonus=avoidance,8
 
@@ -104,7 +104,7 @@ level=11
 quality=epic
 price=550
 abs=4,5
-requires_stat=defense,23
+requires_stat=defense,16
 requires_stat=mental,11
 bonus=mp,16
 
@@ -116,7 +116,7 @@ level=11
 quality=epic
 price=330
 abs=5
-requires_stat=defense,25
+requires_stat=defense,18
 requires_stat=physical,9
 bonus=poise,8
 
@@ -128,7 +128,7 @@ level=11
 quality=epic
 price=330
 abs=4,5
-requires_stat=defense,24
+requires_stat=defense,17
 requires_stat=offense,10
 bonus=avoidance,16
 
@@ -140,7 +140,7 @@ level=11
 quality=epic
 price=330
 abs=4
-requires_stat=defense,23
+requires_stat=defense,16
 requires_stat=mental,11
 bonus=mp_regen,8
 
@@ -152,7 +152,7 @@ level=11
 quality=epic
 price=275
 abs=5
-requires_stat=defense,25
+requires_stat=defense,18
 requires_stat=physical,9
 bonus=crit,8
 
@@ -164,7 +164,7 @@ level=11
 quality=epic
 price=275
 abs=4,5
-requires_stat=defense,24
+requires_stat=defense,17
 requires_stat=offense,10
 bonus=accuracy,16
 
@@ -176,7 +176,7 @@ level=11
 quality=epic
 price=275
 abs=4
-requires_stat=defense,23
+requires_stat=defense,16
 requires_stat=mental,11
 bonus=mp_regen,16
 
@@ -187,7 +187,7 @@ INCLUDE items/base/armor/belt.txt
 level=11
 quality=epic
 price=550
-requires_stat=defense,25
+requires_stat=defense,18
 requires_stat=physical,9
 bonus=hp_regen,200
 
@@ -198,7 +198,7 @@ INCLUDE items/base/necklaces/gold_1.txt
 level=11
 quality=epic
 price=550
-requires_stat=defense,24
+requires_stat=defense,17
 requires_stat=offense,10
 bonus=avoidance,8
 
@@ -209,7 +209,7 @@ INCLUDE items/base/misc/spellbook.txt
 level=11
 quality=epic
 price=550
-requires_stat=defense,23
+requires_stat=defense,16
 requires_stat=mental,11
 bonus=mp_regen,16
 
@@ -220,8 +220,8 @@ INCLUDE items/base/weapons/melee/longsword.txt
 level=11
 quality=epic
 price=1100
-dmg_melee=65,70
-requires_stat=physical,29
+dmg=melee,65,70
+requires_stat=physical,20
 bonus=dmg_melee_min,10
 bonus=dmg_melee_max,10
 
@@ -232,8 +232,8 @@ INCLUDE items/base/weapons/ranged/longbow.txt
 level=11
 quality=epic
 price=1100
-dmg_ranged=65,70
-requires_stat=offense,29
+dmg=ranged,65,70
+requires_stat=offense,20
 bonus=dmg_ranged_min,10
 bonus=dmg_ranged_max,10
 
@@ -244,8 +244,8 @@ INCLUDE items/base/weapons/magic/staff.txt
 level=11
 quality=epic
 price=1100
-dmg_ment=65,70
-requires_stat=mental,29
+dmg=ment,65,70
+requires_stat=mental,20
 bonus=dmg_ment_min,10
 bonus=dmg_ment_max,10
 
@@ -257,7 +257,7 @@ level=11
 quality=epic
 price=825
 abs=11,12
-requires_stat=defense,27
+requires_stat=defense,19
 bonus=absorb_max,2
 
 [item]
@@ -268,7 +268,7 @@ level=11
 quality=epic
 price=1100
 requires_level=9
-bonus=fire_resist,16
+bonus=fire_resist,24
 
 [item]
 id=270
@@ -278,7 +278,7 @@ level=11
 quality=epic
 price=1100
 requires_level=9
-bonus=ice_resist,16
+bonus=ice_resist,24
 
 [item]
 id=271
@@ -288,7 +288,7 @@ level=11
 quality=epic
 price=1100
 requires_level=9
-bonus=lightning_resist,16
+bonus=lightning_resist,24
 
 [item]
 id=272
@@ -298,7 +298,7 @@ level=11
 quality=epic
 price=1100
 requires_level=9
-bonus=dark_resist,16
+bonus=dark_resist,24
 
 [item]
 id=273
