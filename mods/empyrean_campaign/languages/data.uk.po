@@ -3,21 +3,24 @@
 # 
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Translators:
-# Микола Франчук <thekolian1996@gmail.com>, 2018
 # Justin Jacobs <jajdorkster@gmail.com>, 2018
+# Sergiy Borodych, 2018
+# Микола Франчук <thekolian1996@gmail.com>, 2018
+# igorko <mansonigor@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-09 14:13+\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Justin Jacobs <jajdorkster@gmail.com>, 2018\n"
+"POT-Creation-Date: 2018-08-28 15:13+\n"
+"PO-Revision-Date: 2018-03-28 19:35+0000\n"
+"Last-Translator: igorko <mansonigor@gmail.com>, 2018\n"
 "Language-Team: Ukrainian (https://www.transifex.com/flareorg/teams/84925/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: ../items/items.txt:8
 msgid "Gold"
@@ -25,27 +28,27 @@ msgstr "Золото"
 
 #: ../items/items.txt:55
 msgid "DEV Boots"
-msgstr ""
+msgstr "DEV чоботи"
 
 #: ../items/items.txt:60
 msgid "Use: Teleport to target position."
-msgstr "Використати: Телепорт до вказаної місцевості."
+msgstr "Дія: Телепортує до вказаної місцевості."
 
 #: ../items/items.txt:64
 msgid "DEV Invisibility Boots"
-msgstr ""
+msgstr "DEV чоботи невидимості"
 
 #: ../items/items.txt:69
 msgid "Use: Turn Invisible"
-msgstr "Використати: Стати Невидимим"
+msgstr "Дія: Робить невидимим"
 
 #: ../items/types.txt:5
 msgid "Ancient Relic"
-msgstr "Древня Реліквія"
+msgstr "Древня реліквія"
 
 #: ../items/sets.txt:3
 msgid "St. Maria Garb"
-msgstr "Св. Марія Гарб"
+msgstr "Одяг Св. Марії"
 
 #: ../items/sets.txt:14
 msgid "Temple Guard's Outfit"
@@ -53,11 +56,11 @@ msgstr "Обмундирування Охоронця Храму"
 
 #: ../items/sets.txt:25
 msgid "Wizard's Apparatus"
-msgstr ""
+msgstr "Інструменти мага"
 
 #: ../items/sets.txt:36
 msgid "Underworld Armament"
-msgstr ""
+msgstr "Зброя Підземелля"
 
 #: ../powers/effects.txt:6
 msgid "Shield"
@@ -69,7 +72,7 @@ msgstr "Кровотеча"
 
 #: ../powers/effects.txt:24
 msgid "Slow"
-msgstr "Повільно"
+msgstr "Уповільнення"
 
 #: ../powers/effects.txt:31
 msgid "Stun"
@@ -77,11 +80,11 @@ msgstr "Оглушення"
 
 #: ../powers/effects.txt:38
 msgid "Immunity"
-msgstr ""
+msgstr "Імунітет"
 
 #: ../powers/effects.txt:45
 msgid "Haste"
-msgstr ""
+msgstr "Поспіх"
 
 #: ../powers/effects.txt:96
 msgid "Weakness to Fire"
@@ -93,11 +96,11 @@ msgstr "Уразливість до Льоду"
 
 #: ../powers/effects.txt:121
 msgid "Sacrifice"
-msgstr "Жертва"
+msgstr "Жертвоприношення"
 
 #: ../powers/effects.txt:146
 msgid "Reflect"
-msgstr "Відбити"
+msgstr "Відбиття"
 
 #: ../powers/powers.txt:25
 msgid "Teleport"
@@ -109,7 +112,7 @@ msgstr "Стати Невидимим"
 
 #: ../powers/powers.txt:53
 msgid "Remove Invisibility"
-msgstr "Вимкнути Невидимість"
+msgstr "Стати Видимим"
 
 #: ../engine/elements.txt:3
 msgid "Fire"
@@ -161,7 +164,7 @@ msgid ""
 "Mental"
 msgstr ""
 "Адепти мають природні здібності в киданні магічних заклинань. Основний "
-"атрибут: Психіка"
+"атрибут: Дух"
 
 #: ../engine/titles.txt:3
 msgid "Grand Master"
@@ -197,7 +200,7 @@ msgstr "Лорд"
 
 #: ../engine/titles.txt:44
 msgid "Tempest"
-msgstr "Буря"
+msgstr "Гроза"
 
 #: ../engine/titles.txt:49
 msgid "High Priest"
@@ -213,7 +216,7 @@ msgstr "Старший Вартовий"
 
 #: ../engine/titles.txt:63
 msgid "Adventurer"
-msgstr "Шукач пригод"
+msgstr "Авантюрист"
 
 #: ../engine/titles.txt:69
 msgid "Warrior"
@@ -265,7 +268,7 @@ msgstr "Винищувач"
 
 #: ../engine/titles.txt:130
 msgid "Recon"
-msgstr ""
+msgstr "Шпигун"
 
 #: ../engine/titles.txt:135
 msgid "Sorcerer"
@@ -293,7 +296,7 @@ msgstr "Пастух"
 
 #: ../engine/titles.txt:166
 msgid "Sparkblade"
-msgstr "Іскристий клинок"
+msgstr "Іскристий кинджал"
 
 #: ../engine/titles.txt:171
 msgid "Watch"
@@ -305,7 +308,7 @@ msgstr "Вигнанець"
 
 #: ../engine/equip_flags.txt:5
 msgid "throwing axe"
-msgstr "Метання сокири"
+msgstr "метальна сокира"
 
 #: ../enemies/base/ardwen.txt:3
 msgid "Ardwen"
@@ -325,19 +328,19 @@ msgstr "Мінотавр"
 
 #: ../enemies/lvl10_minotaur_necromancer.txt:3
 msgid "Minotaur Necromancer"
-msgstr "Мінотавр Чаклун"
+msgstr "Мінотавр некромант"
 
 #: ../enemies/lvl10_mog.txt:3
 msgid "Mog"
-msgstr ""
+msgstr "Мог"
 
 #: ../enemies/lvl10_skeleton_minion.txt:3
 msgid "Skeleton Minion"
-msgstr ""
+msgstr "Скелет прислужник"
 
 #: ../enemies/lvl10_skeleton_sharpshooter.txt:3
 msgid "Skeleton Sharpshooter"
-msgstr ""
+msgstr "Влучний скелет cтрілець"
 
 #: ../enemies/lvl10_xonun.txt:3
 msgid "Xonun"
@@ -345,43 +348,43 @@ msgstr "Зонун"
 
 #: ../enemies/lvl10_zombie_leecher.txt:3
 msgid "Leecher Zombie"
-msgstr "Зомбі Кровопивця"
+msgstr "Зомбі кровопивця"
 
 #: ../enemies/lvl11_antlion_venom.txt:3
 msgid "Venom Antlion"
-msgstr ""
+msgstr "Отруйний мурашиний лев"
 
 #: ../enemies/lvl11_buchi.txt:3
 msgid "Buchi"
-msgstr ""
+msgstr "Бучі"
 
 #: ../enemies/lvl11_sentry_fire.txt:3
 msgid "Fire Sentry"
-msgstr "Вогняний Вартовий"
+msgstr "Вогняний вартовий"
 
 #: ../enemies/lvl11_sentry_ice.txt:3
 msgid "Ice Sentry"
-msgstr "Льодяний Вартовий"
+msgstr "Льодяний вартовий"
 
 #: ../enemies/lvl11_skeleton_blaze.txt:3
 msgid "Blaze Skeleton"
-msgstr "Палаючий Скелет"
+msgstr "Палаючий скелет"
 
 #: ../enemies/lvl11_skeleton_frost.txt:3
 msgid "Frost Skeleton"
-msgstr "Заморожений Скелет"
+msgstr "Заморожений скелет"
 
 #: ../enemies/lvl11_skeleton_protector.txt:3
 msgid "Skeleton Protector"
-msgstr ""
+msgstr "Скелет захисник"
 
 #: ../enemies/lvl12_cyl.txt:3
 msgid "Cyl"
-msgstr ""
+msgstr "Цил"
 
 #: ../enemies/lvl12_metzger.txt:3
 msgid "Metzger"
-msgstr ""
+msgstr "Метзгер"
 
 #: ../enemies/lvl12_nishi.txt:3
 msgid "Nishi"
@@ -389,43 +392,43 @@ msgstr "Ніші"
 
 #: ../enemies/lvl13_antlion_fossilized.txt:3
 msgid "Fossilized Antlion"
-msgstr ""
+msgstr "Скам'янілий мурашиний лев"
 
 #: ../enemies/lvl13_antlion_larva.txt:3
 msgid "Antlion Larva"
-msgstr ""
+msgstr "Дитинча мурашиного лева"
 
 #: ../enemies/lvl13_goblin_thief.txt:3
 msgid "Goblin Thief"
-msgstr ""
+msgstr "Гоблін злодій"
 
 #: ../enemies/lvl13_skeleton_shadowstep.txt:3
 msgid "Shadowstep Skeleton"
-msgstr ""
+msgstr "Тихохідний скелет"
 
 #: ../enemies/lvl13_zombie_miner.txt:13
 msgid "Zombie Miner"
-msgstr "Зомбі Шахтар"
+msgstr "Зомбі шахтар"
 
 #: ../enemies/lvl13_zombie_vomit.txt:3
 msgid "Vomit Zombie"
-msgstr "Блюючий Зомбі"
+msgstr "Блюючий зомбі"
 
 #: ../enemies/lvl14_antlion_firethorn.txt:3
 msgid "Firethorn Antlion"
-msgstr ""
+msgstr "Пожежний мурашиний лев"
 
 #: ../enemies/lvl14_goblin_sonic.txt:3
 msgid "Sonic Goblin"
-msgstr ""
+msgstr "Надзвуковий гоблін"
 
 #: ../enemies/lvl14_skeleton_shocker.txt:3
 msgid "Shocker Skeleton"
-msgstr ""
+msgstr "Приголомшуючий cкелет"
 
 #: ../enemies/lvl15_antlion_shivering.txt:3
 msgid "Shivering Antlion"
-msgstr ""
+msgstr "Мурашиний лев тремтій"
 
 #: ../enemies/lvl15_arzoz.txt:3
 msgid "Arzoz"
@@ -433,15 +436,15 @@ msgstr "Арзоз"
 
 #: ../enemies/lvl15_hobgoblin.txt:3
 msgid "Hobgoblin"
-msgstr ""
+msgstr "Хобгоблін"
 
 #: ../enemies/lvl15_hobgoblin_archer.txt:3
 msgid "Hobgoblin Archer"
-msgstr ""
+msgstr "Хобгоблін лучник"
 
 #: ../enemies/lvl15_kayl.txt:3
 msgid "Kayl"
-msgstr "Кайл"
+msgstr "Кейла"
 
 #: ../enemies/lvl15_lorund.txt:3
 msgid "Lorund"
@@ -453,7 +456,7 @@ msgstr "Нерін"
 
 #: ../enemies/lvl15_skeleton_guardian.txt:3
 msgid "Skeleton Guardian"
-msgstr "Скелет Охоронець"
+msgstr "Скелет охоронець"
 
 #: ../enemies/lvl15_vohn.txt:4
 msgid "Vohn"
@@ -461,7 +464,7 @@ msgstr "Вон"
 
 #: ../enemies/lvl15_wyvern_ancient.txt:3
 msgid "Ancient Wyvern"
-msgstr "Стародавній Віверн"
+msgstr "Стародавня виверна"
 
 #: ../enemies/lvl16_forgotten_grave.txt:4
 msgid "Forgotten Grave"
@@ -541,23 +544,23 @@ msgstr "Скелет Маг Льоду"
 
 #: ../enemies/lvl3_skeleton_knight.txt:3
 msgid "Skeleton Knight"
-msgstr "Скелет Лицар"
+msgstr "Скелет лицар"
 
 #: ../enemies/lvl3_skeleton_sniper.txt:3
 msgid "Skeleton Sniper"
-msgstr "Скелет Снайпер"
+msgstr "Скелет снайпер"
 
 #: ../enemies/lvl3_zombie_bloodthirsty.txt:3
 msgid "Bloodthirsty Zombie"
-msgstr "Кровожерний Зомбі"
+msgstr "Кровожерний зомбі"
 
 #: ../enemies/lvl3_zombie_brute.txt:3
 msgid "Zombie Brute"
-msgstr ""
+msgstr "Жорстокий зомбі"
 
 #: ../enemies/lvl3_zombie_iceclaw.txt:3
 msgid "Iceclaw Zombie"
-msgstr ""
+msgstr "Зомбі з льодяними пазурями"
 
 #: ../enemies/lvl4_cid.txt:3
 msgid "Cid"
@@ -565,99 +568,99 @@ msgstr "Сід"
 
 #: ../enemies/lvl4_geno.txt:3
 msgid "Geno"
-msgstr ""
+msgstr "Гено"
 
 #: ../enemies/lvl4_seagate.txt:3
 msgid "Seagate"
-msgstr ""
+msgstr "Сігейт"
 
 #: ../enemies/lvl4_seagate_tombstone.txt:3
 msgid "Seagate's Tombstone"
-msgstr ""
+msgstr "Надгробна плита Сігейта"
 
 #: ../enemies/lvl5_antlion.txt:3
 msgid "Antlion"
-msgstr ""
+msgstr "Мурашиний лев"
 
 #: ../enemies/lvl5_antlion_freezer.txt:3
 msgid "Antlion Freezer"
-msgstr ""
+msgstr "Мурашиний лев заморожувач"
 
 #: ../enemies/lvl5_frozen_corpse.txt:3
 msgid "Frozen Corpse"
-msgstr ""
+msgstr "Замерзлий труп"
 
 #: ../enemies/lvl5_goblin_hurler.txt:3
 msgid "Goblin Hurler"
-msgstr ""
+msgstr "Спритний гоблін"
 
 #: ../enemies/lvl5_goblin_vanguard.txt:3
 msgid "Goblin Vanguard"
-msgstr ""
+msgstr "Гоблін передовик"
 
 #: ../enemies/lvl5_skeleton_frostsword.txt:3
 msgid "Skeleton Frostsword"
-msgstr ""
+msgstr "Скелет з Морозним мечем"
 
 #: ../enemies/lvl6_antlion_burster.txt:3
 msgid "Antlion Burster"
-msgstr ""
+msgstr "Розривний мурашиний лев"
 
 #: ../enemies/lvl6_antlion_frostbite.txt:3
 msgid "Frostbite Antlion"
-msgstr ""
+msgstr "Обморожуючий мурашиний лев"
 
 #: ../enemies/lvl6_antlion_hatchling.txt:3
 msgid "Antlion Hatchling"
-msgstr ""
+msgstr "Дитинча мурашиного лева"
 
 #: ../enemies/lvl6_antlion_slasher.txt:3
 msgid "Antlion Slasher"
-msgstr ""
+msgstr "Мурашиний лев різач"
 
 #: ../enemies/lvl6_antlion_spitter.txt:3
 msgid "Antlion Spitter"
-msgstr ""
+msgstr "Мурашиний лев плювач"
 
 #: ../enemies/lvl6_gruzza.txt:3
 msgid "Gruzza"
-msgstr ""
+msgstr "Грузза"
 
 #: ../enemies/lvl6_prioss.txt:3
 msgid "Prioss"
-msgstr ""
+msgstr "Пріосс"
 
 #: ../enemies/lvl6_skeleton_assassin.txt:3
 msgid "Skeleton Assassin"
-msgstr "Скелет Убивця"
+msgstr "Скелет убивця"
 
 #: ../enemies/lvl6_skeleton_frost_mage.txt:3
 msgid "Skeleton Frost Mage"
-msgstr ""
+msgstr "Скелет Морозний Маг"
 
 #: ../enemies/lvl7_antlion_queen.txt:3
 msgid "Antlion Queen"
-msgstr ""
+msgstr "Королева мурашиних левів"
 
 #: ../enemies/lvl7_skeleton_basher.txt:3
 msgid "Skeleton Basher"
-msgstr ""
+msgstr "Скелет боєць"
 
 #: ../enemies/lvl7_vampiric_zombie.txt:3
 msgid "Vampiric Zombie"
-msgstr ""
+msgstr "Вампірний зомбі"
 
 #: ../enemies/lvl7_wyvern.txt:3
 msgid "Wyvern"
-msgstr "Віверн"
+msgstr "Виверна"
 
 #: ../enemies/lvl7_wyvern_fire.txt:3
 msgid "Fire Wyvern"
-msgstr "Вогняний Віверн"
+msgstr "Вогняна виверна"
 
 #: ../enemies/lvl7_wyvern_ice.txt:3
 msgid "Ice Wyvern"
-msgstr "Льодяний Віверн"
+msgstr "Льодяна виверна"
 
 #: ../enemies/lvl8_kylana.txt:3
 msgid "Kylana"
@@ -665,7 +668,7 @@ msgstr "Кілана"
 
 #: ../enemies/lvl8_mez.txt:4
 msgid "Mez"
-msgstr "Мез"
+msgstr "Меза"
 
 #: ../enemies/lvl8_zola.txt:3
 msgid "Zola"
@@ -673,35 +676,35 @@ msgstr "Зола"
 
 #: ../enemies/lvl9_antlion_sprayer.txt:3
 msgid "Antlion Sprayer"
-msgstr ""
+msgstr "Мурашиний лев розпилювач"
 
 #: ../enemies/lvl9_goblin_hunter.txt:3
 msgid "Goblin Hunter"
-msgstr ""
+msgstr "Гоблін мисливець"
 
 #: ../enemies/lvl9_goblin_shaker.txt:3
 msgid "Goblin Shaker"
-msgstr ""
+msgstr "Гоблін грохотун"
 
 #: ../enemies/lvl9_goblin_sprinter.txt:3
 msgid "Goblin Sprinter"
-msgstr ""
+msgstr "Гоблін спринтер"
 
 #: ../enemies/lvl9_wyvern_tundra.txt:3
 msgid "Tundra Wyvern"
-msgstr "Тундровий Віверн"
+msgstr "Тундрова виверна"
 
 #: ../enemies/summon_zombie.txt:3
 msgid "Your Summoned Zombie"
-msgstr ""
+msgstr "Викликаний вами зомбі"
 
 #: ../maps/abandoned_mines.txt:10
 msgid "Abandoned Mines"
-msgstr "Занедбані Шахти"
+msgstr "Покинуті Шахти"
 
 #: ../maps/abandoned_mines.txt:337
 msgid "Blackmire Mines"
-msgstr ""
+msgstr "Шахти Блекмайр"
 
 #: ../maps/abandoned_mines.txt:454
 msgid "Treasure Chest"
@@ -717,23 +720,23 @@ msgstr "Бочка"
 
 #: ../maps/abandoned_mines.txt:523
 msgid "The Breach"
-msgstr ""
+msgstr "Розлом"
 
 #: ../maps/abandoned_mines.txt:532
 msgid "Grot Lagoon"
-msgstr ""
+msgstr "Лагуна серед скал"
 
 #: ../maps/antlion_nest.txt:10
 msgid "Antlion Nest"
-msgstr ""
+msgstr "Гніздо мурашиних левів"
 
 #: ../maps/antlion_nest.txt:390
 msgid "Temple of Mez: Basement"
-msgstr ""
+msgstr "Храм Мези: Підвал"
 
 #: ../maps/arrival.txt:11
 msgid "Arrival"
-msgstr "Вихід"
+msgstr "Прибуття"
 
 #: ../maps/arrival.txt:171
 msgid "River Trail"
@@ -741,11 +744,11 @@ msgstr "Річкова стежка"
 
 #: ../maps/black_oak_city.txt:11
 msgid "Black Oak City"
-msgstr ""
+msgstr "Місто Блек Оук"
 
 #: ../maps/black_oak_city.txt:342
 msgid "Black Oak Farm"
-msgstr ""
+msgstr "Ферма Блек Оук"
 
 #: ../maps/black_oak_city.txt:354
 msgid "Supplies"
@@ -753,23 +756,23 @@ msgstr "Продовольство"
 
 #: ../maps/black_oak_city.txt:602
 msgid "Wizard's Tower: Entrance Hall"
-msgstr ""
+msgstr "Вежа Чарівника: Вестибюль"
 
 #: ../maps/black_oak_farm.txt:342
 msgid "Southern Ridge"
-msgstr ""
+msgstr "Південний Хребет"
 
 #: ../maps/black_oak_farm.txt:523
 msgid "Dilapidated Sewers"
-msgstr ""
+msgstr "Напівзруйнована Каналізація"
 
 #: ../maps/black_oak_farm.txt:547
 msgid "Lumber"
-msgstr ""
+msgstr "Дошки"
 
 #: ../maps/blackmire_mines.txt:277
 msgid "Blackmire Mines waypoint discovered."
-msgstr ""
+msgstr "Виявлено телепорт до Шахт Блекмайр."
 
 #: ../maps/blackmire_mines.txt:291
 msgid "Hyperspace"
@@ -777,11 +780,11 @@ msgstr "Гіперпростір"
 
 #: ../maps/blackmire_mines.txt:480
 msgid "Lake Kuuma"
-msgstr "Озеро Куума."
+msgstr "Озеро Куума"
 
 #: ../maps/book_of_the_dead.txt:10
 msgid "Book of the Dead"
-msgstr "Книга мертвих"
+msgstr "Книга Мертвих"
 
 #: ../maps/book_of_the_dead.txt:191
 msgid "Perdition Harbor"
@@ -800,14 +803,16 @@ msgid ""
 "You sign your name in the Book of the Dead. The Black Quill vanishes and the"
 " inkwell is dry. You hope this worked."
 msgstr ""
+"Ви записуєте своє ім'я в Книзі Мертвих. Чорне Перо зникає, а чорнильниця "
+"виявляється порожньою. Ви сподіваєтесь, що це спрацювало."
 
 #: ../maps/dilapidated_sewers.txt:311
 msgid "Dilapidated Sewers waypoint discovered."
-msgstr ""
+msgstr "Виявлено телепорт до Напівзруйнованої Каналізації."
 
 #: ../maps/dilapidated_sewers.txt:576
 msgid "Fort Nasu"
-msgstr ""
+msgstr "Форт Насу"
 
 #: ../maps/family_crypt.txt:10
 msgid "Family Crypt"
@@ -834,8 +839,8 @@ msgid ""
 "The coffin has a small slot the size of Ardwen's ring. You place the ring in"
 " the slot."
 msgstr ""
-"Труна має невеликий отвір розміром з кільце Ардвена. Ви вставляєте кільце в "
-"отвір."
+"Труна має невеликий отвір розміром з перстень Ардвена. Ви вставляєте "
+"перстень в отвір."
 
 #: ../maps/family_crypt.txt:310
 msgid "Ardwen's Coffin"
@@ -847,17 +852,18 @@ msgstr "Перемикач не працює."
 
 #: ../maps/family_crypt.txt:387
 msgid "Reset quest: \"Trapped in the Crypt\""
-msgstr ""
+msgstr "Квест \"Замкнений у склепі\" скинуто"
 
 #: ../maps/fort_amir.txt:10
 msgid "Fort Amir"
-msgstr "Форт Амір"
+msgstr "Форт Аміра"
 
 #: ../maps/fort_amir.txt:369
 msgid ""
 "Opening the book reveals that it has been hollowed out. A gem is concealed "
 "inside."
 msgstr ""
+"Відкриття книги показує, що це тайник. Всередині знаходиться самоцвіт."
 
 #: ../maps/fort_amir.txt:373
 msgid "Book"
@@ -880,15 +886,15 @@ msgstr "Статуї не вистачає ока."
 
 #: ../maps/fort_amir.txt:454
 msgid "The bookcase slides back and reveals a hidden path."
-msgstr ""
+msgstr "Книжкова шафа відсувається та відкриває прихований прохід."
 
 #: ../maps/fort_nasu.txt:1026
 msgid "Book Stand"
-msgstr ""
+msgstr "Стійка з книгою"
 
 #: ../maps/fort_nasu.txt:1065
 msgid "Altar"
-msgstr "Жертовник"
+msgstr "Вівтар"
 
 #: ../maps/fort_nasu.txt:1073
 msgid ""
@@ -920,59 +926,59 @@ msgstr "Печера гоблінів"
 
 #: ../maps/goblin_camp.txt:423
 msgid "Gravestone"
-msgstr ""
+msgstr "Надгробок"
 
 #: ../maps/halls_of_infinity/halls_of_infinity_5.txt:11
 msgid "Halls of Infinity"
-msgstr "Зали Безмежності"
+msgstr "Зали Бескінечності"
 
 #: ../maps/halls_of_infinity/halls_of_infinity_7.txt:551
 msgid "Stalagmite Pillar"
-msgstr ""
+msgstr "Сталагмітовий Стовп"
 
 #: ../maps/halls_of_infinity/halls_of_infinity_6.txt:340
 msgid "Mine Cart"
-msgstr ""
+msgstr "Вагонетка"
 
 #: ../maps/halls_of_infinity.txt:223
 msgid "Underworld Stronghold: Barracks"
-msgstr "Пекельна Цитадель: Казарми"
+msgstr "Цитадель Підземелля: Казарми"
 
 #: ../maps/halls_of_infinity.txt:267
 msgid "The plaque reads: \"1\"."
-msgstr "На плиті можна прочитати: \"1\"."
+msgstr "На дощечці можна прочитати: \"1\"."
 
 #: ../maps/halls_of_infinity.txt:269
 msgid "Plaque"
-msgstr "Плита"
+msgstr "Дошечка"
 
 #: ../maps/halls_of_infinity.txt:278
 msgid "The plaque reads: \"2\"."
-msgstr "На плиті можна прочитати: \"2\"."
+msgstr "На дощечці можна прочитати: \"2\"."
 
 #: ../maps/halls_of_infinity.txt:289
 msgid "The plaque reads: \"3\"."
-msgstr "На плиті можна прочитати: \"3\"."
+msgstr "На дощечці  можна прочитати: \"3\"."
 
 #: ../maps/halls_of_infinity.txt:300
 msgid "The plaque reads: \"4\"."
-msgstr "На плиті можна прочитати: \"4\"."
+msgstr "На дощечці можна прочитати: \"4\"."
 
 #: ../maps/halls_of_infinity.txt:311
 msgid "The altar is empty."
-msgstr "Жертовник порожній."
+msgstr "Вівтар порожній."
 
 #: ../maps/halls_of_infinity.txt:324
 msgid "You place the figure on the altar."
 msgstr "Ви помістили статуетку на вівтар."
 
 #: ../maps/hyperspace.txt:196
-msgid "St. Maria: Prison"
-msgstr "Св. Марія: В'язниця"
+msgid "St. Maria: Catacombs"
+msgstr "Катакомби Св. Марії"
 
 #: ../maps/hyperspace.txt:218
 msgid "Stormrock Pass"
-msgstr "Шлях до Штормової Скелі"
+msgstr "Шлях до Штормової скелі"
 
 #: ../maps/hyperspace.txt:229
 msgid "Temple of Mez: Main Hall"
@@ -980,15 +986,19 @@ msgstr "Храм Мези: Головна Зала"
 
 #: ../maps/hyperspace.txt:240
 msgid "Nazia Underground"
-msgstr ""
+msgstr "Підземелля Націа"
 
 #: ../maps/hyperspace.txt:262
 msgid "Wizard's Tower: Research Chambers"
-msgstr ""
+msgstr "Вежа Чарівника: Кімнати Дослідів"
 
 #: ../maps/hyperspace.txt:273
 msgid "Underworld Catacombs"
-msgstr "Пекельні Катакомби"
+msgstr "Катакомби Підземелля"
+
+#: ../maps/hyperspace.txt:388
+msgid "Cutscenes"
+msgstr "Катсцени"
 
 #: ../maps/lake_kuuma.txt:852
 msgid "Boat"
@@ -1000,55 +1010,55 @@ msgstr "Лочпорт"
 
 #: ../maps/lochport.txt:360
 msgid "St. Maria: Mausoleum"
-msgstr "Св. Марія: Мавзолей"
+msgstr "Мавзолей Св. Марії"
 
 #: ../maps/lochport_cemetery.txt:310
 msgid "Lochport Cemetery waypoint discovered."
-msgstr ""
+msgstr "Виявлено телепорт до Кладовища Лочпорту."
 
 #: ../maps/mog_caverns.txt:10
 msgid "Mog Caverns"
-msgstr ""
+msgstr "Печери Мога"
 
 #: ../maps/mog_caverns.txt:293
 msgid "Waterlogged Support Beam"
-msgstr ""
+msgstr "Підтоплена Опорна Колода"
 
 #: ../maps/mog_caverns.txt:305
 msgid "Moldy Rock"
-msgstr ""
+msgstr "Запліснявілий камінь"
 
 #: ../maps/mog_caverns.txt:317
 msgid "Pile of Bones"
-msgstr ""
+msgstr "Купа кісток"
 
 #: ../maps/mog_caverns.txt:329
 msgid "Blocked Mine Cart"
-msgstr ""
+msgstr "Заблокована вагонетка"
 
 #: ../maps/nazia_highlands.txt:11
 msgid "Nazia Highlands"
-msgstr ""
+msgstr "Високогір'я Націа"
 
 #: ../maps/nazia_highlands.txt:383
 msgid "Nazia Mines"
-msgstr ""
+msgstr "Шахти Націа"
 
 #: ../maps/nazia_mines.txt:247
 msgid "Empty Mine Cart"
-msgstr ""
+msgstr "Порожня вагонетка"
 
 #: ../maps/nazia_mines.txt:296
 msgid "By itself, this mine cart can't break open the rubble."
-msgstr ""
+msgstr "Сама по собі ця вагонетка не зможе відсунути брилу."
 
 #: ../maps/nazia_mines.txt:424
 msgid "Reset Quest: \"Trapped!\""
-msgstr ""
+msgstr "Квест \"У пастці!\" скинуто"
 
 #: ../maps/nazia_underground.txt:379
 msgid "Nazia Underground waypoint discovered."
-msgstr ""
+msgstr "Виявлено телепорт до Підземелля Націа."
 
 #: ../maps/oasis.txt:12
 msgid "Oasis"
@@ -1056,7 +1066,7 @@ msgstr "Оазис"
 
 #: ../maps/oasis.txt:520
 msgid "Underworld Mines"
-msgstr "Пекельні Шахти"
+msgstr "Шахти Підземелля"
 
 #: ../maps/perdition_harbor.txt:171
 msgid "Shared Stash"
@@ -1064,7 +1074,7 @@ msgstr "Спільний тайник"
 
 #: ../maps/perdition_harbor.txt:269
 msgid "Perdition Harbor waypoint discovered."
-msgstr "Знайдено телепорт Притулку смерті"
+msgstr "Виявлено телепорт до Притулку смерті."
 
 #: ../maps/perdition_mines.txt:10
 msgid "Perdition Mines"
@@ -1074,57 +1084,57 @@ msgstr "Шахти смерті"
 msgid "Krolan's Chest"
 msgstr "Скриня Клорана"
 
-#: ../maps/st_maria_1.txt:348
+#: ../maps/st_maria_1.txt:349
 msgid "This door needs a key to be opened."
-msgstr "Ці двері потребують ключ для відкриття."
+msgstr "Ці двері неможливо відкрити без ключа."
 
-#: ../maps/st_maria_1.txt:350
+#: ../maps/st_maria_1.txt:351
 msgid "Locked Door"
 msgstr "Зачинені Двері"
 
 #: ../maps/st_maria_2.txt:271
-msgid "St. Maria: Prison waypoint discovered."
-msgstr "Св. Марія: відкритий шлях до В'язниці."
+msgid "St. Maria: Catacombs waypoint discovered."
+msgstr "Св. Марія: виявлено телепорт до Катакомб."
 
 #: ../maps/st_maria_2.txt:463
 msgid "St. Maria: Crypt"
-msgstr ""
+msgstr "Склеп Св. Марії"
 
 #: ../maps/st_maria_3.txt:411
 msgid "The plaque reads: Grave of the Saints"
-msgstr ""
+msgstr "На дощечці можна прочитати: Могила Святих"
 
 #: ../maps/st_maria_3.txt:420
 msgid "You remove the gravebloom flower from the Altar."
-msgstr ""
+msgstr "Ви забрали могильну квітку з вівтаря."
 
 #: ../maps/st_maria_3.txt:441
 msgid "There is a gravebloom flower on the altar, but it is frozen in place."
-msgstr ""
+msgstr "На вівтарі лежить могильна квітка, але вона заморожена."
 
 #: ../maps/st_maria_3.txt:455
 msgid "The gravebloom flower laid upon the altar has thawed."
-msgstr ""
+msgstr "Могильна квітка, що лежить на вівтарі, відтанула."
 
 #: ../maps/stonewood.txt:514
 msgid "Stonewood waypoint discovered."
-msgstr "Знайдено телепорт Стоунвуда"
+msgstr "Виявлено телепорт до Стоунвуда."
 
 #: ../maps/stormrock_pass.txt:895
 msgid "Stormrock Pass waypoint discovered."
-msgstr "Вікритий шлях до Штормової Скелі."
+msgstr "Виявлено телепорт до Шляху до Штормової скелі."
 
 #: ../maps/stormrock_pass.txt:1053
 msgid "Stormrock Ruins"
-msgstr "Руїни Штормової Скелі"
+msgstr "Руїни Штормової скелі"
 
 #: ../maps/temple_of_mez_2.txt:351
 msgid "Temple of Mez: Main Hall waypoint discovered."
-msgstr "Храм Мези: відкритий шлях до Головного Залу."
+msgstr "Храм Мези: виявлено телепорт до Головного Залу."
 
 #: ../maps/temple_of_mez_2.txt:534
 msgid "The plaque reads: Red Altar"
-msgstr ""
+msgstr "На дощечці можна прочитати: Червоний вівтар"
 
 #: ../maps/temple_of_mez_2.txt:545
 msgid "Temple of Mez: Entrance"
@@ -1138,14 +1148,19 @@ msgid ""
 "wound then begins to close itself, leaving no trace at all besides a warm "
 "feeling throughout your body."
 msgstr ""
+"Ви порізали свою руку Ножем Жетвоприношень. Біль нестерпний. Трясучись, вам "
+"вдається зібрати частину вашої крові у маленькому флаконі. Температура ножа "
+"швидко зростає, після чого він розпадається на шматки. Ваша рана починає "
+"загоюватися, не залишаючи жодних слідів, окрім теплого почуття у всьому "
+"тілі."
 
 #: ../maps/temple_of_mez_2.txt:560
 msgid "Red Altar"
-msgstr "Червоний Жертовник"
+msgstr "Червоний вівтар"
 
 #: ../maps/the_pit.txt:12
 msgid "The Pit"
-msgstr ""
+msgstr "Яма"
 
 #: ../maps/the_pit.txt:391
 msgid "It's locked."
@@ -1153,15 +1168,15 @@ msgstr "Зачинено."
 
 #: ../maps/torture_chambers.txt:12
 msgid "Torture Chambers"
-msgstr "Кімнати Катування"
+msgstr "Кімнати Катувань"
 
 #: ../maps/torture_chambers.txt:343
 msgid "Underworld"
-msgstr "Пекло"
+msgstr "Підземелля"
 
 #: ../maps/torture_chambers.txt:557
 msgid "Upon touching the book, you are teleported to a strange room."
-msgstr ""
+msgstr "Торкаючись книги, ви телепортуєтеся до дивної кімнати."
 
 #: ../maps/torture_chambers.txt:561
 msgid "Bookshelf"
@@ -1169,176 +1184,199 @@ msgstr "Книжкова полиця"
 
 #: ../maps/torture_chambers.txt:570
 msgid "The warden's notes vanish!"
-msgstr "Записка вартового зникає!"
+msgstr "Замітки вартового зникають!"
 
 #: ../maps/torture_chambers.txt:646
 msgid "Warden's Crate"
-msgstr ""
+msgstr "Ящик Вартового"
 
 #: ../maps/underworld_catacombs.txt:513
 msgid "Underworld Catacombs waypoint discovered."
-msgstr ""
+msgstr "Виявлено телепорт до Катакомб Підземелля."
 
 #: ../maps/underworld_mines.txt:545
 msgid "Underworld Stronghold: Foyer"
-msgstr ""
+msgstr "Цитадель Підземелля: Фойє"
 
 #: ../maps/underworld_stronghold_2.txt:341
 msgid "Underworld Stronghold: Barracks waypoint discovered."
-msgstr ""
+msgstr "Цитадель Підземелля: виявлено телепорт до Казарм."
 
 #: ../maps/wizards_tower_2.txt:364
 msgid "Wizard's Tower: Research Chambers waypoint discovered."
-msgstr ""
+msgstr "Вежа Чарівника: виявлено телепорт до Кімнат Дослідів."
 
 #: ../maps/wizards_tower_2.txt:504
 msgid "Wizard's Tower: Laboratory"
-msgstr ""
+msgstr "Вежа Чарівника: Лабораторія"
 
 #: ../maps/wizards_tower_2.txt:512
 msgid "The plaque reads: Underworld Gate"
-msgstr ""
+msgstr "На дощечці можна прочитати: Ворота до Підземелля"
 
 #: ../quests/000_empyrean.txt:1
 msgid "Return to Empyrean"
-msgstr ""
+msgstr "Повернення до Емпіреї"
 
-#: ../quests/000_empyrean.txt:6
+#: ../quests/000_empyrean.txt:7
 msgid ""
 "The Book of the Dead states redemption is possible for those who sign their "
 "name in gravebloom ink. Florin in Perdition Harbor can tell you more."
 msgstr ""
+"Книга Мертвих розповідає, що спокута можлива для тих, хто вписав своє ім'я "
+"чорнилом могильної квітки. Флорін в Притулку смерті може розказати більше."
 
-#: ../quests/000_empyrean.txt:11
+#: ../quests/000_empyrean.txt:12
 msgid ""
 "Before leaving St. Maria's Crypt, it would be wise to look for anything "
 "useful."
 msgstr ""
+"Перед тим, як залишити Склеп Св. Марії, було би розумно пошукати щось "
+"корисне."
 
-#: ../quests/000_empyrean.txt:16
+#: ../quests/000_empyrean.txt:17
 msgid "Ask Florin about the Gravebloom flower."
-msgstr ""
+msgstr "Спитайте Флоріна про могильну квітку."
 
-#: ../quests/000_empyrean.txt:22
+#: ../quests/000_empyrean.txt:23
 msgid ""
 "You've found a gravebloom flower. It is a primary component in the creation "
 "of gravebloom ink."
 msgstr ""
+"Ви знайшли могильну квітку. Це основний компонент у створенні чорнила з "
+"могильної квітки."
 
-#: ../quests/000_empyrean.txt:27
+#: ../quests/000_empyrean.txt:28
 msgid ""
 "A strange black feather fell off of Mez. You should take it before leaving "
 "the Temple of Mez."
 msgstr ""
+"Дивне чорне перо впало з Мези. Вам слід взяти його перед тим, як покинути "
+"Храм Мези."
 
-#: ../quests/000_empyrean.txt:32
+#: ../quests/000_empyrean.txt:33
 msgid "Ask Florin about the Black Quill."
-msgstr ""
+msgstr "Спитайте Флоріна про Чорне Перо."
 
-#: ../quests/000_empyrean.txt:38
+#: ../quests/000_empyrean.txt:39
 msgid ""
 "The Black Quill you found is the only thing capable of holding gravebloom "
 "ink. It will be the only way to write in the Book of the Dead."
 msgstr ""
+"Знайдене Чорне Перо – єдина річ, здатна утримувати на собі чорнило могильної"
+" квітки. Воно буде єдиним, що зможе написати щось в Книзі Мертвих."
 
-#: ../quests/000_empyrean.txt:43
+#: ../quests/000_empyrean.txt:44
 msgid ""
 "Before leaving the Wizard's Tower, you should take the knife that Metzger "
 "dropped."
 msgstr ""
+"Перед тим як залишити Вежу Чарівника, вам слід взяти ніж, що впустив "
+"Метзгер."
 
-#: ../quests/000_empyrean.txt:48
+#: ../quests/000_empyrean.txt:49
 msgid "Ask Florin about the Knife of Sacrifices."
-msgstr ""
+msgstr "Запитайте Флоріна про Ніж Жетвоприношень."
 
-#: ../quests/000_empyrean.txt:54
+#: ../quests/000_empyrean.txt:55
 msgid ""
 "Gravebloom ink requires a sample of your blood to be drawn with the Knife of"
 " Sacrifices. This must take place at the Red Altar in the Temple of Mez."
 msgstr ""
+"Чорнило могильної квітки потребує трохи твоєї крові, отриманої за допомогою "
+"Ножа Жетвоприношень. Це має відбутися біля Червоного вівтаря в Храмі Мези."
 
-#: ../quests/000_empyrean.txt:60
+#: ../quests/000_empyrean.txt:61
 msgid ""
 "Having completed the ritual at the Red Altar, return to Florin to proceed "
 "with creating the gravebloom ink."
 msgstr ""
+"Завершивши ритуал біля Червоного вівтаря поверніться до Флоріна, щоб "
+"продовжити створення чорнила могильної квітки."
 
-#: ../quests/000_empyrean.txt:65
+#: ../quests/000_empyrean.txt:66
 msgid ""
 "The time has come. Write your name in the Book of the Dead and gain entry to"
 " the Underworld."
 msgstr ""
+"Час настав. Напиши своє ім'я в Книзі Мертвих і отримай доступ до Підземелля."
 
-#: ../quests/000_empyrean.txt:70
+#: ../quests/000_empyrean.txt:71
 msgid ""
 "Make your way to the Underworld. A portal to the Underworld was located in "
 "the Wizard's Tower. Once you are there, search for a way to return to "
 "Empyrean."
 msgstr ""
+"Прямуйте до Підземелля. Портал до Підземелля розташований у Вежі Чарівника. "
+"Після того, як ви туди доберетесь, знайдіть спосіб повернутися до Емпіреї."
 
-#: ../quests/000_empyrean.txt:75
+#: ../quests/000_empyrean.txt:76
 msgid ""
 "You've found a stronghold in the Underworld. If there is a way back to "
 "Empyrean, it is through here."
 msgstr ""
+"Ви знайшли цитадель в Підземеллі. Якщо існує шлях до Емпіреї, то він "
+"пролягає тут."
 
-#: ../quests/000_empyrean.txt:80
+#: ../quests/000_empyrean.txt:81
 msgid "Face what awaits you in The Pit."
-msgstr ""
+msgstr "Обличчя, що чекає вас у Ямі."
 
 #: ../quests/001_krolan.txt:1
 msgid "Krolan's Missing"
-msgstr ""
+msgstr "Пропав Клоран"
 
-#: ../quests/001_krolan.txt:6
+#: ../quests/001_krolan.txt:7
 msgid "Travel to the Perdition Mines and look for Krolan."
-msgstr "Прямуйте до Шахт смерті і знайдіть Клорана."
+msgstr "Прямуйте до Шахт cмерті і знайдіть Клорана."
 
-#: ../quests/001_krolan.txt:11
+#: ../quests/001_krolan.txt:12
 msgid "Use Krolan's key to search his chest."
 msgstr "Використайте ключ Клорана щоб відкрити його скриню."
 
-#: ../quests/001_krolan.txt:16
+#: ../quests/001_krolan.txt:17
 msgid "Return to Udana and inform her of Krolan's death."
 msgstr "Поверніться до Удани і розкажіть про смерть Клорана."
 
 #: ../quests/002_journal.txt:1
 msgid "The Merchant's Journal"
-msgstr ""
+msgstr "Журнал Торговця"
 
-#: ../quests/002_journal.txt:7
+#: ../quests/002_journal.txt:8
 msgid "Find Abasi's journal. It is likely being carried by a nearby goblin."
-msgstr ""
+msgstr "Знайдіть журнал Абасі. Ймовірно, його взяв якийсь гоблін неподалік."
 
-#: ../quests/002_journal.txt:13
+#: ../quests/002_journal.txt:14
 msgid ""
 "Find Abasi's journal. He said that it was last seen near the Goblin Cave."
 msgstr ""
+"Знайдіть журнал Абасі. Він сказав, що востаннє бачив його поблизу печери "
+"Гоблінів."
 
-#: ../quests/002_journal.txt:18
+#: ../quests/002_journal.txt:19
 msgid "Return the journal to Abasi."
-msgstr ""
+msgstr "Поверніть журнал Абасі."
 
 #: ../quests/003_ardwen.txt:1
 msgid "Trapped in the Crypt"
-msgstr ""
+msgstr "Замкнений у склепі"
 
-#: ../quests/003_ardwen.txt:6
+#: ../quests/003_ardwen.txt:7
 msgid "Find a way to escape the Family Crypt."
 msgstr "Знайдіть вихід з Фамільного склепу."
 
-#: ../quests/003_ardwen.txt:11
+#: ../quests/003_ardwen.txt:12
 msgid ""
 "You found a strange ring. Maybe it will aid in escaping the Family Crypt."
 msgstr ""
-"Ви знайшли дивне кільце. Можливо воно допоможе вибратись з Фамільного "
+"Ви знайшли дивний перстень. Можливо він допоможе вибратись з Фамільного "
 "склепу."
 
-#: ../quests/003_ardwen.txt:16
+#: ../quests/003_ardwen.txt:17
 msgid "Defeat Ardwen."
 msgstr "Подолайте Ардвена."
 
-#: ../quests/003_ardwen.txt:21
+#: ../quests/003_ardwen.txt:22
 msgid ""
 "Ardwen has been defeated. The lever near his coffin will likely open the "
 "nearby gate."
@@ -1349,91 +1387,99 @@ msgstr ""
 msgid "The One-Eyed Guardians"
 msgstr "Одноокі Охоронці"
 
-#: ../quests/004_fort_amir.txt:6
+#: ../quests/004_fort_amir.txt:7
 msgid "Investigate the statues in the Fort Amir throne room."
-msgstr ""
+msgstr "Дослідіть статуї в тронній кімнаті Форту Аміра."
 
-#: ../quests/004_fort_amir.txt:11
+#: ../quests/004_fort_amir.txt:12
 msgid "You found a strange sapphire inside one of Fort Amir's books."
-msgstr ""
+msgstr "Ви знайшли дивний сапфір в одній з книг Форту Аміра."
 
-#: ../quests/004_fort_amir.txt:16
+#: ../quests/004_fort_amir.txt:17
 msgid "Gruzza dropped a strange sapphire."
-msgstr ""
+msgstr "Грузза впустив дивний сапфір."
 
-#: ../quests/004_fort_amir.txt:21
+#: ../quests/004_fort_amir.txt:22
 msgid ""
 "The bookcase in the Fort Amir throne room opened up, revealing a secret "
 "passage."
 msgstr ""
+"Книжкова шафа в тронному залі Форту Аміра відсунулась, відкривши секретний "
+"прохід."
 
 #: ../quests/005_ort.txt:1
 msgid "Brother?"
 msgstr "Брат?"
 
-#: ../quests/005_ort.txt:6
+#: ../quests/005_ort.txt:7
 msgid ""
 "Ort gave you a ruby. It seemed like he wanted it delivered to someone he "
 "would call \"brother\"."
 msgstr ""
+"Орт дав вам рубін. Здавалося, він хотів, щоб його було доставлено тому, кого"
+" він назвав \"братом\"."
 
 #: ../quests/006_stormrock.txt:1
 msgid "Locked Out"
-msgstr ""
+msgstr "Заблоковано"
 
 #: ../quests/006_stormrock.txt:6
 msgid ""
 "The door to the Stormrock Ruins is locked. There must be a way to unlock it."
 msgstr ""
-"Двері до Руїн Штормової Скелі зачинені. Мусить бути спосіб відчинити їх."
+"Двері до Руїн Штормової скелі зачинені. Мусить бути спосіб відчинити їх."
 
 #: ../quests/006_stormrock.txt:11
 msgid ""
 "Aldwulf wants you to get the key to unlock the Stormrock Ruins. It should be"
 " hidden somewhere in the camp south of Stonewood."
 msgstr ""
+"Алдвульф хоче, щоб ви знайшли ключ для входу до Руїн Штормової скелі. Він "
+"схований десь у таборі на півдні від Стоунвуду."
 
 #: ../quests/006_stormrock.txt:16
 msgid ""
 "You found the key to the Stormrock Ruins. You should return there and speak "
 "to Aldwulf."
 msgstr ""
-"Ви знайшли ключ до Руїн Штормової Скелі. Вам слід повернутись туди та "
+"Ви знайшли ключ до Руїн Штормової скелі. Вам слід повернутись туди та "
 "поговорити з Алдвульфом."
 
 #: ../quests/007_nazia_mines.txt:1
 msgid "Trapped!"
 msgstr "У пастці!"
 
-#: ../quests/007_nazia_mines.txt:6
+#: ../quests/007_nazia_mines.txt:7
 msgid ""
 "The path behind you has caved in. Find a way to escape the Nazia Mines."
-msgstr ""
+msgstr "Шлях позаду вас завалився. Знайдіть спосіб вибратися з Шахт Націа."
 
-#: ../quests/007_nazia_mines.txt:11
+#: ../quests/007_nazia_mines.txt:12
 msgid "You found some sticks of dynamite. Those should be useful."
 msgstr "Ви знайшли декілька шашок динаміту. Вони можуть пригодитись."
 
-#: ../quests/007_nazia_mines.txt:15
+#: ../quests/007_nazia_mines.txt:16
 msgid ""
 "You successfully cleared the rubble and can safely escape the Nazia Mines."
-msgstr ""
+msgstr "Ви успішно очистили завал і можете безпечно вийти з шахт Націа."
 
 #: ../quests/008_mog.txt:1
 msgid "The Lost Soul of the Mog Caverns"
-msgstr ""
+msgstr "Загублена душа Печери Мога"
 
-#: ../quests/008_mog.txt:6
+#: ../quests/008_mog.txt:7
 msgid ""
 "You found a mysterious note in the Mog Caverns. Maybe its directions will "
 "lead to treasure?"
 msgstr ""
+"Ви знайшли таємничу замітку в Печерах Мога. Можливо вказані в ній напрямки "
+"приведуть до скарбів?"
 
-#: ../quests/008_mog.txt:11
+#: ../quests/008_mog.txt:12
 msgid "You found another note. Keep following the trail."
-msgstr ""
+msgstr "Ви знайшли ще одну записку. Продовжуйте йти по слідах."
 
-#: ../quests/008_mog.txt:16
+#: ../quests/008_mog.txt:17
 msgid "A secret passage has been unveiled."
 msgstr "Таємний прохід відкрито."
 
@@ -1441,72 +1487,74 @@ msgstr "Таємний прохід відкрито."
 msgid "An Unusual Name..."
 msgstr "Незвичне ім'я..."
 
-#: ../quests/009_nasu.txt:6
+#: ../quests/009_nasu.txt:7
 msgid "Discover a way to open the entrance door in Fort Nasu."
-msgstr ""
+msgstr "Знайдіть спосіб відкрити вхідні двері в Форт Насу."
 
-#: ../quests/009_nasu.txt:11
+#: ../quests/009_nasu.txt:12
 msgid "Discover a way to open the library door in Fort Nasu."
-msgstr ""
+msgstr "Знайдіть спосіб відкрити двері бібліотеки в Форті Насу."
 
-#: ../quests/009_nasu.txt:16
+#: ../quests/009_nasu.txt:17
 msgid "Discover a way to open the pit room door in Fort Nasu."
-msgstr ""
+msgstr "Знайдіть спосіб відкрити двері до шахт в Форті Насу."
 
-#: ../quests/009_nasu.txt:21
+#: ../quests/009_nasu.txt:22
 msgid "Discover a way to open the final door in Fort Nasu."
-msgstr ""
+msgstr "Знайдіть спосіб відкрити останні двері в Форті Насу."
 
-#: ../quests/009_nasu.txt:26
+#: ../quests/009_nasu.txt:27
 msgid "Defeat Buchi."
-msgstr ""
+msgstr "Переможіть Бучі."
 
 #: ../quests/010_torture.txt:1
 msgid "Warden's Notes"
 msgstr "Записки Вартового"
 
-#: ../quests/010_torture.txt:6
+#: ../quests/010_torture.txt:7
 msgid "Find a way to get to the treasure in the Torture Chambers."
-msgstr "Знайди шлях до скарбу в Кімнатах Катувань."
+msgstr "Знайдіть шлях до скарбу в Кімнатах Катувань."
 
-#: ../quests/010_torture.txt:11
+#: ../quests/010_torture.txt:12
 msgid "You found some notes belonging to the prison warden."
-msgstr ""
+msgstr "Ви знайшли записки, що належать вартовому в'язниці."
 
-#: ../quests/010_torture.txt:16
+#: ../quests/010_torture.txt:17
 msgid "You successfully made it through the warden's traps."
-msgstr ""
+msgstr "Ви успішно пройшли через пастки вартового."
 
-#: ../quests/010_torture.txt:21
+#: ../quests/010_torture.txt:22
 msgid "You disabled the barriers in the Torture Chambers."
 msgstr "Ви відключили бар'єри в Кімнатах Катувань."
 
 #: ../quests/011_martigan.txt:1
 msgid "Fallen Comrades"
-msgstr ""
+msgstr "Загиблі товариші"
 
-#: ../quests/011_martigan.txt:6
+#: ../quests/011_martigan.txt:7
 msgid ""
 "Martigan has asked you to destroy the undead corpses of his former "
 "companions. He has also asked that you return with proof that you have done "
 "so."
 msgstr ""
+"Мартіган попросив вас знищити ходячі трупи своїх колишніх товаришів. Він "
+"також попросив вас повернуся з доказом зробленої роботи."
 
-#: ../quests/011_martigan.txt:11
+#: ../quests/011_martigan.txt:12
 msgid "You have slain Lorund and recovered his sword."
-msgstr ""
+msgstr "Ви звільнили Лоранда і забрали його меч."
 
-#: ../quests/011_martigan.txt:16
+#: ../quests/011_martigan.txt:17
 msgid "You have slain Nerin and recovered her bow."
-msgstr ""
+msgstr "Ви звільнили Нерін і забрали її лук."
 
-#: ../quests/011_martigan.txt:21
+#: ../quests/011_martigan.txt:22
 msgid "You have slain Kayl and recovered her staff."
-msgstr ""
+msgstr "Ви звільнили Кейлу і забрали її жезл."
 
 #: ../npcs/abasi.txt:1
 msgid "Abasi, Traveling Merchant"
-msgstr ""
+msgstr "Абасі, Мандрівний Торговець"
 
 #: ../npcs/abasi.txt:23
 msgid "Talk"
@@ -1514,7 +1562,7 @@ msgstr "Балакати"
 
 #: ../npcs/abasi.txt:26
 msgid "Be careful on these roads. Those goblins are nothing but trouble."
-msgstr "Стережись на цих дорогах. Від цих гоблінів лише проблеми."
+msgstr "Будь уважним на цих дорогах. Від цих гоблінів лише проблеми."
 
 #: ../npcs/abasi.txt:27
 msgid "Thanks for the warning."
@@ -1529,6 +1577,8 @@ msgid ""
 "When I awoke this morning, my journal was missing. No doubt one of those "
 "filthy green creatures stole it from me."
 msgstr ""
+"Коли я прокинувся сьогодні зранку, журналу вже не було. Без сумніву, одна з "
+"цих паскудних зелених істот вкрала його у мене."
 
 #: ../npcs/abasi.txt:30
 msgid "If you come across my journal in your travels, please return it to me."
@@ -1564,19 +1614,23 @@ msgstr "Не шкодуй цих злодюг гоблінів."
 
 #: ../npcs/abasi_2.txt:26
 msgid "Greetings, wanderer."
-msgstr ""
+msgstr "Вітаю, подорожній."
 
 #: ../npcs/abasi_2.txt:27
 msgid ""
 "Judging from your appearance, you're no stranger to a long journey. For that"
 " reason, I ask that you keep an eye out for my missing journal."
 msgstr ""
+"Судячи з твого вигляду, тобі звичні довгі подорожі. Тому я прошу тебе "
+"звернути увагу на мій втрачений журнал."
 
 #: ../npcs/abasi_2.txt:28
 msgid ""
 "I first noticed it was missing after a night of camping near the Goblin "
 "Cave. I searched for a while, but ultimately decided it was best to move on."
 msgstr ""
+"Я вперше зауважив, що він зник, після ночі кемпінгу біля Печери гоблінів. Я "
+"шукав його якийсь час, але потім вирішив, що краще рухатися далі."
 
 #: ../npcs/aldwulf.txt:1
 msgid "Aldwulf, Treasure Hunter"
@@ -1585,19 +1639,23 @@ msgstr "Алдвульф, Шукач Скарбів"
 #: ../npcs/aldwulf.txt:12
 msgid ""
 "Greetings wanderer. I did not expect to meet anyone in a place like this."
-msgstr ""
+msgstr "Вітаю, подорожній. Я не очікував зустріти когось у такому місці."
 
 #: ../npcs/aldwulf.txt:13
 msgid ""
 "I'm in a bit of a predicament. I wanted to come here in search of treasure, "
 "but my partner disagreed with my intentions."
 msgstr ""
+"Моє становище дещо скрутне. Я хотів прийти сюди у пошуках скарбів, але мій "
+"партнер не погодився з моїми намірами."
 
 #: ../npcs/aldwulf.txt:14
 msgid ""
 "In an effort to stop me, he stole the key we found that supposedly opened "
 "the door up ahead."
 msgstr ""
+"У спробі зупинити мене, він вкрав ключ, що ми знайшли, який, напевно, "
+"відкриває двері попереду."
 
 #: ../npcs/aldwulf.txt:15
 msgid ""
@@ -1605,6 +1663,9 @@ msgid ""
 " could break through without the key. As you might be able to tell, that "
 "hasn't worked out in my favor."
 msgstr ""
+"Незважаючи на це, я, надіючись на краще, залишив наш табір на півдні від "
+"Стоунвуду, сподіваючись, що зможу пробитися без ключа. Як можна "
+"пересвідчитись, це, на жаль, не спрацювало."
 
 #: ../npcs/aldwulf.txt:16
 msgid ""
@@ -1612,58 +1673,65 @@ msgid ""
 "key from him and bring it to me. Do that, and I'll split whatever we find in"
 " these ruins with you."
 msgstr ""
+"Якщо зустрінеш мого партнера у своїх подорожах, зроби все щоб забрати в "
+"нього ключ і принеси його мені. Зроби це, і я поділюся з тобою всім, що ми "
+"знайдемо у цих руїнах."
 
 #: ../npcs/aldwulf.txt:23
 msgid ""
 "Have you gotten the key yet? My partner likely has it hidden somewhere in "
 "the camp south of Stonewood."
 msgstr ""
+"Ключ уже в тебе? Мій партнер схоже сховав його десь у таборі на півдні від "
+"Стоунвуду."
 
 #: ../npcs/bakat.txt:1
 msgid "Bakat, Goblin Packrat"
-msgstr ""
+msgstr "Бакат, гоблін-пакрат"
 
 #: ../npcs/bakat.txt:20
 msgid "Goblin's Ruby"
-msgstr ""
+msgstr "Рубін гобліна"
 
 #: ../npcs/bakat.txt:23
 msgid "(You show Bakat the ruby you received from Ort.)"
-msgstr ""
+msgstr "(Ви показуєте Бакату рубін, що отримали від Орта.)"
 
 #: ../npcs/bakat.txt:24
 msgid "(Bakat snatches the jewel from your grasp.)"
-msgstr ""
+msgstr "(Бакат вихоплює самоцвіт з вашої руки.)"
 
 #: ../npcs/bakat.txt:25
 msgid "(He holds the ruby up into the light and examines it closely.)"
-msgstr ""
+msgstr "(Він тримає рубін проти світла і уважно його вивчає.)"
 
 #: ../npcs/bakat.txt:26
 msgid ""
 "(Looking satisfied, he reaches into his bag and hands you a wooden bear "
 "figurine.)"
 msgstr ""
+"(Виглядаючи задоволеним, він засуває руку в свою сумку і дістає вам "
+"дерев'яну фігурку ведмедя.)"
 
 #: ../npcs/bakat.txt:27
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: ../npcs/base/infinity_obelisk.txt:1
 msgid "Infinity Obelisk"
-msgstr ""
+msgstr "Обеліск Бескінечності"
 
 #: ../npcs/base/infinity_obelisk.txt:7
 msgid "(You touch the obelisk, but nothing happens.)"
-msgstr ""
+msgstr "(Ви торкаєтеся обеліска, але нічого не відбувається.)"
 
 #: ../npcs/base/infinity_obelisk.txt:10
 msgid "Continue through the Halls of Infinity"
-msgstr ""
+msgstr "Рухатись далі через Зали Бескінечності"
 
 #: ../npcs/base/infinity_obelisk.txt:17
 msgid "Return to Underworld Stronghold"
-msgstr ""
+msgstr "Повернутися до Цитаделі Підземелля"
 
 #: ../npcs/florin.txt:1
 msgid "Florin, Apothecary"
@@ -1671,7 +1739,7 @@ msgstr "Флорін, Аптекар"
 
 #: ../npcs/florin.txt:27
 msgid "What can you tell me about the Book of the Dead?"
-msgstr ""
+msgstr "Що ти можеш розказати мені про Книгу Мертвих?"
 
 #: ../npcs/florin.txt:28
 msgid ""
@@ -1679,10 +1747,13 @@ msgid ""
 "gravebloom ink. Your sins will be washed away, and you will be able to "
 "return to wherever you were banished from."
 msgstr ""
+"Книга Мертвих розповідає про спокуту тих, хто вписав свої імена чорнилом "
+"могильної квітки. Твої гріхи будуть змиті, і ти зможеш повернутися туди, "
+"звідки тебе вигнали."
 
 #: ../npcs/florin.txt:29
 msgid "So, where can I find gravebloom ink?"
-msgstr ""
+msgstr "Отже, де я можу знайти чорнило могильної квітки?"
 
 #: ../npcs/florin.txt:30
 msgid ""
@@ -1690,6 +1761,9 @@ msgid ""
 " the Gravebloom flower, you will need to sacrifice your own blood with a "
 "special blade."
 msgstr ""
+"Чорнило могильної квітки не те, що можна знайти. Ти мусиш зробити його "
+"самотужки. Крім самої могильної квітки, тобі буде потрібно пожертвувати "
+"трохи своєї крові з допомогою спеціального кинджалу."
 
 #: ../npcs/florin.txt:31
 msgid ""
@@ -1697,47 +1771,54 @@ msgid ""
 "just anything. The ink won't stick to a normal quill. You will need to find "
 "something capable of holding the gravebloom ink."
 msgstr ""
+"Навіть якщо ти зможеш створити трохи чорнила могильної квітки, ти не зможеш "
+"написати нічого. Чорнило не прилипне до звичайного пера. Тобі потрібно буде "
+"знайти дещо, що зможе утримувати чорнило могильної квітки."
 
 #: ../npcs/florin.txt:32
 msgid ""
 "If you can perform the ritual to make gravebloom ink and find a suitable "
 "writing utensil, redemption may be yours."
 msgstr ""
+"Якщо ти зможеш виконати ритуал, щоб зробити чорнило могильної квітки та "
+"знайти відповідні писемні приладдя, то отримаєш спокуту."
 
 #: ../npcs/florin.txt:35
 msgid "Gravebloom"
-msgstr ""
+msgstr "Могильна квітка"
 
 #: ../npcs/florin.txt:39
 msgid ""
 "Ah yes, that is most certainly a gravebloom flower. It is the primary "
 "component in the creation of gravebloom ink."
 msgstr ""
+"А так, це майже напевно могильна квітка. Це основний компонент у створенні "
+"чорнила могильної квітки."
 
 #: ../npcs/florin.txt:42
 msgid "Black Quill"
-msgstr ""
+msgstr "Чорне Перо"
 
 #: ../npcs/florin.txt:45
 msgid "Do you think this quill is capable of holding gravebloom ink?"
-msgstr ""
+msgstr "Ти думаєш, це перо зможе утримати чорнило могильної квітки?"
 
 #: ../npcs/florin.txt:46
 msgid "It's certainly no normal quill. I've never seen anything like it."
-msgstr ""
+msgstr "Це точно не звичайне перо. Я ніколи не бачив нічого подібного."
 
 #: ../npcs/florin.txt:48
 msgid ""
 "If anything is capable of writing with gravebloom ink, it is that quill."
-msgstr ""
+msgstr "Якщо щось і може писати чорнилом могильної квітки, то тільки це перо."
 
 #: ../npcs/florin.txt:51
 msgid "Knife of Sacrifices"
-msgstr ""
+msgstr "Ніж Жетвоприношень"
 
 #: ../npcs/florin.txt:54
 msgid "Do you know anything about this knife?"
-msgstr ""
+msgstr "Ти щось знаєш про цей ніж?"
 
 #: ../npcs/florin.txt:56
 msgid ""
@@ -1745,10 +1826,13 @@ msgid ""
 "blood for the gravebloom ink. From what I've read, this must be done at the "
 "\"Red Altar\"."
 msgstr ""
+"Ніж Жертвоприношень. Це той ніж, який тобі буде потрібний, щоб взяти кров "
+"для чорнила могильної квітки. З того, що я прочитав, це потрібно зробити на "
+"\"Червоному вівтарі\"."
 
 #: ../npcs/florin.txt:57
 msgid "I recall such an altar from the Temple of Mez."
-msgstr ""
+msgstr "Я пригадую такий вівтар був у Храмі Мези."
 
 #: ../npcs/florin.txt:58
 msgid ""
@@ -1756,20 +1840,25 @@ msgid ""
 "it pierces your skin, there is no telling what effect it will have on you. "
 "Please keep this in mind."
 msgstr ""
+"Я не знаю, чому потрібний саме цей ніж, щоб зробити чорнило. Тільки но він "
+"проколе твою шкіру, може статись все що завгодно. Будь ласка, май це на "
+"увазі."
 
 #: ../npcs/florin.txt:61
 msgid "Vial of Blood"
-msgstr ""
+msgstr "Флакон з кров'ю"
 
 #: ../npcs/florin.txt:64
 msgid "I completed the ritual at the Red Altar. What now?"
-msgstr "Я завершив ритуал Червоного Жертовника. Що тепер?"
+msgstr "Я завершив ритуал Червоного вівтаря. Що тепер?"
 
 #: ../npcs/florin.txt:65
 msgid ""
 "We are ready to create a small amount of gravebloom ink. Allow me to perform"
 " the mixing."
 msgstr ""
+"Ми готові створити невелику кількість чорнила могильної квітки. Дозволь мені"
+" виконати змішування."
 
 #: ../npcs/florin.txt:66
 msgid ""
@@ -1777,28 +1866,36 @@ msgid ""
 "will cause the ink to eat through the paper. Too little Gravebloom and the "
 "ink won't adhere to the quill."
 msgstr ""
+"Правильне співвідношення чорнила могильної квітки до крові є важливим. "
+"Занадто велика кількість могильної квітки призведе до того, що чорнило буде "
+"протікати через папір. Занадто мала кількість могильної квітки – і чорнило "
+"не триматиметься пера."
 
 #: ../npcs/florin.txt:67
 msgid ""
 "(Florin carefully mixes the two elements into a small inkwell, alternating "
 "the additions of Gravebloom and blood.)"
 msgstr ""
+"(Флорін ретельно перемішує два складники в маленькій чорнильниці, чергуючи "
+"додавання могильної квітки та крові.)"
 
 #: ../npcs/florin.txt:72
 msgid ""
 "Finished! I don't want my work to go to waste, so move now to the Book of "
 "the Dead chamber."
 msgstr ""
+"Готово! Я не хочу, щоб моя робота була марною, тому швидко прямуй до кімнати"
+" Книги Мертвих."
 
 #: ../npcs/florin.txt:78
 msgid "The ritual is complete. The Underworld is open to you."
-msgstr ""
+msgstr "Ритуал завершено. Тепер Підземелля для тебе відкрито."
 
 #: ../npcs/florin.txt:79
 msgid ""
 "There was a portal to the Underworld in the Wizard's Tower. I shall return "
 "there."
-msgstr ""
+msgstr "В Вежі Чарівника був портал до Підземелля. Я маю туди повернутись."
 
 #: ../npcs/glowing_obelisk_1.txt:1
 msgid "Glowing Obelisk"
@@ -1806,103 +1903,120 @@ msgstr "Сяючий Обеліск"
 
 #: ../npcs/loren.txt:1
 msgid "Loren, Undead Trader"
-msgstr ""
+msgstr "Лорен, нежить-торговець"
 
 #: ../npcs/martigan.txt:1
 msgid "Martigan"
-msgstr ""
+msgstr "Мартіган"
 
 #: ../npcs/martigan.txt:19
 msgid ""
 "You there! I need your help. I'm the last of my group, and want nothing more"
 " than to leave this place."
 msgstr ""
+"Ей ти! Мені потрібна твоя допомога. Я останній з моєї групи, і хочу всього "
+"лише залишити це місце."
 
 #: ../npcs/martigan.txt:20
 msgid ""
 "Yet I have one remaining task. I wish to visit the graves of my three fallen"
 " partners one last time."
 msgstr ""
+"У мене є ще одне завдання. Я хотів би в останній раз відвідати могили моїх "
+"трьох загиблих товаришів."
 
 #: ../npcs/martigan.txt:21
 msgid ""
 "To my disadvantage, their bodies have been taken by the soil here. They "
 "tried to attack me when I got near."
 msgstr ""
+"Нажаль, тут вони знайшли свій кінець і перетворилися на нежить. Вони "
+"намагалися напасти на мене, коли я наблизився."
 
 #: ../npcs/martigan.txt:22
 msgid ""
-"If you can prove to me that they are free them from their cursed form, I "
-"will be in your debt."
+"If you can prove to me that they are free from their cursed form, I will be "
+"in your debt."
 msgstr ""
+"Якщо ти доведеш мені що вони звільнились від прокляття - я твій боржник."
 
 #: ../npcs/martigan.txt:23
 msgid "I can't assist you myself, but I can offer some of my wares."
-msgstr ""
+msgstr "Я не можу тобі допомогти, але можу запропонувати деякі речі."
 
 #: ../npcs/martigan.txt:29
 msgid "Zombies"
-msgstr ""
+msgstr "Зомбі"
 
 #: ../npcs/martigan.txt:39
 msgid ""
 "Indeed, these items belonged to my companions. I want you to take this as a "
 "reward."
-msgstr ""
+msgstr "Дійсно, ці речі належали моїм товаришам. Візьми ось це як нагороду."
 
 #: ../npcs/ort.txt:1
 msgid "Ort, Goblin Packrat"
-msgstr ""
+msgstr "Орт, гоблін-пакрат"
 
 #: ../npcs/ort.txt:29
 msgid "... Bro-ther... g-give..."
-msgstr ""
+msgstr "... Бра-ате... д-дай..."
 
 #: ../npcs/ort.txt:30
 msgid "(Ort grabs your hand and places a red gem in it.)"
-msgstr ""
+msgstr "(Орт бере вашу руку і кладе в неї червоний самоцвіт.)"
 
 #: ../npcs/tutorial.txt:1
 msgid "Skeleton with note"
-msgstr ""
+msgstr "Скелет з запискою"
 
 #: ../npcs/tutorial.txt:9
 msgid "Tutorial"
-msgstr ""
+msgstr "Навчання"
 
 #: ../npcs/tutorial.txt:11
 msgid ""
 "Welcome to the lands of the exiled. Allow me to go over a few things. Click "
 "on the arrow to continue."
 msgstr ""
+"Ласкаво просимо до землі вигнанців. Дозвольте мені дещо розповісти. "
+"Натисніть на стрілку, щоб продовжити."
 
 #: ../npcs/tutorial.txt:12
 msgid ""
 "Your health, mana, and experience points are displayed in the top left of "
 "the screen."
 msgstr ""
+"У верхньому лівому куті екрану відображаються дані про Здоров'я, Ману та "
+"Досвід."
 
 #: ../npcs/tutorial.txt:13
 msgid "In the top right is a map of your current location."
-msgstr ""
+msgstr "У верхньому правому кутку є карта вашого поточного місцезнаходження."
 
 #: ../npcs/tutorial.txt:14
 msgid ""
 "On the bottom of the screen is your action bar. Here, you have quick access "
 "to your most used abilities."
 msgstr ""
+"У нижній частині екрану знаходиться панель дій. Тут ви маєте швидкий доступ "
+"до найбільш використовуваних здібностей."
 
 #: ../npcs/tutorial.txt:15
 msgid ""
 "In addition, you can access the Character, Inventory, Powers, and Log menus "
 "from the action bar."
 msgstr ""
+"Крім того, ви можете отримати доступ до меню Персонажа, Інвентаря, Умінь та "
+"Журналу на панелі дій."
 
 #: ../npcs/tutorial.txt:16
 msgid ""
 "${INPUT_MOVEMENT} will allow you to move around. ${INPUT_ATTACK} will use "
 "your primary attack."
 msgstr ""
+"${INPUT_MOVEMENT} дозволять переміщуватись. ${INPUT_ATTACK} задіє вашу "
+"основну атаку."
 
 #: ../npcs/tutorial.txt:17
 msgid "Good luck!"
@@ -1976,8 +2090,8 @@ msgid ""
 "The key is enough of a memento. For your invaluable help, I can at least "
 "make you a ring with this emerald."
 msgstr ""
-"Ключа буде достатньо. За твою допомогу я можу зробити для тебе кільце з цим "
-"смарагдом."
+"Ключа буде достатньо. За твою допомогу я можу зробити для тебе перстень з "
+"цим смарагдом."
 
 #: ../npcs/udana.txt:62
 msgid "Thank you again for your help."
@@ -1985,7 +2099,7 @@ msgstr "Ще раз спасибі за допомогу."
 
 #: ../npcs/yora.txt:1
 msgid "Yora, Enchanter"
-msgstr ""
+msgstr "Йора, чаклун"
 
 #: ../cutscenes/backstory.txt:7
 msgid ""
@@ -2040,167 +2154,236 @@ msgstr ""
 #: ../cutscenes/backstory.txt:22
 msgid ""
 "There is always hope. But not for everyone: not for you. Not for the Exiled."
-msgstr "Завжди є надія. Але не для всіх: не для таких як ви. Не для вигнаних."
+msgstr ""
+"Завжди є надія. Але не для всіх: не для таких як ви. Не для Вигнанців."
 
 #: ../cutscenes/credits.txt:7
 msgid "Flare Game Credits - empyrean_campaign"
-msgstr ""
+msgstr "Автори гри Flare - empyrean_campaign"
 
 #: ../cutscenes/credits.txt:10
 msgid "Lead Content Designers"
-msgstr ""
+msgstr "Провідні дизайнери наповнення"
 
 #: ../cutscenes/credits.txt:12
 msgid "Clint Bellanger"
-msgstr ""
+msgstr "Клінт Беланжер"
 
 #: ../cutscenes/credits.txt:13
 msgid "Justin Jacobs"
-msgstr ""
+msgstr "Justin Jacobs"
 
 #: ../cutscenes/credits.txt:16
 msgid "Visual Artists"
-msgstr ""
+msgstr "Художники"
 
 #: ../cutscenes/credits.txt:18
 msgid "cron"
-msgstr ""
+msgstr "cron"
 
 #: ../cutscenes/credits.txt:19
 msgid "Justin Nichol"
-msgstr ""
+msgstr "Джастін Нікол"
 
 #: ../cutscenes/credits.txt:20
 msgid "rubberduck"
-msgstr ""
+msgstr "rubberduck"
 
 #: ../cutscenes/credits.txt:21
 msgid "Short-Ribs"
-msgstr ""
+msgstr "Short-Ribs"
 
 #: ../cutscenes/credits.txt:22
 msgid "Stefano Peris"
-msgstr ""
+msgstr "Стефано Періс"
 
 #: ../cutscenes/credits.txt:23
 msgid "VWolfDog"
-msgstr ""
+msgstr "VWolfDog"
 
 #: ../cutscenes/credits.txt:24
 msgid "yd"
-msgstr ""
+msgstr "yd"
 
 #: ../cutscenes/credits.txt:27
 msgid "Foley Artists"
-msgstr ""
+msgstr "Звукові ефекти"
 
 #: ../cutscenes/credits.txt:29
 msgid "adamgryu"
-msgstr ""
+msgstr "adamgryu"
 
 #: ../cutscenes/credits.txt:30
 msgid "GuntherDorksen"
-msgstr ""
+msgstr "GuntherDorksen"
 
 #: ../cutscenes/credits.txt:33
 msgid "Translators"
-msgstr ""
+msgstr "Перекладачі"
 
 #: ../cutscenes/credits.txt:35
-msgid "GunChleoc"
-msgstr ""
+msgid "Diego J. Romero López"
+msgstr "Diego J. Romero López"
 
 #: ../cutscenes/credits.txt:36
-msgid "Igor Paliychuk"
-msgstr ""
+msgid "Eric R"
+msgstr "Eric R"
 
 #: ../cutscenes/credits.txt:37
-msgid "Janet Hunt"
-msgstr ""
+msgid "Gabriel Iasi"
+msgstr "Gabriel Iasi"
 
 #: ../cutscenes/credits.txt:38
-msgid "Микола Франчук"
-msgstr ""
+msgid "GunChleoc"
+msgstr "GunChleoc"
 
 #: ../cutscenes/credits.txt:39
-msgid "Pavel Maryanov"
-msgstr ""
+msgid "Igor Paliychuk"
+msgstr "Ігор Палійчук"
 
 #: ../cutscenes/credits.txt:40
-msgid "Pawel Puszczyński"
-msgstr ""
+msgid "Janet Hunt"
+msgstr "Джанет Хант"
 
 #: ../cutscenes/credits.txt:41
-msgid "Sang-froid"
-msgstr ""
+msgid "Mikalái Valér'evich Sakalóuski"
+msgstr "Mikalái Valér'evich Sakalóuski"
+
+#: ../cutscenes/credits.txt:42
+msgid "Mykola Franchuk"
+msgstr "Микола Франчук"
 
 #: ../cutscenes/credits.txt:43
+msgid "MOB2"
+msgstr "MOB2"
+
+#: ../cutscenes/credits.txt:44
+msgid "Nea Retrogamer"
+msgstr "Nea Retrogamer"
+
+#: ../cutscenes/credits.txt:45
+msgid "Pavel Maryanov"
+msgstr "Павел Мар'янов"
+
+#: ../cutscenes/credits.txt:46
+msgid "Pawel Puszczyński"
+msgstr "Павел Пущинський"
+
+#: ../cutscenes/credits.txt:47
+msgid "Rui"
+msgstr "Rui"
+
+#: ../cutscenes/credits.txt:48
+msgid "Sang-froid"
+msgstr "Sang-froid"
+
+#: ../cutscenes/credits.txt:49
+msgid "Sam Vo"
+msgstr "Sam Vo"
+
+#: ../cutscenes/credits.txt:50
+msgid "Sergiy Borodych"
+msgstr "Сергій Бородич"
+
+#: ../cutscenes/credits.txt:52
 msgid "sujiniku"
-msgstr ""
+msgstr "sujiniku"
+
+#: ../cutscenes/credits.txt:53
+msgid "Vicente Monteiro"
+msgstr "Vicente Monteiro"
+
+#: ../cutscenes/credits.txt:54
+msgid "Wuzzy2"
+msgstr "Wuzzy2"
+
+#: ../cutscenes/credits.txt:55
+msgid "Zmicer Turok"
+msgstr "Zmicer Turok"
 
 #: ../cutscenes/ending.txt:7
 msgid ""
 "At long last, your journey across the surface and into the Underworld has "
 "come to an end."
-msgstr ""
+msgstr "Нарешті, ваша подорож по поверхні та через Підземелля закінчилася."
 
 #: ../cutscenes/ending.txt:9
 msgid "Upon entering The Pit, a glowing obelisk shined in the distance."
-msgstr ""
+msgstr "Після входу в Яму, на відстані засвітився сяючий обеліск."
 
 #: ../cutscenes/ending.txt:11
 msgid ""
 "Guarding the obelisk was Lezaith, a formidable opponent, yet no match for "
 "Exiled who faced her."
-msgstr ""
+msgstr "Обеліск охороняла Лезайт, грізний противник, але не рівня Вигнанцю."
 
 #: ../cutscenes/ending.txt:13
 msgid "With Lezaith's defeat, the path to the obelisk was clear."
-msgstr ""
+msgstr "Після перемоги над Лезаісом, шлях до обеліска був вільним."
 
 #: ../cutscenes/ending.txt:16
 msgid ""
 "Not a moment after Lezaith crumbles into a pile of bones, a bolt of "
 "lightning strikes the obelisk."
 msgstr ""
+"Зразу ж після того, як Лезайт перетворилася на купу кісток, розряд блискавки"
+" вдарив у обеліск."
 
 #: ../cutscenes/ending.txt:18
 msgid ""
 "Did Lezaith cast a spell on the obelisk with her dying breath? Had Empyrean "
 "finally collapsed?"
 msgstr ""
+"Це Лезайт кинула заклинання на обеліск зі своїм останнім подихом? Чи Емпірея"
+" нарешті була зруйнована?"
 
 #: ../cutscenes/ending.txt:21
 msgid ""
 "Maybe it's true what they say. No one returns from the surface. Most die or "
 "go missing. A few hide and survive, for a while."
 msgstr ""
+"Може те що кажуть є правдою. Ніхто не повертається з поверхні. Більшість "
+"помирає або пропадає безвісти. Деякі ховаються і виживають, на деякий час."
 
 #: ../cutscenes/ending.txt:23
 msgid "Even the Exiled."
-msgstr ""
+msgstr "Навіть Вигнанці."
 
 #: ../cutscenes/ending.txt:29
 msgid "And a very special thanks to..."
-msgstr ""
+msgstr "І дуже особлива подяка..."
 
 #: ../cutscenes/ending.txt:30
 msgid "You!"
 msgstr "Ти!"
+
+#: ../cutscenes/ending.txt:34
+msgid "The End"
+msgstr "Кінець"
 
 #: ../books/book_of_the_dead.txt:13
 msgid ""
 "Those whose names are written here in gravebloom ink are admitted passage to"
 " the trail of redemption."
 msgstr ""
+"Ті, чиї імена написані тут чорнилом могильної квітки, допускаються до "
+"проходження по стежці спокути."
+
+#: ../books/book_of_the_dead.txt:20
+msgid "${AVATAR_NAME}"
+msgstr "${AVATAR_NAME}"
+
+#: ../books/cutscene_list.txt:21
+msgid "Ending"
+msgstr "Закінчення"
 
 #: ../books/merchants_journal.txt:13
 msgid "1488/9/27"
-msgstr ""
+msgstr "27.09.1488"
 
 #: ../books/merchants_journal.txt:18
 msgid "-1  Dagger"
-msgstr ""
+msgstr "-1 кинджал"
 
 #: ../books/merchants_journal.txt:23
 msgid "100"
@@ -2208,7 +2391,7 @@ msgstr "100"
 
 #: ../books/merchants_journal.txt:28
 msgid "+1  Cloth Shirt"
-msgstr ""
+msgstr "+1 ткана cорочка"
 
 #: ../books/merchants_journal.txt:33
 msgid "-18"
@@ -2216,7 +2399,7 @@ msgstr "-18"
 
 #: ../books/merchants_journal.txt:38
 msgid "+1  Gold Ring"
-msgstr ""
+msgstr "+1 золотий перстень"
 
 #: ../books/merchants_journal.txt:43
 msgid "-50"
@@ -2224,11 +2407,11 @@ msgstr "-50"
 
 #: ../books/merchants_journal.txt:49
 msgid "1488/9/28"
-msgstr ""
+msgstr "28.09.1488"
 
 #: ../books/merchants_journal.txt:54
 msgid "-2  Health Potion"
-msgstr ""
+msgstr "-2 зілля Здоров'я"
 
 #: ../books/merchants_journal.txt:59
 msgid "120"
@@ -2236,7 +2419,7 @@ msgstr "120"
 
 #: ../books/merchants_journal.txt:64
 msgid "+1  Dagger"
-msgstr ""
+msgstr "+1 кинджал"
 
 #: ../books/merchants_journal.txt:69
 msgid "-25"
@@ -2244,999 +2427,999 @@ msgstr "-25"
 
 #: ../books/mog_1.txt:12
 msgid "On the waterlogged support beam"
-msgstr ""
+msgstr "На підтопленій опорній колоді"
 
 #: ../books/mog_2.txt:12
 msgid "Beneath a rock on the moldy peninsula"
-msgstr ""
+msgstr "Під каменем на запліснявілому півострові"
 
 #: ../books/mog_3.txt:12
 msgid "In the pile of bones near the three submerged pillars"
-msgstr ""
+msgstr "У купі кісток біля трьох затоплених стовпів"
 
 #: ../books/mog_4.txt:12
 msgid "Inside the blocked off mine cart"
-msgstr ""
+msgstr "Всередині заблокованої вагонетки"
 
 #: ../books/mog_5.txt:12
 msgid "Press the switch on the top of the middle boulder"
-msgstr ""
+msgstr "Натисніть перемикач у верхній частині середньої брили"
 
 #: ../books/nasu_sketchbook.txt:23
 msgid "-K"
-msgstr ""
+msgstr "-K"
 
 #: ../books/wardens_notes.txt:12
 msgid "Read the book on the second shelf of the nearest bookshelf."
-msgstr ""
+msgstr "Прочитай книгу на другій полиці найближчої книжкової шафи."
 
 #: ../items/categories/level_6.txt:5
 msgid "Fighting Leather Hood"
-msgstr ""
+msgstr "Бойовий шкіряний капюшон"
 
 #: ../items/categories/level_6.txt:17
 msgid "Recon Leather Hood"
-msgstr ""
+msgstr "Шкіряний капюшон шпигуна"
 
 #: ../items/categories/level_6.txt:29
 msgid "Sorcerer Wool Hood"
-msgstr ""
+msgstr "Вовняний капюшон знахаря"
 
 #: ../items/categories/level_6.txt:41
 msgid "Fighting Leather Tunic"
-msgstr ""
+msgstr "Бойова шкіряна туніка"
 
 #: ../items/categories/level_6.txt:53
 msgid "Recon Leather Tunic"
-msgstr ""
+msgstr "Шкіряна туніка шпигуна"
 
 #: ../items/categories/level_6.txt:65
 msgid "Sorcerer Wool Vest"
-msgstr ""
+msgstr "Вовняний жилет знахаря"
 
 #: ../items/categories/level_6.txt:77
 msgid "Fighting Leather Pants"
-msgstr ""
+msgstr "Бойові шкіряні штани"
 
 #: ../items/categories/level_6.txt:89
 msgid "Recon Leather Pants"
-msgstr ""
+msgstr "Шкіряні штани шпигуна"
 
 #: ../items/categories/level_6.txt:101
 msgid "Sorcerer Wool Skirt"
-msgstr ""
+msgstr "Вовняна спідниця знахаря"
 
 #: ../items/categories/level_6.txt:113
 msgid "Fighting Leather Boots"
-msgstr ""
+msgstr "Бойові шкіряні черевики"
 
 #: ../items/categories/level_6.txt:125
 msgid "Recon Leather Boots"
-msgstr ""
+msgstr "Шкіряні черевики шпигуна"
 
 #: ../items/categories/level_6.txt:137
 msgid "Sorcerer Wool Boots"
-msgstr ""
+msgstr "Вовняні черевики знахаря"
 
 #: ../items/categories/level_6.txt:149
 msgid "Fighting Leather Gloves"
-msgstr ""
+msgstr "Бойові шкіряні рукавиці"
 
 #: ../items/categories/level_6.txt:161
 msgid "Recon Leather Gloves"
-msgstr ""
+msgstr "Шкіряні рукавиці шпигуна"
 
 #: ../items/categories/level_6.txt:173
 msgid "Sorcerer Wool Sleeves"
-msgstr ""
+msgstr "Вовняні рукави знахаря"
 
 #: ../items/categories/level_6.txt:185
 msgid "Wandering Fighting Leather Belt"
-msgstr ""
+msgstr "Мандрівний бойовий шкіряний пояс"
 
 #: ../items/categories/level_6.txt:196
 msgid "Wandering Recon Pendant"
-msgstr ""
+msgstr "Кулон мандрівного шпигуна"
 
 #: ../items/categories/level_6.txt:207
 msgid "Wandering Sorcerer Spellbook"
-msgstr ""
+msgstr "Книга заклинань мандрівного знахаря"
 
 #: ../items/categories/level_6.txt:218
 msgid "Fighting Shortsword"
-msgstr ""
+msgstr "Бойовий короткий меч"
 
 #: ../items/categories/level_6.txt:230
 msgid "Recon Shortbow"
-msgstr ""
+msgstr "Короткий лук шпигуна"
 
 #: ../items/categories/level_6.txt:242
 msgid "Sorcerer Rod"
-msgstr ""
+msgstr "Скіпетр знахаря"
 
 #: ../items/categories/level_6.txt:254
 msgid "Keeper Iron Buckler"
-msgstr ""
+msgstr "Залізний круглий щит хранителя"
 
 #: ../items/categories/level_6.txt:265
 msgid "Wandering Burn Ring"
-msgstr ""
+msgstr "Мандрівний палаючий перстень"
 
 #: ../items/categories/level_6.txt:275
 msgid "Wandering Frost Ring"
-msgstr ""
+msgstr "Мандрівний морозний перстень"
 
 #: ../items/categories/level_6.txt:285
 msgid "Wandering Electric Ring"
-msgstr ""
+msgstr "Мандрівний електричний перстень"
 
 #: ../items/categories/level_6.txt:295
 msgid "Wandering Shadow Ring"
-msgstr ""
+msgstr "Мандрівний тіньовий перстень"
 
 #: ../items/categories/level_6.txt:305
 msgid "Wandering Knowledge Ring"
-msgstr ""
+msgstr "Мандрівний перстень знання"
 
 #: ../items/categories/level_6.txt:315
 msgid "Wandering Prosperity Ring"
-msgstr ""
+msgstr "Мандрівний перстень успіху"
 
 #: ../items/categories/level_6.txt:325
 msgid "Wandering Loot Ring"
-msgstr ""
+msgstr "Мандрівний перстень здобичі"
 
 #: ../items/categories/level_9.txt:5
 msgid "Chain Coif"
-msgstr ""
+msgstr "Кольчужний шолом"
 
 #: ../items/categories/level_9.txt:14
 msgid "Chain Cuirass"
-msgstr ""
+msgstr "Кольчужна кираса"
 
 #: ../items/categories/level_9.txt:23
 msgid "Chain Greaves"
-msgstr ""
+msgstr "Кольчужні наножники"
 
 #: ../items/categories/level_9.txt:32
 msgid "Chain Boots"
-msgstr ""
+msgstr "Кольчужні черевики"
 
 #: ../items/categories/level_9.txt:41
 msgid "Chain Gloves"
-msgstr ""
+msgstr "Кольчужні рукавиці"
 
 #: ../items/categories/level_9.txt:50
 msgid "Silk Hood"
-msgstr ""
+msgstr "Шовковий капюшон"
 
 #: ../items/categories/level_9.txt:59
 msgid "Silk Vest"
-msgstr ""
+msgstr "Шовковий жилет"
 
 #: ../items/categories/level_9.txt:68
 msgid "Silk Skirt"
-msgstr ""
+msgstr "Шовкова спідниця"
 
 #: ../items/categories/level_9.txt:77
 msgid "Silk Boots"
-msgstr ""
+msgstr "Шовкові черевики"
 
 #: ../items/categories/level_9.txt:86
 msgid "Silk Sleeves"
-msgstr ""
+msgstr "Шовкові рукави"
 
 #: ../items/categories/level_9.txt:95
 msgid "Longsword"
-msgstr ""
+msgstr "Полуторний меч"
 
 #: ../items/categories/level_9.txt:104
 msgid "Longbow"
-msgstr ""
+msgstr "Лук"
 
 #: ../items/categories/level_9.txt:113
 msgid "Staff"
-msgstr ""
+msgstr "Жезл"
 
 #: ../items/categories/level_9.txt:122
 msgid "Crest Shield"
-msgstr ""
+msgstr "Гордий щит"
 
 #: ../items/categories/level_8.txt:5
 msgid "Warlord Leather Hood"
-msgstr ""
+msgstr "Шкіряний капюшон воєначальника"
 
 #: ../items/categories/level_8.txt:17
 msgid "Sniper Leather Hood"
-msgstr ""
+msgstr "Шкіряний капюшон снайпера"
 
 #: ../items/categories/level_8.txt:29
 msgid "Archwizard Wool Hood"
-msgstr ""
+msgstr "Вовняний капюшон архимага"
 
 #: ../items/categories/level_8.txt:41
 msgid "Warlord Leather Tunic"
-msgstr ""
+msgstr "Шкіряна туніка воєначальника"
 
 #: ../items/categories/level_8.txt:53
 msgid "Sniper Leather Tunic"
-msgstr ""
+msgstr "Шкіряна туніка снайпера"
 
 #: ../items/categories/level_8.txt:65
 msgid "Archwizard Wool Vest"
-msgstr ""
+msgstr "Вовняний жилет архимага"
 
 #: ../items/categories/level_8.txt:77
 msgid "Warlord Leather Pants"
-msgstr ""
+msgstr "Шкіряні штани воєначальника"
 
 #: ../items/categories/level_8.txt:89
 msgid "Sniper Leather Pants"
-msgstr ""
+msgstr "Шкіряні штани снайпера"
 
 #: ../items/categories/level_8.txt:101
 msgid "Archwizard Wool Skirt"
-msgstr ""
+msgstr "Вовняна спідниця архимага"
 
 #: ../items/categories/level_8.txt:113
 msgid "Warlord Leather Boots"
-msgstr ""
+msgstr "Шкіряні черевики воєначальника"
 
 #: ../items/categories/level_8.txt:125
 msgid "Sniper Leather Boots"
-msgstr ""
+msgstr "Шкіряні черевики снайпера"
 
 #: ../items/categories/level_8.txt:137
 msgid "Archwizard Wool Boots"
-msgstr ""
+msgstr "Вовняні черевики архимага"
 
 #: ../items/categories/level_8.txt:149
 msgid "Warlord Leather Gloves"
-msgstr ""
+msgstr "Шкіряні рукавиці воєначальника"
 
 #: ../items/categories/level_8.txt:161
 msgid "Sniper Leather Gloves"
-msgstr ""
+msgstr "Шкіряні рукавиці снайпера"
 
 #: ../items/categories/level_8.txt:173
 msgid "Archwizard Wool Sleeves"
-msgstr ""
+msgstr "Вовняні рукави архимага"
 
 #: ../items/categories/level_8.txt:185
 msgid "Master Fighting Leather Belt"
-msgstr ""
+msgstr "Бойовий шкіряний пояс магістра"
 
 #: ../items/categories/level_8.txt:196
 msgid "Master Recon Pendant"
-msgstr ""
+msgstr "Кулон майстерного шпигуна"
 
 #: ../items/categories/level_8.txt:207
 msgid "Master Sorcerer Spellbook"
-msgstr ""
+msgstr "Книга заклинань майстерного знахаря"
 
 #: ../items/categories/level_8.txt:218
 msgid "Warlord Shortsword"
-msgstr ""
+msgstr "Короткий меч воєначальника"
 
 #: ../items/categories/level_8.txt:230
 msgid "Sniper Shortbow"
-msgstr ""
+msgstr "Короткий лук снайпера"
 
 #: ../items/categories/level_8.txt:242
 msgid "Archwizard Rod"
-msgstr ""
+msgstr "Скіпетр архимага"
 
 #: ../items/categories/level_8.txt:254
 msgid "Templar Iron Buckler"
-msgstr ""
+msgstr "Залізний круглий щит тамплієра"
 
 #: ../items/categories/level_8.txt:265
 msgid "Master Burn Ring"
-msgstr ""
+msgstr "Палаючий перстень магістра"
 
 #: ../items/categories/level_8.txt:275
 msgid "Master Frost Ring"
-msgstr ""
+msgstr "Морозний перстень магістра"
 
 #: ../items/categories/level_8.txt:285
 msgid "Master Electric Ring"
-msgstr ""
+msgstr "Електричний перстень магістра"
 
 #: ../items/categories/level_8.txt:295
 msgid "Master Shadow Ring"
-msgstr ""
+msgstr "Тіньовий перстень магістра"
 
 #: ../items/categories/level_8.txt:305
 msgid "Master Knowledge Ring"
-msgstr ""
+msgstr "Перстень знання магістра"
 
 #: ../items/categories/level_8.txt:315
 msgid "Master Prosperity Ring"
-msgstr ""
+msgstr "Перстень успіху магістра"
 
 #: ../items/categories/level_8.txt:325
 msgid "Master Loot Ring"
-msgstr ""
+msgstr "Перстень здобичі магістра"
 
 #: ../items/categories/level_3.txt:5
 msgid "Warrior Cloth Shirt"
-msgstr ""
+msgstr "Ткана cорочка воїна"
 
 #: ../items/categories/level_3.txt:15
 msgid "Ranger Cloth Shirt"
-msgstr ""
+msgstr "Ткана cорочка рейнджера"
 
 #: ../items/categories/level_3.txt:25
 msgid "Wizard Cloth Shirt"
-msgstr ""
+msgstr "Ткана cорочка мага"
 
 #: ../items/categories/level_3.txt:35
 msgid "Warrior Cloth Pants"
-msgstr ""
+msgstr "Ткані штани воїна"
 
 #: ../items/categories/level_3.txt:45
 msgid "Ranger Cloth Pants"
-msgstr ""
+msgstr "Ткані штани рейнджера"
 
 #: ../items/categories/level_3.txt:55
 msgid "Wizard Cloth Pants"
-msgstr ""
+msgstr "Ткані штани мага"
 
 #: ../items/categories/level_3.txt:65
 msgid "Warrior Cloth Sandals"
-msgstr ""
+msgstr "Ткані сандалі воїна"
 
 #: ../items/categories/level_3.txt:75
 msgid "Ranger Cloth Sandals"
-msgstr ""
+msgstr "Ткані сандалі рейнджера"
 
 #: ../items/categories/level_3.txt:85
 msgid "Wizard Cloth Sandals"
-msgstr ""
+msgstr "Ткані сандалі мага"
 
 #: ../items/categories/level_3.txt:94
 msgid "Warrior Cloth Gloves"
-msgstr ""
+msgstr "Ткані рукавиці воїна"
 
 #: ../items/categories/level_3.txt:104
 msgid "Ranger Cloth Gloves"
-msgstr ""
+msgstr "Ткані рукавиці рейнджера"
 
 #: ../items/categories/level_3.txt:114
 msgid "Wizard Cloth Gloves"
-msgstr ""
+msgstr "Ткані рукавиці мага"
 
 #: ../items/categories/level_3.txt:123
 msgid "Adventurer Leather Belt"
-msgstr ""
+msgstr "Шкіряний пояс авантюриста"
 
 #: ../items/categories/level_3.txt:132
 msgid "Adventurer Pendant"
-msgstr ""
+msgstr "Кулон авантюриста"
 
 #: ../items/categories/level_3.txt:141
 msgid "Adventurer Spellbook"
-msgstr ""
+msgstr "Книга заклинань авантюриста"
 
 #: ../items/categories/level_3.txt:150
 msgid "Warrior Dagger"
-msgstr ""
+msgstr "Кинджал воїна"
 
 #: ../items/categories/level_3.txt:162
 msgid "Ranger Slingshot"
-msgstr ""
+msgstr "Рогатка рейнджера"
 
 #: ../items/categories/level_3.txt:174
 msgid "Wizard Wand"
-msgstr ""
+msgstr "Палиця мага"
 
 #: ../items/categories/level_3.txt:186
 msgid "Paladin Wood Buckler"
-msgstr ""
+msgstr "Дерев'яний круглий щит паладіна"
 
 #: ../items/categories/level_3.txt:197
 msgid "Adventurer Fire Ring"
-msgstr ""
+msgstr "Вогняний перстень авантюриста"
 
 #: ../items/categories/level_3.txt:206
 msgid "Adventurer Ice Ring"
-msgstr ""
+msgstr "Льодяний перстень авантюриста"
 
 #: ../items/categories/level_3.txt:215
 msgid "Adventurer Lightning Ring"
-msgstr ""
+msgstr "Перстень блискавки авантюриста"
 
 #: ../items/categories/level_3.txt:224
 msgid "Adventurer Dark Ring"
-msgstr ""
+msgstr "Перстень темряви авантюриста"
 
 #: ../items/categories/level_3.txt:233
 msgid "Adventurer Experience Ring"
-msgstr ""
+msgstr "Перстень досвіду авантюриста"
 
 #: ../items/categories/level_3.txt:242
 msgid "Adventurer Wealth Ring"
-msgstr ""
+msgstr "Перстень достатку авантюриста"
 
 #: ../items/categories/level_3.txt:251
 msgid "Adventurer Treasure Ring"
-msgstr ""
+msgstr "Перстень скарбів авантюриста"
 
 #: ../items/categories/level_13.txt:5
 msgid "Plate Helmet"
-msgstr ""
+msgstr "Латний шолом"
 
 #: ../items/categories/level_13.txt:14
 msgid "Plate Cuirass"
-msgstr ""
+msgstr "Латна кираса"
 
 #: ../items/categories/level_13.txt:23
 msgid "Plate Greaves"
-msgstr ""
+msgstr "Латні наножники"
 
 #: ../items/categories/level_13.txt:32
 msgid "Plate Boots"
-msgstr ""
+msgstr "Латні черевики"
 
 #: ../items/categories/level_13.txt:41
 msgid "Plate Gauntlets"
-msgstr ""
+msgstr "Латні рукавиці"
 
 #: ../items/categories/level_13.txt:50
 msgid "Velvet Hood"
-msgstr "Оксамитовий Капюшон"
+msgstr "Оксамитовий капюшон"
 
 #: ../items/categories/level_13.txt:59
 msgid "Velvet Vest"
-msgstr "Оксамитовий Жилет"
+msgstr "Оксамитовий жилет"
 
 #: ../items/categories/level_13.txt:68
 msgid "Velvet Skirt"
-msgstr "Оксамитова Спідниця"
+msgstr "Оксамитова спідниця"
 
 #: ../items/categories/level_13.txt:77
 msgid "Velvet Boots"
-msgstr "Оксамитові Черевики"
+msgstr "Оксамитові черевики"
 
 #: ../items/categories/level_13.txt:86
 msgid "Velvet Sleeves"
-msgstr "Оксамитові Рукави"
+msgstr "Оксамитові рукави"
 
 #: ../items/categories/level_13.txt:95
 msgid "Greatsword"
-msgstr ""
+msgstr "Дворучний меч"
 
 #: ../items/categories/level_13.txt:104
 msgid "Greatbow"
-msgstr ""
+msgstr "Великий лук"
 
 #: ../items/categories/level_13.txt:113
 msgid "Greatstaff"
-msgstr ""
+msgstr "Посох"
 
 #: ../items/categories/level_13.txt:122
 msgid "Tower Shield"
-msgstr ""
+msgstr "Баштовий щит"
 
 #: ../items/categories/level_2.txt:5
 msgid "Fighting Cloth Shirt"
-msgstr ""
+msgstr "Бойова ткана cорочка"
 
 #: ../items/categories/level_2.txt:15
 msgid "Recon Cloth Shirt"
-msgstr ""
+msgstr "Ткана cорочка шпигуна"
 
 #: ../items/categories/level_2.txt:25
 msgid "Sorcerer Cloth Shirt"
-msgstr ""
+msgstr "Ткана cорочка знахаря"
 
 #: ../items/categories/level_2.txt:35
 msgid "Fighting Cloth Pants"
-msgstr ""
+msgstr "Бойові ткані штани"
 
 #: ../items/categories/level_2.txt:45
 msgid "Recon Cloth Pants"
-msgstr ""
+msgstr "Ткані штани шпигуна"
 
 #: ../items/categories/level_2.txt:55
 msgid "Sorcerer Cloth Pants"
-msgstr ""
+msgstr "Ткані штани знахаря"
 
 #: ../items/categories/level_2.txt:64
 msgid "Fighting Cloth Sandals"
-msgstr ""
+msgstr "Бойові ткані сандалі"
 
 #: ../items/categories/level_2.txt:74
 msgid "Recon Cloth Sandals"
-msgstr ""
+msgstr "Ткані сандалі шпигуна"
 
 #: ../items/categories/level_2.txt:83
 msgid "Sorcerer Cloth Sandals"
-msgstr ""
+msgstr "Ткані сандалі знахаря"
 
 #: ../items/categories/level_2.txt:92
 msgid "Fighting Cloth Gloves"
-msgstr ""
+msgstr "Бойові ткані рукавиці"
 
 #: ../items/categories/level_2.txt:102
 msgid "Recon Cloth Gloves"
-msgstr ""
+msgstr "Ткані рукавиці шпигуна"
 
 #: ../items/categories/level_2.txt:111
 msgid "Sorcerer Cloth Gloves"
-msgstr ""
+msgstr "Ткані рукавиці знахаря"
 
 #: ../items/categories/level_2.txt:120
 msgid "Wandering Leather Belt"
-msgstr ""
+msgstr "Мандрівний шкіряний пояс"
 
 #: ../items/categories/level_2.txt:129
 msgid "Wandering Pendant"
-msgstr ""
+msgstr "Мандрівний кулон"
 
 #: ../items/categories/level_2.txt:138
 msgid "Wandering Spellbook"
-msgstr ""
+msgstr "Мандрівна книга заклинань"
 
 #: ../items/categories/level_2.txt:147
 msgid "Fighting Dagger"
-msgstr ""
+msgstr "Бойовий кинджал"
 
 #: ../items/categories/level_2.txt:159
 msgid "Recon Slingshot"
-msgstr ""
+msgstr "Рогатка шпигуна"
 
 #: ../items/categories/level_2.txt:171
 msgid "Sorcerer Wand"
-msgstr ""
+msgstr "Палиця знахаря"
 
 #: ../items/categories/level_2.txt:183
 msgid "Keeper Wood Buckler"
-msgstr ""
+msgstr "Дерев'яний круглий щит хранителя"
 
 #: ../items/categories/level_2.txt:193
 msgid "Wandering Fire Ring"
-msgstr ""
+msgstr "Мандрівний вогняний перстень"
 
 #: ../items/categories/level_2.txt:202
 msgid "Wandering Ice Ring"
-msgstr ""
+msgstr "Мандрівний льодяний перстень"
 
 #: ../items/categories/level_2.txt:211
 msgid "Wandering Lightning Ring"
-msgstr ""
+msgstr "Мандрівний перстень блискавки"
 
 #: ../items/categories/level_2.txt:220
 msgid "Wandering Dark Ring"
-msgstr ""
+msgstr "Мандрівний перстень темряви"
 
 #: ../items/categories/level_2.txt:229
 msgid "Wandering Experience Ring"
-msgstr ""
+msgstr "Мандрівний перстень досвіду"
 
 #: ../items/categories/level_2.txt:238
 msgid "Wandering Wealth Ring"
-msgstr ""
+msgstr "Мандрівний перстень достатку"
 
 #: ../items/categories/level_2.txt:247
 msgid "Wandering Treasure Ring"
-msgstr ""
+msgstr "Мандрівний перстень скарбів"
 
 #: ../items/categories/level_16.txt:5
 msgid "Warlord Plate Helmet"
-msgstr ""
+msgstr "Латний шолом воєначальника"
 
 #: ../items/categories/level_16.txt:17
 msgid "Sniper Plate Helmet"
-msgstr ""
+msgstr "Латний шолом снайпера"
 
 #: ../items/categories/level_16.txt:29
 msgid "Archwizard Velvet Hood"
-msgstr ""
+msgstr "Оксамитовий капюшон архимага"
 
 #: ../items/categories/level_16.txt:41
 msgid "Warlord Plate Cuirass"
-msgstr ""
+msgstr "Латна кираса воєначальника"
 
 #: ../items/categories/level_16.txt:53
 msgid "Sniper Plate Cuirass"
-msgstr ""
+msgstr "Латна кираса снайпера"
 
 #: ../items/categories/level_16.txt:65
 msgid "Archwizard Velvet Vest"
-msgstr ""
+msgstr "Оксамитовий жилет архимага"
 
 #: ../items/categories/level_16.txt:77
 msgid "Warlord Plate Greaves"
-msgstr ""
+msgstr "Латні наножники воєначальника"
 
 #: ../items/categories/level_16.txt:89
 msgid "Sniper Plate Greaves"
-msgstr ""
+msgstr "Латні наножники снайпера"
 
 #: ../items/categories/level_16.txt:101
 msgid "Archwizard Velvet Skirt"
-msgstr ""
+msgstr "Оксамитова спідниця архимага"
 
 #: ../items/categories/level_16.txt:113
 msgid "Warlord Plate Boots"
-msgstr ""
+msgstr "Латні черевики воєначальника"
 
 #: ../items/categories/level_16.txt:125
 msgid "Sniper Plate Boots"
-msgstr ""
+msgstr "Латні черевики снайпера"
 
 #: ../items/categories/level_16.txt:137
 msgid "Archwizard Velvet Boots"
-msgstr ""
+msgstr "Оксамитові черевики архимага"
 
 #: ../items/categories/level_16.txt:149
 msgid "Warlord Plate Gauntlets"
-msgstr ""
+msgstr "Латні рукавиці воєначальника"
 
 #: ../items/categories/level_16.txt:161
 msgid "Sniper Plate Gauntlets"
-msgstr ""
+msgstr "Латні рукавиці снайпера"
 
 #: ../items/categories/level_16.txt:173
 msgid "Archwizard Velvet Sleeves"
-msgstr ""
+msgstr "Оксамитові рукави архимага"
 
 #: ../items/categories/level_16.txt:185
 msgid "Master Warlord Leather Belt"
-msgstr ""
+msgstr "Шкіряний пояс майстерного воєначальника"
 
 #: ../items/categories/level_16.txt:196
 msgid "Master Sniper Pendant"
-msgstr ""
+msgstr "Кулон майстерного снайпера"
 
 #: ../items/categories/level_16.txt:207
 msgid "Master Archwizard Spellbook"
-msgstr ""
+msgstr "Книга заклинань майстерного архимага"
 
 #: ../items/categories/level_16.txt:218
 msgid "Warlord Greatsword"
-msgstr ""
+msgstr "Дворучний меч воєначальника"
 
 #: ../items/categories/level_16.txt:230
 msgid "Sniper Greatbow"
-msgstr ""
+msgstr "Великий лук снайпера"
 
 #: ../items/categories/level_16.txt:242
 msgid "Archwizard Greatstaff"
-msgstr ""
+msgstr "Посох архимага"
 
 #: ../items/categories/level_16.txt:254
 msgid "Templar Tower Shield"
-msgstr ""
+msgstr "Баштовий щит тамплієра"
 
 #: ../items/categories/level_16.txt:265
 msgid "Master Inferno Ring"
-msgstr ""
+msgstr "Пекельний перстень магістра"
 
 #: ../items/categories/level_16.txt:275
 msgid "Master Glacial Ring"
-msgstr ""
+msgstr "Крижаний перстень магістра"
 
 #: ../items/categories/level_16.txt:285
 msgid "Master Volt Ring"
-msgstr ""
+msgstr "Розрядний перстень магістра"
 
 #: ../items/categories/level_16.txt:295
 msgid "Master Void Ring"
-msgstr ""
+msgstr "Перстень порожнечі магістра"
 
 #: ../items/categories/level_16.txt:305
 msgid "Master Scholar Ring"
-msgstr ""
+msgstr "Вчений перстень магістра"
 
 #: ../items/categories/level_16.txt:315
 msgid "Master Affluence Ring"
-msgstr ""
+msgstr "Перстень достатку магістра"
 
 #: ../items/categories/level_16.txt:325
 msgid "Master Relic Ring"
-msgstr ""
+msgstr "Реліктний перстень магістра"
 
 #: ../items/categories/level_7.txt:5
 msgid "Warrior Leather Hood"
-msgstr ""
+msgstr "Шкіряний капюшон воїна"
 
 #: ../items/categories/level_7.txt:17
 msgid "Ranger Leather Hood"
-msgstr ""
+msgstr "Шкіряний капюшон рейнджера"
 
 #: ../items/categories/level_7.txt:29
 msgid "Wizard Wool Hood"
-msgstr ""
+msgstr "Вовняний капюшон мага"
 
 #: ../items/categories/level_7.txt:41
 msgid "Warrior Leather Tunic"
-msgstr ""
+msgstr "Шкіряна туніка воїна"
 
 #: ../items/categories/level_7.txt:53
 msgid "Ranger Leather Tunic"
-msgstr ""
+msgstr "Шкіряна туніка рейнджера"
 
 #: ../items/categories/level_7.txt:65
 msgid "Wizard Wool Vest"
-msgstr ""
+msgstr "Вовняний жилет мага"
 
 #: ../items/categories/level_7.txt:77
 msgid "Warrior Leather Pants"
-msgstr ""
+msgstr "Шкіряні штани воїна"
 
 #: ../items/categories/level_7.txt:89
 msgid "Ranger Leather Pants"
-msgstr ""
+msgstr "Шкіряні штани рейнджера"
 
 #: ../items/categories/level_7.txt:101
 msgid "Wizard Wool Skirt"
-msgstr ""
+msgstr "Вовняна спідниця мага"
 
 #: ../items/categories/level_7.txt:113
 msgid "Warrior Leather Boots"
-msgstr ""
+msgstr "Шкіряні черевики воїна"
 
 #: ../items/categories/level_7.txt:125
 msgid "Ranger Leather Boots"
-msgstr ""
+msgstr "Шкіряні черевики рейнджера"
 
 #: ../items/categories/level_7.txt:137
 msgid "Wizard Wool Boots"
-msgstr ""
+msgstr "Вовняні черевики мага"
 
 #: ../items/categories/level_7.txt:149
 msgid "Warrior Leather Gloves"
-msgstr ""
+msgstr "Шкіряні рукавиці воїна"
 
 #: ../items/categories/level_7.txt:161
 msgid "Ranger Leather Gloves"
-msgstr ""
+msgstr "Шкіряні рукавиці рейнджера"
 
 #: ../items/categories/level_7.txt:173
 msgid "Wizard Wool Sleeves"
-msgstr ""
+msgstr "Вовняні рукави мага"
 
 #: ../items/categories/level_7.txt:185
 msgid "Adventurer Fighting Leather Belt"
-msgstr ""
+msgstr "Бойовий шкіряний пояс авантюриста"
 
 #: ../items/categories/level_7.txt:196
 msgid "Adventurer Recon Pendant"
-msgstr ""
+msgstr "Кулон шпигуна авантюриста"
 
 #: ../items/categories/level_7.txt:207
 msgid "Adventurer Sorcerer Spellbook"
-msgstr ""
+msgstr "Книга заклинань знахаря авантюриста"
 
 #: ../items/categories/level_7.txt:218
 msgid "Warrior Shortsword"
-msgstr ""
+msgstr "Короткий меч воїна"
 
 #: ../items/categories/level_7.txt:230
 msgid "Ranger Shortbow"
-msgstr ""
+msgstr "Короткий лук рейнджера"
 
 #: ../items/categories/level_7.txt:242
 msgid "Wizard Rod"
-msgstr ""
+msgstr "Скіпетр мага"
 
 #: ../items/categories/level_7.txt:254
 msgid "Paladin Iron Buckler"
-msgstr ""
+msgstr "Залізний круглий щит паладіна"
 
 #: ../items/categories/level_7.txt:265
 msgid "Adventurer Burn Ring"
-msgstr ""
+msgstr "Палаючий перстень авантюриста"
 
 #: ../items/categories/level_7.txt:275
 msgid "Adventurer Frost Ring"
-msgstr ""
+msgstr "Морозний перстень авантюриста"
 
 #: ../items/categories/level_7.txt:285
 msgid "Adventurer Electric Ring"
-msgstr ""
+msgstr "Електричний перстень авантюриста"
 
 #: ../items/categories/level_7.txt:295
 msgid "Adventurer Shadow Ring"
-msgstr ""
+msgstr "Тіньовий перстень авантюриста"
 
 #: ../items/categories/level_7.txt:305
 msgid "Adventurer Knowledge Ring"
-msgstr ""
+msgstr "Перстень знання авантюриста"
 
 #: ../items/categories/level_7.txt:315
 msgid "Adventurer Prosperity Ring"
-msgstr ""
+msgstr "Перстень успіху авантюриста"
 
 #: ../items/categories/level_7.txt:325
 msgid "Adventurer Loot Ring"
-msgstr ""
+msgstr "Перстень здобичі авантюриста"
 
 #: ../items/categories/level_12_unique.txt:5
 msgid "Lost Totem"
-msgstr ""
+msgstr "Загублений тотем"
 
 #: ../items/categories/level_12_unique.txt:6
 msgid "The ancient scripture contained appears to be some sort of magic."
-msgstr ""
+msgstr "Виглядає цей древній рукопис містить якусь магію."
 
 #: ../items/categories/level_12_unique.txt:21
 msgid "Mog's Axe"
-msgstr ""
+msgstr "Сокира Мога"
 
 #: ../items/categories/level_12_unique.txt:22
 msgid "Not as sleek as an arrow, but just as effective."
-msgstr ""
+msgstr "Не така гладка як стріла, але настільки ж ефективна."
 
 #: ../items/categories/level_12_unique.txt:36
 msgid "Guardsman Cuirass"
-msgstr ""
+msgstr "Кираса гвардійця"
 
 #: ../items/categories/level_12_unique.txt:37
 msgid "A royal mail with a 'K' engraved on the breast."
-msgstr ""
+msgstr "На грудях викарбувана велика літера \"К\"."
 
 #: ../items/categories/level_12_unique.txt:53
 msgid "Inferno Pendant"
-msgstr ""
+msgstr "Пекельний кулон"
 
 #: ../items/categories/level_12_unique.txt:54
 msgid "Hot. Hot. Hot."
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:68
-msgid "Alchemist's Skirt"
-msgstr ""
+msgstr "Пече. Пече. Пече."
 
 #: ../items/categories/level_12_unique.txt:69
+msgid "Alchemist's Skirt"
+msgstr "Спідниця алхіміка"
+
+#: ../items/categories/level_12_unique.txt:70
 msgid "Knowledge of formulating many concoctions bestows its wearer."
-msgstr ""
+msgstr "Носієві приходить знання формул багатьох концентратів."
 
-#: ../items/categories/level_12_unique.txt:78
+#: ../items/categories/level_12_unique.txt:79
 msgid "Drinking potions may create another potion of the same type."
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:87
-msgid "Metzger's Battlemace"
-msgstr ""
+msgstr "Пиття зілля може створити ще одне зілля того ж типу."
 
 #: ../items/categories/level_12_unique.txt:88
+msgid "Metzger's Battlemace"
+msgstr "Бойова булава Метзгера"
+
+#: ../items/categories/level_12_unique.txt:89
 msgid "Swinging this mace around leaves a clouded trail of dark smoke."
-msgstr ""
+msgstr "Розмахи цією булавою залишають за собою похмурий слід з темного диму."
 
 #: ../items/categories/level_10.txt:5
 msgid "Fighting Chain Coif"
-msgstr ""
+msgstr "Бойовий кольчужний шолом"
 
 #: ../items/categories/level_10.txt:17
 msgid "Recon Chain Coif"
-msgstr ""
+msgstr "Кольчужний шолом шпигуна"
 
 #: ../items/categories/level_10.txt:29
 msgid "Sorcerer Silk Hood"
-msgstr ""
+msgstr "Шовковий капюшон знахаря"
 
 #: ../items/categories/level_10.txt:41
 msgid "Fighting Chain Cuirass"
-msgstr ""
+msgstr "Бойова кольчужна кираса"
 
 #: ../items/categories/level_10.txt:53
 msgid "Recon Chain Cuirass"
-msgstr ""
+msgstr "Кольчужна кираса шпигуна"
 
 #: ../items/categories/level_10.txt:65
 msgid "Sorcerer Silk Vest"
-msgstr ""
+msgstr "Шовковий жилет знахаря"
 
 #: ../items/categories/level_10.txt:77
 msgid "Fighting Chain Greaves"
-msgstr ""
+msgstr "Бойові кольчужні наножники"
 
 #: ../items/categories/level_10.txt:89
 msgid "Recon Chain Greaves"
-msgstr ""
+msgstr "Кольчужні наножники шпигуна"
 
 #: ../items/categories/level_10.txt:101
 msgid "Sorcerer Silk Skirt"
-msgstr ""
+msgstr "Шовкова спідниця знахаря"
 
 #: ../items/categories/level_10.txt:113
 msgid "Fighting Chain Boots"
-msgstr ""
+msgstr "Бойові кольчужні черевики"
 
 #: ../items/categories/level_10.txt:125
 msgid "Recon Chain Boots"
-msgstr ""
+msgstr "Кольчужні черевики шпигуна"
 
 #: ../items/categories/level_10.txt:137
 msgid "Sorcerer Silk Boots"
-msgstr ""
+msgstr "Шовкові черевики знахаря"
 
 #: ../items/categories/level_10.txt:149
 msgid "Fighting Chain Gloves"
-msgstr ""
+msgstr "Бойові кольчужні рукавиці"
 
 #: ../items/categories/level_10.txt:161
 msgid "Recon Chain Gloves"
-msgstr ""
+msgstr "Кольчужні рукавиці шпигуна"
 
 #: ../items/categories/level_10.txt:173
 msgid "Sorcerer Silk Sleeves"
-msgstr ""
+msgstr "Шовкові рукави знахаря"
 
 #: ../items/categories/level_10.txt:185
 msgid "Wandering Warrior Leather Belt"
-msgstr ""
+msgstr "Шкіряний пояс мандрівного воїна"
 
 #: ../items/categories/level_10.txt:196
 msgid "Wandering Ranger Pendant"
-msgstr ""
+msgstr "Кулон мандрівного рейнджера"
 
 #: ../items/categories/level_10.txt:207
 msgid "Wandering Wizard Spellbook"
-msgstr ""
+msgstr "Книга заклинань мандрівного мага"
 
 #: ../items/categories/level_10.txt:218
 msgid "Fighting Longsword"
-msgstr ""
+msgstr "Бойовий полуторний меч"
 
 #: ../items/categories/level_10.txt:230
 msgid "Recon Longbow"
-msgstr ""
+msgstr "Лук шпигуна"
 
 #: ../items/categories/level_10.txt:242
 msgid "Sorcerer Staff"
-msgstr ""
+msgstr "Жезл знахаря"
 
 #: ../items/categories/level_10.txt:254
 msgid "Keeper Crest Shield"
-msgstr ""
+msgstr "Гордий щит хранителя"
 
 #: ../items/categories/level_10.txt:265
 msgid "Wandering Blaze Ring"
-msgstr ""
+msgstr "Мандрівний палаючий перстень"
 
 #: ../items/categories/level_10.txt:275
 msgid "Wandering Freeze Ring"
-msgstr ""
+msgstr "Мандрівний перстень заморозки"
 
 #: ../items/categories/level_10.txt:285
 msgid "Wandering Shock Ring"
-msgstr ""
+msgstr "Мандрівний перстень електрошоку"
 
 #: ../items/categories/level_10.txt:295
 msgid "Wandering Gloom Ring"
-msgstr ""
+msgstr "Мандрівний перстень мороку"
 
 #: ../items/categories/level_10.txt:305
 msgid "Wandering Intellectual Ring"
-msgstr ""
+msgstr "Мандрівний перстень інтелекту"
 
 #: ../items/categories/level_10.txt:315
 msgid "Wandering Lucrative Ring"
-msgstr ""
+msgstr "Мандрівний прибутковий перстень"
 
 #: ../items/categories/level_10.txt:325
 msgid "Wandering Artifact Ring"
-msgstr ""
+msgstr "Мандрівний артефактний перстень"
 
 #: ../items/categories/level_4_unique.txt:3
 msgid "Krolan's Hammer"
-msgstr ""
+msgstr "Молот Клорана"
 
 #: ../items/categories/level_4_unique.txt:4
 msgid "An essential tool for any blacksmith."
-msgstr ""
+msgstr "Важливий інструмент для будь-якого коваля."
 
 #: ../items/categories/level_4_unique.txt:18
 msgid "Goblin Branch"
-msgstr ""
+msgstr "Палка гобліна"
 
 #: ../items/categories/level_4_unique.txt:19
 msgid "Mana flows inside its primitive exterior."
-msgstr ""
+msgstr "Мана тече всередині цієї примітивної оболонки."
 
 #: ../items/categories/level_4_unique.txt:34
 msgid "Ardwen's Gloves"
@@ -3244,33 +3427,34 @@ msgstr "Рукавиці Ардвена"
 
 #: ../items/categories/level_4_unique.txt:35
 msgid "These hands built a village."
-msgstr ""
+msgstr "Ці руки збудували село."
 
 #: ../items/categories/level_4_unique.txt:50
 msgid "Blood Tunic"
-msgstr ""
+msgstr "Закривавлена туніка"
 
 #: ../items/categories/level_4_unique.txt:51
 msgid "When worn, this shirt heats the wearers veins."
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:64
-msgid "Dark Steppers"
-msgstr ""
+msgstr "Коли одягнена, ця сорочка нагріває жили носія."
 
 #: ../items/categories/level_4_unique.txt:65
-msgid "Dancing through the shadows."
-msgstr ""
+msgid "Dark Steppers"
+msgstr "Темні крокуни"
 
-#: ../items/categories/level_4_unique.txt:78
-msgid "Seagate's Tri-pants"
-msgstr ""
+#: ../items/categories/level_4_unique.txt:66
+msgid "Dancing through the shadows."
+msgstr "Танцюючи з тінями."
 
 #: ../items/categories/level_4_unique.txt:79
+msgid "Seagate's Tri-pants"
+msgstr "Потрійні штани Сігейта"
+
+#: ../items/categories/level_4_unique.txt:80
 msgid ""
 "These ragged trousers are covered in scorch marks, yet are cold to the "
 "touch."
 msgstr ""
+"Ці рвані штани мають на собі знаки горіння, але вони холодні на дотик."
 
 #: ../items/categories/quest.txt:3
 msgid "Krolan's Key"
@@ -3282,19 +3466,19 @@ msgstr "Смарагд Клорана"
 
 #: ../items/categories/quest.txt:21
 msgid "Abasi's Journal"
-msgstr "Журнал Абазі"
+msgstr "Журнал Абасі"
 
 #: ../items/categories/quest.txt:31
 msgid "Ardwen's Ring"
-msgstr "Кільце Ардвена"
+msgstr "Перстень Ардвена"
 
 #: ../items/categories/quest.txt:40
 msgid "St. Maria Mausoleum Key"
 msgstr "Ключ від Мавзолея Св. Марії"
 
 #: ../items/categories/quest.txt:49
-msgid "St. Maria Prison Key"
-msgstr "Ключ від В'язниці Св. Марії"
+msgid "St. Maria Catacombs Key"
+msgstr "Ключ від Катакомб Св. Марії"
 
 #: ../items/categories/quest.txt:58
 msgid "Strange Sapphire A"
@@ -3302,7 +3486,7 @@ msgstr "Дивний Сапфір А"
 
 #: ../items/categories/quest.txt:67
 msgid "Strange Sapphire B"
-msgstr "Дивний Сапфір В"
+msgstr "Дивний Сапфір Б"
 
 #: ../items/categories/quest.txt:85
 msgid "Bear Figurine"
@@ -3338,7 +3522,7 @@ msgstr "Дерев'яна скульптура черепахи. \"4\" вирі�
 
 #: ../items/categories/quest.txt:133
 msgid "Stormrock Key"
-msgstr "Ключ Штормової Скелі"
+msgstr "Ключ Штормової скелі"
 
 #: ../items/categories/quest.txt:142
 msgid "Temple of Mez Basement Key"
@@ -3346,7 +3530,7 @@ msgstr "Ключ від Підвалу в Храмі Мези"
 
 #: ../items/categories/quest.txt:151
 msgid "Temple of Mez Main Hall Key"
-msgstr "Храм Мези: Ключ від Головної Зали"
+msgstr "Ключ від Головної Зали Храму Мези"
 
 #: ../items/categories/quest.txt:160
 msgid "Dynamite"
@@ -3374,926 +3558,940 @@ msgstr "Стара Записка №5"
 
 #: ../items/categories/quest.txt:219
 msgid "Wizard's Tower Entrance Key"
-msgstr "Ключ Чарівника від входу до Вежі"
+msgstr "Ключ від Входу до Вежі Чарівника"
 
 #: ../items/categories/quest.txt:228
 msgid "Wizard's Tower Research Hall Key"
-msgstr ""
+msgstr "Ключ від Кімнати Дослідів у Вежі Чарівника"
 
 #: ../items/categories/quest.txt:247
 msgid "Lorund's Sword"
-msgstr ""
+msgstr "Меч Лоранда"
 
 #: ../items/categories/quest.txt:256
 msgid "Nerin's Bow"
-msgstr ""
+msgstr "Лук Нерін"
 
 #: ../items/categories/quest.txt:265
 msgid "Kayl's Staff"
-msgstr ""
+msgstr "Жезл Кейли"
 
 #: ../items/categories/quest.txt:274
 msgid "Underworld Stronghold Foyer Key"
-msgstr ""
+msgstr "Ключ від Фойє у Цитаделі Підземелля"
 
 #: ../items/categories/quest.txt:283
 msgid "Underworld Stronghold Barracks Key"
-msgstr ""
+msgstr "Ключ від Казарм у Цитаделі Підземелля"
 
 #: ../items/categories/quest.txt:292
 msgid "Treasure Chest Key"
-msgstr ""
+msgstr "Ключ від скрині зі скарбами"
 
 #: ../items/categories/quest.txt:305
 msgid ""
 "An odor of iron and its abrasive petals make this rare plant easy to "
 "identify."
 msgstr ""
+"Запах заліза та її жорсткі пелюстки дозволяють легко впізнати цю рідкісну "
+"рослину."
 
 #: ../items/categories/quest.txt:315
 msgid ""
 "This mysterious black feather has a very sharp follicle, making it a "
 "suitable writing utensil."
 msgstr ""
+"Це таємниче чорне перо має дуже гострий фолікул, що робить його чудовим "
+"інструментом для письма."
 
 #: ../items/categories/quest.txt:325
 msgid "A dark, magical energy flows through the tip of this small blade."
-msgstr ""
+msgstr "Темна, магічна енергія тече через кінчик цього маленького ножа."
 
 #: ../items/categories/quest.txt:332
 msgid "Vial of Your Blood"
-msgstr ""
+msgstr "Флакон з Вашою Кров'ю"
 
 #: ../items/categories/quest.txt:335
 msgid "Spoils of the Red Altar ritual."
-msgstr ""
+msgstr "Результат проведення ритуалу біля Червоного вівтаря."
 
 #: ../items/categories/quest.txt:342
 msgid "Blood Inkwell"
-msgstr ""
+msgstr "Чорнильниця з кров'ю"
 
 #: ../items/categories/quest.txt:345
 msgid ""
 "According to Florin, this is the only ink capable of being used in the Book "
 "of the Dead."
 msgstr ""
+"За словами Флоріна, це єдине чорнило, яке може бути використане для письма в"
+" Книзі Мертвих."
 
 #: ../items/categories/scrolls.txt:5
 msgid "Summon Zombie Scroll"
-msgstr ""
+msgstr "Згорток виклику зомбі"
 
 #: ../items/categories/scrolls.txt:8
 msgid "Use: Summon a zombie to fight for you"
-msgstr ""
+msgstr "Дія: Викликає союзного зомбі"
 
 #: ../items/categories/scrolls.txt:16
 msgid "Perdition Scroll"
-msgstr ""
+msgstr "Згорток смерті"
 
 #: ../items/categories/scrolls.txt:19
 msgid "Use: Teleport to Perdition Harbor"
-msgstr ""
+msgstr "Дія: Телепортує до Притулку смерті"
 
 #: ../items/categories/scrolls.txt:27
 msgid "Shield Scroll"
-msgstr ""
+msgstr "Згорток щита"
 
 #: ../items/categories/scrolls.txt:30
 msgid "Use: Create a magical shield that absorbs damage"
-msgstr ""
+msgstr "Дія: Створіть магічний щит, що поглинає шкоду"
 
 #: ../items/categories/scrolls.txt:38
 msgid "Fireball Scroll"
-msgstr ""
+msgstr "Згорток вогняної кулі"
 
 #: ../items/categories/scrolls.txt:41
 msgid "Use: Shoot a fireball"
-msgstr ""
+msgstr "Дія: Вистреліть вогняну кулю"
 
 #: ../items/categories/scrolls.txt:49
 msgid "Ice Bolt Scroll"
-msgstr ""
+msgstr "Згорток удару льодом"
 
 #: ../items/categories/scrolls.txt:52
 msgid "Use: Shoot an ice bolt"
-msgstr ""
+msgstr "Дія: Вистреліть снаряд з льоду"
 
 #: ../items/categories/scrolls.txt:60
 msgid "Haste Scroll"
-msgstr ""
+msgstr "Згорток поспіху"
 
 #: ../items/categories/scrolls.txt:63
 msgid "Use: Move at an increased speed for a limited time"
-msgstr ""
+msgstr "Дія: Рухайтесь із збільшеною швидкістю на обмежений час."
 
 #: ../items/categories/scrolls.txt:71
 msgid "Immunity Scroll"
-msgstr ""
+msgstr "Згорток імунітету"
 
 #: ../items/categories/scrolls.txt:74
 msgid "Use: Remove debuffs and become immune to debuffs for a limited time"
 msgstr ""
+"Дія: Усуває всі негативні ефекти і робить до них невразливим на обмежений "
+"час."
 
 #: ../items/categories/scrolls.txt:82
 msgid "Reflection Scroll"
-msgstr ""
+msgstr "Згорток відбиття"
 
 #: ../items/categories/scrolls.txt:85
 msgid ""
 "Use: Creates a magical shield that reflects projectiles and damage for a "
 "limited time"
 msgstr ""
+"Дія: Створює магічний щит, що відбиває снаряди і шкоду протягом обмеженого "
+"часу"
 
 #: ../items/categories/level_4.txt:5
 msgid "Warlord Cloth Shirt"
-msgstr ""
+msgstr "Ткана cорочка воєначальника"
 
 #: ../items/categories/level_4.txt:17
 msgid "Sniper Cloth Shirt"
-msgstr ""
+msgstr "Ткана cорочка снайпера"
 
 #: ../items/categories/level_4.txt:29
 msgid "Archwizard Cloth Shirt"
-msgstr ""
+msgstr "Ткана cорочка архимага"
 
 #: ../items/categories/level_4.txt:41
 msgid "Warlord Cloth Pants"
-msgstr ""
+msgstr "Ткані штани воєначальника"
 
 #: ../items/categories/level_4.txt:53
 msgid "Sniper Cloth Pants"
-msgstr ""
+msgstr "Ткані штани снайпера"
 
 #: ../items/categories/level_4.txt:65
 msgid "Archwizard Cloth Pants"
-msgstr ""
+msgstr "Ткані штани архимага"
 
 #: ../items/categories/level_4.txt:77
 msgid "Warlord Cloth Sandals"
-msgstr ""
+msgstr "Ткані сандалі воєначальника"
 
 #: ../items/categories/level_4.txt:89
 msgid "Sniper Cloth Sandals"
-msgstr ""
+msgstr "Ткані сандалі снайпера"
 
 #: ../items/categories/level_4.txt:101
 msgid "Archwizard Cloth Sandals"
-msgstr ""
+msgstr "Ткані сандалі архимага"
 
 #: ../items/categories/level_4.txt:113
 msgid "Warlord Cloth Gloves"
-msgstr ""
+msgstr "Ткані рукавиці воєначальника"
 
 #: ../items/categories/level_4.txt:125
 msgid "Sniper Cloth Gloves"
-msgstr ""
+msgstr "Ткані рукавиці снайпера"
 
 #: ../items/categories/level_4.txt:137
 msgid "Archwizard Cloth Gloves"
-msgstr ""
+msgstr "Ткані рукавиці архимага"
 
 #: ../items/categories/level_4.txt:149
 msgid "Master Leather Belt"
-msgstr ""
+msgstr "Шкіряний пояс магістра"
 
 #: ../items/categories/level_4.txt:160
 msgid "Master Pendant"
-msgstr ""
+msgstr "Кулон магістра"
 
 #: ../items/categories/level_4.txt:171
 msgid "Master Spellbook"
-msgstr ""
+msgstr "Книга заклинань магістра"
 
 #: ../items/categories/level_4.txt:182
 msgid "Warlord Dagger"
-msgstr ""
+msgstr "Кинджал воєначальника"
 
 #: ../items/categories/level_4.txt:194
 msgid "Sniper Slingshot"
-msgstr ""
+msgstr "Рогатка снайпера"
 
 #: ../items/categories/level_4.txt:206
 msgid "Archwizard Wand"
-msgstr ""
+msgstr "Палиця архимага"
 
 #: ../items/categories/level_4.txt:218
 msgid "Templar Wood Buckler"
-msgstr ""
+msgstr "Дерев'яний круглий щит тамплієра"
 
 #: ../items/categories/level_4.txt:229
 msgid "Master Fire Ring"
-msgstr ""
+msgstr "Вогняний перстень магістра"
 
 #: ../items/categories/level_4.txt:239
 msgid "Master Ice Ring"
-msgstr ""
+msgstr "Льодяний перстень магістра"
 
 #: ../items/categories/level_4.txt:249
 msgid "Master Lightning Ring"
-msgstr ""
+msgstr "Перстень блискавки магістра"
 
 #: ../items/categories/level_4.txt:259
 msgid "Master Dark Ring"
-msgstr ""
+msgstr "Перстень темряви магістра"
 
 #: ../items/categories/level_4.txt:269
 msgid "Master Experience Ring"
-msgstr ""
+msgstr "Перстень досвіду магістра"
 
 #: ../items/categories/level_4.txt:279
 msgid "Master Wealth Ring"
-msgstr ""
+msgstr "Перстень достатку магістра"
 
 #: ../items/categories/level_4.txt:289
 msgid "Master Treasure Ring"
-msgstr ""
+msgstr "Перстень скарбів магістра"
 
 #: ../items/categories/level_16_unique.txt:4
 msgid "Fleshband"
-msgstr ""
+msgstr "Кільце плоті"
 
 #: ../items/categories/level_16_unique.txt:6
 msgid ""
 "Smooth to the touch. Upon wearing it, it tightens itself around the finger."
 msgstr ""
+"Гладке на дотик. Після одягання воно міцно затягується навколо пальця."
 
 #: ../items/categories/level_16_unique.txt:20
 msgid "Soulband"
-msgstr ""
+msgstr "Кільце душі"
 
 #: ../items/categories/level_16_unique.txt:22
 msgid ""
 "Glowing when worn, it clears the wearer's mind and allows them to deeply "
 "focus."
 msgstr ""
+"Розпечене при носінні, воно очищає розум носія і дозволяє йому глибоко "
+"сфокусуватися."
 
 #: ../items/categories/level_16_unique.txt:36
 msgid "Underworld Cloak"
-msgstr ""
+msgstr "Мантія з Підземелля"
 
 #: ../items/categories/level_16_unique.txt:48
 msgid "Underworld Platemail"
-msgstr ""
+msgstr "Броня з Підземелля"
 
 #: ../items/categories/level_16_unique.txt:60
 msgid "Underworld Boots"
-msgstr ""
+msgstr "Черевики з Підземелля"
 
 #: ../items/categories/level_16_unique.txt:72
 msgid "Underworld Armguards"
-msgstr ""
+msgstr "Рукави з Підземелля"
 
 #: ../items/categories/level_16_unique.txt:84
 msgid "Underworld Greaves"
-msgstr ""
+msgstr "Наножники з Підземелля"
 
 #: ../items/categories/level_16_unique.txt:96
 msgid "Underworld Tome"
-msgstr ""
+msgstr "Фоліант з Підземелля"
 
 #: ../items/categories/level_16_unique.txt:107
 msgid "Underworld Blade"
-msgstr ""
+msgstr "Кинджал з Підземелля"
 
 #: ../items/categories/level_16_unique.txt:119
 msgid "Underworld Bow"
-msgstr ""
+msgstr "Лук з Підземелля"
 
 #: ../items/categories/level_16_unique.txt:131
 msgid "Underworld Sceptre"
-msgstr ""
+msgstr "Скіпетр з Підземелля"
 
 #: ../items/categories/level_12.txt:5
 msgid "Warlord Chain Coif"
-msgstr ""
+msgstr "Кольчужний шолом воєначальника"
 
 #: ../items/categories/level_12.txt:17
 msgid "Sniper Chain Coif"
-msgstr ""
+msgstr "Кольчужний шолом снайпера"
 
 #: ../items/categories/level_12.txt:29
 msgid "Archwizard Silk Hood"
-msgstr ""
+msgstr "Шовковий капюшон архимага"
 
 #: ../items/categories/level_12.txt:41
 msgid "Warlord Chain Cuirass"
-msgstr ""
+msgstr "Кольчужна кираса воєначальника"
 
 #: ../items/categories/level_12.txt:53
 msgid "Sniper Chain Cuirass"
-msgstr ""
+msgstr "Кольчужна кираса снайпера"
 
 #: ../items/categories/level_12.txt:65
 msgid "Archwizard Silk Vest"
-msgstr ""
+msgstr "Шовковий жилет архимага"
 
 #: ../items/categories/level_12.txt:77
 msgid "Warlord Chain Greaves"
-msgstr ""
+msgstr "Кольчужні наножники воєначальника"
 
 #: ../items/categories/level_12.txt:89
 msgid "Sniper Chain Greaves"
-msgstr ""
+msgstr "Кольчужні наножники снайпера"
 
 #: ../items/categories/level_12.txt:101
 msgid "Archwizard Silk Skirt"
-msgstr ""
+msgstr "Шовкова спідниця архимага"
 
 #: ../items/categories/level_12.txt:113
 msgid "Warlord Chain Boots"
-msgstr ""
+msgstr "Кольчужні черевики воєначальника"
 
 #: ../items/categories/level_12.txt:125
 msgid "Sniper Chain Boots"
-msgstr ""
+msgstr "Кольчужні черевики снайпера"
 
 #: ../items/categories/level_12.txt:137
 msgid "Archwizard Silk Boots"
-msgstr ""
+msgstr "Шовкові черевики архимага"
 
 #: ../items/categories/level_12.txt:149
 msgid "Warlord Chain Gloves"
-msgstr ""
+msgstr "Кольчужні рукавиці воєначальника"
 
 #: ../items/categories/level_12.txt:161
 msgid "Sniper Chain Gloves"
-msgstr ""
+msgstr "Кольчужні рукавиці снайпера"
 
 #: ../items/categories/level_12.txt:173
 msgid "Archwizard Silk Sleeves"
-msgstr ""
+msgstr "Шовкові рукави архимага"
 
 #: ../items/categories/level_12.txt:185
 msgid "Master Warrior Leather Belt"
-msgstr ""
+msgstr "Шкіряний пояс майстерного воїна"
 
 #: ../items/categories/level_12.txt:196
 msgid "Master Ranger Pendant"
-msgstr ""
+msgstr "Кулон майстерного рейнджера"
 
 #: ../items/categories/level_12.txt:207
 msgid "Master Wizard Spellbook"
-msgstr ""
+msgstr "Книга заклинань майстерного мага"
 
 #: ../items/categories/level_12.txt:218
 msgid "Warlord Longsword"
-msgstr ""
+msgstr "Полуторний меч воєначальника"
 
 #: ../items/categories/level_12.txt:230
 msgid "Sniper Longbow"
-msgstr ""
+msgstr "Лук снайпера"
 
 #: ../items/categories/level_12.txt:242
 msgid "Archwizard Staff"
-msgstr ""
+msgstr "Жезл архимага"
 
 #: ../items/categories/level_12.txt:254
 msgid "Templar Crest Shield"
-msgstr ""
+msgstr "Гордий щит тамплієра"
 
 #: ../items/categories/level_12.txt:265
 msgid "Master Blaze Ring"
-msgstr ""
+msgstr "Палаючий перстень магістра"
 
 #: ../items/categories/level_12.txt:275
 msgid "Master Freeze Ring"
-msgstr ""
+msgstr "Перстень заморозки магістра"
 
 #: ../items/categories/level_12.txt:285
 msgid "Master Shock Ring"
-msgstr ""
+msgstr "Перстень електрошоку магістра"
 
 #: ../items/categories/level_12.txt:295
 msgid "Master Gloom Ring"
-msgstr ""
+msgstr "Перстень мороку магістра"
 
 #: ../items/categories/level_12.txt:305
 msgid "Master Intellectual Ring"
-msgstr ""
+msgstr "Перстень інтелекту магістра"
 
 #: ../items/categories/level_12.txt:315
 msgid "Master Lucrative Ring"
-msgstr ""
+msgstr "Прибутковий перстень магістра"
 
 #: ../items/categories/level_12.txt:325
 msgid "Master Artifact Ring"
-msgstr ""
+msgstr "Артефактний перстень магістра"
 
 #: ../items/categories/level_1.txt:5
 msgid "Cloth Shirt"
-msgstr "Тканинна Сорочка"
+msgstr "Ткана cорочка"
 
 #: ../items/categories/level_1.txt:12
 msgid "Cloth Pants"
-msgstr "Тканинні Штани"
+msgstr "Ткані штани"
 
 #: ../items/categories/level_1.txt:19
 msgid "Cloth Sandals"
-msgstr "Тканинні Сандалі"
+msgstr "Ткані сандалі"
 
 #: ../items/categories/level_1.txt:26
 msgid "Cloth Gloves"
-msgstr "Тканинні Рукавички"
+msgstr "Ткані рукавиці"
 
 #: ../items/categories/level_1.txt:33
 msgid "Dagger"
-msgstr ""
+msgstr "Кинджал"
 
 #: ../items/categories/level_1.txt:42
 msgid "Slingshot"
-msgstr ""
+msgstr "Рогатка"
 
 #: ../items/categories/level_1.txt:51
 msgid "Wand"
-msgstr "Паличка"
+msgstr "Палиця"
 
 #: ../items/categories/level_1.txt:60
 msgid "Wood Buckler"
-msgstr ""
+msgstr "Дерев'яний круглий щит"
 
 #: ../items/categories/potions.txt:5
 msgid "Health Potion"
-msgstr ""
+msgstr "Зілля Здоров'я"
 
 #: ../items/categories/potions.txt:8
 msgid "Restore 25% of maximum HP"
-msgstr ""
+msgstr "Відновлює 25% максимального Здоров'я"
 
 #: ../items/categories/potions.txt:16
 msgid "Mana Potion"
-msgstr ""
+msgstr "Зілля Мани"
 
 #: ../items/categories/potions.txt:19
 msgid "Restore 25% of maximum MP"
-msgstr ""
+msgstr "Відновлює 25% максимальної Мани"
 
 #: ../items/categories/level_11.txt:5
 msgid "Warrior Chain Coif"
-msgstr ""
+msgstr "Кольчужний шолом воїна"
 
 #: ../items/categories/level_11.txt:17
 msgid "Ranger Chain Coif"
-msgstr ""
+msgstr "Кольчужний шолом рейнджера"
 
 #: ../items/categories/level_11.txt:29
 msgid "Wizard Silk Hood"
-msgstr ""
+msgstr "Шовковий капюшон мага"
 
 #: ../items/categories/level_11.txt:41
 msgid "Warrior Chain Cuirass"
-msgstr ""
+msgstr "Кольчужна кираса воїна"
 
 #: ../items/categories/level_11.txt:53
 msgid "Ranger Chain Cuirass"
-msgstr ""
+msgstr "Кольчужна кираса рейнджера"
 
 #: ../items/categories/level_11.txt:65
 msgid "Wizard Silk Vest"
-msgstr ""
+msgstr "Шовковий жилет мага"
 
 #: ../items/categories/level_11.txt:77
 msgid "Warrior Chain Greaves"
-msgstr ""
+msgstr "Кольчужні наножники воїна"
 
 #: ../items/categories/level_11.txt:89
 msgid "Ranger Chain Greaves"
-msgstr ""
+msgstr "Кольчужні наножники рейнджера"
 
 #: ../items/categories/level_11.txt:101
 msgid "Wizard Silk Skirt"
-msgstr ""
+msgstr "Шовкова спідниця мага"
 
 #: ../items/categories/level_11.txt:113
 msgid "Warrior Chain Boots"
-msgstr ""
+msgstr "Кольчужні черевики воїна"
 
 #: ../items/categories/level_11.txt:125
 msgid "Ranger Chain Boots"
-msgstr ""
+msgstr "Кольчужні черевики рейнджера"
 
 #: ../items/categories/level_11.txt:137
 msgid "Wizard Silk Boots"
-msgstr ""
+msgstr "Шовкові черевики мага"
 
 #: ../items/categories/level_11.txt:149
 msgid "Warrior Chain Gloves"
-msgstr ""
+msgstr "Кольчужні рукавиці воїна"
 
 #: ../items/categories/level_11.txt:161
 msgid "Ranger Chain Gloves"
-msgstr ""
+msgstr "Кольчужні рукавиці рейнджера"
 
 #: ../items/categories/level_11.txt:173
 msgid "Wizard Silk Sleeves"
-msgstr ""
+msgstr "Шовкові рукави мага"
 
 #: ../items/categories/level_11.txt:185
 msgid "Adventurer Warrior Leather Belt"
-msgstr ""
+msgstr "Шкіряний пояс воїна авантюриста"
 
 #: ../items/categories/level_11.txt:196
 msgid "Adventurer Ranger Pendant"
-msgstr ""
+msgstr "Кулон рейнджера авантюриста"
 
 #: ../items/categories/level_11.txt:207
 msgid "Adventurer Wizard Spellbook"
-msgstr ""
+msgstr "Книга заклинань мага авантюриста"
 
 #: ../items/categories/level_11.txt:218
 msgid "Warrior Longsword"
-msgstr ""
+msgstr "Полуторний меч воїна"
 
 #: ../items/categories/level_11.txt:230
 msgid "Ranger Longbow"
-msgstr ""
+msgstr "Лук рейнджера"
 
 #: ../items/categories/level_11.txt:242
 msgid "Wizard Staff"
-msgstr ""
+msgstr "Жезл мага"
 
 #: ../items/categories/level_11.txt:254
 msgid "Paladin Crest Shield"
-msgstr ""
+msgstr "Гордий щит паладіна"
 
 #: ../items/categories/level_11.txt:265
 msgid "Adventurer Blaze Ring"
-msgstr ""
+msgstr "Палаючий перстень авантюриста"
 
 #: ../items/categories/level_11.txt:275
 msgid "Adventurer Freeze Ring"
-msgstr ""
+msgstr "Перстень заморозки авантюриста"
 
 #: ../items/categories/level_11.txt:285
 msgid "Adventurer Shock Ring"
-msgstr ""
+msgstr "Перстень електрошоку авантюриста"
 
 #: ../items/categories/level_11.txt:295
 msgid "Adventurer Gloom Ring"
-msgstr ""
+msgstr "Перстень мороку авантюриста"
 
 #: ../items/categories/level_11.txt:305
 msgid "Adventurer Intellectual Ring"
-msgstr ""
+msgstr "Перстень інтелекту авантюриста"
 
 #: ../items/categories/level_11.txt:315
 msgid "Adventurer Lucrative Ring"
-msgstr ""
+msgstr "Прибутковий перстень авантюриста"
 
 #: ../items/categories/level_11.txt:325
 msgid "Adventurer Artifact Ring"
-msgstr ""
+msgstr "Артефактний перстень авантюриста"
 
 #: ../items/categories/level_14.txt:5
 msgid "Fighting Plate Helmet"
-msgstr ""
+msgstr "Бойовий латний шолом"
 
 #: ../items/categories/level_14.txt:17
 msgid "Recon Plate Helmet"
-msgstr ""
+msgstr "Латний шолом шпигуна"
 
 #: ../items/categories/level_14.txt:29
 msgid "Sorcerer Velvet Hood"
-msgstr ""
+msgstr "Оксамитовий капюшон знахаря"
 
 #: ../items/categories/level_14.txt:41
 msgid "Fighting Plate Cuirass"
-msgstr ""
+msgstr "Бойова латна кираса"
 
 #: ../items/categories/level_14.txt:53
 msgid "Recon Plate Cuirass"
-msgstr ""
+msgstr "Латна кираса шпигуна"
 
 #: ../items/categories/level_14.txt:65
 msgid "Sorcerer Velvet Vest"
-msgstr ""
+msgstr "Оксамитовий жилет знахаря"
 
 #: ../items/categories/level_14.txt:77
 msgid "Fighting Plate Greaves"
-msgstr ""
+msgstr "Бойові латні наножники"
 
 #: ../items/categories/level_14.txt:89
 msgid "Recon Plate Greaves"
-msgstr ""
+msgstr "Латні наножники шпигуна"
 
 #: ../items/categories/level_14.txt:101
 msgid "Sorcerer Velvet Skirt"
-msgstr ""
+msgstr "Оксамитова спідниця знахаря"
 
 #: ../items/categories/level_14.txt:113
 msgid "Fighting Plate Boots"
-msgstr ""
+msgstr "Бойові латні черевики"
 
 #: ../items/categories/level_14.txt:125
 msgid "Recon Plate Boots"
-msgstr ""
+msgstr "Латні черевики шпигуна"
 
 #: ../items/categories/level_14.txt:137
 msgid "Sorcerer Velvet Boots"
-msgstr ""
+msgstr "Оксамитові черевики знахаря"
 
 #: ../items/categories/level_14.txt:149
 msgid "Fighting Plate Gauntlets"
-msgstr ""
+msgstr "Бойові латні рукавиці"
 
 #: ../items/categories/level_14.txt:161
 msgid "Recon Plate Gauntlets"
-msgstr ""
+msgstr "Латні рукавиці шпигуна"
 
 #: ../items/categories/level_14.txt:173
 msgid "Sorcerer Velvet Sleeves"
-msgstr ""
+msgstr "Оксамитові рукави знахаря"
 
 #: ../items/categories/level_14.txt:185
 msgid "Wandering Warlord Leather Belt"
-msgstr ""
+msgstr "Шкіряний пояс мандрівного воєначальника"
 
 #: ../items/categories/level_14.txt:196
 msgid "Wandering Sniper Pendant"
-msgstr ""
+msgstr "Кулон мандрівного снайпера"
 
 #: ../items/categories/level_14.txt:207
 msgid "Wandering Archwizard Spellbook"
-msgstr ""
+msgstr "Книга заклинань мандрівного архимага"
 
 #: ../items/categories/level_14.txt:218
 msgid "Fighting Greatsword"
-msgstr ""
+msgstr "Бойовий дворучний меч"
 
 #: ../items/categories/level_14.txt:230
 msgid "Recon Greatbow"
-msgstr ""
+msgstr "Великий лук шпигуна"
 
 #: ../items/categories/level_14.txt:242
 msgid "Sorcerer Greatstaff"
-msgstr ""
+msgstr "Посох знахаря"
 
 #: ../items/categories/level_14.txt:254
 msgid "Keeper Tower Shield"
-msgstr ""
+msgstr "Баштовий щит хранителя"
 
 #: ../items/categories/level_14.txt:265
 msgid "Wandering Inferno Ring"
-msgstr ""
+msgstr "Мандрівний пекельний перстень"
 
 #: ../items/categories/level_14.txt:275
 msgid "Wandering Glacial Ring"
-msgstr ""
+msgstr "Мандрівний крижаний перстень"
 
 #: ../items/categories/level_14.txt:285
 msgid "Wandering Volt Ring"
-msgstr ""
+msgstr "Мандрівний розрядний перстень"
 
 #: ../items/categories/level_14.txt:295
 msgid "Wandering Void Ring"
-msgstr ""
+msgstr "Мандрівний перстень порожнечі"
 
 #: ../items/categories/level_14.txt:305
 msgid "Wandering Scholar Ring"
-msgstr ""
+msgstr "Мандрівний вчений перстень"
 
 #: ../items/categories/level_14.txt:315
 msgid "Wandering Affluence Ring"
-msgstr ""
+msgstr "Мандрівний перстень достатку"
 
 #: ../items/categories/level_14.txt:325
 msgid "Wandering Relic Ring"
-msgstr ""
+msgstr "Мандрівний реліктний перстень"
 
 #: ../items/categories/level_8_unique.txt:3
 msgid "Amir Blade"
-msgstr ""
+msgstr "Кинджал Аміра"
 
 #: ../items/categories/level_8_unique.txt:4
 msgid "A remnant of those who guarded Fort Amir."
-msgstr ""
+msgstr "Залишки тих, хто охороняв Форт Аміра."
 
 #: ../items/categories/level_8_unique.txt:18
 msgid "Huntsman Bow"
-msgstr ""
+msgstr "Лук мисливця"
 
 #: ../items/categories/level_8_unique.txt:19
 msgid "Compact enough to be deadly at all ranges of combat."
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:33
-msgid "Greed Cowl"
-msgstr ""
+msgstr "Досить компактний, щоб бути смертоносним у всіх боях."
 
 #: ../items/categories/level_8_unique.txt:34
-msgid "Riches fit for a queen."
-msgstr ""
+msgid "Greed Cowl"
+msgstr "Капюшон жадібності"
 
-#: ../items/categories/level_8_unique.txt:48
-msgid "Battle Leathers"
-msgstr ""
+#: ../items/categories/level_8_unique.txt:35
+msgid "Riches fit for a queen."
+msgstr "Багатство личить королеві."
 
 #: ../items/categories/level_8_unique.txt:49
-msgid "Designed to keep its wearer moving forward."
-msgstr ""
+msgid "Battle Leathers"
+msgstr "Бойові шкіряні штани"
 
-#: ../items/categories/level_8_unique.txt:63
-msgid "Escape Boots"
-msgstr ""
+#: ../items/categories/level_8_unique.txt:50
+msgid "Designed to keep its wearer moving forward."
+msgstr "Створені для того щоб носій ішов вперед."
 
 #: ../items/categories/level_8_unique.txt:64
-msgid "Running away doesn't mean the battle is lost."
-msgstr ""
+msgid "Escape Boots"
+msgstr "Черевики втечі"
 
-#: ../items/categories/level_8_unique.txt:78
-msgid "Mez's Wraps"
-msgstr ""
+#: ../items/categories/level_8_unique.txt:65
+msgid "Running away doesn't mean the battle is lost."
+msgstr "Втеча не означає, що битву програно."
 
 #: ../items/categories/level_8_unique.txt:79
+msgid "Mez's Wraps"
+msgstr "Вбрання Мези"
+
+#: ../items/categories/level_8_unique.txt:80
 msgid "With its layers of reptilian skin, not much can penetrate this armor."
 msgstr ""
+"З багатьох шарів зі шкіри рептилії, небагато чим можна проколоти цю броню."
 
 #: ../items/categories/level_5.txt:5
 msgid "Leather Hood"
-msgstr "Шкіряний Капюшон"
+msgstr "Шкіряний капюшон"
 
 #: ../items/categories/level_5.txt:14
 msgid "Leather Tunic"
-msgstr "Шкіряна Туніка"
+msgstr "Шкіряна туніка"
 
 #: ../items/categories/level_5.txt:23
 msgid "Leather Pants"
-msgstr "Шкіряні Штани"
+msgstr "Шкіряні штани"
 
 #: ../items/categories/level_5.txt:32
 msgid "Leather Boots"
-msgstr "Шкіряні Черевики"
+msgstr "Шкіряні черевики"
 
 #: ../items/categories/level_5.txt:41
 msgid "Leather Gloves"
-msgstr "Шкіряні Рукавички"
+msgstr "Шкіряні рукавиці"
 
 #: ../items/categories/level_5.txt:50
 msgid "Wool Hood"
-msgstr "Вовняний Капюшон"
+msgstr "Вовняний капюшон"
 
 #: ../items/categories/level_5.txt:59
 msgid "Wool Vest"
-msgstr "Вовняний Жилет"
+msgstr "Вовняний жилет"
 
 #: ../items/categories/level_5.txt:68
 msgid "Wool Skirt"
-msgstr "Вовняна Спідниця"
+msgstr "Вовняна спідниця"
 
 #: ../items/categories/level_5.txt:77
 msgid "Wool Boots"
-msgstr "Вовняні Черевики"
+msgstr "Вовняні черевики"
 
 #: ../items/categories/level_5.txt:86
 msgid "Wool Sleeves"
-msgstr "Вовняні Рукави"
+msgstr "Вовняні рукави"
 
 #: ../items/categories/level_5.txt:95
 msgid "Shortsword"
-msgstr ""
+msgstr "Короткий меч"
 
 #: ../items/categories/level_5.txt:104
 msgid "Shortbow"
-msgstr ""
+msgstr "Короткий лук"
 
 #: ../items/categories/level_5.txt:113
 msgid "Rod"
-msgstr ""
+msgstr "Скіпетр"
 
 #: ../items/categories/level_5.txt:122
 msgid "Iron Buckler"
-msgstr ""
+msgstr "Залізний круглий щит"
 
 #: ../items/categories/level_15.txt:5
 msgid "Warrior Plate Helmet"
-msgstr ""
+msgstr "Латний шолом воїна"
 
 #: ../items/categories/level_15.txt:17
 msgid "Ranger Plate Helmet"
-msgstr ""
+msgstr "Латний шолом рейнджера"
 
 #: ../items/categories/level_15.txt:29
 msgid "Wizard Velvet Hood"
-msgstr ""
+msgstr "Оксамитовий капюшон мага"
 
 #: ../items/categories/level_15.txt:41
 msgid "Warrior Plate Cuirass"
-msgstr ""
+msgstr "Латна кираса воїна"
 
 #: ../items/categories/level_15.txt:53
 msgid "Ranger Plate Cuirass"
-msgstr ""
+msgstr "Латна кираса рейнджера"
 
 #: ../items/categories/level_15.txt:65
 msgid "Wizard Velvet Vest"
-msgstr ""
+msgstr "Оксамитовий жилет мага"
 
 #: ../items/categories/level_15.txt:77
 msgid "Warrior Plate Greaves"
-msgstr ""
+msgstr "Латні наножники воїна"
 
 #: ../items/categories/level_15.txt:89
 msgid "Ranger Plate Greaves"
-msgstr ""
+msgstr "Латні наножники рейнджера"
 
 #: ../items/categories/level_15.txt:101
 msgid "Wizard Velvet Skirt"
-msgstr ""
+msgstr "Оксамитова спідниця мага"
 
 #: ../items/categories/level_15.txt:113
 msgid "Warrior Plate Boots"
-msgstr ""
+msgstr "Латні черевики воїна"
 
 #: ../items/categories/level_15.txt:125
 msgid "Ranger Plate Boots"
-msgstr ""
+msgstr "Латні черевики рейнджера"
 
 #: ../items/categories/level_15.txt:137
 msgid "Wizard Velvet Boots"
-msgstr ""
+msgstr "Оксамитові черевики мага"
 
 #: ../items/categories/level_15.txt:149
 msgid "Warrior Plate Gauntlets"
-msgstr ""
+msgstr "Латні рукавиці воїна"
 
 #: ../items/categories/level_15.txt:161
 msgid "Ranger Plate Gauntlets"
-msgstr ""
+msgstr "Латні рукавиці рейнджера"
 
 #: ../items/categories/level_15.txt:173
 msgid "Wizard Velvet Sleeves"
-msgstr ""
+msgstr "Оксамитові рукави мага"
 
 #: ../items/categories/level_15.txt:185
 msgid "Adventurer Warlord Leather Belt"
-msgstr ""
+msgstr "Шкіряний пояс воєначальника авантюриста"
 
 #: ../items/categories/level_15.txt:196
 msgid "Adventurer Sniper Pendant"
-msgstr ""
+msgstr "Кулон снайпера авантюриста"
 
 #: ../items/categories/level_15.txt:207
 msgid "Adventurer Archwizard Spellbook"
-msgstr ""
+msgstr "Книга заклинань архимага авантюриста"
 
 #: ../items/categories/level_15.txt:218
 msgid "Warrior Greatsword"
-msgstr ""
+msgstr "Дворучний меч воїна"
 
 #: ../items/categories/level_15.txt:230
 msgid "Ranger Greatbow"
-msgstr ""
+msgstr "Великий лук рейнджера"
 
 #: ../items/categories/level_15.txt:242
 msgid "Wizard Greatstaff"
-msgstr ""
+msgstr "Посох мага"
 
 #: ../items/categories/level_15.txt:254
 msgid "Paladin Tower Shield"
-msgstr ""
+msgstr "Баштовий щит паладіна"
 
 #: ../items/categories/level_15.txt:265
 msgid "Adventurer Inferno Ring"
-msgstr ""
+msgstr "Пекельний перстень авантюриста"
 
 #: ../items/categories/level_15.txt:275
 msgid "Adventurer Glacial Ring"
-msgstr ""
+msgstr "Крижаний перстень авантюриста"
 
 #: ../items/categories/level_15.txt:285
 msgid "Adventurer Volt Ring"
-msgstr ""
+msgstr "Розрядний перстень авантюриста"
 
 #: ../items/categories/level_15.txt:295
 msgid "Adventurer Void Ring"
-msgstr ""
+msgstr "Перстень порожнечі авантюриста"
 
 #: ../items/categories/level_15.txt:305
 msgid "Adventurer Scholar Ring"
-msgstr ""
+msgstr "Вчений перстень авантюриста"
 
 #: ../items/categories/level_15.txt:315
 msgid "Adventurer Affluence Ring"
-msgstr ""
+msgstr "Перстень достатку авантюриста"
 
 #: ../items/categories/level_15.txt:325
 msgid "Adventurer Relic Ring"
-msgstr ""
+msgstr "Реліктний перстень авантюриста"
 
 #: ../powers/base/ranger/rapid_fire.txt:1
 msgid "Rapid Fire"
-msgstr ""
+msgstr "Швидкий вогонь"
 
 #: ../powers/base/ranger/rapid_fire.txt:2
 msgid "Fire five low power missiles in quick succession."
-msgstr ""
+msgstr "Вистреліть п'ять слабких снарядів один за одним."
 
 #: ../powers/base/ranger/shoot.txt:1
 msgid "Shoot"
-msgstr ""
+msgstr "Постріл"
 
 #: ../powers/base/ranger/shoot.txt:4
 msgid "Basic ranged attack."
-msgstr ""
+msgstr "Базова дальня атака."
 
 #: ../powers/base/ranger/wolfs_eye.txt:1
 msgid "Wolf's Eye"
@@ -4301,53 +4499,56 @@ msgstr "Око вовка"
 
 #: ../powers/base/ranger/wolfs_eye.txt:2
 msgid "Improves the ability to hit and critically wound enemies."
-msgstr ""
+msgstr "Покращує здатність вразити і критично поранити ворогів."
 
 #: ../powers/base/ranger/ember_shot.txt:1
 msgid "Ember Shot"
-msgstr ""
+msgstr "Постріл тліючим вугіллям"
 
 #: ../powers/base/ranger/ember_shot.txt:2
 msgid ""
 "Fire a spray of burning embers at close range. Effective against armored "
 "enemies."
 msgstr ""
+"Вистреліть пачку палаючого вугілля на близькій відстані. Ефективно проти "
+"ворогів в броні."
 
 #: ../powers/base/ranger/multishot.txt:1
 msgid "Multishot"
-msgstr ""
+msgstr "Мультипостріл"
 
 #: ../powers/base/ranger/multishot.txt:2
 msgid "Shoot three projectiles simultaneously."
-msgstr ""
+msgstr "Вистреліть три снаряди одночасно."
 
 #: ../powers/base/ranger/bear_trap.txt:1
 msgid "Bear Trap"
-msgstr ""
+msgstr "Ведмежа пастка"
 
 #: ../powers/base/ranger/bear_trap.txt:2
 msgid "This trap deals extra ranged weapon damage and immobilizes the target."
-msgstr ""
+msgstr "Ця пастка завдає додаткової дальної шкоди і знерухомлює ціль."
 
 #: ../powers/base/ranger/caltrops.txt:1
 msgid "Caltrops"
-msgstr ""
+msgstr "Капкан"
 
 #: ../powers/base/ranger/caltrops.txt:2
 msgid "This trap deals reduced ranged weapon damage and slows the target."
-msgstr ""
+msgstr "Ця пастка завдає частину дальної шкоди і уповільнює ціль."
 
 #: ../powers/base/ranger/piercing_shot.txt:1
 msgid "Piercing Shot"
-msgstr ""
+msgstr "Колючий постріл"
 
 #: ../powers/base/ranger/piercing_shot.txt:2
 msgid "Fire a shot that ignores armor and goes through multiple enemies."
 msgstr ""
+"Здійсніть постріл, який ігнорує броню і проходить через кількох ворогів."
 
 #: ../powers/base/ranger/haste.txt:3
 msgid "Move at an increased speed for a limited time."
-msgstr ""
+msgstr "Рухайтесь із збільшеною швидкістю на обмежений час."
 
 #: ../powers/base/magician/freeze.txt:1
 msgid "Freeze"
@@ -4356,130 +4557,137 @@ msgstr "Заморозка"
 #: ../powers/base/magician/freeze.txt:4
 msgid "Create a ray of several piercing cold shards that slow enemies."
 msgstr ""
+"Створіть потік з кількох пронизливих льодових уламків, які уповільнюють "
+"ворогів."
 
 #: ../powers/base/magician/energy_flow.txt:1
 msgid "Energy Flow"
-msgstr ""
+msgstr "Потік енергії"
 
 #: ../powers/base/magician/energy_flow.txt:2
 msgid "Mana reserves are increased and regenerate faster."
-msgstr ""
+msgstr "Запас Мани збільшується і відновлюється швидше."
 
 #: ../powers/base/magician/thunderstrike.txt:1
 msgid "Thunderstrike"
-msgstr ""
+msgstr "Гроза"
 
 #: ../powers/base/magician/thunderstrike.txt:4
 msgid ""
 "Lightning strikes from the sky with a high chance to critically damage "
 "movement-impaired enemies."
 msgstr ""
+"З неба вражає блискавка з великою ймовірністю критично пошкодити "
+"уповільнених ворогів."
 
 #: ../powers/base/magician/ice_bolt.txt:1
 msgid "Ice Bolt"
-msgstr ""
+msgstr "Удар льодом"
 
 #: ../powers/base/magician/ice_bolt.txt:2
 msgid "Launch a chunk of ice that slows enemies."
-msgstr ""
+msgstr "Запустіть шмат льоду, який уповільнює ворогів."
 
 #: ../powers/base/magician/fireball.txt:1
 msgid "Fireball"
-msgstr "Фаєрбол"
+msgstr "Вогняна куля"
 
 #: ../powers/base/magician/fireball.txt:2
 msgid "Launch a ball of fire that does extra mental damage."
-msgstr ""
+msgstr "Запустіть вогняну кулю, що завдає додаткової духовної шкоди."
 
 #: ../powers/base/magician/shock.txt:1
 msgid "Shock"
-msgstr ""
+msgstr "Електрошок"
 
 #: ../powers/base/magician/shock.txt:2
 msgid ""
 "Shoot a ball of electricity that is extra effective against movement-"
 "impaired enemies."
 msgstr ""
+"Виконайте постріл електричною кулею, що є дуже ефективним проти уповільнених"
+" ворогів."
 
 #: ../powers/base/magician/shield.txt:4
 msgid "Create a force field that absorbs damage."
-msgstr ""
+msgstr "Створіть силове поле, яке поглинає пошкодження."
 
 #: ../powers/base/magician/burn.txt:1
 msgid "Burn"
-msgstr ""
+msgstr "Підпал"
 
 #: ../powers/base/magician/burn.txt:4
 msgid "Blast multiple enemies in a distant area with fire."
-msgstr ""
+msgstr "Підпаліть кількох ворогів у віддаленій області."
 
 #: ../powers/base/warrior/warcry.txt:1
 msgid "Warcry"
-msgstr ""
+msgstr "Бойовий крик"
 
 #: ../powers/base/warrior/warcry.txt:4
 msgid "Remove debuffs and become immune to debuffs for a limited time."
-msgstr "Знімає всі дебафи і робить невразливим до дебафів на обмежений час."
+msgstr ""
+"Усуває всі негативні ефекти і робить до них невразливим на обмежений час."
 
 #: ../powers/base/warrior/quake.txt:1
 msgid "Quake"
-msgstr ""
+msgstr "Землетрус"
 
 #: ../powers/base/warrior/quake.txt:4
 msgid "Knock back nearby enemies with a chance to stun."
-msgstr "Вирубає всіх ворогів поблизу з шансом оглушити."
+msgstr "Відкидає всіх ворогів поблизу з шансом оглушити."
 
 #: ../powers/base/warrior/throw_axe.txt:1
 msgid "Throw Axe"
-msgstr ""
+msgstr "Кидок сокири"
 
 #: ../powers/base/warrior/throw_axe.txt:2
 msgid "Throw an axe to deal extra melee weapon damage."
-msgstr ""
+msgstr "Киньте сокиру щоб завдати екстра шкоди ближньої зброї."
 
 #: ../powers/base/warrior/stone_wall.txt:1
 msgid "Stone Wall"
-msgstr "Кам'яна Стіна"
+msgstr "Кам'яна стіна"
 
 #: ../powers/base/warrior/stone_wall.txt:2
 msgid "Withstand stronger attacks with more health and absorption."
-msgstr ""
+msgstr "Витримуйте сильніші атаки з більшим рівнем здоров'я та поглинання."
 
 #: ../powers/base/warrior/throw_knife.txt:1
 msgid "Throw Knife"
-msgstr "Кинути Ніж"
+msgstr "Кидок ножа"
 
 #: ../powers/base/warrior/throw_knife.txt:2
 msgid "Throw a knife to deal reduced melee weapon damage."
-msgstr ""
+msgstr "Киньте ніж щоб завдати частину шкоди ближньої зброї."
 
 #: ../powers/base/warrior/blood_strike.txt:1
 msgid "Blood Strike"
-msgstr ""
+msgstr "Кривавий удар"
 
 #: ../powers/base/warrior/blood_strike.txt:2
 msgid "Deal a powerful blow that inflicts a bleeding wound."
-msgstr ""
+msgstr "Зробіть потужний удар, який завдає кровоточиві рани."
 
 #: ../powers/base/warrior/cleave.txt:1
 msgid "Cleave"
-msgstr ""
+msgstr "Розкол"
 
 #: ../powers/base/warrior/cleave.txt:2
 msgid "Attack all enemies in a wide arc."
-msgstr ""
+msgstr "Атакуйте всіх ворогів у широкій дузі."
 
 #: ../powers/base/warrior/shield_bash.txt:1
 msgid "Shield Bash"
-msgstr ""
+msgstr "Удар щитом"
 
 #: ../powers/base/warrior/shield_bash.txt:2
 msgid "Dash into enemies, crushing them with sheer force."
-msgstr ""
+msgstr "Наваліться на ворогів і давіть їх грубою силою."
 
 #: ../powers/categories/warrior.txt:7
 msgid "Swing"
-msgstr ""
+msgstr "Розмах"
 
 #: ../powers/categories/warrior.txt:10
 msgid "Basic melee attack."
@@ -4488,11 +4696,11 @@ msgstr "Базова ближня атака."
 #: ../powers/categories/quest.txt:4
 msgid ""
 "Performing the ritual at the Red Altar has granted you faster regeneration."
-msgstr ""
+msgstr "Виконання ритуалу біля Червоного вівтаря збільшило вашу регенерацію."
 
 #: ../powers/categories/magician.txt:7
 msgid "Channel"
-msgstr ""
+msgstr "Розряд"
 
 #: ../powers/categories/magician.txt:10
 msgid "Basic magic attack."
@@ -4504,52 +4712,52 @@ msgstr "Чарівник"
 
 #: ../scripts/powers/goblin_steal.txt:8
 msgid "Goblin Thief stole a potion!"
-msgstr ""
+msgstr "Гоблін злодій вкрав зілля!"
 
 #: ../scripts/reset_amir.txt:11
 msgid "Reset quest: \"The One-Eyed Guardians\""
-msgstr ""
+msgstr "Квест \"Одноокі Охоронці\" скинуто"
 
 #: ../scripts/reset_journal.txt:8
 msgid "Reset quest: \"The Merchant's Journal\""
-msgstr ""
+msgstr "Квест \"Журнал Торговця\" скинуто"
 
 #: ../scripts/reset_krolan.txt:8
 msgid "Reset quest: \"Krolan's Missing\""
-msgstr ""
+msgstr "Квест \"Пропав Клоран\" скинуто"
 
 #: ../scripts/reset_main.txt:59
 msgid "Reset quest: \"Return to Empyrean\""
-msgstr ""
+msgstr "Квест \"Повернення до Емпіреї\" скинуто"
 
 #: ../scripts/reset_martigan.txt:10
 msgid "Reset quest: \"Fallen Comrades\""
-msgstr ""
+msgstr "Квест \"Загиблі товариші\" скинуто"
 
 #: ../scripts/reset_mog.txt:15
 msgid "Reset quest: \"The Lost Soul of the Mog Caverns\""
-msgstr ""
+msgstr "Квест \"Загублена душа Печери Мога\" скинуто"
 
 #: ../scripts/reset_nasu.txt:11
 msgid "Reset quest: \"An Unusual Name...\""
-msgstr ""
+msgstr "Квест \"Незвичне Ім'я...\" скинуто"
 
 #: ../scripts/reset_naziamines.txt:9
 msgid "Reset quest: \"Trapped!\""
-msgstr ""
+msgstr "Квест \"У пастці!\" скинуто"
 
 #: ../scripts/reset_ort.txt:6
 msgid "Reset quest: \"Brother?\""
-msgstr ""
+msgstr "Квест \"Брат?\" скинуто"
 
 #: ../scripts/reset_stormrock.txt:7
 msgid "Reset quest: \"Locked Out\""
-msgstr ""
+msgstr "Квест \"Заблоковано\" скинуто"
 
 #: ../scripts/reset_torture.txt:9
 msgid "Reset quest: \"Warden's Notes\""
-msgstr ""
+msgstr "Квест \"Записки Вартового\" скинуто"
 
-#: ../scripts/unlock_waypoints.txt:13
+#: ../scripts/unlock_waypoints.txt:14
 msgid "Unlocked all waypoints"
-msgstr "Знайдені всі шляхи"
+msgstr "Виявлені всі телепорти"

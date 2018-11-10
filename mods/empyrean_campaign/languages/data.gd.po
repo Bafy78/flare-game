@@ -3,15 +3,15 @@
 # 
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Translators:
-# Justin Jacobs <jajdorkster@gmail.com>, 2018
 # GunChleoc, 2018
+# Justin Jacobs <jajdorkster@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-09 14:13+\n"
+"POT-Creation-Date: 2018-08-28 15:13+\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: GunChleoc, 2018\n"
+"Last-Translator: Justin Jacobs <jajdorkster@gmail.com>, 2018\n"
 "Language-Team: Gaelic, Scottish (https://www.transifex.com/flareorg/teams/84925/gd/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -309,7 +309,7 @@ msgstr "tilgeil tuaighe"
 
 #: ../enemies/base/ardwen.txt:3
 msgid "Ardwen"
-msgstr "Àrdear"
+msgstr "Àrdar"
 
 #: ../enemies/catacomb_boulder_1.txt:6
 msgid "Boulder"
@@ -501,7 +501,7 @@ msgstr "Corp coisiche a’ lobhadh"
 
 #: ../enemies/lvl2_goblin_charger.txt:3
 msgid "Goblin Charger"
-msgstr "Cruinn-leumadair bòcain"
+msgstr "Brùchdair bòcain"
 
 #: ../enemies/lvl2_goblin_chief.txt:3
 msgid "Goblin Chief"
@@ -665,7 +665,7 @@ msgstr "Caidhleag"
 
 #: ../enemies/lvl8_mez.txt:4
 msgid "Mez"
-msgstr "Maon"
+msgstr "Meis"
 
 #: ../enemies/lvl8_zola.txt:3
 msgid "Zola"
@@ -729,7 +729,7 @@ msgstr "Nead nam biastag"
 
 #: ../maps/antlion_nest.txt:390
 msgid "Temple of Mez: Basement"
-msgstr "Ìoslach teampaill Mhaoin"
+msgstr "Ìoslach teampaill Mheis"
 
 #: ../maps/arrival.txt:11
 msgid "Arrival"
@@ -822,7 +822,7 @@ msgstr "Suidse"
 
 #: ../maps/family_crypt.txt:254
 msgid "Ardwen (1308-1364), founder of Lochport"
-msgstr "Àrdear (1308-1364), stèidheadair Phort an Locha"
+msgstr "Àrdar (1308-1364), stèidheadair Phort an Locha"
 
 #: ../maps/family_crypt.txt:257
 msgid "In Memoriam"
@@ -837,12 +837,12 @@ msgid ""
 "The coffin has a small slot the size of Ardwen's ring. You place the ring in"
 " the slot."
 msgstr ""
-"Tha slot beag sa chiste-laighe air meud fàinne Àrdeir. Chuir thu an fhàinne "
+"Tha slot beag sa chiste-laighe air meud fàinne Àrdair. Chuir thu an fhàinne "
 "san t-slot."
 
 #: ../maps/family_crypt.txt:310
 msgid "Ardwen's Coffin"
-msgstr "Ciste-laighe Àrdeir"
+msgstr "Ciste-laighe Àrdair"
 
 #: ../maps/family_crypt.txt:333
 msgid "The switch won't budge."
@@ -973,8 +973,8 @@ msgid "You place the figure on the altar."
 msgstr "Tha thu a’ cur an ìomhaigheag air an altair."
 
 #: ../maps/hyperspace.txt:196
-msgid "St. Maria: Prison"
-msgstr "Toll-dubh na Cille Mhoire"
+msgid "St. Maria: Catacombs"
+msgstr "Catacoman na Cille Mhoire"
 
 #: ../maps/hyperspace.txt:218
 msgid "Stormrock Pass"
@@ -982,7 +982,7 @@ msgstr "Bealach na Gaillinn"
 
 #: ../maps/hyperspace.txt:229
 msgid "Temple of Mez: Main Hall"
-msgstr "Prìomh-thalla teampaill Mhaoin"
+msgstr "Prìomh-thalla teampaill Mheis"
 
 #: ../maps/hyperspace.txt:240
 msgid "Nazia Underground"
@@ -995,6 +995,10 @@ msgstr "Seòmraichean rannsachaidh tùr an draoidh"
 #: ../maps/hyperspace.txt:273
 msgid "Underworld Catacombs"
 msgstr "Catacoman ifrinne"
+
+#: ../maps/hyperspace.txt:388
+msgid "Cutscenes"
+msgstr "Seallaidhean sgeòil"
 
 #: ../maps/lake_kuuma.txt:852
 msgid "Boat"
@@ -1081,17 +1085,17 @@ msgstr "Mèinn an Dubh-chaill"
 msgid "Krolan's Chest"
 msgstr "Ciste Chròlain"
 
-#: ../maps/st_maria_1.txt:348
+#: ../maps/st_maria_1.txt:349
 msgid "This door needs a key to be opened."
 msgstr "Feumaidh tu iuchair gus an doras seo fhosgladh."
 
-#: ../maps/st_maria_1.txt:350
+#: ../maps/st_maria_1.txt:351
 msgid "Locked Door"
 msgstr "Doras glaiste"
 
 #: ../maps/st_maria_2.txt:271
-msgid "St. Maria: Prison waypoint discovered."
-msgstr "Lorg thu puing-thurais toll-dubh na Cille Mhoire."
+msgid "St. Maria: Catacombs waypoint discovered."
+msgstr "Lorg thu puing-thurais chatacoman na Cille Mhoire."
 
 #: ../maps/st_maria_2.txt:463
 msgid "St. Maria: Crypt"
@@ -1128,7 +1132,7 @@ msgstr "Tobhta Dhùn na Gaillinn"
 
 #: ../maps/temple_of_mez_2.txt:351
 msgid "Temple of Mez: Main Hall waypoint discovered."
-msgstr "Lorg thu puing-thurais teampall Mhaoin."
+msgstr "Lorg thu puing-thurais teampall Mheis."
 
 #: ../maps/temple_of_mez_2.txt:534
 msgid "The plaque reads: Red Altar"
@@ -1136,7 +1140,7 @@ msgstr "Tha “An altair dhearg” sgrìobhte air a’ chlàr"
 
 #: ../maps/temple_of_mez_2.txt:545
 msgid "Temple of Mez: Entrance"
-msgstr "Doras a-steach teampaill Mhaoin"
+msgstr "Doras a-steach teampaill Mheis"
 
 #: ../maps/temple_of_mez_2.txt:552
 msgid ""
@@ -1216,7 +1220,7 @@ msgstr "Tha “Geata ifrinne” sgrìobhte air a’ chlàr"
 msgid "Return to Empyrean"
 msgstr "Till gu Impirean"
 
-#: ../quests/000_empyrean.txt:6
+#: ../quests/000_empyrean.txt:7
 msgid ""
 "The Book of the Dead states redemption is possible for those who sign their "
 "name in gravebloom ink. Florin in Perdition Harbor can tell you more."
@@ -1225,7 +1229,7 @@ msgstr ""
 " inc blàith-uaigh a sàbhaladh. Bidh barrachd fiosrachaidh aig Flòran ann am "
 "Port an Dubh-chaill."
 
-#: ../quests/000_empyrean.txt:11
+#: ../quests/000_empyrean.txt:12
 msgid ""
 "Before leaving St. Maria's Crypt, it would be wise to look for anything "
 "useful."
@@ -1233,11 +1237,11 @@ msgstr ""
 "Mus fhàg thu rèilig na Cille Mhoire, b’ fheairrde thu feuchainn an lorg thu "
 "dad feumail ann."
 
-#: ../quests/000_empyrean.txt:16
+#: ../quests/000_empyrean.txt:17
 msgid "Ask Florin about the Gravebloom flower."
 msgstr "Faighnich do Fhlòran mun bhlàth-uaigh."
 
-#: ../quests/000_empyrean.txt:22
+#: ../quests/000_empyrean.txt:23
 msgid ""
 "You've found a gravebloom flower. It is a primary component in the creation "
 "of gravebloom ink."
@@ -1245,19 +1249,19 @@ msgstr ""
 "Lorg thu blàth-uaigh. ’S e co-phàirt chudromach ann an cruthachadh inc "
 "blàth-uaigh a th’ ann."
 
-#: ../quests/000_empyrean.txt:27
+#: ../quests/000_empyrean.txt:28
 msgid ""
 "A strange black feather fell off of Mez. You should take it before leaving "
 "the Temple of Mez."
 msgstr ""
-"Thuit ite neònach à Maon. Bu chòir dhut a toirt leat mus fhàg thu teampall "
-"Mhaoin."
+"Thuit ite neònach à Meis. Bu chòir dhut a toirt leat mus fhàg thu teampall "
+"Mheis."
 
-#: ../quests/000_empyrean.txt:32
+#: ../quests/000_empyrean.txt:33
 msgid "Ask Florin about the Black Quill."
 msgstr "Faighnich do Fhlòran mun ite dhubh."
 
-#: ../quests/000_empyrean.txt:38
+#: ../quests/000_empyrean.txt:39
 msgid ""
 "The Black Quill you found is the only thing capable of holding gravebloom "
 "ink. It will be the only way to write in the Book of the Dead."
@@ -1265,7 +1269,7 @@ msgstr ""
 "Chan urrainn ach an ite dhubh a lorg thu sgrìobhadh le inc blàith-uaigh. ’S "
 "e an aon dòigh sa sgrìobh thu air Leabhar nam Marbh a bhios ann."
 
-#: ../quests/000_empyrean.txt:43
+#: ../quests/000_empyrean.txt:44
 msgid ""
 "Before leaving the Wizard's Tower, you should take the knife that Metzger "
 "dropped."
@@ -1273,20 +1277,20 @@ msgstr ""
 "Mus fhàg thu tùr an draoidh, bu chòir dhut an sgian a thoirt leat a leig Nic"
 " a’ Bhùidsear às."
 
-#: ../quests/000_empyrean.txt:48
+#: ../quests/000_empyrean.txt:49
 msgid "Ask Florin about the Knife of Sacrifices."
 msgstr "Faighnich do Fhlòran mu sgian nan ìobairt."
 
-#: ../quests/000_empyrean.txt:54
+#: ../quests/000_empyrean.txt:55
 msgid ""
 "Gravebloom ink requires a sample of your blood to be drawn with the Knife of"
 " Sacrifices. This must take place at the Red Altar in the Temple of Mez."
 msgstr ""
 "Airson inc blàith-uaigh a dhèanamh, feumaidh tu beagan d’ fhala a leigeil le"
 " sgian nan ìobairt. Feumaidh tu sin a dhèanamh aig an altair dhearg ann an "
-"teampall Mhaoin."
+"teampall Mheis."
 
-#: ../quests/000_empyrean.txt:60
+#: ../quests/000_empyrean.txt:61
 msgid ""
 "Having completed the ritual at the Red Altar, return to Florin to proceed "
 "with creating the gravebloom ink."
@@ -1294,7 +1298,7 @@ msgstr ""
 "On a tha an deas-ghnàth aig an altair dhearg deiseil, till gu Flòran ach an "
 "dèan e inc blàith-uaigh dhut."
 
-#: ../quests/000_empyrean.txt:65
+#: ../quests/000_empyrean.txt:66
 msgid ""
 "The time has come. Write your name in the Book of the Dead and gain entry to"
 " the Underworld."
@@ -1302,7 +1306,7 @@ msgstr ""
 "Thàinig an t-àm. Sgrìobh d’ ainm air Leabhar nam Marbh agus faigh a-steach "
 "dhan ifrinn."
 
-#: ../quests/000_empyrean.txt:70
+#: ../quests/000_empyrean.txt:71
 msgid ""
 "Make your way to the Underworld. A portal to the Underworld was located in "
 "the Wizard's Tower. Once you are there, search for a way to return to "
@@ -1311,7 +1315,7 @@ msgstr ""
 "Rach dhan ifrinn. Chaidh doras dhan ifrinn a lorg ann an tùr an draoidh. "
 "Nuair a ruigeas tu e, lorg rathad sàbhailte air ais gu Impirean."
 
-#: ../quests/000_empyrean.txt:75
+#: ../quests/000_empyrean.txt:76
 msgid ""
 "You've found a stronghold in the Underworld. If there is a way back to "
 "Empyrean, it is through here."
@@ -1319,7 +1323,7 @@ msgstr ""
 "Lorg thu daingean san ifrinn. Ma tha rathad air ais gu Impirean ann idir, "
 "seo far a bheil e."
 
-#: ../quests/000_empyrean.txt:80
+#: ../quests/000_empyrean.txt:81
 msgid "Face what awaits you in The Pit."
 msgstr "Seas an aghaidh na tha romhad san t-sloc."
 
@@ -1327,15 +1331,15 @@ msgstr "Seas an aghaidh na tha romhad san t-sloc."
 msgid "Krolan's Missing"
 msgstr "Chaidh Cròlan air chall"
 
-#: ../quests/001_krolan.txt:6
+#: ../quests/001_krolan.txt:7
 msgid "Travel to the Perdition Mines and look for Krolan."
 msgstr "Siubhail gu Mèinn an Dubh-chaill agus lorg Cròlan."
 
-#: ../quests/001_krolan.txt:11
+#: ../quests/001_krolan.txt:12
 msgid "Use Krolan's key to search his chest."
-msgstr "Cleachd iuchair Chròlain gus a’ chiste seo a rannsachadh."
+msgstr "Cleachd iuchair Chròlain gus a’ chiste aige a rannsachadh."
 
-#: ../quests/001_krolan.txt:16
+#: ../quests/001_krolan.txt:17
 msgid "Return to Udana and inform her of Krolan's death."
 msgstr "Till gu Udana agus innis dhi mu bhàs Chròlain."
 
@@ -1343,18 +1347,18 @@ msgstr "Till gu Udana agus innis dhi mu bhàs Chròlain."
 msgid "The Merchant's Journal"
 msgstr "Leabhar-latha a’ mharsanta"
 
-#: ../quests/002_journal.txt:7
+#: ../quests/002_journal.txt:8
 msgid "Find Abasi's journal. It is likely being carried by a nearby goblin."
 msgstr ""
 "Lorg leabhar-latha Abasaidh. Cha lughaid gu bheil e aig bòcan am fagas."
 
-#: ../quests/002_journal.txt:13
+#: ../quests/002_journal.txt:14
 msgid ""
 "Find Abasi's journal. He said that it was last seen near the Goblin Cave."
 msgstr ""
 "Lorg leabhar-latha Abasaidh. Thuirt e gum facas e faisg air uamh nam bòcan."
 
-#: ../quests/002_journal.txt:18
+#: ../quests/002_journal.txt:19
 msgid "Return the journal to Abasi."
 msgstr "Till an leabhar-latha gu Abasaidh."
 
@@ -1362,48 +1366,48 @@ msgstr "Till an leabhar-latha gu Abasaidh."
 msgid "Trapped in the Crypt"
 msgstr "Glacte san rèilig"
 
-#: ../quests/003_ardwen.txt:6
+#: ../quests/003_ardwen.txt:7
 msgid "Find a way to escape the Family Crypt."
 msgstr "Lorg slighe a-mach às an rèilig teaghlaich."
 
-#: ../quests/003_ardwen.txt:11
+#: ../quests/003_ardwen.txt:12
 msgid ""
 "You found a strange ring. Maybe it will aid in escaping the Family Crypt."
 msgstr ""
 "Lorg thu fàinne neònach. ’S dòcha gun cuidich e thu ach an teich thu o "
 "rèilig an teaghlaich."
 
-#: ../quests/003_ardwen.txt:16
+#: ../quests/003_ardwen.txt:17
 msgid "Defeat Ardwen."
-msgstr "Cuir ruaig air Àrdear."
+msgstr "Cuir ruaig air Àrdar."
 
-#: ../quests/003_ardwen.txt:21
+#: ../quests/003_ardwen.txt:22
 msgid ""
 "Ardwen has been defeated. The lever near his coffin will likely open the "
 "nearby gate."
 msgstr ""
-"Chuir thu ruaig air Àrdear. Saoil am fosgail an luamhan faisg air a chiste-"
+"Chuir thu ruaig air Àrdar. Saoil am fosgail an luamhan faisg air a chiste-"
 "laighe an geata am fagas?"
 
 #: ../quests/004_fort_amir.txt:1
 msgid "The One-Eyed Guardians"
 msgstr "Na geàird leth-shùileach"
 
-#: ../quests/004_fort_amir.txt:6
+#: ../quests/004_fort_amir.txt:7
 msgid "Investigate the statues in the Fort Amir throne room."
 msgstr "Sgrùd na h-ìomhaighean ann an seòmar na cathrach aig Gearastan Aimir."
 
-#: ../quests/004_fort_amir.txt:11
+#: ../quests/004_fort_amir.txt:12
 msgid "You found a strange sapphire inside one of Fort Amir's books."
 msgstr ""
 "Lorg thu saifear annasach am broinn fear de na leabhraichean aig Gearastan "
 "Aimir."
 
-#: ../quests/004_fort_amir.txt:16
+#: ../quests/004_fort_amir.txt:17
 msgid "Gruzza dropped a strange sapphire."
 msgstr "Leig Grùsa às saifear neònach."
 
-#: ../quests/004_fort_amir.txt:21
+#: ../quests/004_fort_amir.txt:22
 msgid ""
 "The bookcase in the Fort Amir throne room opened up, revealing a secret "
 "passage."
@@ -1415,7 +1419,7 @@ msgstr ""
 msgid "Brother?"
 msgstr "A bhràthair?"
 
-#: ../quests/005_ort.txt:6
+#: ../quests/005_ort.txt:7
 msgid ""
 "Ort gave you a ruby. It seemed like he wanted it delivered to someone he "
 "would call \"brother\"."
@@ -1455,18 +1459,18 @@ msgstr ""
 msgid "Trapped!"
 msgstr "Glacte!"
 
-#: ../quests/007_nazia_mines.txt:6
+#: ../quests/007_nazia_mines.txt:7
 msgid ""
 "The path behind you has caved in. Find a way to escape the Nazia Mines."
 msgstr ""
 "Thuit am mullach air an t-slighe air do chùlaibh. Lorg slighe a-mach à mèinn"
 " Nasa."
 
-#: ../quests/007_nazia_mines.txt:11
+#: ../quests/007_nazia_mines.txt:12
 msgid "You found some sticks of dynamite. Those should be useful."
 msgstr "Log thu slabaidean dineamait. Feumaidh gum bi iad gu feum dhut."
 
-#: ../quests/007_nazia_mines.txt:15
+#: ../quests/007_nazia_mines.txt:16
 msgid ""
 "You successfully cleared the rubble and can safely escape the Nazia Mines."
 msgstr ""
@@ -1477,7 +1481,7 @@ msgstr ""
 msgid "The Lost Soul of the Mog Caverns"
 msgstr "Anam Caillte Uamhan Mhoig"
 
-#: ../quests/008_mog.txt:6
+#: ../quests/008_mog.txt:7
 msgid ""
 "You found a mysterious note in the Mog Caverns. Maybe its directions will "
 "lead to treasure?"
@@ -1485,11 +1489,11 @@ msgstr ""
 "Lorg thu nòta rùnach ann an Uamhan Mhoig. ’S dòcha gun stiùirich e gu ulaidh"
 " thu?"
 
-#: ../quests/008_mog.txt:11
+#: ../quests/008_mog.txt:12
 msgid "You found another note. Keep following the trail."
 msgstr "Lorg thu nòta eile. Cum ort a’ leantainn air an t-slighe."
 
-#: ../quests/008_mog.txt:16
+#: ../quests/008_mog.txt:17
 msgid "A secret passage has been unveiled."
 msgstr "Thàinig slighe dhìomhair am follais."
 
@@ -1497,24 +1501,24 @@ msgstr "Thàinig slighe dhìomhair am follais."
 msgid "An Unusual Name..."
 msgstr "Seo ainm àraidh…"
 
-#: ../quests/009_nasu.txt:6
+#: ../quests/009_nasu.txt:7
 msgid "Discover a way to open the entrance door in Fort Nasu."
 msgstr "Lorg dòigh gus doras Gearastan Nasu fhosgladh."
 
-#: ../quests/009_nasu.txt:11
+#: ../quests/009_nasu.txt:12
 msgid "Discover a way to open the library door in Fort Nasu."
 msgstr "Lorg dòigh gus doras leabharlann Gearastan Nasu fhosgladh."
 
-#: ../quests/009_nasu.txt:16
+#: ../quests/009_nasu.txt:17
 msgid "Discover a way to open the pit room door in Fort Nasu."
 msgstr ""
 "Lorg dòigh gus doras seòmar an t-sluic fhosgladh ann an Gearastan Nasu."
 
-#: ../quests/009_nasu.txt:21
+#: ../quests/009_nasu.txt:22
 msgid "Discover a way to open the final door in Fort Nasu."
 msgstr "Lorg dòigh gus an doras mu dheireadh aig Gearastan Nasu fhosgladh."
 
-#: ../quests/009_nasu.txt:26
+#: ../quests/009_nasu.txt:27
 msgid "Defeat Buchi."
 msgstr "Cuir ruaig air Buchaidh."
 
@@ -1522,19 +1526,19 @@ msgstr "Cuir ruaig air Buchaidh."
 msgid "Warden's Notes"
 msgstr "Nòtaichean a’ mhaoir"
 
-#: ../quests/010_torture.txt:6
+#: ../quests/010_torture.txt:7
 msgid "Find a way to get to the treasure in the Torture Chambers."
 msgstr "Lorg dòigh gus an ulaidh sna seòmraichean creòtachd fhaighinn."
 
-#: ../quests/010_torture.txt:11
+#: ../quests/010_torture.txt:12
 msgid "You found some notes belonging to the prison warden."
 msgstr "Lorg thu nòtaichean aig maor an tuill-dhuibh."
 
-#: ../quests/010_torture.txt:16
+#: ../quests/010_torture.txt:17
 msgid "You successfully made it through the warden's traps."
 msgstr "Fhuair thu seachad air ribean a’ mhaoir."
 
-#: ../quests/010_torture.txt:21
+#: ../quests/010_torture.txt:22
 msgid "You disabled the barriers in the Torture Chambers."
 msgstr "Chuir thu na bacaidhean sna seòmraichean creòtachd à comas."
 
@@ -1542,7 +1546,7 @@ msgstr "Chuir thu na bacaidhean sna seòmraichean creòtachd à comas."
 msgid "Fallen Comrades"
 msgstr "Companaich a thuit"
 
-#: ../quests/011_martigan.txt:6
+#: ../quests/011_martigan.txt:7
 msgid ""
 "Martigan has asked you to destroy the undead corpses of his former "
 "companions. He has also asked that you return with proof that you have done "
@@ -1551,15 +1555,15 @@ msgstr ""
 "Dh’iarr Martagan ort gum mill thu cuirp coisiche nan seann-chompanach aige. "
 "Dh’iarr e cuideachd gun till thu le fianais gun do rinn thu sin."
 
-#: ../quests/011_martigan.txt:11
+#: ../quests/011_martigan.txt:12
 msgid "You have slain Lorund and recovered his sword."
 msgstr "Mharbh thu Lulach agus thog thu an claidheamh aige."
 
-#: ../quests/011_martigan.txt:16
+#: ../quests/011_martigan.txt:17
 msgid "You have slain Nerin and recovered her bow."
 msgstr "Mharbh thu Niamh agus thog thu am bogha aice."
 
-#: ../quests/011_martigan.txt:21
+#: ../quests/011_martigan.txt:22
 msgid "You have slain Kayl and recovered her staff."
 msgstr "Mharbh thu Ceana agus thog thu am bata aice."
 
@@ -1671,8 +1675,8 @@ msgid ""
 "In an effort to stop me, he stole the key we found that supposedly opened "
 "the door up ahead."
 msgstr ""
-"Feuch e ri stad a chur orm agus esan air an iuchair a lorg sinn a ghoid. "
-"Thathar ag ràdh gum fosgail an iuchair sin an doras air ar beulaibh."
+"Dh’fheuch e ri stad a chur orm agus esan air an iuchair a lorg sinn a ghoid."
+" Thathar ag ràdh gum fosgail an iuchair sin an doras air ar beulaibh."
 
 #: ../npcs/aldwulf.txt:15
 msgid ""
@@ -1854,7 +1858,7 @@ msgstr ""
 
 #: ../npcs/florin.txt:57
 msgid "I recall such an altar from the Temple of Mez."
-msgstr "Tha cuimhne agam air altair mar sin o theampall Mhaoin."
+msgstr "Tha cuimhne agam air altair mar sin o theampall Mheis."
 
 #: ../npcs/florin.txt:58
 msgid ""
@@ -1957,8 +1961,8 @@ msgstr ""
 
 #: ../npcs/martigan.txt:22
 msgid ""
-"If you can prove to me that they are free them from their cursed form, I "
-"will be in your debt."
+"If you can prove to me that they are free from their cursed form, I will be "
+"in your debt."
 msgstr ""
 "Nam b’ urrainn dhuibh fianais a thoirt dhomh gu bheil iad saor on chruth "
 "damnaichte aca, bhithinn-sa fada ’nur comainn."
@@ -2260,36 +2264,84 @@ msgid "Translators"
 msgstr "Eadar-theangadairean"
 
 #: ../cutscenes/credits.txt:35
+msgid "Diego J. Romero López"
+msgstr "Diego J. Romero López"
+
+#: ../cutscenes/credits.txt:36
+msgid "Eric R"
+msgstr "Eric R"
+
+#: ../cutscenes/credits.txt:37
+msgid "Gabriel Iasi"
+msgstr "Gabriel Iasi"
+
+#: ../cutscenes/credits.txt:38
 msgid "GunChleoc"
 msgstr "GunChleoc"
 
-#: ../cutscenes/credits.txt:36
+#: ../cutscenes/credits.txt:39
 msgid "Igor Paliychuk"
 msgstr "Igor Paliychuk"
 
-#: ../cutscenes/credits.txt:37
+#: ../cutscenes/credits.txt:40
 msgid "Janet Hunt"
 msgstr "Janet Hunt"
 
-#: ../cutscenes/credits.txt:38
-msgid "Микола Франчук"
-msgstr "Микола Франчук"
+#: ../cutscenes/credits.txt:41
+msgid "Mikalái Valér'evich Sakalóuski"
+msgstr "Mikalái Valér'evich Sakalóuski"
 
-#: ../cutscenes/credits.txt:39
+#: ../cutscenes/credits.txt:42
+msgid "Mykola Franchuk"
+msgstr "Mykola Franchuk"
+
+#: ../cutscenes/credits.txt:43
+msgid "MOB2"
+msgstr "MOB2"
+
+#: ../cutscenes/credits.txt:44
+msgid "Nea Retrogamer"
+msgstr "Nea Retrogamer"
+
+#: ../cutscenes/credits.txt:45
 msgid "Pavel Maryanov"
 msgstr "Pavel Maryanov"
 
-#: ../cutscenes/credits.txt:40
+#: ../cutscenes/credits.txt:46
 msgid "Pawel Puszczyński"
 msgstr "Pawel Puszczyński"
 
-#: ../cutscenes/credits.txt:41
+#: ../cutscenes/credits.txt:47
+msgid "Rui"
+msgstr "Rui"
+
+#: ../cutscenes/credits.txt:48
 msgid "Sang-froid"
 msgstr "Sang-froid"
 
-#: ../cutscenes/credits.txt:43
+#: ../cutscenes/credits.txt:49
+msgid "Sam Vo"
+msgstr "Sam Vo"
+
+#: ../cutscenes/credits.txt:50
+msgid "Sergiy Borodych"
+msgstr "Sergiy Borodych"
+
+#: ../cutscenes/credits.txt:52
 msgid "sujiniku"
 msgstr "sujiniku"
+
+#: ../cutscenes/credits.txt:53
+msgid "Vicente Monteiro"
+msgstr "Vicente Monteiro"
+
+#: ../cutscenes/credits.txt:54
+msgid "Wuzzy2"
+msgstr "Wuzzy2"
+
+#: ../cutscenes/credits.txt:55
+msgid "Zmicer Turok"
+msgstr "Zmicer Turok"
 
 #: ../cutscenes/ending.txt:7
 msgid ""
@@ -2354,6 +2406,10 @@ msgstr "Agus taing shònraichte…"
 msgid "You!"
 msgstr "Dhutsa!"
 
+#: ../cutscenes/ending.txt:34
+msgid "The End"
+msgstr "A’ Chrìoch"
+
 #: ../books/book_of_the_dead.txt:13
 msgid ""
 "Those whose names are written here in gravebloom ink are admitted passage to"
@@ -2361,6 +2417,14 @@ msgid ""
 msgstr ""
 "Gheibh an fheadhainn a sgrìobhas an ainmean an-seo le inc blàith-uaigh "
 "inntrigeadh do shlighe an t-sàbhalaidh."
+
+#: ../books/book_of_the_dead.txt:20
+msgid "${AVATAR_NAME}"
+msgstr "${AVATAR_NAME}"
+
+#: ../books/cutscene_list.txt:21
+msgid "Ending"
+msgstr "Deireadh"
 
 #: ../books/merchants_journal.txt:13
 msgid "1488/9/27"
@@ -3257,26 +3321,26 @@ msgstr "Crochag na h-ifrinne"
 msgid "Hot. Hot. Hot."
 msgstr "Cho teth ri èibhleag."
 
-#: ../items/categories/level_12_unique.txt:68
+#: ../items/categories/level_12_unique.txt:69
 msgid "Alchemist's Skirt"
 msgstr "Fèileadh cumasgair"
 
-#: ../items/categories/level_12_unique.txt:69
+#: ../items/categories/level_12_unique.txt:70
 msgid "Knowledge of formulating many concoctions bestows its wearer."
 msgstr ""
 "Ma chuireas tu seo ort, gheibh thu eòlas air mar a nì thu iomadh galamas."
 
-#: ../items/categories/level_12_unique.txt:78
+#: ../items/categories/level_12_unique.txt:79
 msgid "Drinking potions may create another potion of the same type."
 msgstr ""
 "Nuair a dh’òlas tu deoch, dh’fhaoidte gun dèid deoch eile dhen aon seòrsa a "
 "chruthachadh."
 
-#: ../items/categories/level_12_unique.txt:87
+#: ../items/categories/level_12_unique.txt:88
 msgid "Metzger's Battlemace"
 msgstr "Màs-cogaidh a’ Bhùidseir"
 
-#: ../items/categories/level_12_unique.txt:88
+#: ../items/categories/level_12_unique.txt:89
 msgid "Swinging this mace around leaves a clouded trail of dark smoke."
 msgstr ""
 "Nuair a nì thu sabaid leis a’ mhàs seo, cruthaichidh e lorgan de smùid "
@@ -3416,7 +3480,7 @@ msgstr "Tha mana a ruith ann ged a tha coltas primideach air."
 
 #: ../items/categories/level_4_unique.txt:34
 msgid "Ardwen's Gloves"
-msgstr "Miotagan Àrdeir"
+msgstr "Miotagan Àrdair"
 
 #: ../items/categories/level_4_unique.txt:35
 msgid "These hands built a village."
@@ -3430,19 +3494,19 @@ msgstr "Lèine fala"
 msgid "When worn, this shirt heats the wearers veins."
 msgstr "Nuair a chuireas tu ort i, thèid do chuislean a bhlàthachadh."
 
-#: ../items/categories/level_4_unique.txt:64
+#: ../items/categories/level_4_unique.txt:65
 msgid "Dark Steppers"
 msgstr "Dubh-bhrògan"
 
-#: ../items/categories/level_4_unique.txt:65
+#: ../items/categories/level_4_unique.txt:66
 msgid "Dancing through the shadows."
 msgstr "Dannsadh tro na sgàilean."
 
-#: ../items/categories/level_4_unique.txt:78
+#: ../items/categories/level_4_unique.txt:79
 msgid "Seagate's Tri-pants"
 msgstr "Trì-bhriogais Mhic na Mara"
 
-#: ../items/categories/level_4_unique.txt:79
+#: ../items/categories/level_4_unique.txt:80
 msgid ""
 "These ragged trousers are covered in scorch marks, yet are cold to the "
 "touch."
@@ -3464,15 +3528,15 @@ msgstr "Leabhar-latha Abasaidh"
 
 #: ../items/categories/quest.txt:31
 msgid "Ardwen's Ring"
-msgstr "Fàinne Àrdeir"
+msgstr "Fàinne Àrdair"
 
 #: ../items/categories/quest.txt:40
 msgid "St. Maria Mausoleum Key"
 msgstr "An iuchair aig taigh-adhlacaidh na Cille Mhoire"
 
 #: ../items/categories/quest.txt:49
-msgid "St. Maria Prison Key"
-msgstr "An iuchair aig toll-dubh na Cille Mhoire"
+msgid "St. Maria Catacombs Key"
+msgstr "An iuchair aig catacoman na Cille Mhoire"
 
 #: ../items/categories/quest.txt:58
 msgid "Strange Sapphire A"
@@ -3521,11 +3585,11 @@ msgstr "An iuchair aig Dùn na Gaillinn"
 
 #: ../items/categories/quest.txt:142
 msgid "Temple of Mez Basement Key"
-msgstr "An iuchair aig ìoslach teampall Mhaoin"
+msgstr "An iuchair aig ìoslach teampall Mheis"
 
 #: ../items/categories/quest.txt:151
 msgid "Temple of Mez Main Hall Key"
-msgstr "An iuchair aig prìomh-thalla teampall Mhaoin"
+msgstr "An iuchair aig prìomh-thalla teampall Mheis"
 
 #: ../items/categories/quest.txt:160
 msgid "Dynamite"
@@ -4264,35 +4328,35 @@ msgid "Compact enough to be deadly at all ranges of combat."
 msgstr ""
 "Tha e teann gu leòr gus a bhith marbhtach aig astar còmhraige sam bith."
 
-#: ../items/categories/level_8_unique.txt:33
+#: ../items/categories/level_8_unique.txt:34
 msgid "Greed Cowl"
 msgstr "Abaid an sannta"
 
-#: ../items/categories/level_8_unique.txt:34
+#: ../items/categories/level_8_unique.txt:35
 msgid "Riches fit for a queen."
 msgstr "Beartas iomchaidh do bhànrigh."
 
-#: ../items/categories/level_8_unique.txt:48
+#: ../items/categories/level_8_unique.txt:49
 msgid "Battle Leathers"
 msgstr "Leathair còmhraige"
 
-#: ../items/categories/level_8_unique.txt:49
+#: ../items/categories/level_8_unique.txt:50
 msgid "Designed to keep its wearer moving forward."
 msgstr "Chaidh a dhealbhadh ach an seas thu."
 
-#: ../items/categories/level_8_unique.txt:63
+#: ../items/categories/level_8_unique.txt:64
 msgid "Escape Boots"
 msgstr "Bòtannan teichidh"
 
-#: ../items/categories/level_8_unique.txt:64
+#: ../items/categories/level_8_unique.txt:65
 msgid "Running away doesn't mean the battle is lost."
 msgstr "Ma theicheas tu, cha chiall dha sin gun do chaill thu am blàr."
 
-#: ../items/categories/level_8_unique.txt:78
-msgid "Mez's Wraps"
-msgstr "Còmhdach Mhaoin"
-
 #: ../items/categories/level_8_unique.txt:79
+msgid "Mez's Wraps"
+msgstr "Còmhdach Mheis"
+
+#: ../items/categories/level_8_unique.txt:80
 msgid "With its layers of reptilian skin, not much can penetrate this armor."
 msgstr ""
 "On a tha iomadh breath de chraiceann laghairt aice, cha mhòr nach bris dad "
@@ -4762,6 +4826,6 @@ msgstr "Ath-shuidhich ceann-turais: “Doras glaiste”"
 msgid "Reset quest: \"Warden's Notes\""
 msgstr "Ath-shuidhich ceann-turais: \"Nòtaichean a’ mhaoir\""
 
-#: ../scripts/unlock_waypoints.txt:13
+#: ../scripts/unlock_waypoints.txt:14
 msgid "Unlocked all waypoints"
 msgstr "Chaidh a’ ghlas a thoirt far gach puinge-turais"

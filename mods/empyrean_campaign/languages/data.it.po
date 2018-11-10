@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-09 14:13+\n"
+"POT-Creation-Date: 2018-08-28 15:13+\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: MOB2 <thewattyk@gmail.com>, 2018\n"
 "Language-Team: Italian (https://www.transifex.com/flareorg/teams/84925/it/)\n"
@@ -972,8 +972,8 @@ msgid "You place the figure on the altar."
 msgstr "Metti il talismano sull'altare."
 
 #: ../maps/hyperspace.txt:196
-msgid "St. Maria: Prison"
-msgstr "Santa Maria: Prigione"
+msgid "St. Maria: Catacombs"
+msgstr "Santa Maria. Catacombe"
 
 #: ../maps/hyperspace.txt:218
 msgid "Stormrock Pass"
@@ -994,6 +994,10 @@ msgstr "Torre del Mago: Camere di Ricerca"
 #: ../maps/hyperspace.txt:273
 msgid "Underworld Catacombs"
 msgstr "Catacombe del Mondo Sotterraneo"
+
+#: ../maps/hyperspace.txt:388
+msgid "Cutscenes"
+msgstr ""
 
 #: ../maps/lake_kuuma.txt:852
 msgid "Boat"
@@ -1079,17 +1083,17 @@ msgstr "Miniere della Perdizione"
 msgid "Krolan's Chest"
 msgstr "Scrigno di Krolan"
 
-#: ../maps/st_maria_1.txt:348
+#: ../maps/st_maria_1.txt:349
 msgid "This door needs a key to be opened."
 msgstr "Hai bisogno di una chiave per aprire questa porta."
 
-#: ../maps/st_maria_1.txt:350
+#: ../maps/st_maria_1.txt:351
 msgid "Locked Door"
 msgstr "Porta Chiusa"
 
 #: ../maps/st_maria_2.txt:271
-msgid "St. Maria: Prison waypoint discovered."
-msgstr "Prigione di Santa Maria: scoperto il teletrasporto."
+msgid "St. Maria: Catacombs waypoint discovered."
+msgstr "Santa Maria: Catacombe, scoperto teletrasporto."
 
 #: ../maps/st_maria_2.txt:463
 msgid "St. Maria: Crypt"
@@ -1214,7 +1218,7 @@ msgstr "Leggi la placca: Porta del Mondo Sotterraneo"
 msgid "Return to Empyrean"
 msgstr "Ritorno a Empyrean"
 
-#: ../quests/000_empyrean.txt:6
+#: ../quests/000_empyrean.txt:7
 msgid ""
 "The Book of the Dead states redemption is possible for those who sign their "
 "name in gravebloom ink. Florin in Perdition Harbor can tell you more."
@@ -1223,7 +1227,7 @@ msgstr ""
 "scrivono il proprio nome con dell'inchiostro tombale. Florin, al porto della"
 " perdizione, può dirti di più."
 
-#: ../quests/000_empyrean.txt:11
+#: ../quests/000_empyrean.txt:12
 msgid ""
 "Before leaving St. Maria's Crypt, it would be wise to look for anything "
 "useful."
@@ -1231,11 +1235,11 @@ msgstr ""
 "Prima di lasciare la Cripta di Santa Maria, sarebbe saggio cercare qualcosa "
 "di utile."
 
-#: ../quests/000_empyrean.txt:16
+#: ../quests/000_empyrean.txt:17
 msgid "Ask Florin about the Gravebloom flower."
 msgstr "Chiedi a Florin del Fiore dei Sepolcri."
 
-#: ../quests/000_empyrean.txt:22
+#: ../quests/000_empyrean.txt:23
 msgid ""
 "You've found a gravebloom flower. It is a primary component in the creation "
 "of gravebloom ink."
@@ -1243,7 +1247,7 @@ msgstr ""
 "Hai trovato un fiore dei sepolcri. È un componente primario nella creazione "
 "dell'inchiostro tombale."
 
-#: ../quests/000_empyrean.txt:27
+#: ../quests/000_empyrean.txt:28
 msgid ""
 "A strange black feather fell off of Mez. You should take it before leaving "
 "the Temple of Mez."
@@ -1251,11 +1255,11 @@ msgstr ""
 "Una strana Piuma Nera è caduta a Mez. Dovresti prenderla prima di lasciare "
 "il Tempio di Mez."
 
-#: ../quests/000_empyrean.txt:32
+#: ../quests/000_empyrean.txt:33
 msgid "Ask Florin about the Black Quill."
 msgstr "Chiedi a Florin della Piuma Nera."
 
-#: ../quests/000_empyrean.txt:38
+#: ../quests/000_empyrean.txt:39
 msgid ""
 "The Black Quill you found is the only thing capable of holding gravebloom "
 "ink. It will be the only way to write in the Book of the Dead."
@@ -1263,7 +1267,7 @@ msgstr ""
 "La Piuma Nera che hai trovato è l'unica cosa in grado di usare l'inchiostro "
 "tombale. Sarà il solo modo per scrivere nel Libro dei Morti."
 
-#: ../quests/000_empyrean.txt:43
+#: ../quests/000_empyrean.txt:44
 msgid ""
 "Before leaving the Wizard's Tower, you should take the knife that Metzger "
 "dropped."
@@ -1271,11 +1275,11 @@ msgstr ""
 "Prima di lasciare la Torre del Mago, dovresti prendere il coltello che "
 "Metzger ha lasciato cadere."
 
-#: ../quests/000_empyrean.txt:48
+#: ../quests/000_empyrean.txt:49
 msgid "Ask Florin about the Knife of Sacrifices."
 msgstr "Chiedi a Florin del Coltello dei Sacrifici."
 
-#: ../quests/000_empyrean.txt:54
+#: ../quests/000_empyrean.txt:55
 msgid ""
 "Gravebloom ink requires a sample of your blood to be drawn with the Knife of"
 " Sacrifices. This must take place at the Red Altar in the Temple of Mez."
@@ -1284,7 +1288,7 @@ msgstr ""
 "estratto col Coltello dei Sacrifici. Questo rito devi compierlo all'Altare "
 "Rosso, nel Tempio di Mez."
 
-#: ../quests/000_empyrean.txt:60
+#: ../quests/000_empyrean.txt:61
 msgid ""
 "Having completed the ritual at the Red Altar, return to Florin to proceed "
 "with creating the gravebloom ink."
@@ -1292,7 +1296,7 @@ msgstr ""
 "Dopo aver compiuto il rituale all'Altare Rosso, torna da Florin per "
 "procedere alla creazione dell'inchiostro tombale."
 
-#: ../quests/000_empyrean.txt:65
+#: ../quests/000_empyrean.txt:66
 msgid ""
 "The time has come. Write your name in the Book of the Dead and gain entry to"
 " the Underworld."
@@ -1300,7 +1304,7 @@ msgstr ""
 "È giunto il momento. Scrivi il tuo nome nel Libro dei Morti e ottieni "
 "l'accesso nel Mondo Sotterraneo."
 
-#: ../quests/000_empyrean.txt:70
+#: ../quests/000_empyrean.txt:71
 msgid ""
 "Make your way to the Underworld. A portal to the Underworld was located in "
 "the Wizard's Tower. Once you are there, search for a way to return to "
@@ -1309,7 +1313,7 @@ msgstr ""
 "Trova la via per il Mondo Sotterraneo. Dovrebbe esserci un portale nella "
 "Torre del Mago. Una volta là, cerca una via per tornare ad Empyrean."
 
-#: ../quests/000_empyrean.txt:75
+#: ../quests/000_empyrean.txt:76
 msgid ""
 "You've found a stronghold in the Underworld. If there is a way back to "
 "Empyrean, it is through here."
@@ -1317,7 +1321,7 @@ msgstr ""
 "Hai trovato una Fortezza nel Mondo Sotterraneo. Se c'è una via per tornare "
 "ad Empyrean, si trova là dentro."
 
-#: ../quests/000_empyrean.txt:80
+#: ../quests/000_empyrean.txt:81
 msgid "Face what awaits you in The Pit."
 msgstr "Affronta ciò che ti attende nel Pozzo."
 
@@ -1325,15 +1329,15 @@ msgstr "Affronta ciò che ti attende nel Pozzo."
 msgid "Krolan's Missing"
 msgstr "La Scomparsa di Krolan"
 
-#: ../quests/001_krolan.txt:6
+#: ../quests/001_krolan.txt:7
 msgid "Travel to the Perdition Mines and look for Krolan."
 msgstr "Viaggia fino alle Miniere della Perdizione alla ricerca di Krolan."
 
-#: ../quests/001_krolan.txt:11
+#: ../quests/001_krolan.txt:12
 msgid "Use Krolan's key to search his chest."
 msgstr "Usa la chiave di Krolan per aprire il suo scrigno."
 
-#: ../quests/001_krolan.txt:16
+#: ../quests/001_krolan.txt:17
 msgid "Return to Udana and inform her of Krolan's death."
 msgstr "Torna da Udana e informala della morte di Krolan."
 
@@ -1341,20 +1345,20 @@ msgstr "Torna da Udana e informala della morte di Krolan."
 msgid "The Merchant's Journal"
 msgstr "Il Diario del Mercante"
 
-#: ../quests/002_journal.txt:7
+#: ../quests/002_journal.txt:8
 msgid "Find Abasi's journal. It is likely being carried by a nearby goblin."
 msgstr ""
 "Trova il diario di Abasi. È probabile che si trovi addosso a qualche goblin "
 "lì vicino."
 
-#: ../quests/002_journal.txt:13
+#: ../quests/002_journal.txt:14
 msgid ""
 "Find Abasi's journal. He said that it was last seen near the Goblin Cave."
 msgstr ""
 "Trova il diario di Abasi, che ha detto di averlo visto per l'ultima volta "
 "vicino alla Grotta dei Goblin."
 
-#: ../quests/002_journal.txt:18
+#: ../quests/002_journal.txt:19
 msgid "Return the journal to Abasi."
 msgstr "Riporta ad Abasi il suo diario."
 
@@ -1362,22 +1366,22 @@ msgstr "Riporta ad Abasi il suo diario."
 msgid "Trapped in the Crypt"
 msgstr "In Trappola nella Cripta"
 
-#: ../quests/003_ardwen.txt:6
+#: ../quests/003_ardwen.txt:7
 msgid "Find a way to escape the Family Crypt."
 msgstr "Trova un modo per uscire dalla Cripta della Famiglia."
 
-#: ../quests/003_ardwen.txt:11
+#: ../quests/003_ardwen.txt:12
 msgid ""
 "You found a strange ring. Maybe it will aid in escaping the Family Crypt."
 msgstr ""
 "Hai trovato uno strano anello. Forse ti aiuterà a fuggire dalla Cripta della"
 " Famiglia."
 
-#: ../quests/003_ardwen.txt:16
+#: ../quests/003_ardwen.txt:17
 msgid "Defeat Ardwen."
 msgstr "Sconfiggi Ardwen."
 
-#: ../quests/003_ardwen.txt:21
+#: ../quests/003_ardwen.txt:22
 msgid ""
 "Ardwen has been defeated. The lever near his coffin will likely open the "
 "nearby gate."
@@ -1389,20 +1393,20 @@ msgstr ""
 msgid "The One-Eyed Guardians"
 msgstr "I Guardiani da Un Solo Occhio"
 
-#: ../quests/004_fort_amir.txt:6
+#: ../quests/004_fort_amir.txt:7
 msgid "Investigate the statues in the Fort Amir throne room."
 msgstr "Esamina le statue nella sala del trono di Forte Amir."
 
-#: ../quests/004_fort_amir.txt:11
+#: ../quests/004_fort_amir.txt:12
 msgid "You found a strange sapphire inside one of Fort Amir's books."
 msgstr ""
 "Hai trovato uno strano zaffiro all'interno di uno dei libri di Forte Amir."
 
-#: ../quests/004_fort_amir.txt:16
+#: ../quests/004_fort_amir.txt:17
 msgid "Gruzza dropped a strange sapphire."
 msgstr "Gruzza ha lasciato cadere uno strano zaffiro."
 
-#: ../quests/004_fort_amir.txt:21
+#: ../quests/004_fort_amir.txt:22
 msgid ""
 "The bookcase in the Fort Amir throne room opened up, revealing a secret "
 "passage."
@@ -1414,7 +1418,7 @@ msgstr ""
 msgid "Brother?"
 msgstr "Fratello?"
 
-#: ../quests/005_ort.txt:6
+#: ../quests/005_ort.txt:7
 msgid ""
 "Ort gave you a ruby. It seemed like he wanted it delivered to someone he "
 "would call \"brother\"."
@@ -1454,19 +1458,19 @@ msgstr ""
 msgid "Trapped!"
 msgstr "In Trappola!"
 
-#: ../quests/007_nazia_mines.txt:6
+#: ../quests/007_nazia_mines.txt:7
 msgid ""
 "The path behind you has caved in. Find a way to escape the Nazia Mines."
 msgstr ""
 "Il sentiero dietro di te è crollato. Trova un modo per uscire dalle Miniere "
 "di Nazia."
 
-#: ../quests/007_nazia_mines.txt:11
+#: ../quests/007_nazia_mines.txt:12
 msgid "You found some sticks of dynamite. Those should be useful."
 msgstr ""
 "Hai trovato alcuni candelotti di dinamite. Dovrebbero servire a qualcosa."
 
-#: ../quests/007_nazia_mines.txt:15
+#: ../quests/007_nazia_mines.txt:16
 msgid ""
 "You successfully cleared the rubble and can safely escape the Nazia Mines."
 msgstr ""
@@ -1477,7 +1481,7 @@ msgstr ""
 msgid "The Lost Soul of the Mog Caverns"
 msgstr "L'Anima Persa delle Caverne di Mog"
 
-#: ../quests/008_mog.txt:6
+#: ../quests/008_mog.txt:7
 msgid ""
 "You found a mysterious note in the Mog Caverns. Maybe its directions will "
 "lead to treasure?"
@@ -1485,11 +1489,11 @@ msgstr ""
 "Hai trovato una nota misteriosa nelle Caverne di Mog. Forse le sue "
 "indicazioni porteranno al tesoro?"
 
-#: ../quests/008_mog.txt:11
+#: ../quests/008_mog.txt:12
 msgid "You found another note. Keep following the trail."
 msgstr "Hai trovato un'altra nota. Continua a seguire il sentiero."
 
-#: ../quests/008_mog.txt:16
+#: ../quests/008_mog.txt:17
 msgid "A secret passage has been unveiled."
 msgstr "Hai scoperto un passaggio segreto."
 
@@ -1497,24 +1501,24 @@ msgstr "Hai scoperto un passaggio segreto."
 msgid "An Unusual Name..."
 msgstr "Un Nome Insolito..."
 
-#: ../quests/009_nasu.txt:6
+#: ../quests/009_nasu.txt:7
 msgid "Discover a way to open the entrance door in Fort Nasu."
 msgstr "Scopri un modo per aprire la porta d'ingresso nel Forte Nasu."
 
-#: ../quests/009_nasu.txt:11
+#: ../quests/009_nasu.txt:12
 msgid "Discover a way to open the library door in Fort Nasu."
 msgstr "Scopri un modo per aprire la porta della biblioteca nel Forte Nasu."
 
-#: ../quests/009_nasu.txt:16
+#: ../quests/009_nasu.txt:17
 msgid "Discover a way to open the pit room door in Fort Nasu."
 msgstr ""
 "Scopri un modo per aprire la porta della sala d'attesa nel Forte Nasu."
 
-#: ../quests/009_nasu.txt:21
+#: ../quests/009_nasu.txt:22
 msgid "Discover a way to open the final door in Fort Nasu."
 msgstr "Scopri un modo per aprire la porta finale nel Forte Nasu."
 
-#: ../quests/009_nasu.txt:26
+#: ../quests/009_nasu.txt:27
 msgid "Defeat Buchi."
 msgstr "Sconfiggi Buchi."
 
@@ -1522,19 +1526,19 @@ msgstr "Sconfiggi Buchi."
 msgid "Warden's Notes"
 msgstr "Le Note del Guardiano"
 
-#: ../quests/010_torture.txt:6
+#: ../quests/010_torture.txt:7
 msgid "Find a way to get to the treasure in the Torture Chambers."
 msgstr "Trova un modo per arrivare al tesoro nella Camere di Tortura."
 
-#: ../quests/010_torture.txt:11
+#: ../quests/010_torture.txt:12
 msgid "You found some notes belonging to the prison warden."
 msgstr "Hai trovato alcune note appartenenti al guardiano della prigione."
 
-#: ../quests/010_torture.txt:16
+#: ../quests/010_torture.txt:17
 msgid "You successfully made it through the warden's traps."
 msgstr "Hai superato con successo le trappole del guardiano."
 
-#: ../quests/010_torture.txt:21
+#: ../quests/010_torture.txt:22
 msgid "You disabled the barriers in the Torture Chambers."
 msgstr "Hai disabilitato le barriere nelle Camere di Tortura."
 
@@ -1542,7 +1546,7 @@ msgstr "Hai disabilitato le barriere nelle Camere di Tortura."
 msgid "Fallen Comrades"
 msgstr "Compagni Caduti"
 
-#: ../quests/011_martigan.txt:6
+#: ../quests/011_martigan.txt:7
 msgid ""
 "Martigan has asked you to destroy the undead corpses of his former "
 "companions. He has also asked that you return with proof that you have done "
@@ -1552,15 +1556,15 @@ msgstr ""
 "compagni. Ti ha chiesto anche di tornare con la prova che i suoi compagni "
 "ora riposano in pace."
 
-#: ../quests/011_martigan.txt:11
+#: ../quests/011_martigan.txt:12
 msgid "You have slain Lorund and recovered his sword."
 msgstr "Hai ucciso Lorund e hai recuperato la sua spada."
 
-#: ../quests/011_martigan.txt:16
+#: ../quests/011_martigan.txt:17
 msgid "You have slain Nerin and recovered her bow."
 msgstr "Hai ucciso Nerin e hai recuperato il suo arco."
 
-#: ../quests/011_martigan.txt:21
+#: ../quests/011_martigan.txt:22
 msgid "You have slain Kayl and recovered her staff."
 msgstr "Hai ucciso Kayl e hai recuperato il suo bastone."
 
@@ -1957,10 +1961,10 @@ msgstr ""
 
 #: ../npcs/martigan.txt:22
 msgid ""
-"If you can prove to me that they are free them from their cursed form, I "
-"will be in your debt."
+"If you can prove to me that they are free from their cursed form, I will be "
+"in your debt."
 msgstr ""
-"Se puoi provarmi che sono stati liberati dalla loro maledizione, ti sarò "
+"Se resci a provarmi che sono liberi dalla loro maledizione, ti sarò "
 "debitore."
 
 #: ../npcs/martigan.txt:23
@@ -2258,36 +2262,84 @@ msgid "Translators"
 msgstr "Traduttori"
 
 #: ../cutscenes/credits.txt:35
+msgid "Diego J. Romero López"
+msgstr "Diego J. Romero López"
+
+#: ../cutscenes/credits.txt:36
+msgid "Eric R"
+msgstr "Eric R"
+
+#: ../cutscenes/credits.txt:37
+msgid "Gabriel Iasi"
+msgstr ""
+
+#: ../cutscenes/credits.txt:38
 msgid "GunChleoc"
 msgstr "GunChleoc"
 
-#: ../cutscenes/credits.txt:36
+#: ../cutscenes/credits.txt:39
 msgid "Igor Paliychuk"
 msgstr "Igor Paliychuk"
 
-#: ../cutscenes/credits.txt:37
+#: ../cutscenes/credits.txt:40
 msgid "Janet Hunt"
 msgstr "Janet Hunt"
 
-#: ../cutscenes/credits.txt:38
-msgid "Микола Франчук"
-msgstr "Микола Франчук"
+#: ../cutscenes/credits.txt:41
+msgid "Mikalái Valér'evich Sakalóuski"
+msgstr ""
 
-#: ../cutscenes/credits.txt:39
+#: ../cutscenes/credits.txt:42
+msgid "Mykola Franchuk"
+msgstr ""
+
+#: ../cutscenes/credits.txt:43
+msgid "MOB2"
+msgstr "MOB2"
+
+#: ../cutscenes/credits.txt:44
+msgid "Nea Retrogamer"
+msgstr "Nea Retrogamer"
+
+#: ../cutscenes/credits.txt:45
 msgid "Pavel Maryanov"
 msgstr "Pavel Maryanov"
 
-#: ../cutscenes/credits.txt:40
+#: ../cutscenes/credits.txt:46
 msgid "Pawel Puszczyński"
 msgstr "Pawel Puszczyński"
 
-#: ../cutscenes/credits.txt:41
+#: ../cutscenes/credits.txt:47
+msgid "Rui"
+msgstr "Rui"
+
+#: ../cutscenes/credits.txt:48
 msgid "Sang-froid"
 msgstr "Sang-froid"
 
-#: ../cutscenes/credits.txt:43
+#: ../cutscenes/credits.txt:49
+msgid "Sam Vo"
+msgstr ""
+
+#: ../cutscenes/credits.txt:50
+msgid "Sergiy Borodych"
+msgstr "Sergiy Borodych"
+
+#: ../cutscenes/credits.txt:52
 msgid "sujiniku"
 msgstr "sujiniku"
+
+#: ../cutscenes/credits.txt:53
+msgid "Vicente Monteiro"
+msgstr ""
+
+#: ../cutscenes/credits.txt:54
+msgid "Wuzzy2"
+msgstr ""
+
+#: ../cutscenes/credits.txt:55
+msgid "Zmicer Turok"
+msgstr ""
 
 #: ../cutscenes/ending.txt:7
 msgid ""
@@ -2349,6 +2401,10 @@ msgstr "A un ringraziamento molto speciale a..."
 msgid "You!"
 msgstr "Te!"
 
+#: ../cutscenes/ending.txt:34
+msgid "The End"
+msgstr ""
+
 #: ../books/book_of_the_dead.txt:13
 msgid ""
 "Those whose names are written here in gravebloom ink are admitted passage to"
@@ -2356,6 +2412,14 @@ msgid ""
 msgstr ""
 "Coloro i cui nomi sono scritti qui con l'inchiostro tombale sono ammessi al "
 "passaggio per il sentiero della redenzione."
+
+#: ../books/book_of_the_dead.txt:20
+msgid "${AVATAR_NAME}"
+msgstr ""
+
+#: ../books/cutscene_list.txt:21
+msgid "Ending"
+msgstr ""
 
 #: ../books/merchants_journal.txt:13
 msgid "1488/9/27"
@@ -3249,25 +3313,25 @@ msgstr "Pendente Infernale"
 msgid "Hot. Hot. Hot."
 msgstr "Caldo. Caldo. Caldo."
 
-#: ../items/categories/level_12_unique.txt:68
+#: ../items/categories/level_12_unique.txt:69
 msgid "Alchemist's Skirt"
 msgstr "Gonna dell'Alchimista"
 
-#: ../items/categories/level_12_unique.txt:69
+#: ../items/categories/level_12_unique.txt:70
 msgid "Knowledge of formulating many concoctions bestows its wearer."
 msgstr ""
 "Chi lo porta riceve la conoscenza adatta per concepire molte misture di "
 "pozioni."
 
-#: ../items/categories/level_12_unique.txt:78
+#: ../items/categories/level_12_unique.txt:79
 msgid "Drinking potions may create another potion of the same type."
 msgstr "Bere delle pozioni può creare un'altra pozione dello stesso tipo."
 
-#: ../items/categories/level_12_unique.txt:87
+#: ../items/categories/level_12_unique.txt:88
 msgid "Metzger's Battlemace"
 msgstr "Mazza da battaglia di Metzger"
 
-#: ../items/categories/level_12_unique.txt:88
+#: ../items/categories/level_12_unique.txt:89
 msgid "Swinging this mace around leaves a clouded trail of dark smoke."
 msgstr "Agitando questa mazza si ottiene una nuvola di fumo nero."
 
@@ -3419,19 +3483,19 @@ msgstr "Tunica di Sangue"
 msgid "When worn, this shirt heats the wearers veins."
 msgstr "Se indossata, questa tunica riscalda le vene di chi la porta."
 
-#: ../items/categories/level_4_unique.txt:64
+#: ../items/categories/level_4_unique.txt:65
 msgid "Dark Steppers"
 msgstr "Camminatori Oscuri"
 
-#: ../items/categories/level_4_unique.txt:65
+#: ../items/categories/level_4_unique.txt:66
 msgid "Dancing through the shadows."
 msgstr "Danzando attraverso le ombre."
 
-#: ../items/categories/level_4_unique.txt:78
+#: ../items/categories/level_4_unique.txt:79
 msgid "Seagate's Tri-pants"
 msgstr "Pantaloni della Porta del Mare"
 
-#: ../items/categories/level_4_unique.txt:79
+#: ../items/categories/level_4_unique.txt:80
 msgid ""
 "These ragged trousers are covered in scorch marks, yet are cold to the "
 "touch."
@@ -3460,8 +3524,8 @@ msgid "St. Maria Mausoleum Key"
 msgstr "Chiave del Mausoleo di Santa Maria"
 
 #: ../items/categories/quest.txt:49
-msgid "St. Maria Prison Key"
-msgstr "Chiave della Prigione di Santa Maria"
+msgid "St. Maria Catacombs Key"
+msgstr "Chiave delle Catacombe di Santa Maria"
 
 #: ../items/categories/quest.txt:58
 msgid "Strange Sapphire A"
@@ -4256,35 +4320,35 @@ msgstr "Arco del Cacciatore"
 msgid "Compact enough to be deadly at all ranges of combat."
 msgstr "Compatti abbastanza da essere letali a qualsiasi distanza."
 
-#: ../items/categories/level_8_unique.txt:33
+#: ../items/categories/level_8_unique.txt:34
 msgid "Greed Cowl"
 msgstr "Cappuccio dell'Avidità"
 
-#: ../items/categories/level_8_unique.txt:34
+#: ../items/categories/level_8_unique.txt:35
 msgid "Riches fit for a queen."
 msgstr "Una ricchezza degna di una regina."
 
-#: ../items/categories/level_8_unique.txt:48
+#: ../items/categories/level_8_unique.txt:49
 msgid "Battle Leathers"
 msgstr "Pantaloni da Battaglia"
 
-#: ../items/categories/level_8_unique.txt:49
+#: ../items/categories/level_8_unique.txt:50
 msgid "Designed to keep its wearer moving forward."
 msgstr "Progettati per tenere in continuo movimento chi li indossa."
 
-#: ../items/categories/level_8_unique.txt:63
+#: ../items/categories/level_8_unique.txt:64
 msgid "Escape Boots"
 msgstr "Stivali della Fuga"
 
-#: ../items/categories/level_8_unique.txt:64
+#: ../items/categories/level_8_unique.txt:65
 msgid "Running away doesn't mean the battle is lost."
 msgstr "Correre via non significa che la battaglia sia perduta."
 
-#: ../items/categories/level_8_unique.txt:78
+#: ../items/categories/level_8_unique.txt:79
 msgid "Mez's Wraps"
 msgstr "Stola di Mez"
 
-#: ../items/categories/level_8_unique.txt:79
+#: ../items/categories/level_8_unique.txt:80
 msgid "With its layers of reptilian skin, not much can penetrate this armor."
 msgstr ""
 "Con i suoi strati di pelle di rettile, quasi nulla può penetrare questa "
@@ -4746,6 +4810,6 @@ msgstr "Resetta la missione: \"Chiusi Fuori\""
 msgid "Reset quest: \"Warden's Notes\""
 msgstr "Resetta la missione: \"Le Note del Guardiano\""
 
-#: ../scripts/unlock_waypoints.txt:13
+#: ../scripts/unlock_waypoints.txt:14
 msgid "Unlocked all waypoints"
 msgstr "Sbloccati tutti i teletrasporti"
