@@ -93,7 +93,7 @@ id=170
 type=fixed
 buff=true
 passive=true
-post_effect=immunity,0,0
+post_effect=immunity,100,0
 
 # shoot arrow
 [power]
@@ -134,7 +134,7 @@ speed=15
 trait_elemental=ice
 post_power=159
 wall_power=159
-post_effect=slow,50,2s
+post_effect=slow_ice,50,2s
 modifier_accuracy=multiply,75,0
 
 # fireball
@@ -191,7 +191,7 @@ base_damage=melee
 lifespan=33ms
 radius=1.0
 starting_pos=melee
-post_effect=slow,0,5s
+post_effect=slow_ice,0,5s
 cooldown=5s
 
 # shadowball
@@ -236,13 +236,14 @@ type=fixed
 animation=animations/powers/spikes.txt
 use_hazard=true
 lifespan=533ms
-radius=1.25
+radius=0.75
 starting_pos=source
 complete_animation=true
 base_damage=melee
 visual_random=4
 soundfx=soundfx/powers/spikes.ogg
 source_type=neutral
+post_effect=bleeding,5,10s
 
 # quake
 [power]
@@ -277,7 +278,7 @@ radius=1.0
 starting_pos=melee
 trait_elemental=ice
 post_power=159
-post_effect=slow,50,2s
+post_effect=slow_ice,50,2s
 
 # antlion explode
 [power]
@@ -319,7 +320,7 @@ complete_animation=true
 count=12
 multitarget=true
 modifier_damage=multiply,80,0
-post_effect=slow,25,4s
+post_effect=slow_ice,25,4s
 
 # Prioss's multi-spear
 [power]
@@ -346,7 +347,7 @@ id=185
 type=fixed
 buff=true
 passive=true
-post_effect=immunity_bleed,0,0
+post_effect=resist_damage_over_time,100,0
 
 # skeleton shield bash
 [power]
@@ -582,12 +583,10 @@ use_hazard=true
 radius=1
 lifespan=10s
 speed=4
-modifier_accuracy=absolute,1100
-modifier_damage=absolute,1,1
-modifier_critical=absolute,100
-target_categories=nazia_boulder
+# fake target category so that it can't hit any other entity
+target_categories=nazia_door
 source_type=hero
-post_power=200
+wall_power=200
 
 # Nazia minecart explosion
 [power]
@@ -602,6 +601,7 @@ floor=true
 complete_animation=true
 starting_pos=target
 modifier_damage=absolute,0,0
+script=on_cast,scripts/maps/nazia_mines/minecart_explode.txt
 
 # Dark Mist
 [power]
@@ -707,7 +707,7 @@ speed=15
 trait_elemental=ice
 post_power=159
 wall_power=159
-post_effect=slow,50,2s
+post_effect=slow_ice,50,2s
 modifier_damage=multiply,75,0
 modifier_accuracy=multiply,75,0
 count=12
@@ -851,7 +851,7 @@ radius=1.0
 starting_pos=melee
 modifier_damage=multiply,50,0
 cooldown=20s
-script=on_hit,scripts/powers/goblin_steal.txt
+post_power=273
 
 # antlion larva spawn 1
 [power]
@@ -911,14 +911,14 @@ face=true
 use_hazard=true
 base_damage=melee
 lifespan=400ms
-radius=1.5
+radius=1.2
 starting_pos=melee
 aim_assist=true
 directional=true
 animation=animations/powers/cleave.txt
-floor=true
 post_effect=knockback,15,200ms
 post_effect=stun,0,1s,25
+complete_animation=true
 
 # spike trap (automatic)
 [power]
@@ -927,12 +927,13 @@ type=fixed
 animation=animations/powers/spikes.txt
 use_hazard=true
 lifespan=533ms
-radius=1.0
+radius=0.75
 starting_pos=source
 complete_animation=true
 base_damage=melee
 visual_random=4
 source_type=neutral
+post_effect=bleeding,5,10s
 
 # twin-axe
 [power]
@@ -988,7 +989,7 @@ visual_option=2
 starting_pos=source
 multitarget=true
 post_effect=stun,0,1s,25
-post_effect=slow,50,4s
+post_effect=slow_ice,50,4s
 cooldown=5s
 modifier_damage=multiply,80,0
 post_effect=knockback,20,100ms
@@ -1043,13 +1044,13 @@ use_hazard=true
 soundfx=soundfx/powers/freeze.ogg
 speed=4
 trait_elemental=ice
-radius=1.2
+radius=0.75
 lifespan=500ms
 base_damage=ment
 visual_random=3
-count=12
-modifier_damage=multiply,90,0
-post_effect=slow,25,4s
+count=8
+modifier_damage=multiply,30,0
+post_effect=slow_ice,25,4s
 post_effect=knockback,15,100ms
 angle_variance=2
 speed_variance=0.05
@@ -1133,7 +1134,7 @@ speed=15
 trait_elemental=ice
 post_power=159
 wall_power=159
-post_effect=slow,50,2s
+post_effect=slow_ice,50,2s
 modifier_accuracy=multiply,75,0
 count=3
 angle_variance=6
@@ -1185,4 +1186,26 @@ wall_power=160
 count=3
 angle_variance=6
 speed_variance=0.1
+
+# goblin steal script execution
+[power]
+id=273
+type=fixed
+new_state=instant
+use_hazard=true
+ignore_zero_damage=true
+lifespan=33ms
+radius=1.0
+starting_pos=target
+target_categories=hero
+script=on_hit,scripts/powers/goblin_steal.txt
+
+# Lezaith's slow/stun immunity
+[power]
+id=287
+type=fixed
+buff=true
+passive=true
+post_effect=resist_slow,50,0
+post_effect=resist_stun,90,0
 

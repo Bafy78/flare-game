@@ -27,6 +27,16 @@ icon=24
 can_stack=false
 
 [effect]
+id=slow_ice
+name=Slow
+type=speed
+icon=24
+can_stack=false
+animation=animations/powers/status_freeze.txt
+render_above=true
+color_mod=127,127,255
+
+[effect]
 id=stun
 name=Stun
 type=stun
@@ -36,9 +46,18 @@ can_stack=false
 [effect]
 id=immunity
 name=Immunity
-type=immunity
+type=resist_all
 icon=12
 can_stack=false
+
+[effect]
+id=immunity_hero
+name=Immunity
+type=resist_all
+icon=12
+can_stack=false
+animation=animations/powers/immunity.txt
+render_above=true
 
 [effect]
 id=haste
@@ -63,11 +82,6 @@ type=mpot_percent
 [effect]
 id=knockback
 type=knockback
-can_stack=false
-
-[effect]
-id=immunity_bleed
-type=immunity_damage
 can_stack=false
 
 [effect]
@@ -151,3 +165,34 @@ can_stack=false
 id=reflect_scroll_dmg
 type=return_damage
 can_stack=false
+
+[effect]
+id=stamina_potion_icon
+name=Stamina Potion
+icon=9
+can_stack=false
+
+[effect]
+id=treasure_potion_icon
+name=Treasure Potion
+icon=30
+can_stack=false
+
+[effect]
+id=elemental_potion_icon
+name=Elemental Potion
+icon=4
+can_stack=false
+
+[effect]
+id=fireball_scroll
+name=Fireball Scroll
+icon=74
+can_stack=false
+
+[effect]
+id=icebolt_scroll
+name=Ice Bolt Scroll
+icon=78
+can_stack=false
+

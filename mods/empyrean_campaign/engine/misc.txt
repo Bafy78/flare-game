@@ -5,4 +5,7 @@ APPEND
 save_prefix=empyrean
 currency_id=1
 sell_without_vendor=false
+save_buyback=false
 
+fogofwar=1
+save_fogofwar=true

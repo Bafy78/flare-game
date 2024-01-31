@@ -651,7 +651,7 @@ data=
 [event]
 # rock trap
 type=event
-location=41,47,1,1
+location=41,29,41,53
 activate=on_trigger
 mapmod=collision,40,47,1;collision,66,62,1;object,40,47,132;object,66,62,134
 repeat=false
@@ -804,6 +804,7 @@ number=4
 type=enemy
 location=53,44,1,1
 category=mez
+invincible_requires_not_status=emp_mez_trap
 level=8
 number=1
 requires_status=emp_mez_respawn
@@ -814,6 +815,7 @@ wander_radius=1
 type=enemy
 location=53,44,1,1
 category=mez
+invincible_requires_not_status=emp_mez_trap
 level=8
 number=1
 requires_not_status=emp_mez_respawn,emp_mez_defeated

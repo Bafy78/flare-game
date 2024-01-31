@@ -1,9 +1,10 @@
 # gold
 loot=currency,50,30,40
 
-# potions
-loot=2,10
-loot=3,10
+# crafting
+loot=751,12
+loot=752,12
+loot=754,12
 
 # normal clothes
 loot=204,5

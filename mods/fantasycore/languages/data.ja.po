@@ -4,13 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Translators:
 # Justin Jacobs <jajdorkster@gmail.com>, 2018
+# Sato Hayato <garvash@gmail.com>, 2022
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-04 23:15+\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Justin Jacobs <jajdorkster@gmail.com>, 2018\n"
+"POT-Creation-Date: 2019-07-29 09:45+\n"
+"PO-Revision-Date: 2018-03-28 19:34+0000\n"
+"Last-Translator: Sato Hayato <garvash@gmail.com>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/flareorg/teams/84925/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,19 +22,19 @@ msgstr ""
 
 #: ../items/types.txt:5
 msgid "Main Hand"
-msgstr "利き手"
+msgstr "メイン"
 
 #: ../items/types.txt:9
 msgid "Off Hand"
-msgstr "第二の手"
+msgstr "サブ"
 
 #: ../items/types.txt:13
 msgid "Head"
-msgstr "頭部"
+msgstr "頭"
 
 #: ../items/types.txt:17
 msgid "Torso"
-msgstr "胴体"
+msgstr "胴"
 
 #: ../items/types.txt:21
 msgid "Hands"
@@ -40,23 +42,23 @@ msgstr "両手"
 
 #: ../items/types.txt:25
 msgid "Legs"
-msgstr "足"
+msgstr "両脚"
 
 #: ../items/types.txt:29
 msgid "Feet"
-msgstr "靴"
+msgstr "両足"
 
 #: ../items/types.txt:33
 msgid "Artifact"
-msgstr "アーティファクト"
+msgstr "アクセサリ"
 
 #: ../items/types.txt:37
 msgid "Ring"
-msgstr "リング"
+msgstr "指輪"
 
 #: ../items/types.txt:43
 msgid "Consumable"
-msgstr "消費されます"
+msgstr "消費アイテム"
 
 #: ../items/types.txt:47
 msgid "Gem"
@@ -72,35 +74,35 @@ msgstr "本"
 
 #: ../items/qualities.txt:3
 msgid "Low"
-msgstr ""
+msgstr "★"
 
 #: ../items/qualities.txt:9
 msgid "Normal"
-msgstr ""
+msgstr "★★"
 
 #: ../items/qualities.txt:15
 msgid "High"
-msgstr ""
+msgstr "★★★"
 
 #: ../items/qualities.txt:21
 msgid "Epic"
-msgstr ""
+msgstr "★★★★"
 
 #: ../items/qualities.txt:27
 msgid "Rare"
-msgstr ""
+msgstr "★★★★★"
 
 #: ../items/qualities.txt:33
 msgid "Unique"
-msgstr ""
+msgstr "★★★★★★"
 
 #: ../items/qualities.txt:39
 msgid "One-time Use"
-msgstr ""
+msgstr "使い切り"
 
 #: ../items/qualities.txt:45
 msgid "Currency"
-msgstr ""
+msgstr "通貨"
 
 #: ../engine/loot.txt:14
 msgid "Gold"
@@ -108,143 +110,143 @@ msgstr "金"
 
 #: ../engine/hero_options.txt:7
 msgid "Delrek"
-msgstr ""
+msgstr "デルレック"
 
 #: ../engine/hero_options.txt:8
 msgid "Anthem"
-msgstr ""
+msgstr "アンセム"
 
 #: ../engine/hero_options.txt:9
 msgid "Kuroko"
-msgstr ""
+msgstr "クロコ"
 
 #: ../engine/hero_options.txt:10
 msgid "Silus"
-msgstr ""
+msgstr "サイラス"
 
 #: ../engine/hero_options.txt:11
 msgid "Wardell"
-msgstr ""
+msgstr "ウォーデル"
 
 #: ../engine/hero_options.txt:12
 msgid "Meck"
-msgstr ""
+msgstr "メック"
 
 #: ../engine/hero_options.txt:13
 msgid "Jereth"
-msgstr ""
+msgstr "ジェレス"
 
 #: ../engine/hero_options.txt:14
 msgid "Ecnerwal"
-msgstr ""
+msgstr "エクナワル"
 
 #: ../engine/hero_options.txt:15
 msgid "Chane"
-msgstr ""
+msgstr "チェーン"
 
 #: ../engine/hero_options.txt:16
 msgid "Esteban"
-msgstr ""
+msgstr "エステバン"
 
 #: ../engine/hero_options.txt:17
 msgid "Kelen"
-msgstr ""
+msgstr "ケレン"
 
 #: ../engine/hero_options.txt:18
 msgid "Jochanan"
-msgstr ""
+msgstr "ジョカナン"
 
 #: ../engine/hero_options.txt:19
 msgid "Ichijo"
-msgstr ""
+msgstr "イチジョウ"
 
 #: ../engine/hero_options.txt:20
 msgid "Torwald"
-msgstr ""
+msgstr "トーウォルド"
 
 #: ../engine/hero_options.txt:21
 msgid "Rudyard"
-msgstr ""
+msgstr "ルディアード"
 
 #: ../engine/hero_options.txt:22
 msgid "Gryphon"
-msgstr ""
+msgstr "グリフォン"
 
 #: ../engine/hero_options.txt:23
 msgid "Percival"
-msgstr ""
+msgstr "パーシヴァル"
 
 #: ../engine/hero_options.txt:24
 msgid "Eldmoor"
-msgstr ""
+msgstr "エルドムーア"
 
 #: ../engine/hero_options.txt:25
 msgid "Lott"
-msgstr ""
+msgstr "ロット"
 
 #: ../engine/hero_options.txt:26
 msgid "Respute"
-msgstr ""
+msgstr "レスピュート"
 
 #: ../engine/hero_options.txt:28
 msgid "Elise"
-msgstr ""
+msgstr "エリーゼ"
 
 #: ../engine/hero_options.txt:29
 msgid "River"
-msgstr ""
+msgstr "リヴァー"
 
 #: ../engine/hero_options.txt:30
 msgid "Nital"
-msgstr ""
+msgstr "ナイタル"
 
 #: ../engine/hero_options.txt:31
 msgid "Karyli"
-msgstr ""
+msgstr "カリル"
 
 #: ../engine/hero_options.txt:32
 msgid "Venka"
-msgstr ""
+msgstr "ヴェンカ"
 
 #: ../engine/hero_options.txt:33
 msgid "Mikal"
-msgstr ""
+msgstr "マイカル"
 
 #: ../engine/hero_options.txt:34
 msgid "Hira"
-msgstr ""
+msgstr "ヒーラ"
 
 #: ../engine/hero_options.txt:35
 msgid "Blynn"
-msgstr ""
+msgstr "ブリン"
 
 #: ../engine/hero_options.txt:36
 msgid "Ashdara"
-msgstr ""
+msgstr "アシュダーラ"
 
 #: ../engine/hero_options.txt:37
 msgid "Calyss"
-msgstr ""
+msgstr "カリス"
 
 #: ../engine/hero_options.txt:38
 msgid "Zeldyn"
-msgstr ""
+msgstr "ゼルディン"
 
 #: ../engine/hero_options.txt:39
 msgid "Malia"
-msgstr ""
+msgstr "マリア"
 
 #: ../engine/hero_options.txt:40
 msgid "Ayah"
-msgstr ""
+msgstr "アーヤ"
 
 #: ../engine/hero_options.txt:41
 msgid "Gywn"
-msgstr ""
+msgstr "グウィン"
 
 #: ../engine/hero_options.txt:42
 msgid "Sonia"
-msgstr ""
+msgstr "ソニア"
 
 #: ../engine/equip_flags.txt:5
 msgid "melee weapon"
@@ -252,11 +254,11 @@ msgstr "近接武器"
 
 #: ../engine/equip_flags.txt:9
 msgid "ranged weapon"
-msgstr "遠距離武器"
+msgstr "遠隔武器"
 
 #: ../engine/equip_flags.txt:13
 msgid "mental weapon"
-msgstr "精神武器"
+msgstr "魔法武器"
 
 #: ../engine/equip_flags.txt:17
 msgid "shield"
@@ -264,7 +266,7 @@ msgstr "盾"
 
 #: ../engine/equip_flags.txt:21
 msgid "slingshot"
-msgstr ""
+msgstr "スリング"
 
 #: ../engine/equip_flags.txt:25
 msgid "bow"
@@ -272,244 +274,44 @@ msgstr "弓"
 
 #: ../soundfx/subtitles.txt:11
 msgid "Take a look around."
-msgstr ""
+msgstr "売り物を見るかい。"
 
 #: ../soundfx/subtitles.txt:15
 msgid "Looking to buy something?"
-msgstr ""
+msgstr "何か欲しいのかい？"
 
 #: ../soundfx/subtitles.txt:19
 msgid "How can I help you?"
-msgstr ""
+msgstr "何かご入用で？"
 
 #: ../soundfx/subtitles.txt:23
 msgid "Let's trade."
-msgstr ""
+msgstr "取引をしよう。"
 
 #: ../cutscenes/credits.txt:7
 msgid "Flare Game Credits - fantasycore"
-msgstr ""
+msgstr "Flare Game クレジット - fantasycore"
 
 #: ../cutscenes/credits.txt:10
 msgid "Lead Visual Artists"
-msgstr ""
-
-#: ../cutscenes/credits.txt:12
-msgid "Clint Bellanger"
-msgstr ""
-
-#: ../cutscenes/credits.txt:13
-msgid "Justin Nichol"
-msgstr ""
+msgstr "リードビジュアルアーティスト"
 
 #: ../cutscenes/credits.txt:16
 msgid "Visual Artists"
-msgstr ""
-
-#: ../cutscenes/credits.txt:18
-msgid "Blarumyrran"
-msgstr ""
-
-#: ../cutscenes/credits.txt:19
-msgid "Jessica Cox"
-msgstr ""
-
-#: ../cutscenes/credits.txt:20
-msgid "Sarah Benalene"
-msgstr ""
-
-#: ../cutscenes/credits.txt:21
-msgid "Scrittl"
-msgstr ""
-
-#: ../cutscenes/credits.txt:22
-msgid "Stefan Beller"
-msgstr ""
+msgstr "ヴィジュアルアーティスト"
 
 #: ../cutscenes/credits.txt:25
 msgid "Composers"
-msgstr ""
-
-#: ../cutscenes/credits.txt:27
-msgid "Brandon Morris"
-msgstr ""
-
-#: ../cutscenes/credits.txt:28
-msgid "remaxim"
-msgstr ""
+msgstr "作曲"
 
 #: ../cutscenes/credits.txt:31
 msgid "Foley Artists"
-msgstr ""
-
-#: ../cutscenes/credits.txt:34
-msgid "Justin Jacobs"
-msgstr ""
-
-#: ../cutscenes/credits.txt:35
-msgid "rubberduck"
-msgstr ""
+msgstr "効果音"
 
 #: ../cutscenes/credits.txt:38
 msgid "Voice Actors"
-msgstr ""
-
-#: ../cutscenes/credits.txt:41
-msgid "Holly Daniel"
-msgstr ""
+msgstr "声の出演"
 
 #: ../cutscenes/credits.txt:44
 msgid "Translators"
-msgstr ""
-
-#: ../cutscenes/credits.txt:46
-msgid "Adrian Chaves Fernandez"
-msgstr ""
-
-#: ../cutscenes/credits.txt:47
-msgid "Andrea Ranaldi"
-msgstr ""
-
-#: ../cutscenes/credits.txt:48
-msgid "Andreas Berheim Brudin"
-msgstr ""
-
-#: ../cutscenes/credits.txt:49
-msgid "Bas Doodeman"
-msgstr ""
-
-#: ../cutscenes/credits.txt:50
-msgid "Bonbadil"
-msgstr ""
-
-#: ../cutscenes/credits.txt:51
-msgid "Carlos Sanchez"
-msgstr ""
-
-#: ../cutscenes/credits.txt:52
-msgid "Chris Oelmueller"
-msgstr ""
-
-#: ../cutscenes/credits.txt:53
-msgid "Christoph J. Thompson"
-msgstr ""
-
-#: ../cutscenes/credits.txt:54
-msgid "Diego J. Romero López"
-msgstr ""
-
-#: ../cutscenes/credits.txt:55
-msgid "dumaosen"
-msgstr ""
-
-#: ../cutscenes/credits.txt:56
-msgid "Eric R"
-msgstr ""
-
-#: ../cutscenes/credits.txt:57
-msgid "Evgen Pavlov"
-msgstr ""
-
-#: ../cutscenes/credits.txt:58
-msgid "Giovanni Dalla Torre"
-msgstr ""
-
-#: ../cutscenes/credits.txt:59
-msgid "GunChleoc"
-msgstr ""
-
-#: ../cutscenes/credits.txt:60
-msgid "Hans Joachim Desserud"
-msgstr ""
-
-#: ../cutscenes/credits.txt:61
-msgid "hark34"
-msgstr ""
-
-#: ../cutscenes/credits.txt:62
-msgid "Igor Paliychuk"
-msgstr ""
-
-#: ../cutscenes/credits.txt:63
-msgid "Janet Hunt"
-msgstr ""
-
-#: ../cutscenes/credits.txt:64
-msgid "Juan Pablo Tamayo"
-msgstr ""
-
-#: ../cutscenes/credits.txt:65
-msgid "Mikhail Karalevich"
-msgstr ""
-
-#: ../cutscenes/credits.txt:66
-msgid "Miro Jánošík"
-msgstr ""
-
-#: ../cutscenes/credits.txt:67
-msgid "Mykola Franchuk"
-msgstr ""
-
-#: ../cutscenes/credits.txt:68
-msgid "MOB2"
-msgstr ""
-
-#: ../cutscenes/credits.txt:69
-msgid "Morgan Strauss"
-msgstr ""
-
-#: ../cutscenes/credits.txt:70
-msgid "Nea Retrogamer"
-msgstr ""
-
-#: ../cutscenes/credits.txt:71
-msgid "Nikita Vanku"
-msgstr ""
-
-#: ../cutscenes/credits.txt:72
-msgid "Paul Wortmann"
-msgstr ""
-
-#: ../cutscenes/credits.txt:73
-msgid "Pawel Puszczynski"
-msgstr ""
-
-#: ../cutscenes/credits.txt:74
-msgid "Quentin Stievenart"
-msgstr ""
-
-#: ../cutscenes/credits.txt:75
-msgid "Rui"
-msgstr ""
-
-#: ../cutscenes/credits.txt:76
-msgid "Sergey Basalaev"
-msgstr ""
-
-#: ../cutscenes/credits.txt:78
-msgid "Stefano Peris"
-msgstr ""
-
-#: ../cutscenes/credits.txt:79
-msgid "sujiniku"
-msgstr ""
-
-#: ../cutscenes/credits.txt:80
-msgid "Thomas Glamsch"
-msgstr ""
-
-#: ../cutscenes/credits.txt:81
-msgid "Timo Sievänen"
-msgstr ""
-
-#: ../cutscenes/credits.txt:82
-msgid "Vicente Monteiro"
-msgstr ""
-
-#: ../cutscenes/credits.txt:83
-msgid "Wuzzy2"
-msgstr ""
-
-#: ../cutscenes/credits.txt:84
-msgid "Yannis Anthymidis"
-msgstr ""
+msgstr "翻訳"

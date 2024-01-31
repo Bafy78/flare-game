@@ -21,8 +21,8 @@ stat=dmg_ment_max,265
 stat=absorb_min,15
 stat=absorb_max,16
 
-vulnerable=fire,125
-vulnerable=ice,50
+stat=fire_resist,-25
+stat=ice_resist,50
 
 cooldown=1175ms
 
@@ -45,7 +45,7 @@ flee_duration=3s
 flee_cooldown=1s
 flee_range=9
 threat_range=15,20
-melee_range=2.5
+melee_range=1
 power=melee,164,5
 power=melee,261,20
 power=ranged,172,60

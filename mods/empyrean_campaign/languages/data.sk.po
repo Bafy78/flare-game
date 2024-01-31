@@ -2,12 +2,17 @@
 # This file is distributed under the same license as the FLARE package.
 # 
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Translators:
+# MiroslavR <miroslavr256@gmail.com>, 2019
+# Justin Jacobs <jajdorkster@gmail.com>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-28 15:13+\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2022-01-09 13:46+\n"
+"PO-Revision-Date: 2018-03-28 19:35+0000\n"
+"Last-Translator: Justin Jacobs <jajdorkster@gmail.com>, 2020\n"
 "Language-Team: Slovak (https://www.transifex.com/flareorg/teams/84925/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,27 +22,43 @@ msgstr ""
 
 #: ../items/items.txt:8
 msgid "Gold"
-msgstr ""
+msgstr "Zlat."
 
-#: ../items/items.txt:55
+#: ../items/items.txt:58
 msgid "DEV Boots"
-msgstr ""
+msgstr "Vývojárske čižmy"
 
-#: ../items/items.txt:60
+#: ../items/items.txt:63
 msgid "Use: Teleport to target position."
-msgstr ""
+msgstr "Pri použití: Teleportujete sa na cieľovú pozíciu."
 
-#: ../items/items.txt:64
+#: ../items/items.txt:67
 msgid "DEV Invisibility Boots"
+msgstr "Vývojárske čižmy neviditeľnosti"
+
+#: ../items/items.txt:72
+msgid "Use: Turn Invisible"
+msgstr "Pri použití: Zneviditeľníte sa"
+
+#: ../items/items.txt:76
+msgid "DEV Tome"
 msgstr ""
 
-#: ../items/items.txt:69
-msgid "Use: Turn Invisible"
+#: ../items/items.txt:80
+msgid "Use: Open DEV Tome"
 msgstr ""
 
 #: ../items/types.txt:5
 msgid "Ancient Relic"
-msgstr ""
+msgstr "Prastará relikvia"
+
+#: ../items/types.txt:9
+msgid "Crafting Resource"
+msgstr "Surovina na výrobu"
+
+#: ../items/types.txt:13
+msgid "Crafting Tool"
+msgstr "Výrobný nástroj"
 
 #: ../items/sets.txt:3
 msgid "St. Maria Garb"
@@ -45,7 +66,7 @@ msgstr ""
 
 #: ../items/sets.txt:14
 msgid "Temple Guard's Outfit"
-msgstr ""
+msgstr "Výstroj stráže chrámu"
 
 #: ../items/sets.txt:25
 msgid "Wizard's Apparatus"
@@ -53,117 +74,139 @@ msgstr ""
 
 #: ../items/sets.txt:36
 msgid "Underworld Armament"
-msgstr ""
+msgstr "Podsvetná výzbroj"
+
+#: ../items/qualities.txt:5
+msgid "Normal"
+msgstr "Normálna"
 
 #: ../powers/effects.txt:6
 msgid "Shield"
-msgstr ""
+msgstr "Štít"
 
 #: ../powers/effects.txt:16
 msgid "Bleeding"
-msgstr ""
+msgstr "Krvácanie"
 
 #: ../powers/effects.txt:24
 msgid "Slow"
-msgstr ""
+msgstr "Spomalenie"
 
-#: ../powers/effects.txt:31
+#: ../powers/effects.txt:41
 msgid "Stun"
-msgstr ""
+msgstr "Omráčenie"
 
-#: ../powers/effects.txt:38
+#: ../powers/effects.txt:48
 msgid "Immunity"
-msgstr ""
+msgstr "Imunita"
 
-#: ../powers/effects.txt:45
+#: ../powers/effects.txt:64
 msgid "Haste"
-msgstr ""
+msgstr "Zhon"
 
-#: ../powers/effects.txt:96
+#: ../powers/effects.txt:115
 msgid "Weakness to Fire"
-msgstr ""
+msgstr "Slabosť voči ohňu"
 
-#: ../powers/effects.txt:105
+#: ../powers/effects.txt:124
 msgid "Weakness to Ice"
-msgstr ""
+msgstr "Slabosť voči  ľadu"
 
-#: ../powers/effects.txt:121
+#: ../powers/effects.txt:140
 msgid "Sacrifice"
+msgstr "Obeta"
+
+#: ../powers/effects.txt:165
+msgid "Reflect"
+msgstr "Odraz"
+
+#: ../powers/effects.txt:176
+msgid "Stamina Potion"
 msgstr ""
 
-#: ../powers/effects.txt:146
-msgid "Reflect"
+#: ../powers/effects.txt:182
+msgid "Treasure Potion"
+msgstr ""
+
+#: ../powers/effects.txt:188
+msgid "Elemental Potion"
 msgstr ""
 
 #: ../powers/powers.txt:25
 msgid "Teleport"
-msgstr ""
+msgstr "Teleportácia"
 
 #: ../powers/powers.txt:42
 msgid "Turn Invisible"
-msgstr ""
+msgstr "Zneviditeľnenie"
 
-#: ../powers/powers.txt:53
+#: ../powers/powers.txt:54
 msgid "Remove Invisibility"
-msgstr ""
+msgstr "Odstránenie neviditeľnosti"
 
 #: ../engine/elements.txt:3
 msgid "Fire"
-msgstr ""
+msgstr "Oheň"
 
 #: ../engine/elements.txt:7
 msgid "Ice"
-msgstr ""
+msgstr "Ľad"
 
 #: ../engine/elements.txt:11
 msgid "Lightning"
-msgstr ""
+msgstr "Blesk"
 
 #: ../engine/elements.txt:15
 msgid "Dark"
-msgstr ""
+msgstr "Temno"
 
 #: ../engine/classes.txt:6
 msgid "Brute"
-msgstr ""
+msgstr "Surovec"
 
 #: ../engine/classes.txt:7
 msgid ""
 "Brutes rely on physical strength and melee weapons to strike down foes. "
 "Primary attribute: Physical"
 msgstr ""
+"Surovci sa v boji s nepriateľmi spoliehajú na fyzickú silu a zbrane "
+"nablízko. Primárny atribút: Fyzický"
 
 #: ../engine/classes.txt:17
 msgid "Scout"
-msgstr ""
+msgstr "Zved"
 
 #: ../engine/classes.txt:18
 msgid ""
 "Scouts specialize in range weaponry and combat accuracy. Primary attribute: "
 "Offense"
 msgstr ""
+"Zvedovia sa špecializujú na strelné zbrane a presnosť v boji. Primárny "
+"atribút: Útok"
 
 #: ../engine/classes.txt:28
 msgid "Adept"
-msgstr ""
+msgstr "Znalec"
 
 #: ../engine/classes.txt:29
 msgid ""
 "Adepts have natural abilities in casting magical spells. Primary attribute: "
 "Mental"
 msgstr ""
+"Znalci majú vrodenú schopnosť zosielať magické kúzla. Primárny atribút: "
+"Mentálny"
 
 #: ../engine/titles.txt:3
 msgid "Grand Master"
-msgstr ""
+msgstr "Veľmajster"
 
 #: ../engine/titles.txt:7
 msgid "Master"
-msgstr ""
+msgstr "Majster"
 
 #: ../engine/titles.txt:13
 msgid "Warlord"
-msgstr ""
+msgstr "Vojvodca"
 
 #: ../engine/titles.txt:18
 msgid "Archwizard"
@@ -195,7 +238,7 @@ msgstr ""
 
 #: ../engine/titles.txt:54
 msgid "Battle Archmage"
-msgstr ""
+msgstr "Bojový arcimág"
 
 #: ../engine/titles.txt:59
 msgid "High Warden"
@@ -203,7 +246,7 @@ msgstr ""
 
 #: ../engine/titles.txt:63
 msgid "Adventurer"
-msgstr ""
+msgstr "Dobrodruh"
 
 #: ../engine/titles.txt:69
 msgid "Warrior"
@@ -239,11 +282,11 @@ msgstr ""
 
 #: ../engine/titles.txt:110
 msgid "Battle Mage"
-msgstr ""
+msgstr "Bojový mág"
 
 #: ../engine/titles.txt:115
 msgid "Warden"
-msgstr ""
+msgstr "Strážca"
 
 #: ../engine/titles.txt:119
 msgid "Wanderer"
@@ -295,31 +338,31 @@ msgstr ""
 
 #: ../engine/equip_flags.txt:5
 msgid "throwing axe"
-msgstr ""
+msgstr "vrhacia sekera"
 
 #: ../enemies/base/ardwen.txt:3
 msgid "Ardwen"
-msgstr ""
+msgstr "Ardwen"
 
 #: ../enemies/catacomb_boulder_1.txt:6
 msgid "Boulder"
-msgstr ""
+msgstr "Balvan"
 
 #: ../enemies/goblin_minecart.txt:4
 msgid "Goblin"
-msgstr ""
+msgstr "Goblin"
 
 #: ../enemies/lvl10_minotaur.txt:3
 msgid "Minotaur"
-msgstr ""
+msgstr "Minotaurus"
 
 #: ../enemies/lvl10_minotaur_necromancer.txt:3
 msgid "Minotaur Necromancer"
-msgstr ""
+msgstr "Nekromantský minotaurus"
 
 #: ../enemies/lvl10_mog.txt:3
 msgid "Mog"
-msgstr ""
+msgstr "Mog"
 
 #: ../enemies/lvl10_skeleton_minion.txt:3
 msgid "Skeleton Minion"
@@ -327,23 +370,23 @@ msgstr ""
 
 #: ../enemies/lvl10_skeleton_sharpshooter.txt:3
 msgid "Skeleton Sharpshooter"
-msgstr ""
+msgstr "Ostrostrelecký kostlivec"
 
 #: ../enemies/lvl10_xonun.txt:3
 msgid "Xonun"
-msgstr ""
+msgstr "Xonun"
 
 #: ../enemies/lvl10_zombie_leecher.txt:3
 msgid "Leecher Zombie"
-msgstr ""
+msgstr "Parazitný zombie"
 
 #: ../enemies/lvl11_antlion_venom.txt:3
 msgid "Venom Antlion"
-msgstr ""
+msgstr "Jedovatý mravcolev"
 
 #: ../enemies/lvl11_buchi.txt:3
 msgid "Buchi"
-msgstr ""
+msgstr "Buchi"
 
 #: ../enemies/lvl11_sentry_fire.txt:3
 msgid "Fire Sentry"
@@ -367,35 +410,35 @@ msgstr ""
 
 #: ../enemies/lvl12_cyl.txt:3
 msgid "Cyl"
-msgstr ""
+msgstr "Cyl"
 
 #: ../enemies/lvl12_metzger.txt:3
 msgid "Metzger"
-msgstr ""
+msgstr "Metzger"
 
 #: ../enemies/lvl12_nishi.txt:3
 msgid "Nishi"
-msgstr ""
+msgstr "Nishi"
 
 #: ../enemies/lvl13_antlion_fossilized.txt:3
 msgid "Fossilized Antlion"
-msgstr ""
+msgstr "Fosílny mravcolev"
 
 #: ../enemies/lvl13_antlion_larva.txt:3
 msgid "Antlion Larva"
-msgstr ""
+msgstr "Larva mravcoleva"
 
 #: ../enemies/lvl13_goblin_thief.txt:3
 msgid "Goblin Thief"
-msgstr ""
+msgstr "Zlodejský goblin"
 
 #: ../enemies/lvl13_skeleton_shadowstep.txt:3
 msgid "Shadowstep Skeleton"
-msgstr ""
+msgstr "Zahalený kostlivec"
 
 #: ../enemies/lvl13_zombie_miner.txt:13
 msgid "Zombie Miner"
-msgstr ""
+msgstr "Zombie baníka"
 
 #: ../enemies/lvl13_zombie_vomit.txt:3
 msgid "Vomit Zombie"
@@ -419,27 +462,27 @@ msgstr ""
 
 #: ../enemies/lvl15_arzoz.txt:3
 msgid "Arzoz"
-msgstr ""
+msgstr "Arzoz"
 
 #: ../enemies/lvl15_hobgoblin.txt:3
 msgid "Hobgoblin"
-msgstr ""
+msgstr "Hobgoblin"
 
 #: ../enemies/lvl15_hobgoblin_archer.txt:3
 msgid "Hobgoblin Archer"
-msgstr ""
+msgstr "Lučištnícky hobgoblin"
 
 #: ../enemies/lvl15_kayl.txt:3
 msgid "Kayl"
-msgstr ""
+msgstr "Kayl"
 
 #: ../enemies/lvl15_lorund.txt:3
 msgid "Lorund"
-msgstr ""
+msgstr "Lorund"
 
 #: ../enemies/lvl15_nerin.txt:3
 msgid "Nerin"
-msgstr ""
+msgstr "Nerin"
 
 #: ../enemies/lvl15_skeleton_guardian.txt:3
 msgid "Skeleton Guardian"
@@ -447,27 +490,27 @@ msgstr ""
 
 #: ../enemies/lvl15_vohn.txt:4
 msgid "Vohn"
-msgstr ""
+msgstr "Vohn"
 
 #: ../enemies/lvl15_wyvern_ancient.txt:3
 msgid "Ancient Wyvern"
-msgstr ""
+msgstr "Prastarý drak"
 
 #: ../enemies/lvl16_forgotten_grave.txt:4
 msgid "Forgotten Grave"
-msgstr ""
+msgstr "Zabudnutý hrob"
 
 #: ../enemies/lvl16_lezaith.txt:4
 msgid "Lezaith"
-msgstr ""
+msgstr "Lezaith"
 
 #: ../enemies/lvl16_ogel.txt:3
 msgid "Ogel"
-msgstr ""
+msgstr "Ogel"
 
 #: ../enemies/lvl16_rakk.txt:3
 msgid "Rakk"
-msgstr ""
+msgstr "Rakk"
 
 #: ../enemies/lvl1_goblin_runner.txt:3
 msgid "Goblin Runner"
@@ -483,11 +526,11 @@ msgstr ""
 
 #: ../enemies/lvl1_zombie_raised.txt:3
 msgid "Cursed Zombie"
-msgstr ""
+msgstr "Prekliaty zombie"
 
 #: ../enemies/lvl1_zombie_rotting.txt:3
 msgid "Rotting Zombie"
-msgstr ""
+msgstr "Hnijúci zombie"
 
 #: ../enemies/lvl2_goblin_charger.txt:3
 msgid "Goblin Charger"
@@ -495,7 +538,7 @@ msgstr ""
 
 #: ../enemies/lvl2_goblin_chief.txt:3
 msgid "Goblin Chief"
-msgstr ""
+msgstr "Goblinský náčelník"
 
 #: ../enemies/lvl2_goblin_spearman.txt:3
 msgid "Goblin Spearman"
@@ -503,23 +546,23 @@ msgstr ""
 
 #: ../enemies/lvl2_krolan.txt:3
 msgid "Krolan"
-msgstr ""
+msgstr "Krolan"
 
 #: ../enemies/lvl2_skeleton.txt:3
 msgid "Skeleton"
-msgstr ""
+msgstr "Kostlivec"
 
 #: ../enemies/lvl2_skeleton_archer.txt:3
 msgid "Skeleton Archer"
-msgstr ""
+msgstr "Lučištnícky kostlivec"
 
 #: ../enemies/lvl2_zombie.txt:3
 msgid "Zombie"
-msgstr ""
+msgstr "Zombie"
 
 #: ../enemies/lvl3_cursed_grave.txt:3
 msgid "Cursed Grave"
-msgstr ""
+msgstr "Prekliaty hrob"
 
 #: ../enemies/lvl3_skeleton_fire_mage.txt:3
 msgid "Skeleton Fire Mage"
@@ -539,11 +582,11 @@ msgstr ""
 
 #: ../enemies/lvl3_zombie_bloodthirsty.txt:3
 msgid "Bloodthirsty Zombie"
-msgstr ""
+msgstr "Krvilačný zombie"
 
 #: ../enemies/lvl3_zombie_brute.txt:3
 msgid "Zombie Brute"
-msgstr ""
+msgstr "Surový zombie"
 
 #: ../enemies/lvl3_zombie_iceclaw.txt:3
 msgid "Iceclaw Zombie"
@@ -551,11 +594,11 @@ msgstr ""
 
 #: ../enemies/lvl4_cid.txt:3
 msgid "Cid"
-msgstr ""
+msgstr "Cid"
 
 #: ../enemies/lvl4_geno.txt:3
 msgid "Geno"
-msgstr ""
+msgstr "Geno"
 
 #: ../enemies/lvl4_seagate.txt:3
 msgid "Seagate"
@@ -567,11 +610,11 @@ msgstr ""
 
 #: ../enemies/lvl5_antlion.txt:3
 msgid "Antlion"
-msgstr ""
+msgstr "Mravcolev"
 
 #: ../enemies/lvl5_antlion_freezer.txt:3
 msgid "Antlion Freezer"
-msgstr ""
+msgstr "Mrazivý mravcolev"
 
 #: ../enemies/lvl5_frozen_corpse.txt:3
 msgid "Frozen Corpse"
@@ -611,11 +654,11 @@ msgstr ""
 
 #: ../enemies/lvl6_gruzza.txt:3
 msgid "Gruzza"
-msgstr ""
+msgstr "Gruzza"
 
 #: ../enemies/lvl6_prioss.txt:3
 msgid "Prioss"
-msgstr ""
+msgstr "Prioss"
 
 #: ../enemies/lvl6_skeleton_assassin.txt:3
 msgid "Skeleton Assassin"
@@ -627,7 +670,7 @@ msgstr ""
 
 #: ../enemies/lvl7_antlion_queen.txt:3
 msgid "Antlion Queen"
-msgstr ""
+msgstr "Kráľovná mravcoleva"
 
 #: ../enemies/lvl7_skeleton_basher.txt:3
 msgid "Skeleton Basher"
@@ -635,31 +678,31 @@ msgstr ""
 
 #: ../enemies/lvl7_vampiric_zombie.txt:3
 msgid "Vampiric Zombie"
-msgstr ""
+msgstr "Upírsky zombie"
 
 #: ../enemies/lvl7_wyvern.txt:3
 msgid "Wyvern"
-msgstr ""
+msgstr "Drak"
 
 #: ../enemies/lvl7_wyvern_fire.txt:3
 msgid "Fire Wyvern"
-msgstr ""
+msgstr "Ohnivý drak"
 
 #: ../enemies/lvl7_wyvern_ice.txt:3
 msgid "Ice Wyvern"
-msgstr ""
+msgstr "Ľadový drak"
 
 #: ../enemies/lvl8_kylana.txt:3
 msgid "Kylana"
-msgstr ""
+msgstr "Kylana"
 
 #: ../enemies/lvl8_mez.txt:4
 msgid "Mez"
-msgstr ""
+msgstr "Mez"
 
 #: ../enemies/lvl8_zola.txt:3
 msgid "Zola"
-msgstr ""
+msgstr "Zola"
 
 #: ../enemies/lvl9_antlion_sprayer.txt:3
 msgid "Antlion Sprayer"
@@ -679,15 +722,15 @@ msgstr ""
 
 #: ../enemies/lvl9_wyvern_tundra.txt:3
 msgid "Tundra Wyvern"
-msgstr ""
+msgstr "Tundrový drak"
 
 #: ../enemies/summon_zombie.txt:3
 msgid "Your Summoned Zombie"
-msgstr ""
+msgstr "Vami vyvolaný zombie"
 
 #: ../maps/abandoned_mines.txt:10
 msgid "Abandoned Mines"
-msgstr ""
+msgstr "Opustené bane"
 
 #: ../maps/abandoned_mines.txt:337
 msgid "Blackmire Mines"
@@ -695,15 +738,15 @@ msgstr ""
 
 #: ../maps/abandoned_mines.txt:454
 msgid "Treasure Chest"
-msgstr ""
+msgstr "Truhlica s pokladom"
 
 #: ../maps/abandoned_mines.txt:466
 msgid "Crate"
-msgstr ""
+msgstr "Debna"
 
 #: ../maps/abandoned_mines.txt:490
 msgid "Barrel"
-msgstr ""
+msgstr "Sud"
 
 #: ../maps/abandoned_mines.txt:523
 msgid "The Breach"
@@ -715,7 +758,7 @@ msgstr ""
 
 #: ../maps/antlion_nest.txt:10
 msgid "Antlion Nest"
-msgstr ""
+msgstr "Mracvolevie hniezdo"
 
 #: ../maps/antlion_nest.txt:390
 msgid "Temple of Mez: Basement"
@@ -723,7 +766,7 @@ msgstr ""
 
 #: ../maps/arrival.txt:11
 msgid "Arrival"
-msgstr ""
+msgstr "Príchod"
 
 #: ../maps/arrival.txt:171
 msgid "River Trail"
@@ -739,11 +782,11 @@ msgstr ""
 
 #: ../maps/black_oak_city.txt:354
 msgid "Supplies"
-msgstr ""
+msgstr "Zásoby"
 
 #: ../maps/black_oak_city.txt:602
 msgid "Wizard's Tower: Entrance Hall"
-msgstr ""
+msgstr "Čarodejova veža: Vstupná hala"
 
 #: ../maps/black_oak_farm.txt:342
 msgid "Southern Ridge"
@@ -755,7 +798,7 @@ msgstr ""
 
 #: ../maps/black_oak_farm.txt:547
 msgid "Lumber"
-msgstr ""
+msgstr "Drevo"
 
 #: ../maps/blackmire_mines.txt:277
 msgid "Blackmire Mines waypoint discovered."
@@ -763,33 +806,35 @@ msgstr ""
 
 #: ../maps/blackmire_mines.txt:291
 msgid "Hyperspace"
-msgstr ""
+msgstr "Hyperpriestor"
 
 #: ../maps/blackmire_mines.txt:480
 msgid "Lake Kuuma"
-msgstr ""
+msgstr "Jazero Kuuma"
 
-#: ../maps/book_of_the_dead.txt:10
+#: ../maps/book_of_the_dead.txt:11
 msgid "Book of the Dead"
-msgstr ""
+msgstr "Kniha mŕtvych"
 
-#: ../maps/book_of_the_dead.txt:191
+#: ../maps/book_of_the_dead.txt:192
 msgid "Perdition Harbor"
-msgstr ""
+msgstr "Zatratený prístav"
 
-#: ../maps/book_of_the_dead.txt:201
+#: ../maps/book_of_the_dead.txt:202
 msgid "Salted Field"
 msgstr ""
 
-#: ../maps/book_of_the_dead.txt:294
+#: ../maps/book_of_the_dead.txt:295
 msgid "Quest added."
 msgstr ""
 
-#: ../maps/book_of_the_dead.txt:349
+#: ../maps/book_of_the_dead.txt:348
 msgid ""
 "You sign your name in the Book of the Dead. The Black Quill vanishes and the"
 " inkwell is dry. You hope this worked."
 msgstr ""
+"Podpísali ste sa svojím menom do Knihy mŕtvych. Čierne brko sa rozplynulo a "
+"kalamár vyschol. Dúfate, že to malo účinok."
 
 #: ../maps/dilapidated_sewers.txt:311
 msgid "Dilapidated Sewers waypoint discovered."
@@ -797,99 +842,89 @@ msgstr ""
 
 #: ../maps/dilapidated_sewers.txt:576
 msgid "Fort Nasu"
-msgstr ""
+msgstr "Pevnosť Nasu"
 
-#: ../maps/family_crypt.txt:10
+#: ../maps/family_crypt.txt:11
 msgid "Family Crypt"
-msgstr ""
-
-#: ../maps/family_crypt.txt:229
-msgid "Switch"
-msgstr ""
-
-#: ../maps/family_crypt.txt:254
-msgid "Ardwen (1308-1364), founder of Lochport"
-msgstr ""
+msgstr "Rodinná hrobka"
 
 #: ../maps/family_crypt.txt:257
-msgid "In Memoriam"
-msgstr ""
+msgid "Switch"
+msgstr "Prepínač"
 
-#: ../maps/family_crypt.txt:267
-msgid "Lochport Cemetery"
-msgstr ""
-
-#: ../maps/family_crypt.txt:301
-msgid ""
-"The coffin has a small slot the size of Ardwen's ring. You place the ring in"
-" the slot."
-msgstr ""
-
-#: ../maps/family_crypt.txt:310
+#: ../maps/family_crypt.txt:269
 msgid "Ardwen's Coffin"
-msgstr ""
+msgstr "Ardwenova rakva"
 
-#: ../maps/family_crypt.txt:333
-msgid "The switch won't budge."
-msgstr ""
+#: ../maps/family_crypt.txt:356
+msgid "Ardwen (1308-1364), founder of Lochport"
+msgstr "Ardwen (1308-1364), zakladateľ Lochportu"
 
-#: ../maps/family_crypt.txt:387
-msgid "Reset quest: \"Trapped in the Crypt\""
-msgstr ""
+#: ../maps/family_crypt.txt:359
+msgid "In Memoriam"
+msgstr "Na pamiatku"
 
-#: ../maps/fort_amir.txt:10
+#: ../maps/family_crypt.txt:369
+msgid "Lochport Cemetery"
+msgstr "Lochportský cintorín"
+
+#: ../maps/fort_amir.txt:11
 msgid "Fort Amir"
-msgstr ""
+msgstr "Pevnosť Amir"
 
-#: ../maps/fort_amir.txt:369
+#: ../maps/fort_amir.txt:370
 msgid ""
 "Opening the book reveals that it has been hollowed out. A gem is concealed "
 "inside."
 msgstr ""
+"Po otvorení knihy ste vnútri objavili vyrezanú dutinu. Bol v nej ukrytý "
+"drahokam."
 
-#: ../maps/fort_amir.txt:373
+#: ../maps/fort_amir.txt:374
 msgid "Book"
-msgstr ""
+msgstr "Kniha"
 
-#: ../maps/fort_amir.txt:398
+#: ../maps/fort_amir.txt:399
 msgid ""
 "The statue is missing an eye. The sapphire fits securely in the statue's eye"
 " socket."
-msgstr ""
+msgstr "Soche chýba oko. Zafír bezpečne pasuje do očnej jamky sochy."
 
-#: ../maps/fort_amir.txt:403
+#: ../maps/fort_amir.txt:405
 msgid "Statue"
-msgstr ""
+msgstr "Socha"
 
-#: ../maps/fort_amir.txt:424
+#: ../maps/fort_amir.txt:427
 msgid "The statue is missing an eye."
-msgstr ""
+msgstr "Soche chýba oko."
 
-#: ../maps/fort_amir.txt:454
+#: ../maps/fort_amir.txt:459
 msgid "The bookcase slides back and reveals a hidden path."
-msgstr ""
+msgstr "Knižnica sa posunula a odhalila skrytú cestu."
 
-#: ../maps/fort_nasu.txt:1026
+#: ../maps/fort_nasu.txt:1025
 msgid "Book Stand"
-msgstr ""
+msgstr "Stojan na knihy"
 
-#: ../maps/fort_nasu.txt:1065
+#: ../maps/fort_nasu.txt:1064
 msgid "Altar"
-msgstr ""
+msgstr "Oltár"
 
-#: ../maps/fort_nasu.txt:1073
+#: ../maps/fort_nasu.txt:1072
 msgid ""
 "As you enter the throne room, you see an Altar with a wooden figurine placed"
 " upon it."
 msgstr ""
+"Len čo ste vkročili do trónnej sály, všimli ste si oltár, na ktorom bola "
+"položená drevená figurína."
 
-#: ../maps/fort_nasu.txt:1103
+#: ../maps/fort_nasu.txt:1102
 msgid "Strange Book"
-msgstr ""
+msgstr "Zvláštna kniha"
 
 #: ../maps/goblin_camp.txt:11
 msgid "Goblin Camp"
-msgstr ""
+msgstr "Tábor goblinov"
 
 #: ../maps/goblin_camp.txt:223
 msgid "Stonewood"
@@ -901,23 +936,23 @@ msgstr ""
 
 #: ../maps/goblin_camp.txt:411
 msgid "Goblin Cave"
-msgstr ""
+msgstr "Jaskyňa goblinov"
 
 #: ../maps/goblin_camp.txt:423
 msgid "Gravestone"
 msgstr ""
 
-#: ../maps/halls_of_infinity/halls_of_infinity_5.txt:11
+#: ../maps/halls_of_infinity/halls_of_infinity_8.txt:11
 msgid "Halls of Infinity"
-msgstr ""
-
-#: ../maps/halls_of_infinity/halls_of_infinity_7.txt:551
-msgid "Stalagmite Pillar"
-msgstr ""
+msgstr "Nekonečné sály"
 
 #: ../maps/halls_of_infinity/halls_of_infinity_6.txt:340
 msgid "Mine Cart"
-msgstr ""
+msgstr "Banský vozík"
+
+#: ../maps/halls_of_infinity/halls_of_infinity_7.txt:551
+msgid "Stalagmite Pillar"
+msgstr "Stalagmitový stĺp"
 
 #: ../maps/halls_of_infinity.txt:223
 msgid "Underworld Stronghold: Barracks"
@@ -925,31 +960,31 @@ msgstr ""
 
 #: ../maps/halls_of_infinity.txt:267
 msgid "The plaque reads: \"1\"."
-msgstr ""
+msgstr "Na plakete je napísané: „1“."
 
 #: ../maps/halls_of_infinity.txt:269
 msgid "Plaque"
-msgstr ""
+msgstr "Plaketa"
 
 #: ../maps/halls_of_infinity.txt:278
 msgid "The plaque reads: \"2\"."
-msgstr ""
+msgstr "Na plakete je napísané: „2“."
 
 #: ../maps/halls_of_infinity.txt:289
 msgid "The plaque reads: \"3\"."
-msgstr ""
+msgstr "Na plakete je napísané: „3“."
 
 #: ../maps/halls_of_infinity.txt:300
 msgid "The plaque reads: \"4\"."
-msgstr ""
+msgstr "Na plakete je napísané: „4“."
 
 #: ../maps/halls_of_infinity.txt:311
 msgid "The altar is empty."
-msgstr ""
+msgstr "Oltár je prázdny."
 
 #: ../maps/halls_of_infinity.txt:324
 msgid "You place the figure on the altar."
-msgstr ""
+msgstr "Na oltár ste položili figurínu."
 
 #: ../maps/hyperspace.txt:196
 msgid "St. Maria: Catacombs"
@@ -961,7 +996,7 @@ msgstr ""
 
 #: ../maps/hyperspace.txt:229
 msgid "Temple of Mez: Main Hall"
-msgstr ""
+msgstr "Mezov chrám: Hlavná sála"
 
 #: ../maps/hyperspace.txt:240
 msgid "Nazia Underground"
@@ -969,7 +1004,7 @@ msgstr ""
 
 #: ../maps/hyperspace.txt:262
 msgid "Wizard's Tower: Research Chambers"
-msgstr ""
+msgstr "Čarodejova vež: Výskumné komory"
 
 #: ../maps/hyperspace.txt:273
 msgid "Underworld Catacombs"
@@ -981,11 +1016,11 @@ msgstr ""
 
 #: ../maps/lake_kuuma.txt:852
 msgid "Boat"
-msgstr ""
+msgstr "Čln"
 
 #: ../maps/lochport.txt:12
 msgid "Lochport"
-msgstr ""
+msgstr "Lochport"
 
 #: ../maps/lochport.txt:360
 msgid "St. Maria: Mausoleum"
@@ -993,27 +1028,31 @@ msgstr ""
 
 #: ../maps/lochport_cemetery.txt:310
 msgid "Lochport Cemetery waypoint discovered."
-msgstr ""
+msgstr "Objavili ste traťový bod Lochportského cintorína."
 
-#: ../maps/mog_caverns.txt:10
+#: ../maps/mog_caverns.txt:11
 msgid "Mog Caverns"
 msgstr ""
 
-#: ../maps/mog_caverns.txt:293
+#: ../maps/mog_caverns.txt:292
+msgid "You found another note. Keep following the trail."
+msgstr ""
+
+#: ../maps/mog_caverns.txt:302
 msgid "Waterlogged Support Beam"
-msgstr ""
+msgstr "Trám nasiaknutý vodou"
 
-#: ../maps/mog_caverns.txt:305
+#: ../maps/mog_caverns.txt:319
 msgid "Moldy Rock"
-msgstr ""
+msgstr "Plesnivý kameň"
 
-#: ../maps/mog_caverns.txt:317
+#: ../maps/mog_caverns.txt:336
 msgid "Pile of Bones"
-msgstr ""
+msgstr "Hromada kostí"
 
-#: ../maps/mog_caverns.txt:329
+#: ../maps/mog_caverns.txt:353
 msgid "Blocked Mine Cart"
-msgstr ""
+msgstr "Zablokovaný banský vozík"
 
 #: ../maps/nazia_highlands.txt:11
 msgid "Nazia Highlands"
@@ -1023,17 +1062,25 @@ msgstr ""
 msgid "Nazia Mines"
 msgstr ""
 
-#: ../maps/nazia_mines.txt:247
+#: ../maps/nazia_mines.txt:240
 msgid "Empty Mine Cart"
+msgstr "Prázdny banský vozík"
+
+#: ../maps/nazia_mines.txt:291
+msgid "By itself, this mine cart can't break open the door."
 msgstr ""
 
-#: ../maps/nazia_mines.txt:296
-msgid "By itself, this mine cart can't break open the rubble."
+#: ../maps/nazia_mines.txt:428
+msgid "You found a door, but it appears to be barricaded from the inside."
 msgstr ""
 
-#: ../maps/nazia_mines.txt:424
-msgid "Reset Quest: \"Trapped!\""
-msgstr ""
+#: ../maps/nazia_mines.txt:433
+msgid "Locked Door"
+msgstr "Zamknuté dvere"
+
+#: ../maps/nazia_underground.txt:260
+msgid "The switch won't budge."
+msgstr "S týmto prepínačom sa nedá pohnúť."
 
 #: ../maps/nazia_underground.txt:379
 msgid "Nazia Underground waypoint discovered."
@@ -1041,51 +1088,47 @@ msgstr ""
 
 #: ../maps/oasis.txt:12
 msgid "Oasis"
-msgstr ""
+msgstr "Oáza"
 
 #: ../maps/oasis.txt:520
 msgid "Underworld Mines"
-msgstr ""
+msgstr "Podsvetné bane"
 
 #: ../maps/perdition_harbor.txt:171
-msgid "Shared Stash"
-msgstr ""
+msgid "Stash"
+msgstr "Úložisko"
 
 #: ../maps/perdition_harbor.txt:269
 msgid "Perdition Harbor waypoint discovered."
-msgstr ""
+msgstr "Objavili ste traťový bod Zatrateného prístavu."
 
-#: ../maps/perdition_mines.txt:10
+#: ../maps/perdition_mines.txt:11
 msgid "Perdition Mines"
-msgstr ""
+msgstr "Zatratené bane"
 
-#: ../maps/perdition_mines.txt:161
+#: ../maps/perdition_mines.txt:162
 msgid "Krolan's Chest"
-msgstr ""
+msgstr "Krolanova truhlica"
 
 #: ../maps/st_maria_1.txt:349
 msgid "This door needs a key to be opened."
-msgstr ""
-
-#: ../maps/st_maria_1.txt:351
-msgid "Locked Door"
-msgstr ""
+msgstr "Tieto dvere sa nedajú otvoriť bez kľúča."
 
 #: ../maps/st_maria_2.txt:271
 msgid "St. Maria: Catacombs waypoint discovered."
 msgstr ""
 
-#: ../maps/st_maria_2.txt:463
+#: ../maps/st_maria_2.txt:464
 msgid "St. Maria: Crypt"
 msgstr ""
 
 #: ../maps/st_maria_3.txt:411
 msgid "The plaque reads: Grave of the Saints"
-msgstr ""
+msgstr "Na plakete je napísané: „Hrob svätých“"
 
 #: ../maps/st_maria_3.txt:420
 msgid "You remove the gravebloom flower from the Altar."
-msgstr ""
+msgstr "Z oltára ste odstránili hrobový kvet."
 
 #: ../maps/st_maria_3.txt:441
 msgid "There is a gravebloom flower on the altar, but it is frozen in place."
@@ -1109,17 +1152,17 @@ msgstr ""
 
 #: ../maps/temple_of_mez_2.txt:351
 msgid "Temple of Mez: Main Hall waypoint discovered."
-msgstr ""
+msgstr "Objavili ste traťový bod Mezovho chrámu: Hlavnej sály."
 
-#: ../maps/temple_of_mez_2.txt:534
+#: ../maps/temple_of_mez_2.txt:536
 msgid "The plaque reads: Red Altar"
-msgstr ""
+msgstr "Na plakete je napísané: „Červený oltár“"
 
-#: ../maps/temple_of_mez_2.txt:545
+#: ../maps/temple_of_mez_2.txt:547
 msgid "Temple of Mez: Entrance"
-msgstr ""
+msgstr "Mezov chrám: Vstup"
 
-#: ../maps/temple_of_mez_2.txt:552
+#: ../maps/temple_of_mez_2.txt:555
 msgid ""
 "You cut into your arm with the Knife of Sacrifices. The pain is "
 "excruciating. Shaking, you manage to collect some of your blood in a small "
@@ -1127,17 +1170,22 @@ msgid ""
 "wound then begins to close itself, leaving no trace at all besides a warm "
 "feeling throughout your body."
 msgstr ""
+"Zarezali ste si do ruky Obetným nožom. Bola to neznesiteľná bolesť. Triasli "
+"ste sa, ale nakoniec sa vám podarilo naliať časť svojej krvi do malej "
+"fľaštičky. Nôž sa začal rýchlo ohrievať, až kým sa nerozpadol. Vaša rana sa "
+"následne sama uzavrela a nezostala po nej žiadna stopa okrem pocitu tepla v "
+"celom tele."
 
-#: ../maps/temple_of_mez_2.txt:560
+#: ../maps/temple_of_mez_2.txt:564
 msgid "Red Altar"
+msgstr "Červený oltár"
+
+#: ../maps/temple_of_mez_2.txt:573
+msgid "Nothing happens."
 msgstr ""
 
 #: ../maps/the_pit.txt:12
 msgid "The Pit"
-msgstr ""
-
-#: ../maps/the_pit.txt:391
-msgid "It's locked."
 msgstr ""
 
 #: ../maps/torture_chambers.txt:12
@@ -1146,22 +1194,22 @@ msgstr ""
 
 #: ../maps/torture_chambers.txt:343
 msgid "Underworld"
+msgstr "Podsvetie"
+
+#: ../maps/torture_chambers.txt:1237
+msgid "You disabled the barriers in the Torture Chambers."
 msgstr ""
 
-#: ../maps/torture_chambers.txt:557
-msgid "Upon touching the book, you are teleported to a strange room."
+#: ../maps/torture_chambers.txt:1276
+msgid "Bookstand"
 msgstr ""
 
-#: ../maps/torture_chambers.txt:561
-msgid "Bookshelf"
+#: ../maps/torture_chambers.txt:1285
+msgid "You have returned the warden's notes. The traps are now disabled."
 msgstr ""
 
-#: ../maps/torture_chambers.txt:570
-msgid "The warden's notes vanish!"
-msgstr ""
-
-#: ../maps/torture_chambers.txt:646
-msgid "Warden's Crate"
+#: ../maps/torture_chambers.txt:1306
+msgid "You successfully made it through the warden's traps."
 msgstr ""
 
 #: ../maps/underworld_catacombs.txt:513
@@ -1180,395 +1228,368 @@ msgstr ""
 msgid "Wizard's Tower: Research Chambers waypoint discovered."
 msgstr ""
 
-#: ../maps/wizards_tower_2.txt:504
+#: ../maps/wizards_tower_2.txt:505
 msgid "Wizard's Tower: Laboratory"
 msgstr ""
 
-#: ../maps/wizards_tower_2.txt:512
+#: ../maps/wizards_tower_2.txt:513
 msgid "The plaque reads: Underworld Gate"
 msgstr ""
 
-#: ../quests/000_empyrean.txt:1
+#: ../quests/0000_empyrean.txt:1
 msgid "Return to Empyrean"
+msgstr "Návrat do Empyreanu"
+
+#: ../quests/0000_empyrean.txt:7
+msgid ""
+"You found a chamber on the east side of Perdition Harbor that contains the "
+"Book of the Dead."
 msgstr ""
 
-#: ../quests/000_empyrean.txt:7
+#: ../quests/0000_empyrean.txt:12
 msgid ""
 "The Book of the Dead states redemption is possible for those who sign their "
 "name in gravebloom ink. Florin in Perdition Harbor can tell you more."
 msgstr ""
 
-#: ../quests/000_empyrean.txt:12
+#: ../quests/0000_empyrean.txt:17
 msgid ""
 "Before leaving St. Maria's Crypt, it would be wise to look for anything "
 "useful."
 msgstr ""
 
-#: ../quests/000_empyrean.txt:17
+#: ../quests/0000_empyrean.txt:22
 msgid "Ask Florin about the Gravebloom flower."
-msgstr ""
+msgstr "Spýtajte sa Florina na hrobový kvet."
 
-#: ../quests/000_empyrean.txt:23
+#: ../quests/0000_empyrean.txt:28
 msgid ""
 "You've found a gravebloom flower. It is a primary component in the creation "
 "of gravebloom ink."
 msgstr ""
 
-#: ../quests/000_empyrean.txt:28
+#: ../quests/0000_empyrean.txt:33
 msgid ""
 "A strange black feather fell off of Mez. You should take it before leaving "
 "the Temple of Mez."
 msgstr ""
+"Z Meza spadlo zvláštne čierne pero. Pred odchodom z Mezovho chrámu ho radšej"
+" zoberte."
 
-#: ../quests/000_empyrean.txt:33
+#: ../quests/0000_empyrean.txt:38
 msgid "Ask Florin about the Black Quill."
-msgstr ""
+msgstr "Spýtajte sa Florina na Čierne brko."
 
-#: ../quests/000_empyrean.txt:39
+#: ../quests/0000_empyrean.txt:44
 msgid ""
 "The Black Quill you found is the only thing capable of holding gravebloom "
 "ink. It will be the only way to write in the Book of the Dead."
 msgstr ""
+"Čierne brko, ktoré ste našli, ako jediné udrží hrobový atrament. Nie je iný "
+"spôsob, ako písať do Knihy mŕtvych."
 
-#: ../quests/000_empyrean.txt:44
+#: ../quests/0000_empyrean.txt:49
 msgid ""
 "Before leaving the Wizard's Tower, you should take the knife that Metzger "
 "dropped."
 msgstr ""
+"Pred odchodom z Čarodejovej veže zoberte nôž, ktorý zostal po Metzgerovi."
 
-#: ../quests/000_empyrean.txt:49
+#: ../quests/0000_empyrean.txt:54
 msgid "Ask Florin about the Knife of Sacrifices."
-msgstr ""
+msgstr "Spýtajte sa Florina na Obetný nôž."
 
-#: ../quests/000_empyrean.txt:55
+#: ../quests/0000_empyrean.txt:60
 msgid ""
 "Gravebloom ink requires a sample of your blood to be drawn with the Knife of"
 " Sacrifices. This must take place at the Red Altar in the Temple of Mez."
 msgstr ""
 
-#: ../quests/000_empyrean.txt:61
+#: ../quests/0000_empyrean.txt:66
 msgid ""
 "Having completed the ritual at the Red Altar, return to Florin to proceed "
 "with creating the gravebloom ink."
 msgstr ""
 
-#: ../quests/000_empyrean.txt:66
+#: ../quests/0000_empyrean.txt:71
 msgid ""
 "The time has come. Write your name in the Book of the Dead and gain entry to"
 " the Underworld."
 msgstr ""
 
-#: ../quests/000_empyrean.txt:71
+#: ../quests/0000_empyrean.txt:76
 msgid ""
 "Make your way to the Underworld. A portal to the Underworld was located in "
 "the Wizard's Tower. Once you are there, search for a way to return to "
 "Empyrean."
 msgstr ""
+"Vypravte sa do Podsvetia. Portál do Podsvetia bol nájdený v Čarodejovej "
+"veži. Keď sa tam dostanete, nájdite spôsob, ako sa vrátiť do Empyreanu."
 
-#: ../quests/000_empyrean.txt:76
+#: ../quests/0000_empyrean.txt:81
 msgid ""
 "You've found a stronghold in the Underworld. If there is a way back to "
 "Empyrean, it is through here."
 msgstr ""
 
-#: ../quests/000_empyrean.txt:81
+#: ../quests/0000_empyrean.txt:86
 msgid "Face what awaits you in The Pit."
 msgstr ""
 
-#: ../quests/001_krolan.txt:1
+#: ../quests/0010_krolan.txt:1
 msgid "Krolan's Missing"
-msgstr ""
+msgstr "Krolanova nezvestnosť"
 
-#: ../quests/001_krolan.txt:7
+#: ../quests/0010_krolan.txt:7
 msgid "Travel to the Perdition Mines and look for Krolan."
-msgstr ""
+msgstr "Zájdite do Zatretených baní a hľadajte Krolana."
 
-#: ../quests/001_krolan.txt:12
+#: ../quests/0010_krolan.txt:12
 msgid "Use Krolan's key to search his chest."
-msgstr ""
+msgstr "Pomocou Krolanovho kľúča prehľadajte jeho truhlicu."
 
-#: ../quests/001_krolan.txt:17
+#: ../quests/0010_krolan.txt:17
 msgid "Return to Udana and inform her of Krolan's death."
+msgstr "Vráťte sa k Udane a oznámte jej, že Krolan zomrel."
+
+#: ../quests/0011_alchemy.txt:1
+msgid "Alchemy"
 msgstr ""
 
-#: ../quests/002_journal.txt:1
+#: ../quests/0011_alchemy.txt:7
+msgid ""
+"Florin requested a sample of 3 ingredients: Aloe Vera, Mana Crystals, and "
+"Mushrooms."
+msgstr ""
+
+#: ../quests/0011_alchemy.txt:13
+msgid "You've found some Aloe Vera."
+msgstr ""
+
+#: ../quests/0011_alchemy.txt:19
+msgid "You've found a Mana Crystal."
+msgstr ""
+
+#: ../quests/0011_alchemy.txt:25
+msgid "You've found some Mushrooms."
+msgstr ""
+
+#: ../quests/0011_alchemy.txt:31
+msgid "You've found all 3 ingredients. Return them to Florin."
+msgstr ""
+
+#: ../quests/0020_journal.txt:1
 msgid "The Merchant's Journal"
-msgstr ""
+msgstr "Denník obchodníka"
 
-#: ../quests/002_journal.txt:8
+#: ../quests/0020_journal.txt:8
 msgid "Find Abasi's journal. It is likely being carried by a nearby goblin."
-msgstr ""
+msgstr "Nájdite Abasiho denník. Pravdepodobne ho má pri sebe neďaleký goblin."
 
-#: ../quests/002_journal.txt:14
+#: ../quests/0020_journal.txt:14
 msgid ""
 "Find Abasi's journal. He said that it was last seen near the Goblin Cave."
 msgstr ""
+"Nájdite Abasiho denník. Hovoril, že ho naposledy videl v blízkosti Jaskyne "
+"goblinov."
 
-#: ../quests/002_journal.txt:19
+#: ../quests/0020_journal.txt:19
 msgid "Return the journal to Abasi."
-msgstr ""
+msgstr "Vráťte denník Abasimu."
 
-#: ../quests/003_ardwen.txt:1
+#: ../quests/0030_ardwen.txt:1
 msgid "Trapped in the Crypt"
 msgstr ""
 
-#: ../quests/003_ardwen.txt:7
-msgid "Find a way to escape the Family Crypt."
+#: ../quests/0030_ardwen.txt:6
+msgid "Investigate the Family Crypt."
 msgstr ""
 
-#: ../quests/003_ardwen.txt:12
+#: ../quests/0030_ardwen.txt:10
 msgid ""
-"You found a strange ring. Maybe it will aid in escaping the Family Crypt."
+"You found a strange ring. It might have a use beyond its mundane magical "
+"properties."
 msgstr ""
 
-#: ../quests/003_ardwen.txt:17
+#: ../quests/0030_ardwen.txt:14
+msgid ""
+"You found another strange ring. Maybe this one will have a different effect."
+msgstr ""
+
+#: ../quests/0030_ardwen.txt:19
 msgid "Defeat Ardwen."
-msgstr ""
+msgstr "Porazte Ardwena."
 
-#: ../quests/003_ardwen.txt:22
-msgid ""
-"Ardwen has been defeated. The lever near his coffin will likely open the "
-"nearby gate."
-msgstr ""
-
-#: ../quests/004_fort_amir.txt:1
+#: ../quests/0040_fort_amir.txt:1
 msgid "The One-Eyed Guardians"
 msgstr ""
 
-#: ../quests/004_fort_amir.txt:7
+#: ../quests/0040_fort_amir.txt:7
 msgid "Investigate the statues in the Fort Amir throne room."
-msgstr ""
+msgstr "Preskúmajte sochy v trónnej sieni pevnosti Amir."
 
-#: ../quests/004_fort_amir.txt:12
+#: ../quests/0040_fort_amir.txt:12
 msgid "You found a strange sapphire inside one of Fort Amir's books."
-msgstr ""
+msgstr "Vnútri jednej z kníh v pevnosti Amir ste našli zvláštny zafír."
 
-#: ../quests/004_fort_amir.txt:17
+#: ../quests/0040_fort_amir.txt:17
 msgid "Gruzza dropped a strange sapphire."
-msgstr ""
+msgstr "Po Gruzzovi zostal zvláštny zafír."
 
-#: ../quests/004_fort_amir.txt:22
+#: ../quests/0040_fort_amir.txt:22
 msgid ""
 "The bookcase in the Fort Amir throne room opened up, revealing a secret "
 "passage."
 msgstr ""
 
-#: ../quests/005_ort.txt:1
+#: ../quests/0050_ort.txt:1
 msgid "Brother?"
-msgstr ""
+msgstr "Brat?"
 
-#: ../quests/005_ort.txt:7
+#: ../quests/0050_ort.txt:7
 msgid ""
 "Ort gave you a ruby. It seemed like he wanted it delivered to someone he "
 "would call \"brother\"."
 msgstr ""
+"Ort vám dal rubín. Zdalo sa, že chcel, aby ste ho doručili niekomu, koho "
+"nazýva „brat“."
 
-#: ../quests/006_stormrock.txt:1
+#: ../quests/0060_stormrock.txt:1
 msgid "Locked Out"
 msgstr ""
 
-#: ../quests/006_stormrock.txt:6
+#: ../quests/0060_stormrock.txt:7
 msgid ""
 "The door to the Stormrock Ruins is locked. There must be a way to unlock it."
 msgstr ""
 
-#: ../quests/006_stormrock.txt:11
+#: ../quests/0060_stormrock.txt:12
 msgid ""
 "Aldwulf wants you to get the key to unlock the Stormrock Ruins. It should be"
 " hidden somewhere in the camp south of Stonewood."
 msgstr ""
 
-#: ../quests/006_stormrock.txt:16
+#: ../quests/0060_stormrock.txt:17
 msgid ""
 "You found the key to the Stormrock Ruins. You should return there and speak "
 "to Aldwulf."
 msgstr ""
 
-#: ../quests/007_nazia_mines.txt:1
-msgid "Trapped!"
+#: ../quests/0070_nazia_mines.txt:1
+msgid "The Buried Fortress"
 msgstr ""
 
-#: ../quests/007_nazia_mines.txt:7
+#: ../quests/0070_nazia_mines.txt:7
 msgid ""
-"The path behind you has caved in. Find a way to escape the Nazia Mines."
+"The excavation of the mines has revealed man-made structures. Perhaps this "
+"is more than just a cave."
 msgstr ""
 
-#: ../quests/007_nazia_mines.txt:12
-msgid "You found some sticks of dynamite. Those should be useful."
-msgstr ""
-
-#: ../quests/007_nazia_mines.txt:16
+#: ../quests/0070_nazia_mines.txt:17
 msgid ""
-"You successfully cleared the rubble and can safely escape the Nazia Mines."
+"You found a satchel of Blast Powder. Maybe an alchemist like Florin would "
+"know how to make this into something more effective?"
 msgstr ""
 
-#: ../quests/008_mog.txt:1
+#: ../quests/0070_nazia_mines.txt:22
+msgid ""
+"Mixing the Blast Powder with some shavings of a Mana Crystal has created "
+"Dynamite. This could be useful."
+msgstr ""
+
+#: ../quests/0070_nazia_mines.txt:27
+msgid ""
+"You successfully destroyed the previously barricaded door and can further "
+"explore the Nazia Mines."
+msgstr ""
+
+#: ../quests/0080_mog.txt:1
 msgid "The Lost Soul of the Mog Caverns"
 msgstr ""
 
-#: ../quests/008_mog.txt:7
+#: ../quests/0080_mog.txt:7
 msgid ""
 "You found a mysterious note in the Mog Caverns. Maybe its directions will "
 "lead to treasure?"
 msgstr ""
 
-#: ../quests/008_mog.txt:12
-msgid "You found another note. Keep following the trail."
-msgstr ""
-
-#: ../quests/008_mog.txt:17
+#: ../quests/0080_mog.txt:17
 msgid "A secret passage has been unveiled."
 msgstr ""
 
-#: ../quests/009_nasu.txt:1
+#: ../quests/0090_nasu.txt:1
 msgid "An Unusual Name..."
-msgstr ""
+msgstr "Nezvyčajné meno..."
 
-#: ../quests/009_nasu.txt:7
+#: ../quests/0090_nasu.txt:7
 msgid "Discover a way to open the entrance door in Fort Nasu."
 msgstr ""
 
-#: ../quests/009_nasu.txt:12
+#: ../quests/0090_nasu.txt:12
 msgid "Discover a way to open the library door in Fort Nasu."
 msgstr ""
 
-#: ../quests/009_nasu.txt:17
+#: ../quests/0090_nasu.txt:17
 msgid "Discover a way to open the pit room door in Fort Nasu."
 msgstr ""
 
-#: ../quests/009_nasu.txt:22
+#: ../quests/0090_nasu.txt:22
 msgid "Discover a way to open the final door in Fort Nasu."
 msgstr ""
 
-#: ../quests/009_nasu.txt:27
+#: ../quests/0090_nasu.txt:27
 msgid "Defeat Buchi."
 msgstr ""
 
-#: ../quests/010_torture.txt:1
+#: ../quests/0100_torture.txt:1
 msgid "Warden's Notes"
 msgstr ""
 
-#: ../quests/010_torture.txt:7
+#: ../quests/0100_torture.txt:7
 msgid "Find a way to get to the treasure in the Torture Chambers."
 msgstr ""
 
-#: ../quests/010_torture.txt:12
+#: ../quests/0100_torture.txt:12
 msgid "You found some notes belonging to the prison warden."
 msgstr ""
 
-#: ../quests/010_torture.txt:17
-msgid "You successfully made it through the warden's traps."
-msgstr ""
-
-#: ../quests/010_torture.txt:22
-msgid "You disabled the barriers in the Torture Chambers."
-msgstr ""
-
-#: ../quests/011_martigan.txt:1
+#: ../quests/0110_martigan.txt:1
 msgid "Fallen Comrades"
 msgstr ""
 
-#: ../quests/011_martigan.txt:7
+#: ../quests/0110_martigan.txt:7
 msgid ""
 "Martigan has asked you to destroy the undead corpses of his former "
 "companions. He has also asked that you return with proof that you have done "
 "so."
 msgstr ""
+"Martigan vás požiadal, aby ste zničili nemŕtve telá jeho bývalých "
+"spoločníkov. Chce tiež, aby ste sa vrátili s dôkazom, že ste tak vykonali."
 
-#: ../quests/011_martigan.txt:12
+#: ../quests/0110_martigan.txt:12
 msgid "You have slain Lorund and recovered his sword."
-msgstr ""
+msgstr "Zabili ste Lorunda a získali jeho meč."
 
-#: ../quests/011_martigan.txt:17
+#: ../quests/0110_martigan.txt:17
 msgid "You have slain Nerin and recovered her bow."
-msgstr ""
+msgstr "Zabili ste Nerin a získali jej luk."
 
-#: ../quests/011_martigan.txt:22
+#: ../quests/0110_martigan.txt:22
 msgid "You have slain Kayl and recovered her staff."
-msgstr ""
-
-#: ../npcs/abasi.txt:1
-msgid "Abasi, Traveling Merchant"
-msgstr ""
-
-#: ../npcs/abasi.txt:23
-msgid "Talk"
-msgstr ""
-
-#: ../npcs/abasi.txt:26
-msgid "Be careful on these roads. Those goblins are nothing but trouble."
-msgstr ""
-
-#: ../npcs/abasi.txt:27
-msgid "Thanks for the warning."
-msgstr ""
-
-#: ../npcs/abasi.txt:28
-msgid "It's the least I can do."
-msgstr ""
-
-#: ../npcs/abasi.txt:29
-msgid ""
-"When I awoke this morning, my journal was missing. No doubt one of those "
-"filthy green creatures stole it from me."
-msgstr ""
-
-#: ../npcs/abasi.txt:30
-msgid "If you come across my journal in your travels, please return it to me."
-msgstr ""
-
-#: ../npcs/abasi.txt:35
-msgid "Journal"
-msgstr ""
-
-#: ../npcs/abasi.txt:38
-msgid "Any luck finding my journal?"
-msgstr ""
-
-#: ../npcs/abasi.txt:39
-msgid "Not yet."
-msgstr ""
-
-#: ../npcs/abasi.txt:45
-msgid "Here is your journal."
-msgstr ""
-
-#: ../npcs/abasi.txt:46
-msgid "Wonderful! I had considered it forever lost at this point."
-msgstr ""
-
-#: ../npcs/abasi.txt:47
-msgid "I am in your debt. Please take this as a reward for your trouble."
-msgstr ""
-
-#: ../npcs/abasi.txt:58
-msgid "Show no mercy for those thieving goblins."
-msgstr ""
-
-#: ../npcs/abasi_2.txt:26
-msgid "Greetings, wanderer."
-msgstr ""
-
-#: ../npcs/abasi_2.txt:27
-msgid ""
-"Judging from your appearance, you're no stranger to a long journey. For that"
-" reason, I ask that you keep an eye out for my missing journal."
-msgstr ""
-
-#: ../npcs/abasi_2.txt:28
-msgid ""
-"I first noticed it was missing after a night of camping near the Goblin "
-"Cave. I searched for a while, but ultimately decided it was best to move on."
-msgstr ""
+msgstr "Zabili ste Kayl a získali jej palicu."
 
 #: ../npcs/aldwulf.txt:1
 msgid "Aldwulf, Treasure Hunter"
-msgstr ""
+msgstr "Aldwulf, lovec pokladov"
+
+#: ../npcs/aldwulf.txt:10
+msgid "Talk"
+msgstr "Hovoriť"
 
 #: ../npcs/aldwulf.txt:12
 msgid ""
 "Greetings wanderer. I did not expect to meet anyone in a place like this."
-msgstr ""
+msgstr "Zdravím, pútnik. Nečakal som, že niekoho na takomto mieste stretnem."
 
 #: ../npcs/aldwulf.txt:13
 msgid ""
@@ -1602,50 +1623,452 @@ msgid ""
 "the camp south of Stonewood."
 msgstr ""
 
+#: ../npcs/ardwens_coffin.txt:12
+msgid ""
+"A finger-sized post is protruding from the lid of the coffin. It looks as "
+"though something is missing."
+msgstr ""
+
+#: ../npcs/ardwens_coffin.txt:17
+msgid "Place the Gold Family Ring on the coffin"
+msgstr ""
+
+#: ../npcs/ardwens_coffin.txt:22
+msgid "The ring dissolved into nothing!"
+msgstr ""
+
+#: ../npcs/ardwens_coffin.txt:30
+msgid "Place the Silver Family Ring on the coffin"
+msgstr ""
+
+#: ../npcs/ardwens_coffin.txt:42
+msgid "Cancel"
+msgstr ""
+
 #: ../npcs/bakat.txt:1
 msgid "Bakat, Goblin Packrat"
-msgstr ""
+msgstr "Bakat, hromadiaci goblin"
 
 #: ../npcs/bakat.txt:20
 msgid "Goblin's Ruby"
-msgstr ""
-
-#: ../npcs/bakat.txt:23
-msgid "(You show Bakat the ruby you received from Ort.)"
-msgstr ""
+msgstr "Goblinov rubín"
 
 #: ../npcs/bakat.txt:24
+msgid "..."
+msgstr "..."
+
+#: ../npcs/bakat.txt:31
+msgid "(You show Bakat the ruby you received from Ort.)"
+msgstr "(Bakatovi ste ukázali prsteň, ktorý ste dostali od Orta.)"
+
+#: ../npcs/bakat.txt:32
 msgid "(Bakat snatches the jewel from your grasp.)"
-msgstr ""
+msgstr "(Bakat uchmatol klenot z vašej ruky.)"
 
-#: ../npcs/bakat.txt:25
+#: ../npcs/bakat.txt:33
 msgid "(He holds the ruby up into the light and examines it closely.)"
-msgstr ""
+msgstr "(Rubín zdvihol do svetla a prezrel si ho zblízka.)"
 
-#: ../npcs/bakat.txt:26
+#: ../npcs/bakat.txt:34
 msgid ""
 "(Looking satisfied, he reaches into his bag and hands you a wooden bear "
 "figurine.)"
 msgstr ""
-
-#: ../npcs/bakat.txt:27
-msgid "..."
-msgstr ""
+"(Vyzerajúc spokojne siahol do svojho vaku a podal vám drevenú figurínu "
+"medveďa.)"
 
 #: ../npcs/base/infinity_obelisk.txt:1
 msgid "Infinity Obelisk"
-msgstr ""
+msgstr "Obelisk nekonečnosti"
 
-#: ../npcs/base/infinity_obelisk.txt:7
+#: ../npcs/base/infinity_obelisk.txt:8
 msgid "(You touch the obelisk, but nothing happens.)"
-msgstr ""
+msgstr "(Dotkli ste sa obelisku, ale nič sa nestalo.)"
 
-#: ../npcs/base/infinity_obelisk.txt:10
+#: ../npcs/base/infinity_obelisk.txt:11
 msgid "Continue through the Halls of Infinity"
+msgstr "Pokračovať nekonečnými sálami"
+
+#: ../npcs/base/infinity_obelisk.txt:18
+msgid "Return to Underworld Stronghold"
 msgstr ""
 
-#: ../npcs/base/infinity_obelisk.txt:17
-msgid "Return to Underworld Stronghold"
+#: ../npcs/base/abasi/common.txt:1
+msgid "Abasi, Traveling Merchant"
+msgstr "Abasi, pocestný obchodník"
+
+#: ../npcs/base/abasi/quest_common.txt:2
+msgid "Journal"
+msgstr "Denník"
+
+#: ../npcs/base/abasi/quest_common.txt:5
+msgid "Any luck finding my journal?"
+msgstr "Podarilo sa vám nájsť môj denník?"
+
+#: ../npcs/base/abasi/quest_common.txt:6
+msgid "Not yet."
+msgstr "Ešte nie."
+
+#: ../npcs/base/abasi/quest_common.txt:13
+msgid "Here is your journal."
+msgstr "Tu je váš denník."
+
+#: ../npcs/base/abasi/quest_common.txt:14
+msgid "Wonderful! I had considered it forever lost at this point."
+msgstr "To je úžasné! Už som si myslel, že bol nadobro stratený."
+
+#: ../npcs/base/abasi/quest_common.txt:15
+msgid "I am in your debt. Please take this as a reward for your trouble."
+msgstr "Som vám zaviazaný. Prosím, vezmite si túto odmenu za svoju námahu."
+
+#: ../npcs/base/abasi/quest_common.txt:27
+msgid "Show no mercy for those thieving goblins."
+msgstr "Nemajte s tými zlodejskými goblinmi žiadne zľutovanie."
+
+#: ../npcs/base/abasi/quest_intro1.txt:5
+msgid "Be careful on these roads. Those goblins are nothing but trouble."
+msgstr ""
+"Na týchto cestách sa majte na pozore. Títo goblini prinášajú samé problémy."
+
+#: ../npcs/base/abasi/quest_intro1.txt:6
+msgid "Thanks for the warning."
+msgstr "Ďakujem za varovanie."
+
+#: ../npcs/base/abasi/quest_intro1.txt:7
+msgid "It's the least I can do."
+msgstr "Je to to najmenej, čo môžem urobiť."
+
+#: ../npcs/base/abasi/quest_intro1.txt:8
+msgid ""
+"When I awoke this morning, my journal was missing. No doubt one of those "
+"filthy green creatures stole it from me."
+msgstr ""
+"Keď som sa dnes ráno zobudil, môj denník bol preč. Niet pochýb, že mi ho "
+"ukradla jedna z tých špinavých zelených potvor."
+
+#: ../npcs/base/abasi/quest_intro1.txt:9
+msgid "If you come across my journal in your travels, please return it to me."
+msgstr "Ak na cestách narazíte na môj denník, vráťte mi ho, prosím."
+
+#: ../npcs/base/abasi/quest_intro2.txt:5
+msgid "Greetings, wanderer."
+msgstr "Zdravím, pútnik."
+
+#: ../npcs/base/abasi/quest_intro2.txt:6
+msgid ""
+"Judging from your appearance, you're no stranger to a long journey. For that"
+" reason, I ask that you keep an eye out for my missing journal."
+msgstr ""
+"Súdiac podľa vášho výzoru vidím, že máte skúsenosti s dlhými cestami. Preto "
+"vás chcem požiadať, či by ste sa nemohli pozrieť po mojom stratenom denníku."
+
+#: ../npcs/base/abasi/quest_intro2.txt:7
+msgid ""
+"I first noticed it was missing after a night of camping near the Goblin "
+"Cave. I searched for a while, but ultimately decided it was best to move on."
+msgstr ""
+"To, že mi chýba, som si prvýkrát všimol po tom, ako som sa na noc utáboril "
+"pri Jaskyni goblinov. Chvíľu som po ňom pátral, ale nakoniec som sa "
+"rozhodol, že to nechám tak."
+
+#: ../npcs/base/dev_tome/respec.txt:2
+msgid "Respec"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:12
+msgid "Reset power points"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:18
+msgid "Reset stat points"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:24
+msgid "Reset level"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:51
+msgid "Level 1"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:57
+msgid "Level 2"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:64
+msgid "Level 3"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:71
+msgid "Level 4"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:85
+msgid "Level 5"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:92
+msgid "Level 6"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:99
+msgid "Level 7"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:106
+msgid "Level 8"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:113
+msgid "Level 9"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:120
+msgid "Level 10"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:127
+msgid "Level 11"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:134
+msgid "Level 12"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:141
+msgid "Level 13"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:148
+msgid "Level 14"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:155
+msgid "Level 15"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:162
+msgid "Level 16"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:169
+msgid "Level 17"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:176
+msgid "Level 18"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:183
+msgid "Level 19"
+msgstr ""
+
+#: ../npcs/base/dev_tome/respec.txt:190
+msgid "Level 20"
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:2
+msgid "Reset quests"
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:22
+msgid "Reset quest: \"Return to Empyrean\""
+msgstr "Úloha „Návrat do Empyreanu“ bola vrátená do pôvodného stavu"
+
+#: ../npcs/base/dev_tome/reset_quests.txt:28
+msgid "Reset quest: \"Krolan's Missing\""
+msgstr "Úloha „Krolanova nezvestnosť“ bola vrátená do pôvodného stavu"
+
+#: ../npcs/base/dev_tome/reset_quests.txt:34
+msgid "Reset quest: \"Alchemy\""
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:40
+msgid "Reset quest: \"The Merchant's Journal\""
+msgstr "Úloha „Denník obchodníka“ bola vrátená do pôvodného stavu"
+
+#: ../npcs/base/dev_tome/reset_quests.txt:46
+msgid "Reset quest: \"Trapped in the Crypt\""
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:52
+msgid "Reset quest: \"The One-Eyed Guardians\""
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:58
+msgid "Reset quest: \"Brother?\""
+msgstr "Úloha „Brat?“ bola vrátená do pôvodného stavu"
+
+#: ../npcs/base/dev_tome/reset_quests.txt:64
+msgid "Reset quest: \"Locked Out\""
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:70
+msgid "Reset quest: \"The Buried Fortress\""
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:76
+msgid "Reset quest: \"The Lost Soul of the Mog Caverns\""
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:82
+msgid "Reset quest: \"An Unusual Name...\""
+msgstr "Úloha „Nezvyčajné meno...“ bola vrátená do pôvodného stavu"
+
+#: ../npcs/base/dev_tome/reset_quests.txt:88
+msgid "Reset quest: \"Warden's Notes\""
+msgstr ""
+
+#: ../npcs/base/dev_tome/reset_quests.txt:94
+msgid "Reset quest: \"Fallen Comrades\""
+msgstr ""
+
+#: ../npcs/base/dev_tome/items.txt:2
+msgid "Give items"
+msgstr ""
+
+#: ../npcs/base/dev_tome/items.txt:20
+msgid "Potions"
+msgstr ""
+
+#: ../npcs/base/dev_tome/items.txt:33
+msgid "Health Potion"
+msgstr "Elixír zdravia"
+
+#: ../npcs/base/dev_tome/items.txt:39
+msgid "Mana Potion"
+msgstr "Elixír many"
+
+#: ../npcs/base/dev_tome/items.txt:51
+msgid "Restoration Potion"
+msgstr ""
+
+#: ../npcs/base/dev_tome/items.txt:69
+msgid "Scrolls"
+msgstr ""
+
+#: ../npcs/base/dev_tome/items.txt:84
+msgid "Summon Zombie Scroll"
+msgstr "Zvitok na vyvolanie zombie"
+
+#: ../npcs/base/dev_tome/items.txt:90
+msgid "Perdition Scroll"
+msgstr "Zvitok zatratenia"
+
+#: ../npcs/base/dev_tome/items.txt:96
+msgid "Shield Scroll"
+msgstr "Zvitok štítu"
+
+#: ../npcs/base/dev_tome/items.txt:102
+msgid "Fireball Scroll"
+msgstr "Zvitok ohnivej strely"
+
+#: ../npcs/base/dev_tome/items.txt:108
+msgid "Ice Bolt Scroll"
+msgstr "Zvitok ľadovej strely"
+
+#: ../npcs/base/dev_tome/items.txt:114
+msgid "Haste Scroll"
+msgstr "Zvitok zhonu"
+
+#: ../npcs/base/dev_tome/items.txt:120
+msgid "Immunity Scroll"
+msgstr "Zvitok imunity"
+
+#: ../npcs/base/dev_tome/items.txt:126
+msgid "Reflection Scroll"
+msgstr "Zvitok odrazu"
+
+#: ../npcs/base/dev_tome/items.txt:132
+msgid "Underworld Set (with rings)"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:17
+msgid "Introduction"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:29
+msgid "Region 1: Salted Field -> St. Maria"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:48
+msgid "Region 2: Lake Kuuma -> Temple of Mez"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:67
+msgid "Region 3: Nazia Highlands -> Wizard's Tower"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:86
+msgid "Region 4: Underworld"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:419
+msgid "Halls of Infinity: 1"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:425
+msgid "Halls of Infinity: 2"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:431
+msgid "Halls of Infinity: 3"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:437
+msgid "Halls of Infinity: 4"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:443
+msgid "Halls of Infinity: 5"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:449
+msgid "Halls of Infinity: 6"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:455
+msgid "Halls of Infinity: 7"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:461
+msgid "Halls of Infinity: 8"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:467
+msgid "Halls of Infinity: 9"
+msgstr ""
+
+#: ../npcs/base/dev_tome/teleport.txt:473
+msgid "Halls of Infinity: 10"
+msgstr ""
+
+#: ../npcs/dev_tome.txt:23
+msgid "Player"
+msgstr ""
+
+#: ../npcs/dev_tome.txt:34
+msgid "Campaign"
+msgstr ""
+
+#: ../npcs/dev_tome.txt:49
+msgid "Restore HP/MP/status"
+msgstr ""
+
+#: ../npcs/dev_tome.txt:56
+msgid "Save game at current position"
+msgstr ""
+
+#: ../npcs/dev_tome.txt:63
+msgid "Waypoints"
+msgstr ""
+
+#: ../npcs/dev_tome.txt:72
+msgid "Lock all Hyperspace waypoints"
+msgstr ""
+
+#: ../npcs/dev_tome.txt:78
+msgid "Unlock all Hyperspace waypoints"
 msgstr ""
 
 #: ../npcs/florin.txt:1
@@ -1699,7 +2122,7 @@ msgstr ""
 
 #: ../npcs/florin.txt:42
 msgid "Black Quill"
-msgstr ""
+msgstr "Čierne brko"
 
 #: ../npcs/florin.txt:45
 msgid "Do you think this quill is capable of holding gravebloom ink?"
@@ -1707,7 +2130,7 @@ msgstr ""
 
 #: ../npcs/florin.txt:46
 msgid "It's certainly no normal quill. I've never seen anything like it."
-msgstr ""
+msgstr "Rozhodne to nie je obyčajné brko. Nič také som ešte nevidel."
 
 #: ../npcs/florin.txt:48
 msgid ""
@@ -1716,11 +2139,11 @@ msgstr ""
 
 #: ../npcs/florin.txt:51
 msgid "Knife of Sacrifices"
-msgstr ""
+msgstr "Obetný nôž"
 
 #: ../npcs/florin.txt:54
 msgid "Do you know anything about this knife?"
-msgstr ""
+msgstr "Viete niečo o tomto noži?"
 
 #: ../npcs/florin.txt:56
 msgid ""
@@ -1742,70 +2165,160 @@ msgstr ""
 
 #: ../npcs/florin.txt:61
 msgid "Vial of Blood"
-msgstr ""
+msgstr "Fľaštička s krvou"
 
-#: ../npcs/florin.txt:64
+#: ../npcs/florin.txt:66
 msgid "I completed the ritual at the Red Altar. What now?"
 msgstr ""
 
-#: ../npcs/florin.txt:65
+#: ../npcs/florin.txt:67
+msgid ""
+"I can create a small amount of gravebloom ink for you, but I require a "
+"Gravebloom flower accomplish this. Return to me with both the flower and the"
+" blood."
+msgstr ""
+
+#: ../npcs/florin.txt:75
 msgid ""
 "We are ready to create a small amount of gravebloom ink. Allow me to perform"
 " the mixing."
 msgstr ""
 
-#: ../npcs/florin.txt:66
+#: ../npcs/florin.txt:76
 msgid ""
 "The correct ratio of Gravebloom to blood is important. Too much Gravebloom "
 "will cause the ink to eat through the paper. Too little Gravebloom and the "
 "ink won't adhere to the quill."
 msgstr ""
 
-#: ../npcs/florin.txt:67
+#: ../npcs/florin.txt:77
 msgid ""
 "(Florin carefully mixes the two elements into a small inkwell, alternating "
 "the additions of Gravebloom and blood.)"
 msgstr ""
 
-#: ../npcs/florin.txt:72
+#: ../npcs/florin.txt:82
 msgid ""
 "Finished! I don't want my work to go to waste, so move now to the Book of "
 "the Dead chamber."
 msgstr ""
 
-#: ../npcs/florin.txt:78
+#: ../npcs/florin.txt:88
 msgid "The ritual is complete. The Underworld is open to you."
 msgstr ""
 
-#: ../npcs/florin.txt:79
+#: ../npcs/florin.txt:89
 msgid ""
 "There was a portal to the Underworld in the Wizard's Tower. I shall return "
 "there."
 msgstr ""
 
+#: ../npcs/florin.txt:94
+msgid ""
+"If you plan on venturing further, you'll need to learn how to use the "
+"resources that you come across."
+msgstr ""
+
+#: ../npcs/florin.txt:95
+msgid ""
+"I can show you how to mix potions, but I don't have any ingredients on hand."
+msgstr ""
+
+#: ../npcs/florin.txt:96
+msgid ""
+"Can I ask you to procure some elements for me? I require one each of the "
+"following: Aloe Vera, Mana Crystal, and Mushrooms."
+msgstr ""
+
+#: ../npcs/florin.txt:97
+msgid "I can do that."
+msgstr ""
+
+#: ../npcs/florin.txt:99
+msgid ""
+"Then return to me with these items, and I will make it worth your time."
+msgstr ""
+
+#: ../npcs/florin.txt:107
+msgid "Have you gotten those ingredients yet?"
+msgstr ""
+
+#: ../npcs/florin.txt:112
+msgid "Yes"
+msgstr ""
+
+#: ../npcs/florin.txt:119
+msgid "Here are the ingredients you asked for."
+msgstr ""
+
+#: ../npcs/florin.txt:120
+msgid ""
+"Thank you. I was able to find some Aloe Vera on my own, so you can keep what"
+" you found."
+msgstr ""
+
+#: ../npcs/florin.txt:121
+msgid ""
+"Also, take these empty bottles along with this mortar and pestle. You can "
+"use the mortar and pestle with that Aloe Vera you found to make a fine "
+"healing potion."
+msgstr ""
+
+#: ../npcs/florin.txt:122
+msgid ""
+"If you ever lose that mortar and pestle, you can always speak to me if you "
+"want some potions made."
+msgstr ""
+
+#: ../npcs/florin.txt:127
+msgid "No"
+msgstr ""
+
+#: ../npcs/florin.txt:137
+msgid "Blast Powder"
+msgstr ""
+
+#: ../npcs/florin.txt:139
+msgid ""
+"Blast powder? With a little bit of Mana Crystal, you can make quite the "
+"explosion with that stuff."
+msgstr ""
+
+#: ../npcs/florin.txt:140
+msgid "The process is fairly volatile, so allow me to do the mixing."
+msgstr ""
+
+#: ../npcs/florin.txt:147
+msgid "There. Now be careful with that."
+msgstr ""
+
 #: ../npcs/glowing_obelisk_1.txt:1
 msgid "Glowing Obelisk"
-msgstr ""
+msgstr "Žiarivý obelisk"
 
 #: ../npcs/loren.txt:1
 msgid "Loren, Undead Trader"
-msgstr ""
+msgstr "Loren, nemŕtvy obchodník"
 
 #: ../npcs/martigan.txt:1
 msgid "Martigan"
-msgstr ""
+msgstr "Martigan"
 
 #: ../npcs/martigan.txt:19
 msgid ""
 "You there! I need your help. I'm the last of my group, and want nothing more"
 " than to leave this place."
 msgstr ""
+"Hej, vy tam! Potrebujem vašu pomoc. Som posledný zo svojej skupiny a nechcem"
+" nič iné, ako toto miesto opustiť."
 
 #: ../npcs/martigan.txt:20
 msgid ""
 "Yet I have one remaining task. I wish to visit the graves of my three fallen"
 " partners one last time."
 msgstr ""
+"Napriek tomu mi zostáva ešte jedna úloha. Chcem posledný raz navštíviť hroby"
+" svojich padlých spoločníkov."
 
 #: ../npcs/martigan.txt:21
 msgid ""
@@ -1825,7 +2338,7 @@ msgstr ""
 
 #: ../npcs/martigan.txt:29
 msgid "Zombies"
-msgstr ""
+msgstr "Zombie"
 
 #: ../npcs/martigan.txt:39
 msgid ""
@@ -1835,11 +2348,11 @@ msgstr ""
 
 #: ../npcs/ort.txt:1
 msgid "Ort, Goblin Packrat"
-msgstr ""
+msgstr "Ort, hromadiaci goblin"
 
 #: ../npcs/ort.txt:29
 msgid "... Bro-ther... g-give..."
-msgstr ""
+msgstr "... Bra-to-vi... d-daj..."
 
 #: ../npcs/ort.txt:30
 msgid "(Ort grabs your hand and places a red gem in it.)"
@@ -1847,7 +2360,7 @@ msgstr ""
 
 #: ../npcs/tutorial.txt:1
 msgid "Skeleton with note"
-msgstr ""
+msgstr "Kostra s odkazom"
 
 #: ../npcs/tutorial.txt:9
 msgid "Tutorial"
@@ -1858,38 +2371,48 @@ msgid ""
 "Welcome to the lands of the exiled. Allow me to go over a few things. Click "
 "on the arrow to continue."
 msgstr ""
+"Vitajte v krajinách vyhnancov. Prejdime si niekoľko vecí. Pokračujte "
+"kliknutím na šípku."
 
 #: ../npcs/tutorial.txt:12
 msgid ""
 "Your health, mana, and experience points are displayed in the top left of "
 "the screen."
 msgstr ""
+"V ľavej hornej časti obrazovky sa zobrazuje vaše zdravie, mana a body "
+"skúsenosti."
 
 #: ../npcs/tutorial.txt:13
 msgid "In the top right is a map of your current location."
-msgstr ""
+msgstr "Vpravo hore je mapa zobrazujúca vašu aktuálnu polohu."
 
 #: ../npcs/tutorial.txt:14
 msgid ""
 "On the bottom of the screen is your action bar. Here, you have quick access "
 "to your most used abilities."
 msgstr ""
+"Naspodku obrazovky je panel akcií, ktorý vám umožňuje rýchlo pristupovať k "
+"vašim najpoužívanejším schopnostiam."
 
 #: ../npcs/tutorial.txt:15
 msgid ""
 "In addition, you can access the Character, Inventory, Powers, and Log menus "
 "from the action bar."
 msgstr ""
+"Z panelu akcií môžete okrem toho otvoriť ponuky Postava, Inventár, Sily a "
+"Denník."
 
 #: ../npcs/tutorial.txt:16
 msgid ""
 "${INPUT_MOVEMENT} will allow you to move around. ${INPUT_ATTACK} will use "
 "your primary attack."
 msgstr ""
+"Stlačením ${INPUT_MOVEMENT} sa môžete pohybovať. Stlačením ${INPUT_ATTACK} "
+"môžete vykonať primárny útok."
 
 #: ../npcs/tutorial.txt:17
 msgid "Good luck!"
-msgstr ""
+msgstr "Veľa šťastia!"
 
 #: ../npcs/udana.txt:1
 msgid "Udana, Metalworker"
@@ -1927,35 +2450,35 @@ msgid ""
 "way to reward you for your trouble."
 msgstr ""
 
-#: ../npcs/udana.txt:40
+#: ../npcs/udana.txt:41
 msgid ""
 "Please hurry to find Krolan. The Perdition Mines are located near the Salted"
 " Field."
 msgstr ""
 
-#: ../npcs/udana.txt:46
+#: ../npcs/udana.txt:57
 msgid "I have found Krolan, but he was no longer of this world."
 msgstr ""
 
-#: ../npcs/udana.txt:47
+#: ../npcs/udana.txt:58
 msgid ""
 "This is terrible news. Our camp is already small, so this is a devastating "
 "loss."
 msgstr ""
 
-#: ../npcs/udana.txt:48
+#: ../npcs/udana.txt:59
 msgid ""
 "If it's any solace, I have his key and this emerald. Mementos to remember "
 "him by."
 msgstr ""
 
-#: ../npcs/udana.txt:49
+#: ../npcs/udana.txt:60
 msgid ""
 "The key is enough of a memento. For your invaluable help, I can at least "
 "make you a ring with this emerald."
 msgstr ""
 
-#: ../npcs/udana.txt:62
+#: ../npcs/udana.txt:73
 msgid "Thank you again for your help."
 msgstr ""
 
@@ -1968,17 +2491,22 @@ msgid ""
 "Empyrean, the city in the sky. It is a majestic fortress and the last "
 "bastion of humankind."
 msgstr ""
+"Empyrean, mesto v oblakoch. Je to majestátna pevnosť a posledná bašta "
+"ľudstva."
 
 #: ../cutscenes/backstory.txt:9
 msgid ""
 "At the height of the kingdom's power the city was a beacon of peace and law."
 msgstr ""
+"V čase vrcholu kráľovskej moci bolo toto mesto majákom práva a poriadku."
 
 #: ../cutscenes/backstory.txt:11
 msgid ""
 "When darkness invaded the world in the last age people abandoned the "
 "surface. Empyrean was their only refuge."
 msgstr ""
+"Keď temnota zachvátila svet v minulom veku, ľudia opustili povrch. Empyrean "
+"bol ich jediným útočiskom."
 
 #: ../cutscenes/backstory.txt:13
 msgid ""
@@ -2003,6 +2531,8 @@ msgid ""
 "Surface dwellers cling to hope. Hope that they'll return to Empyrean some "
 "day. Hope that a hero will fight back against the darkness."
 msgstr ""
+"Obyvatelia povrchu sa držia nádeje. Nádeje, že sa jedného dňa vrátia do "
+"Empyreanu. Nádeje, že sa nájde hrdina, ktorý bude bojovať proti temnote."
 
 #: ../cutscenes/backstory.txt:22
 msgid ""
@@ -2017,141 +2547,17 @@ msgstr ""
 msgid "Lead Content Designers"
 msgstr ""
 
-#: ../cutscenes/credits.txt:12
-msgid "Clint Bellanger"
-msgstr ""
-
-#: ../cutscenes/credits.txt:13
-msgid "Justin Jacobs"
-msgstr ""
-
 #: ../cutscenes/credits.txt:16
 msgid "Visual Artists"
-msgstr ""
-
-#: ../cutscenes/credits.txt:18
-msgid "cron"
-msgstr ""
-
-#: ../cutscenes/credits.txt:19
-msgid "Justin Nichol"
-msgstr ""
-
-#: ../cutscenes/credits.txt:20
-msgid "rubberduck"
-msgstr ""
-
-#: ../cutscenes/credits.txt:21
-msgid "Short-Ribs"
-msgstr ""
-
-#: ../cutscenes/credits.txt:22
-msgid "Stefano Peris"
-msgstr ""
-
-#: ../cutscenes/credits.txt:23
-msgid "VWolfDog"
-msgstr ""
-
-#: ../cutscenes/credits.txt:24
-msgid "yd"
 msgstr ""
 
 #: ../cutscenes/credits.txt:27
 msgid "Foley Artists"
 msgstr ""
 
-#: ../cutscenes/credits.txt:29
-msgid "adamgryu"
-msgstr ""
-
-#: ../cutscenes/credits.txt:30
-msgid "GuntherDorksen"
-msgstr ""
-
 #: ../cutscenes/credits.txt:33
 msgid "Translators"
-msgstr ""
-
-#: ../cutscenes/credits.txt:35
-msgid "Diego J. Romero López"
-msgstr ""
-
-#: ../cutscenes/credits.txt:36
-msgid "Eric R"
-msgstr ""
-
-#: ../cutscenes/credits.txt:37
-msgid "Gabriel Iasi"
-msgstr ""
-
-#: ../cutscenes/credits.txt:38
-msgid "GunChleoc"
-msgstr ""
-
-#: ../cutscenes/credits.txt:39
-msgid "Igor Paliychuk"
-msgstr ""
-
-#: ../cutscenes/credits.txt:40
-msgid "Janet Hunt"
-msgstr ""
-
-#: ../cutscenes/credits.txt:41
-msgid "Mikalái Valér'evich Sakalóuski"
-msgstr ""
-
-#: ../cutscenes/credits.txt:42
-msgid "Mykola Franchuk"
-msgstr ""
-
-#: ../cutscenes/credits.txt:43
-msgid "MOB2"
-msgstr ""
-
-#: ../cutscenes/credits.txt:44
-msgid "Nea Retrogamer"
-msgstr ""
-
-#: ../cutscenes/credits.txt:45
-msgid "Pavel Maryanov"
-msgstr ""
-
-#: ../cutscenes/credits.txt:46
-msgid "Pawel Puszczyński"
-msgstr ""
-
-#: ../cutscenes/credits.txt:47
-msgid "Rui"
-msgstr ""
-
-#: ../cutscenes/credits.txt:48
-msgid "Sang-froid"
-msgstr ""
-
-#: ../cutscenes/credits.txt:49
-msgid "Sam Vo"
-msgstr ""
-
-#: ../cutscenes/credits.txt:50
-msgid "Sergiy Borodych"
-msgstr ""
-
-#: ../cutscenes/credits.txt:52
-msgid "sujiniku"
-msgstr ""
-
-#: ../cutscenes/credits.txt:53
-msgid "Vicente Monteiro"
-msgstr ""
-
-#: ../cutscenes/credits.txt:54
-msgid "Wuzzy2"
-msgstr ""
-
-#: ../cutscenes/credits.txt:55
-msgid "Zmicer Turok"
-msgstr ""
+msgstr "Prekladatelia"
 
 #: ../cutscenes/ending.txt:7
 msgid ""
@@ -2197,15 +2603,15 @@ msgstr ""
 
 #: ../cutscenes/ending.txt:29
 msgid "And a very special thanks to..."
-msgstr ""
+msgstr "A veľmi špeciálne poďakovanie patrí..."
 
 #: ../cutscenes/ending.txt:30
 msgid "You!"
-msgstr ""
+msgstr "Vám!"
 
 #: ../cutscenes/ending.txt:34
 msgid "The End"
-msgstr ""
+msgstr "Koniec"
 
 #: ../books/book_of_the_dead.txt:13
 msgid ""
@@ -2215,15 +2621,59 @@ msgstr ""
 
 #: ../books/book_of_the_dead.txt:20
 msgid "${AVATAR_NAME}"
+msgstr "${AVATAR_NAME}"
+
+#: ../books/crafting_alchemy.txt:23
+msgid "Reset"
+msgstr "Obnoviť"
+
+#: ../books/crafting_alchemy.txt:29
+msgid "Craft"
+msgstr "Vyrobiť"
+
+#: ../books/crafting_alchemy.txt:48
+msgid "Empty Bottle"
+msgstr "Prázdna fľaša"
+
+#: ../books/crafting_alchemy.txt:65
+msgid "Aloe Vera"
+msgstr "Aloa pravá"
+
+#: ../books/crafting_alchemy.txt:82
+msgid "Mana Crystal"
+msgstr "Kryštál many"
+
+#: ../books/crafting_alchemy.txt:99
+msgid "Mushrooms"
+msgstr ""
+
+#: ../books/crafting_alchemy.txt:287
+msgid "Dynamite"
+msgstr "Dynamit"
+
+#: ../books/crafting_alchemy.txt:300
+msgid "Super Health Potion"
+msgstr ""
+
+#: ../books/crafting_alchemy.txt:313
+msgid "Ultra Health Potion"
+msgstr ""
+
+#: ../books/crafting_alchemy.txt:326
+msgid "Super Mana Potion"
+msgstr ""
+
+#: ../books/crafting_alchemy.txt:339
+msgid "Ultra Mana Potion"
 msgstr ""
 
 #: ../books/cutscene_list.txt:21
 msgid "Ending"
-msgstr ""
+msgstr "Záver"
 
 #: ../books/merchants_journal.txt:13
-msgid "1488/9/27"
-msgstr ""
+msgid "1472/9/27"
+msgstr "27. 9. 1472"
 
 #: ../books/merchants_journal.txt:18
 msgid "-1  Dagger"
@@ -2235,7 +2685,7 @@ msgstr ""
 
 #: ../books/merchants_journal.txt:28
 msgid "+1  Cloth Shirt"
-msgstr ""
+msgstr "+1  látková košeľa"
 
 #: ../books/merchants_journal.txt:33
 msgid "-18"
@@ -2250,8 +2700,8 @@ msgid "-50"
 msgstr ""
 
 #: ../books/merchants_journal.txt:49
-msgid "1488/9/28"
-msgstr ""
+msgid "1472/9/28"
+msgstr "28. 9. 1472"
 
 #: ../books/merchants_journal.txt:54
 msgid "-2  Health Potion"
@@ -2271,19 +2721,19 @@ msgstr ""
 
 #: ../books/mog_1.txt:12
 msgid "On the waterlogged support beam"
-msgstr ""
+msgstr "Na tráme nasiaknutom vodou"
 
 #: ../books/mog_2.txt:12
 msgid "Beneath a rock on the moldy peninsula"
-msgstr ""
+msgstr "Pod kameňom na polostrove pokrytom plesňou"
 
 #: ../books/mog_3.txt:12
 msgid "In the pile of bones near the three submerged pillars"
-msgstr ""
+msgstr "V hromade kostí pri troch ponorených stĺpoch"
 
 #: ../books/mog_4.txt:12
 msgid "Inside the blocked off mine cart"
-msgstr ""
+msgstr "V zablokovanom banskom vozíku"
 
 #: ../books/mog_5.txt:12
 msgid "Press the switch on the top of the middle boulder"
@@ -2293,180 +2743,294 @@ msgstr ""
 msgid "-K"
 msgstr ""
 
-#: ../books/wardens_notes.txt:12
-msgid "Read the book on the second shelf of the nearest bookshelf."
+#: ../books/wardens_notes.txt:13
+msgid "1468/7/9"
 msgstr ""
 
-#: ../items/categories/level_6.txt:5
-msgid "Fighting Leather Hood"
+#: ../books/wardens_notes.txt:18
+msgid ""
+"Another subject asked to take the test. I can't remember the last time "
+"anyone made it through, but they always want to try. I gave them the same "
+"advice as with all the subjects:"
 msgstr ""
 
-#: ../items/categories/level_6.txt:17
-msgid "Recon Leather Hood"
+#: ../books/wardens_notes.txt:24
+msgid "East at the first symbol."
 msgstr ""
 
-#: ../items/categories/level_6.txt:29
-msgid "Sorcerer Wool Hood"
+#: ../books/wardens_notes.txt:29
+msgid "South at the next."
 msgstr ""
 
-#: ../items/categories/level_6.txt:41
-msgid "Fighting Leather Tunic"
+#: ../books/wardens_notes.txt:34
+msgid "West two times, then carry on from there."
 msgstr ""
 
-#: ../items/categories/level_6.txt:53
-msgid "Recon Leather Tunic"
+#: ../books/wardens_notes_2.txt:13
+msgid ""
+"The other subjects had been very eager, so I invited a few to watch today's "
+"challenger."
 msgstr ""
 
-#: ../items/categories/level_6.txt:65
-msgid "Sorcerer Wool Vest"
+#: ../books/wardens_notes_2.txt:18
+msgid ""
+"The entertainment didn't last long. The subject immediately went south."
 msgstr ""
 
-#: ../items/categories/level_6.txt:77
-msgid "Fighting Leather Pants"
+#: ../books/wardens_notes_2.txt:24
+msgid "1468/7/10"
 msgstr ""
 
-#: ../items/categories/level_6.txt:89
-msgid "Recon Leather Pants"
+#: ../books/wardens_notes_2.txt:29
+msgid "No subjects asked to take the test today."
 msgstr ""
 
-#: ../items/categories/level_6.txt:101
-msgid "Sorcerer Wool Skirt"
+#: ../items/categories/level_4.txt:5
+msgid "Warlord Cloth Shirt"
+msgstr "Látková košeľa vojvodcu"
+
+#: ../items/categories/level_4.txt:17
+msgid "Sniper Cloth Shirt"
+msgstr "Látková košeľa strelca"
+
+#: ../items/categories/level_4.txt:29
+msgid "Archwizard Cloth Shirt"
+msgstr "Látková košeľa arcimága"
+
+#: ../items/categories/level_4.txt:41
+msgid "Warlord Cloth Pants"
+msgstr "Látkové nohavice vojvodcu"
+
+#: ../items/categories/level_4.txt:53
+msgid "Sniper Cloth Pants"
+msgstr "Látkové nohavice strelca"
+
+#: ../items/categories/level_4.txt:65
+msgid "Archwizard Cloth Pants"
+msgstr "Látkové nohavice arcimága"
+
+#: ../items/categories/level_4.txt:77
+msgid "Warlord Cloth Sandals"
+msgstr "Látkové sandále vojvodcu"
+
+#: ../items/categories/level_4.txt:89
+msgid "Sniper Cloth Sandals"
+msgstr "Látkové sandále strelca"
+
+#: ../items/categories/level_4.txt:101
+msgid "Archwizard Cloth Sandals"
+msgstr "Látkové sandále arcimága"
+
+#: ../items/categories/level_4.txt:113
+msgid "Warlord Cloth Gloves"
+msgstr "Látkové rukavice vojvodcu"
+
+#: ../items/categories/level_4.txt:125
+msgid "Sniper Cloth Gloves"
+msgstr "Látkové rukavice strelca"
+
+#: ../items/categories/level_4.txt:137
+msgid "Archwizard Cloth Gloves"
+msgstr "Látkové rukavice arcimága"
+
+#: ../items/categories/level_4.txt:149
+msgid "Master Leather Belt"
 msgstr ""
 
-#: ../items/categories/level_6.txt:113
-msgid "Fighting Leather Boots"
+#: ../items/categories/level_4.txt:160
+msgid "Master Pendant"
 msgstr ""
 
-#: ../items/categories/level_6.txt:125
-msgid "Recon Leather Boots"
+#: ../items/categories/level_4.txt:171
+msgid "Master Spellbook"
 msgstr ""
 
-#: ../items/categories/level_6.txt:137
-msgid "Sorcerer Wool Boots"
+#: ../items/categories/level_4.txt:182
+msgid "Warlord Dagger"
 msgstr ""
 
-#: ../items/categories/level_6.txt:149
-msgid "Fighting Leather Gloves"
+#: ../items/categories/level_4.txt:194
+msgid "Sniper Slingshot"
 msgstr ""
 
-#: ../items/categories/level_6.txt:161
-msgid "Recon Leather Gloves"
+#: ../items/categories/level_4.txt:206
+msgid "Archwizard Wand"
 msgstr ""
 
-#: ../items/categories/level_6.txt:173
-msgid "Sorcerer Wool Sleeves"
+#: ../items/categories/level_4.txt:218
+msgid "Templar Wood Buckler"
 msgstr ""
 
-#: ../items/categories/level_6.txt:185
-msgid "Wandering Fighting Leather Belt"
+#: ../items/categories/level_4.txt:229
+msgid "Master Fire Ring"
 msgstr ""
 
-#: ../items/categories/level_6.txt:196
-msgid "Wandering Recon Pendant"
+#: ../items/categories/level_4.txt:239
+msgid "Master Ice Ring"
 msgstr ""
 
-#: ../items/categories/level_6.txt:207
-msgid "Wandering Sorcerer Spellbook"
+#: ../items/categories/level_4.txt:249
+msgid "Master Lightning Ring"
 msgstr ""
 
-#: ../items/categories/level_6.txt:218
-msgid "Fighting Shortsword"
+#: ../items/categories/level_4.txt:259
+msgid "Master Dark Ring"
 msgstr ""
 
-#: ../items/categories/level_6.txt:230
-msgid "Recon Shortbow"
+#: ../items/categories/level_4.txt:269
+msgid "Master Experience Ring"
 msgstr ""
 
-#: ../items/categories/level_6.txt:242
-msgid "Sorcerer Rod"
+#: ../items/categories/level_4.txt:279
+msgid "Master Wealth Ring"
 msgstr ""
 
-#: ../items/categories/level_6.txt:254
-msgid "Keeper Iron Buckler"
+#: ../items/categories/level_4.txt:289
+msgid "Master Treasure Ring"
 msgstr ""
 
-#: ../items/categories/level_6.txt:265
-msgid "Wandering Burn Ring"
+#: ../items/categories/level_5.txt:5
+msgid "Leather Hood"
 msgstr ""
 
-#: ../items/categories/level_6.txt:275
-msgid "Wandering Frost Ring"
+#: ../items/categories/level_5.txt:14
+msgid "Leather Tunic"
 msgstr ""
 
-#: ../items/categories/level_6.txt:285
-msgid "Wandering Electric Ring"
+#: ../items/categories/level_5.txt:23
+msgid "Leather Pants"
 msgstr ""
 
-#: ../items/categories/level_6.txt:295
-msgid "Wandering Shadow Ring"
+#: ../items/categories/level_5.txt:32
+msgid "Leather Boots"
 msgstr ""
 
-#: ../items/categories/level_6.txt:305
-msgid "Wandering Knowledge Ring"
+#: ../items/categories/level_5.txt:41
+msgid "Leather Gloves"
 msgstr ""
 
-#: ../items/categories/level_6.txt:315
-msgid "Wandering Prosperity Ring"
+#: ../items/categories/level_5.txt:50
+msgid "Wool Hood"
+msgstr "Vlnená kapucňa"
+
+#: ../items/categories/level_5.txt:59
+msgid "Wool Vest"
 msgstr ""
 
-#: ../items/categories/level_6.txt:325
-msgid "Wandering Loot Ring"
+#: ../items/categories/level_5.txt:68
+msgid "Wool Skirt"
+msgstr "Vlnená sukňa"
+
+#: ../items/categories/level_5.txt:77
+msgid "Wool Boots"
 msgstr ""
 
-#: ../items/categories/level_9.txt:5
-msgid "Chain Coif"
+#: ../items/categories/level_5.txt:86
+msgid "Wool Sleeves"
 msgstr ""
 
-#: ../items/categories/level_9.txt:14
-msgid "Chain Cuirass"
+#: ../items/categories/level_5.txt:95
+msgid "Shortsword"
 msgstr ""
 
-#: ../items/categories/level_9.txt:23
-msgid "Chain Greaves"
+#: ../items/categories/level_5.txt:104
+msgid "Shortbow"
 msgstr ""
 
-#: ../items/categories/level_9.txt:32
-msgid "Chain Boots"
+#: ../items/categories/level_5.txt:113
+msgid "Rod"
 msgstr ""
 
-#: ../items/categories/level_9.txt:41
-msgid "Chain Gloves"
+#: ../items/categories/level_5.txt:122
+msgid "Iron Buckler"
 msgstr ""
 
-#: ../items/categories/level_9.txt:50
-msgid "Silk Hood"
+#: ../items/categories/level_13.txt:5
+msgid "Plate Helmet"
 msgstr ""
 
-#: ../items/categories/level_9.txt:59
-msgid "Silk Vest"
+#: ../items/categories/level_13.txt:14
+msgid "Plate Cuirass"
 msgstr ""
 
-#: ../items/categories/level_9.txt:68
-msgid "Silk Skirt"
+#: ../items/categories/level_13.txt:23
+msgid "Plate Greaves"
 msgstr ""
 
-#: ../items/categories/level_9.txt:77
-msgid "Silk Boots"
+#: ../items/categories/level_13.txt:32
+msgid "Plate Boots"
 msgstr ""
 
-#: ../items/categories/level_9.txt:86
-msgid "Silk Sleeves"
+#: ../items/categories/level_13.txt:41
+msgid "Plate Gauntlets"
 msgstr ""
 
-#: ../items/categories/level_9.txt:95
-msgid "Longsword"
+#: ../items/categories/level_13.txt:50
+msgid "Velvet Hood"
 msgstr ""
 
-#: ../items/categories/level_9.txt:104
-msgid "Longbow"
+#: ../items/categories/level_13.txt:59
+msgid "Velvet Vest"
 msgstr ""
 
-#: ../items/categories/level_9.txt:113
-msgid "Staff"
+#: ../items/categories/level_13.txt:68
+msgid "Velvet Skirt"
 msgstr ""
 
-#: ../items/categories/level_9.txt:122
-msgid "Crest Shield"
+#: ../items/categories/level_13.txt:77
+msgid "Velvet Boots"
+msgstr ""
+
+#: ../items/categories/level_13.txt:86
+msgid "Velvet Sleeves"
+msgstr ""
+
+#: ../items/categories/level_13.txt:95
+msgid "Greatsword"
+msgstr ""
+
+#: ../items/categories/level_13.txt:104
+msgid "Greatbow"
+msgstr ""
+
+#: ../items/categories/level_13.txt:113
+msgid "Greatstaff"
+msgstr ""
+
+#: ../items/categories/level_13.txt:122
+msgid "Tower Shield"
+msgstr ""
+
+#: ../items/categories/level_1.txt:5
+msgid "Cloth Shirt"
+msgstr "Látková košeľa"
+
+#: ../items/categories/level_1.txt:12
+msgid "Cloth Pants"
+msgstr "Látkové nohavice"
+
+#: ../items/categories/level_1.txt:19
+msgid "Cloth Sandals"
+msgstr "Látkové sandále"
+
+#: ../items/categories/level_1.txt:26
+msgid "Cloth Gloves"
+msgstr "Látkové rukavice"
+
+#: ../items/categories/level_1.txt:33
+msgid "Dagger"
+msgstr ""
+
+#: ../items/categories/level_1.txt:42
+msgid "Slingshot"
+msgstr ""
+
+#: ../items/categories/level_1.txt:51
+msgid "Wand"
+msgstr ""
+
+#: ../items/categories/level_1.txt:60
+msgid "Wood Buckler"
 msgstr ""
 
 #: ../items/categories/level_8.txt:5
@@ -2547,7 +3111,7 @@ msgstr ""
 
 #: ../items/categories/level_8.txt:230
 msgid "Sniper Shortbow"
-msgstr ""
+msgstr "Krátky luk strelca"
 
 #: ../items/categories/level_8.txt:242
 msgid "Archwizard Rod"
@@ -2585,213 +3149,89 @@ msgstr ""
 msgid "Master Loot Ring"
 msgstr ""
 
-#: ../items/categories/level_3.txt:5
-msgid "Warrior Cloth Shirt"
-msgstr ""
+#: ../items/categories/scrolls.txt:8
+msgid "Use: Summon a zombie to fight for you"
+msgstr "Pri použití: Vyvoláte zombie, ktorý bude bojovať na vašej strane"
 
-#: ../items/categories/level_3.txt:15
-msgid "Ranger Cloth Shirt"
-msgstr ""
+#: ../items/categories/scrolls.txt:20
+msgid "Use: Teleport to Perdition Harbor"
+msgstr "Pri použití: Teleportujete sa na Zatratený prístav"
 
-#: ../items/categories/level_3.txt:25
-msgid "Wizard Cloth Shirt"
-msgstr ""
+#: ../items/categories/scrolls.txt:32
+msgid "Use: Create a magical shield that absorbs damage"
+msgstr "Pri použití: Vytvorí magický štít, ktorý pohlcuje zranenie"
 
-#: ../items/categories/level_3.txt:35
-msgid "Warrior Cloth Pants"
-msgstr ""
+#: ../items/categories/scrolls.txt:44
+msgid "Use: Shoot a fireball"
+msgstr "Pri použití: Vystrelí ohnivú strelu"
 
-#: ../items/categories/level_3.txt:45
-msgid "Ranger Cloth Pants"
-msgstr ""
+#: ../items/categories/scrolls.txt:56
+msgid "Use: Shoot an ice bolt"
+msgstr "Pri použití: Vystrelí ľadovú strelu"
 
-#: ../items/categories/level_3.txt:55
-msgid "Wizard Cloth Pants"
-msgstr ""
+#: ../items/categories/scrolls.txt:68
+msgid "Use: Move at an increased speed for a limited time"
+msgstr "Pri použití: Rýchlejší pohyb na obmedzený čas"
 
-#: ../items/categories/level_3.txt:65
-msgid "Warrior Cloth Sandals"
+#: ../items/categories/scrolls.txt:80
+msgid "Use: Remove debuffs and become immune to debuffs for a limited time"
 msgstr ""
+"Pri použití: Odstráni a poskytne dočasnú imunitu voči negatívnym efektom"
 
-#: ../items/categories/level_3.txt:75
-msgid "Ranger Cloth Sandals"
+#: ../items/categories/scrolls.txt:92
+msgid ""
+"Use: Creates a magical shield that reflects projectiles and damage for a "
+"limited time"
 msgstr ""
-
-#: ../items/categories/level_3.txt:85
-msgid "Wizard Cloth Sandals"
-msgstr ""
-
-#: ../items/categories/level_3.txt:94
-msgid "Warrior Cloth Gloves"
-msgstr ""
-
-#: ../items/categories/level_3.txt:104
-msgid "Ranger Cloth Gloves"
-msgstr ""
-
-#: ../items/categories/level_3.txt:114
-msgid "Wizard Cloth Gloves"
-msgstr ""
-
-#: ../items/categories/level_3.txt:123
-msgid "Adventurer Leather Belt"
-msgstr ""
-
-#: ../items/categories/level_3.txt:132
-msgid "Adventurer Pendant"
-msgstr ""
-
-#: ../items/categories/level_3.txt:141
-msgid "Adventurer Spellbook"
-msgstr ""
-
-#: ../items/categories/level_3.txt:150
-msgid "Warrior Dagger"
-msgstr ""
-
-#: ../items/categories/level_3.txt:162
-msgid "Ranger Slingshot"
-msgstr ""
-
-#: ../items/categories/level_3.txt:174
-msgid "Wizard Wand"
-msgstr ""
-
-#: ../items/categories/level_3.txt:186
-msgid "Paladin Wood Buckler"
-msgstr ""
-
-#: ../items/categories/level_3.txt:197
-msgid "Adventurer Fire Ring"
-msgstr ""
-
-#: ../items/categories/level_3.txt:206
-msgid "Adventurer Ice Ring"
-msgstr ""
-
-#: ../items/categories/level_3.txt:215
-msgid "Adventurer Lightning Ring"
-msgstr ""
-
-#: ../items/categories/level_3.txt:224
-msgid "Adventurer Dark Ring"
-msgstr ""
-
-#: ../items/categories/level_3.txt:233
-msgid "Adventurer Experience Ring"
-msgstr ""
-
-#: ../items/categories/level_3.txt:242
-msgid "Adventurer Wealth Ring"
-msgstr ""
-
-#: ../items/categories/level_3.txt:251
-msgid "Adventurer Treasure Ring"
-msgstr ""
-
-#: ../items/categories/level_13.txt:5
-msgid "Plate Helmet"
-msgstr ""
-
-#: ../items/categories/level_13.txt:14
-msgid "Plate Cuirass"
-msgstr ""
-
-#: ../items/categories/level_13.txt:23
-msgid "Plate Greaves"
-msgstr ""
-
-#: ../items/categories/level_13.txt:32
-msgid "Plate Boots"
-msgstr ""
-
-#: ../items/categories/level_13.txt:41
-msgid "Plate Gauntlets"
-msgstr ""
-
-#: ../items/categories/level_13.txt:50
-msgid "Velvet Hood"
-msgstr ""
-
-#: ../items/categories/level_13.txt:59
-msgid "Velvet Vest"
-msgstr ""
-
-#: ../items/categories/level_13.txt:68
-msgid "Velvet Skirt"
-msgstr ""
-
-#: ../items/categories/level_13.txt:77
-msgid "Velvet Boots"
-msgstr ""
-
-#: ../items/categories/level_13.txt:86
-msgid "Velvet Sleeves"
-msgstr ""
-
-#: ../items/categories/level_13.txt:95
-msgid "Greatsword"
-msgstr ""
-
-#: ../items/categories/level_13.txt:104
-msgid "Greatbow"
-msgstr ""
-
-#: ../items/categories/level_13.txt:113
-msgid "Greatstaff"
-msgstr ""
-
-#: ../items/categories/level_13.txt:122
-msgid "Tower Shield"
-msgstr ""
+"Pri použití: Vytvorí dočasný magický štít, ktorý odráža strely a zranenie"
 
 #: ../items/categories/level_2.txt:5
 msgid "Fighting Cloth Shirt"
-msgstr ""
+msgstr "Látková košeľa na boj"
 
 #: ../items/categories/level_2.txt:15
 msgid "Recon Cloth Shirt"
-msgstr ""
+msgstr "Látková košeľa prieskumníka"
 
 #: ../items/categories/level_2.txt:25
 msgid "Sorcerer Cloth Shirt"
-msgstr ""
+msgstr "Látková košeľa čarodeja"
 
 #: ../items/categories/level_2.txt:35
 msgid "Fighting Cloth Pants"
-msgstr ""
+msgstr "Látkové nohavice na boj"
 
 #: ../items/categories/level_2.txt:45
 msgid "Recon Cloth Pants"
-msgstr ""
+msgstr "Látkové nohavice prieskumníka"
 
 #: ../items/categories/level_2.txt:55
 msgid "Sorcerer Cloth Pants"
-msgstr ""
+msgstr "Látkové nohavice čarodeja"
 
 #: ../items/categories/level_2.txt:64
 msgid "Fighting Cloth Sandals"
-msgstr ""
+msgstr "Látkové sandále na boj"
 
 #: ../items/categories/level_2.txt:74
 msgid "Recon Cloth Sandals"
-msgstr ""
+msgstr "Látkové sandále prieskumníka"
 
 #: ../items/categories/level_2.txt:83
 msgid "Sorcerer Cloth Sandals"
-msgstr ""
+msgstr "Látkové sandále čarodeja"
 
 #: ../items/categories/level_2.txt:92
 msgid "Fighting Cloth Gloves"
-msgstr ""
+msgstr "Látkové rukavice na boj"
 
 #: ../items/categories/level_2.txt:102
 msgid "Recon Cloth Gloves"
-msgstr ""
+msgstr "Látkové rukavice prieskumníka"
 
 #: ../items/categories/level_2.txt:111
 msgid "Sorcerer Cloth Gloves"
-msgstr ""
+msgstr "Látkové rukavice čarodeja"
 
 #: ../items/categories/level_2.txt:120
 msgid "Wandering Leather Belt"
@@ -2807,15 +3247,15 @@ msgstr ""
 
 #: ../items/categories/level_2.txt:147
 msgid "Fighting Dagger"
-msgstr ""
+msgstr "Dýka na boj"
 
 #: ../items/categories/level_2.txt:159
 msgid "Recon Slingshot"
-msgstr ""
+msgstr "Prak prieskumníka"
 
 #: ../items/categories/level_2.txt:171
 msgid "Sorcerer Wand"
-msgstr ""
+msgstr "Prút čarodeja"
 
 #: ../items/categories/level_2.txt:183
 msgid "Keeper Wood Buckler"
@@ -2847,1347 +3287,6 @@ msgstr ""
 
 #: ../items/categories/level_2.txt:247
 msgid "Wandering Treasure Ring"
-msgstr ""
-
-#: ../items/categories/level_16.txt:5
-msgid "Warlord Plate Helmet"
-msgstr ""
-
-#: ../items/categories/level_16.txt:17
-msgid "Sniper Plate Helmet"
-msgstr ""
-
-#: ../items/categories/level_16.txt:29
-msgid "Archwizard Velvet Hood"
-msgstr ""
-
-#: ../items/categories/level_16.txt:41
-msgid "Warlord Plate Cuirass"
-msgstr ""
-
-#: ../items/categories/level_16.txt:53
-msgid "Sniper Plate Cuirass"
-msgstr ""
-
-#: ../items/categories/level_16.txt:65
-msgid "Archwizard Velvet Vest"
-msgstr ""
-
-#: ../items/categories/level_16.txt:77
-msgid "Warlord Plate Greaves"
-msgstr ""
-
-#: ../items/categories/level_16.txt:89
-msgid "Sniper Plate Greaves"
-msgstr ""
-
-#: ../items/categories/level_16.txt:101
-msgid "Archwizard Velvet Skirt"
-msgstr ""
-
-#: ../items/categories/level_16.txt:113
-msgid "Warlord Plate Boots"
-msgstr ""
-
-#: ../items/categories/level_16.txt:125
-msgid "Sniper Plate Boots"
-msgstr ""
-
-#: ../items/categories/level_16.txt:137
-msgid "Archwizard Velvet Boots"
-msgstr ""
-
-#: ../items/categories/level_16.txt:149
-msgid "Warlord Plate Gauntlets"
-msgstr ""
-
-#: ../items/categories/level_16.txt:161
-msgid "Sniper Plate Gauntlets"
-msgstr ""
-
-#: ../items/categories/level_16.txt:173
-msgid "Archwizard Velvet Sleeves"
-msgstr ""
-
-#: ../items/categories/level_16.txt:185
-msgid "Master Warlord Leather Belt"
-msgstr ""
-
-#: ../items/categories/level_16.txt:196
-msgid "Master Sniper Pendant"
-msgstr ""
-
-#: ../items/categories/level_16.txt:207
-msgid "Master Archwizard Spellbook"
-msgstr ""
-
-#: ../items/categories/level_16.txt:218
-msgid "Warlord Greatsword"
-msgstr ""
-
-#: ../items/categories/level_16.txt:230
-msgid "Sniper Greatbow"
-msgstr ""
-
-#: ../items/categories/level_16.txt:242
-msgid "Archwizard Greatstaff"
-msgstr ""
-
-#: ../items/categories/level_16.txt:254
-msgid "Templar Tower Shield"
-msgstr ""
-
-#: ../items/categories/level_16.txt:265
-msgid "Master Inferno Ring"
-msgstr ""
-
-#: ../items/categories/level_16.txt:275
-msgid "Master Glacial Ring"
-msgstr ""
-
-#: ../items/categories/level_16.txt:285
-msgid "Master Volt Ring"
-msgstr ""
-
-#: ../items/categories/level_16.txt:295
-msgid "Master Void Ring"
-msgstr ""
-
-#: ../items/categories/level_16.txt:305
-msgid "Master Scholar Ring"
-msgstr ""
-
-#: ../items/categories/level_16.txt:315
-msgid "Master Affluence Ring"
-msgstr ""
-
-#: ../items/categories/level_16.txt:325
-msgid "Master Relic Ring"
-msgstr ""
-
-#: ../items/categories/level_7.txt:5
-msgid "Warrior Leather Hood"
-msgstr ""
-
-#: ../items/categories/level_7.txt:17
-msgid "Ranger Leather Hood"
-msgstr ""
-
-#: ../items/categories/level_7.txt:29
-msgid "Wizard Wool Hood"
-msgstr ""
-
-#: ../items/categories/level_7.txt:41
-msgid "Warrior Leather Tunic"
-msgstr ""
-
-#: ../items/categories/level_7.txt:53
-msgid "Ranger Leather Tunic"
-msgstr ""
-
-#: ../items/categories/level_7.txt:65
-msgid "Wizard Wool Vest"
-msgstr ""
-
-#: ../items/categories/level_7.txt:77
-msgid "Warrior Leather Pants"
-msgstr ""
-
-#: ../items/categories/level_7.txt:89
-msgid "Ranger Leather Pants"
-msgstr ""
-
-#: ../items/categories/level_7.txt:101
-msgid "Wizard Wool Skirt"
-msgstr ""
-
-#: ../items/categories/level_7.txt:113
-msgid "Warrior Leather Boots"
-msgstr ""
-
-#: ../items/categories/level_7.txt:125
-msgid "Ranger Leather Boots"
-msgstr ""
-
-#: ../items/categories/level_7.txt:137
-msgid "Wizard Wool Boots"
-msgstr ""
-
-#: ../items/categories/level_7.txt:149
-msgid "Warrior Leather Gloves"
-msgstr ""
-
-#: ../items/categories/level_7.txt:161
-msgid "Ranger Leather Gloves"
-msgstr ""
-
-#: ../items/categories/level_7.txt:173
-msgid "Wizard Wool Sleeves"
-msgstr ""
-
-#: ../items/categories/level_7.txt:185
-msgid "Adventurer Fighting Leather Belt"
-msgstr ""
-
-#: ../items/categories/level_7.txt:196
-msgid "Adventurer Recon Pendant"
-msgstr ""
-
-#: ../items/categories/level_7.txt:207
-msgid "Adventurer Sorcerer Spellbook"
-msgstr ""
-
-#: ../items/categories/level_7.txt:218
-msgid "Warrior Shortsword"
-msgstr ""
-
-#: ../items/categories/level_7.txt:230
-msgid "Ranger Shortbow"
-msgstr ""
-
-#: ../items/categories/level_7.txt:242
-msgid "Wizard Rod"
-msgstr ""
-
-#: ../items/categories/level_7.txt:254
-msgid "Paladin Iron Buckler"
-msgstr ""
-
-#: ../items/categories/level_7.txt:265
-msgid "Adventurer Burn Ring"
-msgstr ""
-
-#: ../items/categories/level_7.txt:275
-msgid "Adventurer Frost Ring"
-msgstr ""
-
-#: ../items/categories/level_7.txt:285
-msgid "Adventurer Electric Ring"
-msgstr ""
-
-#: ../items/categories/level_7.txt:295
-msgid "Adventurer Shadow Ring"
-msgstr ""
-
-#: ../items/categories/level_7.txt:305
-msgid "Adventurer Knowledge Ring"
-msgstr ""
-
-#: ../items/categories/level_7.txt:315
-msgid "Adventurer Prosperity Ring"
-msgstr ""
-
-#: ../items/categories/level_7.txt:325
-msgid "Adventurer Loot Ring"
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:5
-msgid "Lost Totem"
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:6
-msgid "The ancient scripture contained appears to be some sort of magic."
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:21
-msgid "Mog's Axe"
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:22
-msgid "Not as sleek as an arrow, but just as effective."
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:36
-msgid "Guardsman Cuirass"
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:37
-msgid "A royal mail with a 'K' engraved on the breast."
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:53
-msgid "Inferno Pendant"
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:54
-msgid "Hot. Hot. Hot."
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:69
-msgid "Alchemist's Skirt"
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:70
-msgid "Knowledge of formulating many concoctions bestows its wearer."
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:79
-msgid "Drinking potions may create another potion of the same type."
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:88
-msgid "Metzger's Battlemace"
-msgstr ""
-
-#: ../items/categories/level_12_unique.txt:89
-msgid "Swinging this mace around leaves a clouded trail of dark smoke."
-msgstr ""
-
-#: ../items/categories/level_10.txt:5
-msgid "Fighting Chain Coif"
-msgstr ""
-
-#: ../items/categories/level_10.txt:17
-msgid "Recon Chain Coif"
-msgstr ""
-
-#: ../items/categories/level_10.txt:29
-msgid "Sorcerer Silk Hood"
-msgstr ""
-
-#: ../items/categories/level_10.txt:41
-msgid "Fighting Chain Cuirass"
-msgstr ""
-
-#: ../items/categories/level_10.txt:53
-msgid "Recon Chain Cuirass"
-msgstr ""
-
-#: ../items/categories/level_10.txt:65
-msgid "Sorcerer Silk Vest"
-msgstr ""
-
-#: ../items/categories/level_10.txt:77
-msgid "Fighting Chain Greaves"
-msgstr ""
-
-#: ../items/categories/level_10.txt:89
-msgid "Recon Chain Greaves"
-msgstr ""
-
-#: ../items/categories/level_10.txt:101
-msgid "Sorcerer Silk Skirt"
-msgstr ""
-
-#: ../items/categories/level_10.txt:113
-msgid "Fighting Chain Boots"
-msgstr ""
-
-#: ../items/categories/level_10.txt:125
-msgid "Recon Chain Boots"
-msgstr ""
-
-#: ../items/categories/level_10.txt:137
-msgid "Sorcerer Silk Boots"
-msgstr ""
-
-#: ../items/categories/level_10.txt:149
-msgid "Fighting Chain Gloves"
-msgstr ""
-
-#: ../items/categories/level_10.txt:161
-msgid "Recon Chain Gloves"
-msgstr ""
-
-#: ../items/categories/level_10.txt:173
-msgid "Sorcerer Silk Sleeves"
-msgstr ""
-
-#: ../items/categories/level_10.txt:185
-msgid "Wandering Warrior Leather Belt"
-msgstr ""
-
-#: ../items/categories/level_10.txt:196
-msgid "Wandering Ranger Pendant"
-msgstr ""
-
-#: ../items/categories/level_10.txt:207
-msgid "Wandering Wizard Spellbook"
-msgstr ""
-
-#: ../items/categories/level_10.txt:218
-msgid "Fighting Longsword"
-msgstr ""
-
-#: ../items/categories/level_10.txt:230
-msgid "Recon Longbow"
-msgstr ""
-
-#: ../items/categories/level_10.txt:242
-msgid "Sorcerer Staff"
-msgstr ""
-
-#: ../items/categories/level_10.txt:254
-msgid "Keeper Crest Shield"
-msgstr ""
-
-#: ../items/categories/level_10.txt:265
-msgid "Wandering Blaze Ring"
-msgstr ""
-
-#: ../items/categories/level_10.txt:275
-msgid "Wandering Freeze Ring"
-msgstr ""
-
-#: ../items/categories/level_10.txt:285
-msgid "Wandering Shock Ring"
-msgstr ""
-
-#: ../items/categories/level_10.txt:295
-msgid "Wandering Gloom Ring"
-msgstr ""
-
-#: ../items/categories/level_10.txt:305
-msgid "Wandering Intellectual Ring"
-msgstr ""
-
-#: ../items/categories/level_10.txt:315
-msgid "Wandering Lucrative Ring"
-msgstr ""
-
-#: ../items/categories/level_10.txt:325
-msgid "Wandering Artifact Ring"
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:3
-msgid "Krolan's Hammer"
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:4
-msgid "An essential tool for any blacksmith."
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:18
-msgid "Goblin Branch"
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:19
-msgid "Mana flows inside its primitive exterior."
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:34
-msgid "Ardwen's Gloves"
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:35
-msgid "These hands built a village."
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:50
-msgid "Blood Tunic"
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:51
-msgid "When worn, this shirt heats the wearers veins."
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:65
-msgid "Dark Steppers"
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:66
-msgid "Dancing through the shadows."
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:79
-msgid "Seagate's Tri-pants"
-msgstr ""
-
-#: ../items/categories/level_4_unique.txt:80
-msgid ""
-"These ragged trousers are covered in scorch marks, yet are cold to the "
-"touch."
-msgstr ""
-
-#: ../items/categories/quest.txt:3
-msgid "Krolan's Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:12
-msgid "Krolan's Emerald"
-msgstr ""
-
-#: ../items/categories/quest.txt:21
-msgid "Abasi's Journal"
-msgstr ""
-
-#: ../items/categories/quest.txt:31
-msgid "Ardwen's Ring"
-msgstr ""
-
-#: ../items/categories/quest.txt:40
-msgid "St. Maria Mausoleum Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:49
-msgid "St. Maria Catacombs Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:58
-msgid "Strange Sapphire A"
-msgstr ""
-
-#: ../items/categories/quest.txt:67
-msgid "Strange Sapphire B"
-msgstr ""
-
-#: ../items/categories/quest.txt:85
-msgid "Bear Figurine"
-msgstr ""
-
-#: ../items/categories/quest.txt:88
-msgid "Wood sculpture of a bear. A \"1\" is carved into the bottom."
-msgstr ""
-
-#: ../items/categories/quest.txt:97
-msgid "Owl Figurine"
-msgstr ""
-
-#: ../items/categories/quest.txt:100
-msgid "Wood sculpture of an owl. A \"2\" is carved into the bottom."
-msgstr ""
-
-#: ../items/categories/quest.txt:109
-msgid "Cat Figurine"
-msgstr ""
-
-#: ../items/categories/quest.txt:112
-msgid "Wood sculpture of a cat. A \"3\" is carved into the bottom."
-msgstr ""
-
-#: ../items/categories/quest.txt:121
-msgid "Turtle Figurine"
-msgstr ""
-
-#: ../items/categories/quest.txt:124
-msgid "Wood sculpture of a turtle. A \"4\" is carved into the bottom."
-msgstr ""
-
-#: ../items/categories/quest.txt:133
-msgid "Stormrock Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:142
-msgid "Temple of Mez Basement Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:151
-msgid "Temple of Mez Main Hall Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:160
-msgid "Dynamite"
-msgstr ""
-
-#: ../items/categories/quest.txt:169
-msgid "Worn Note #1"
-msgstr ""
-
-#: ../items/categories/quest.txt:179
-msgid "Worn Note #2"
-msgstr ""
-
-#: ../items/categories/quest.txt:189
-msgid "Worn Note #3"
-msgstr ""
-
-#: ../items/categories/quest.txt:199
-msgid "Worn Note #4"
-msgstr ""
-
-#: ../items/categories/quest.txt:209
-msgid "Worn Note #5"
-msgstr ""
-
-#: ../items/categories/quest.txt:219
-msgid "Wizard's Tower Entrance Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:228
-msgid "Wizard's Tower Research Hall Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:247
-msgid "Lorund's Sword"
-msgstr ""
-
-#: ../items/categories/quest.txt:256
-msgid "Nerin's Bow"
-msgstr ""
-
-#: ../items/categories/quest.txt:265
-msgid "Kayl's Staff"
-msgstr ""
-
-#: ../items/categories/quest.txt:274
-msgid "Underworld Stronghold Foyer Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:283
-msgid "Underworld Stronghold Barracks Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:292
-msgid "Treasure Chest Key"
-msgstr ""
-
-#: ../items/categories/quest.txt:305
-msgid ""
-"An odor of iron and its abrasive petals make this rare plant easy to "
-"identify."
-msgstr ""
-
-#: ../items/categories/quest.txt:315
-msgid ""
-"This mysterious black feather has a very sharp follicle, making it a "
-"suitable writing utensil."
-msgstr ""
-
-#: ../items/categories/quest.txt:325
-msgid "A dark, magical energy flows through the tip of this small blade."
-msgstr ""
-
-#: ../items/categories/quest.txt:332
-msgid "Vial of Your Blood"
-msgstr ""
-
-#: ../items/categories/quest.txt:335
-msgid "Spoils of the Red Altar ritual."
-msgstr ""
-
-#: ../items/categories/quest.txt:342
-msgid "Blood Inkwell"
-msgstr ""
-
-#: ../items/categories/quest.txt:345
-msgid ""
-"According to Florin, this is the only ink capable of being used in the Book "
-"of the Dead."
-msgstr ""
-
-#: ../items/categories/scrolls.txt:5
-msgid "Summon Zombie Scroll"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:8
-msgid "Use: Summon a zombie to fight for you"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:16
-msgid "Perdition Scroll"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:19
-msgid "Use: Teleport to Perdition Harbor"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:27
-msgid "Shield Scroll"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:30
-msgid "Use: Create a magical shield that absorbs damage"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:38
-msgid "Fireball Scroll"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:41
-msgid "Use: Shoot a fireball"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:49
-msgid "Ice Bolt Scroll"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:52
-msgid "Use: Shoot an ice bolt"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:60
-msgid "Haste Scroll"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:63
-msgid "Use: Move at an increased speed for a limited time"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:71
-msgid "Immunity Scroll"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:74
-msgid "Use: Remove debuffs and become immune to debuffs for a limited time"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:82
-msgid "Reflection Scroll"
-msgstr ""
-
-#: ../items/categories/scrolls.txt:85
-msgid ""
-"Use: Creates a magical shield that reflects projectiles and damage for a "
-"limited time"
-msgstr ""
-
-#: ../items/categories/level_4.txt:5
-msgid "Warlord Cloth Shirt"
-msgstr ""
-
-#: ../items/categories/level_4.txt:17
-msgid "Sniper Cloth Shirt"
-msgstr ""
-
-#: ../items/categories/level_4.txt:29
-msgid "Archwizard Cloth Shirt"
-msgstr ""
-
-#: ../items/categories/level_4.txt:41
-msgid "Warlord Cloth Pants"
-msgstr ""
-
-#: ../items/categories/level_4.txt:53
-msgid "Sniper Cloth Pants"
-msgstr ""
-
-#: ../items/categories/level_4.txt:65
-msgid "Archwizard Cloth Pants"
-msgstr ""
-
-#: ../items/categories/level_4.txt:77
-msgid "Warlord Cloth Sandals"
-msgstr ""
-
-#: ../items/categories/level_4.txt:89
-msgid "Sniper Cloth Sandals"
-msgstr ""
-
-#: ../items/categories/level_4.txt:101
-msgid "Archwizard Cloth Sandals"
-msgstr ""
-
-#: ../items/categories/level_4.txt:113
-msgid "Warlord Cloth Gloves"
-msgstr ""
-
-#: ../items/categories/level_4.txt:125
-msgid "Sniper Cloth Gloves"
-msgstr ""
-
-#: ../items/categories/level_4.txt:137
-msgid "Archwizard Cloth Gloves"
-msgstr ""
-
-#: ../items/categories/level_4.txt:149
-msgid "Master Leather Belt"
-msgstr ""
-
-#: ../items/categories/level_4.txt:160
-msgid "Master Pendant"
-msgstr ""
-
-#: ../items/categories/level_4.txt:171
-msgid "Master Spellbook"
-msgstr ""
-
-#: ../items/categories/level_4.txt:182
-msgid "Warlord Dagger"
-msgstr ""
-
-#: ../items/categories/level_4.txt:194
-msgid "Sniper Slingshot"
-msgstr ""
-
-#: ../items/categories/level_4.txt:206
-msgid "Archwizard Wand"
-msgstr ""
-
-#: ../items/categories/level_4.txt:218
-msgid "Templar Wood Buckler"
-msgstr ""
-
-#: ../items/categories/level_4.txt:229
-msgid "Master Fire Ring"
-msgstr ""
-
-#: ../items/categories/level_4.txt:239
-msgid "Master Ice Ring"
-msgstr ""
-
-#: ../items/categories/level_4.txt:249
-msgid "Master Lightning Ring"
-msgstr ""
-
-#: ../items/categories/level_4.txt:259
-msgid "Master Dark Ring"
-msgstr ""
-
-#: ../items/categories/level_4.txt:269
-msgid "Master Experience Ring"
-msgstr ""
-
-#: ../items/categories/level_4.txt:279
-msgid "Master Wealth Ring"
-msgstr ""
-
-#: ../items/categories/level_4.txt:289
-msgid "Master Treasure Ring"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:4
-msgid "Fleshband"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:6
-msgid ""
-"Smooth to the touch. Upon wearing it, it tightens itself around the finger."
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:20
-msgid "Soulband"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:22
-msgid ""
-"Glowing when worn, it clears the wearer's mind and allows them to deeply "
-"focus."
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:36
-msgid "Underworld Cloak"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:48
-msgid "Underworld Platemail"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:60
-msgid "Underworld Boots"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:72
-msgid "Underworld Armguards"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:84
-msgid "Underworld Greaves"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:96
-msgid "Underworld Tome"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:107
-msgid "Underworld Blade"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:119
-msgid "Underworld Bow"
-msgstr ""
-
-#: ../items/categories/level_16_unique.txt:131
-msgid "Underworld Sceptre"
-msgstr ""
-
-#: ../items/categories/level_12.txt:5
-msgid "Warlord Chain Coif"
-msgstr ""
-
-#: ../items/categories/level_12.txt:17
-msgid "Sniper Chain Coif"
-msgstr ""
-
-#: ../items/categories/level_12.txt:29
-msgid "Archwizard Silk Hood"
-msgstr ""
-
-#: ../items/categories/level_12.txt:41
-msgid "Warlord Chain Cuirass"
-msgstr ""
-
-#: ../items/categories/level_12.txt:53
-msgid "Sniper Chain Cuirass"
-msgstr ""
-
-#: ../items/categories/level_12.txt:65
-msgid "Archwizard Silk Vest"
-msgstr ""
-
-#: ../items/categories/level_12.txt:77
-msgid "Warlord Chain Greaves"
-msgstr ""
-
-#: ../items/categories/level_12.txt:89
-msgid "Sniper Chain Greaves"
-msgstr ""
-
-#: ../items/categories/level_12.txt:101
-msgid "Archwizard Silk Skirt"
-msgstr ""
-
-#: ../items/categories/level_12.txt:113
-msgid "Warlord Chain Boots"
-msgstr ""
-
-#: ../items/categories/level_12.txt:125
-msgid "Sniper Chain Boots"
-msgstr ""
-
-#: ../items/categories/level_12.txt:137
-msgid "Archwizard Silk Boots"
-msgstr ""
-
-#: ../items/categories/level_12.txt:149
-msgid "Warlord Chain Gloves"
-msgstr ""
-
-#: ../items/categories/level_12.txt:161
-msgid "Sniper Chain Gloves"
-msgstr ""
-
-#: ../items/categories/level_12.txt:173
-msgid "Archwizard Silk Sleeves"
-msgstr ""
-
-#: ../items/categories/level_12.txt:185
-msgid "Master Warrior Leather Belt"
-msgstr ""
-
-#: ../items/categories/level_12.txt:196
-msgid "Master Ranger Pendant"
-msgstr ""
-
-#: ../items/categories/level_12.txt:207
-msgid "Master Wizard Spellbook"
-msgstr ""
-
-#: ../items/categories/level_12.txt:218
-msgid "Warlord Longsword"
-msgstr ""
-
-#: ../items/categories/level_12.txt:230
-msgid "Sniper Longbow"
-msgstr ""
-
-#: ../items/categories/level_12.txt:242
-msgid "Archwizard Staff"
-msgstr ""
-
-#: ../items/categories/level_12.txt:254
-msgid "Templar Crest Shield"
-msgstr ""
-
-#: ../items/categories/level_12.txt:265
-msgid "Master Blaze Ring"
-msgstr ""
-
-#: ../items/categories/level_12.txt:275
-msgid "Master Freeze Ring"
-msgstr ""
-
-#: ../items/categories/level_12.txt:285
-msgid "Master Shock Ring"
-msgstr ""
-
-#: ../items/categories/level_12.txt:295
-msgid "Master Gloom Ring"
-msgstr ""
-
-#: ../items/categories/level_12.txt:305
-msgid "Master Intellectual Ring"
-msgstr ""
-
-#: ../items/categories/level_12.txt:315
-msgid "Master Lucrative Ring"
-msgstr ""
-
-#: ../items/categories/level_12.txt:325
-msgid "Master Artifact Ring"
-msgstr ""
-
-#: ../items/categories/level_1.txt:5
-msgid "Cloth Shirt"
-msgstr ""
-
-#: ../items/categories/level_1.txt:12
-msgid "Cloth Pants"
-msgstr ""
-
-#: ../items/categories/level_1.txt:19
-msgid "Cloth Sandals"
-msgstr ""
-
-#: ../items/categories/level_1.txt:26
-msgid "Cloth Gloves"
-msgstr ""
-
-#: ../items/categories/level_1.txt:33
-msgid "Dagger"
-msgstr ""
-
-#: ../items/categories/level_1.txt:42
-msgid "Slingshot"
-msgstr ""
-
-#: ../items/categories/level_1.txt:51
-msgid "Wand"
-msgstr ""
-
-#: ../items/categories/level_1.txt:60
-msgid "Wood Buckler"
-msgstr ""
-
-#: ../items/categories/potions.txt:5
-msgid "Health Potion"
-msgstr ""
-
-#: ../items/categories/potions.txt:8
-msgid "Restore 25% of maximum HP"
-msgstr ""
-
-#: ../items/categories/potions.txt:16
-msgid "Mana Potion"
-msgstr ""
-
-#: ../items/categories/potions.txt:19
-msgid "Restore 25% of maximum MP"
-msgstr ""
-
-#: ../items/categories/level_11.txt:5
-msgid "Warrior Chain Coif"
-msgstr ""
-
-#: ../items/categories/level_11.txt:17
-msgid "Ranger Chain Coif"
-msgstr ""
-
-#: ../items/categories/level_11.txt:29
-msgid "Wizard Silk Hood"
-msgstr ""
-
-#: ../items/categories/level_11.txt:41
-msgid "Warrior Chain Cuirass"
-msgstr ""
-
-#: ../items/categories/level_11.txt:53
-msgid "Ranger Chain Cuirass"
-msgstr ""
-
-#: ../items/categories/level_11.txt:65
-msgid "Wizard Silk Vest"
-msgstr ""
-
-#: ../items/categories/level_11.txt:77
-msgid "Warrior Chain Greaves"
-msgstr ""
-
-#: ../items/categories/level_11.txt:89
-msgid "Ranger Chain Greaves"
-msgstr ""
-
-#: ../items/categories/level_11.txt:101
-msgid "Wizard Silk Skirt"
-msgstr ""
-
-#: ../items/categories/level_11.txt:113
-msgid "Warrior Chain Boots"
-msgstr ""
-
-#: ../items/categories/level_11.txt:125
-msgid "Ranger Chain Boots"
-msgstr ""
-
-#: ../items/categories/level_11.txt:137
-msgid "Wizard Silk Boots"
-msgstr ""
-
-#: ../items/categories/level_11.txt:149
-msgid "Warrior Chain Gloves"
-msgstr ""
-
-#: ../items/categories/level_11.txt:161
-msgid "Ranger Chain Gloves"
-msgstr ""
-
-#: ../items/categories/level_11.txt:173
-msgid "Wizard Silk Sleeves"
-msgstr ""
-
-#: ../items/categories/level_11.txt:185
-msgid "Adventurer Warrior Leather Belt"
-msgstr ""
-
-#: ../items/categories/level_11.txt:196
-msgid "Adventurer Ranger Pendant"
-msgstr ""
-
-#: ../items/categories/level_11.txt:207
-msgid "Adventurer Wizard Spellbook"
-msgstr ""
-
-#: ../items/categories/level_11.txt:218
-msgid "Warrior Longsword"
-msgstr ""
-
-#: ../items/categories/level_11.txt:230
-msgid "Ranger Longbow"
-msgstr ""
-
-#: ../items/categories/level_11.txt:242
-msgid "Wizard Staff"
-msgstr ""
-
-#: ../items/categories/level_11.txt:254
-msgid "Paladin Crest Shield"
-msgstr ""
-
-#: ../items/categories/level_11.txt:265
-msgid "Adventurer Blaze Ring"
-msgstr ""
-
-#: ../items/categories/level_11.txt:275
-msgid "Adventurer Freeze Ring"
-msgstr ""
-
-#: ../items/categories/level_11.txt:285
-msgid "Adventurer Shock Ring"
-msgstr ""
-
-#: ../items/categories/level_11.txt:295
-msgid "Adventurer Gloom Ring"
-msgstr ""
-
-#: ../items/categories/level_11.txt:305
-msgid "Adventurer Intellectual Ring"
-msgstr ""
-
-#: ../items/categories/level_11.txt:315
-msgid "Adventurer Lucrative Ring"
-msgstr ""
-
-#: ../items/categories/level_11.txt:325
-msgid "Adventurer Artifact Ring"
-msgstr ""
-
-#: ../items/categories/level_14.txt:5
-msgid "Fighting Plate Helmet"
-msgstr ""
-
-#: ../items/categories/level_14.txt:17
-msgid "Recon Plate Helmet"
-msgstr ""
-
-#: ../items/categories/level_14.txt:29
-msgid "Sorcerer Velvet Hood"
-msgstr ""
-
-#: ../items/categories/level_14.txt:41
-msgid "Fighting Plate Cuirass"
-msgstr ""
-
-#: ../items/categories/level_14.txt:53
-msgid "Recon Plate Cuirass"
-msgstr ""
-
-#: ../items/categories/level_14.txt:65
-msgid "Sorcerer Velvet Vest"
-msgstr ""
-
-#: ../items/categories/level_14.txt:77
-msgid "Fighting Plate Greaves"
-msgstr ""
-
-#: ../items/categories/level_14.txt:89
-msgid "Recon Plate Greaves"
-msgstr ""
-
-#: ../items/categories/level_14.txt:101
-msgid "Sorcerer Velvet Skirt"
-msgstr ""
-
-#: ../items/categories/level_14.txt:113
-msgid "Fighting Plate Boots"
-msgstr ""
-
-#: ../items/categories/level_14.txt:125
-msgid "Recon Plate Boots"
-msgstr ""
-
-#: ../items/categories/level_14.txt:137
-msgid "Sorcerer Velvet Boots"
-msgstr ""
-
-#: ../items/categories/level_14.txt:149
-msgid "Fighting Plate Gauntlets"
-msgstr ""
-
-#: ../items/categories/level_14.txt:161
-msgid "Recon Plate Gauntlets"
-msgstr ""
-
-#: ../items/categories/level_14.txt:173
-msgid "Sorcerer Velvet Sleeves"
-msgstr ""
-
-#: ../items/categories/level_14.txt:185
-msgid "Wandering Warlord Leather Belt"
-msgstr ""
-
-#: ../items/categories/level_14.txt:196
-msgid "Wandering Sniper Pendant"
-msgstr ""
-
-#: ../items/categories/level_14.txt:207
-msgid "Wandering Archwizard Spellbook"
-msgstr ""
-
-#: ../items/categories/level_14.txt:218
-msgid "Fighting Greatsword"
-msgstr ""
-
-#: ../items/categories/level_14.txt:230
-msgid "Recon Greatbow"
-msgstr ""
-
-#: ../items/categories/level_14.txt:242
-msgid "Sorcerer Greatstaff"
-msgstr ""
-
-#: ../items/categories/level_14.txt:254
-msgid "Keeper Tower Shield"
-msgstr ""
-
-#: ../items/categories/level_14.txt:265
-msgid "Wandering Inferno Ring"
-msgstr ""
-
-#: ../items/categories/level_14.txt:275
-msgid "Wandering Glacial Ring"
-msgstr ""
-
-#: ../items/categories/level_14.txt:285
-msgid "Wandering Volt Ring"
-msgstr ""
-
-#: ../items/categories/level_14.txt:295
-msgid "Wandering Void Ring"
-msgstr ""
-
-#: ../items/categories/level_14.txt:305
-msgid "Wandering Scholar Ring"
-msgstr ""
-
-#: ../items/categories/level_14.txt:315
-msgid "Wandering Affluence Ring"
-msgstr ""
-
-#: ../items/categories/level_14.txt:325
-msgid "Wandering Relic Ring"
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:3
-msgid "Amir Blade"
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:4
-msgid "A remnant of those who guarded Fort Amir."
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:18
-msgid "Huntsman Bow"
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:19
-msgid "Compact enough to be deadly at all ranges of combat."
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:34
-msgid "Greed Cowl"
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:35
-msgid "Riches fit for a queen."
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:49
-msgid "Battle Leathers"
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:50
-msgid "Designed to keep its wearer moving forward."
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:64
-msgid "Escape Boots"
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:65
-msgid "Running away doesn't mean the battle is lost."
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:79
-msgid "Mez's Wraps"
-msgstr ""
-
-#: ../items/categories/level_8_unique.txt:80
-msgid "With its layers of reptilian skin, not much can penetrate this armor."
-msgstr ""
-
-#: ../items/categories/level_5.txt:5
-msgid "Leather Hood"
-msgstr ""
-
-#: ../items/categories/level_5.txt:14
-msgid "Leather Tunic"
-msgstr ""
-
-#: ../items/categories/level_5.txt:23
-msgid "Leather Pants"
-msgstr ""
-
-#: ../items/categories/level_5.txt:32
-msgid "Leather Boots"
-msgstr ""
-
-#: ../items/categories/level_5.txt:41
-msgid "Leather Gloves"
-msgstr ""
-
-#: ../items/categories/level_5.txt:50
-msgid "Wool Hood"
-msgstr ""
-
-#: ../items/categories/level_5.txt:59
-msgid "Wool Vest"
-msgstr ""
-
-#: ../items/categories/level_5.txt:68
-msgid "Wool Skirt"
-msgstr ""
-
-#: ../items/categories/level_5.txt:77
-msgid "Wool Boots"
-msgstr ""
-
-#: ../items/categories/level_5.txt:86
-msgid "Wool Sleeves"
-msgstr ""
-
-#: ../items/categories/level_5.txt:95
-msgid "Shortsword"
-msgstr ""
-
-#: ../items/categories/level_5.txt:104
-msgid "Shortbow"
-msgstr ""
-
-#: ../items/categories/level_5.txt:113
-msgid "Rod"
-msgstr ""
-
-#: ../items/categories/level_5.txt:122
-msgid "Iron Buckler"
 msgstr ""
 
 #: ../items/categories/level_15.txt:5
@@ -4306,90 +3405,1429 @@ msgstr ""
 msgid "Adventurer Relic Ring"
 msgstr ""
 
-#: ../powers/base/ranger/rapid_fire.txt:1
-msgid "Rapid Fire"
+#: ../items/categories/level_7.txt:5
+msgid "Warrior Leather Hood"
 msgstr ""
 
-#: ../powers/base/ranger/rapid_fire.txt:2
-msgid "Fire five low power missiles in quick succession."
+#: ../items/categories/level_7.txt:17
+msgid "Ranger Leather Hood"
 msgstr ""
 
-#: ../powers/base/ranger/shoot.txt:1
-msgid "Shoot"
+#: ../items/categories/level_7.txt:29
+msgid "Wizard Wool Hood"
 msgstr ""
 
-#: ../powers/base/ranger/shoot.txt:4
-msgid "Basic ranged attack."
+#: ../items/categories/level_7.txt:41
+msgid "Warrior Leather Tunic"
 msgstr ""
 
-#: ../powers/base/ranger/wolfs_eye.txt:1
-msgid "Wolf's Eye"
+#: ../items/categories/level_7.txt:53
+msgid "Ranger Leather Tunic"
 msgstr ""
 
-#: ../powers/base/ranger/wolfs_eye.txt:2
-msgid "Improves the ability to hit and critically wound enemies."
+#: ../items/categories/level_7.txt:65
+msgid "Wizard Wool Vest"
 msgstr ""
 
-#: ../powers/base/ranger/ember_shot.txt:1
-msgid "Ember Shot"
+#: ../items/categories/level_7.txt:77
+msgid "Warrior Leather Pants"
 msgstr ""
 
-#: ../powers/base/ranger/ember_shot.txt:2
+#: ../items/categories/level_7.txt:89
+msgid "Ranger Leather Pants"
+msgstr ""
+
+#: ../items/categories/level_7.txt:101
+msgid "Wizard Wool Skirt"
+msgstr ""
+
+#: ../items/categories/level_7.txt:113
+msgid "Warrior Leather Boots"
+msgstr ""
+
+#: ../items/categories/level_7.txt:125
+msgid "Ranger Leather Boots"
+msgstr ""
+
+#: ../items/categories/level_7.txt:137
+msgid "Wizard Wool Boots"
+msgstr ""
+
+#: ../items/categories/level_7.txt:149
+msgid "Warrior Leather Gloves"
+msgstr ""
+
+#: ../items/categories/level_7.txt:161
+msgid "Ranger Leather Gloves"
+msgstr ""
+
+#: ../items/categories/level_7.txt:173
+msgid "Wizard Wool Sleeves"
+msgstr ""
+
+#: ../items/categories/level_7.txt:185
+msgid "Adventurer Fighting Leather Belt"
+msgstr ""
+
+#: ../items/categories/level_7.txt:196
+msgid "Adventurer Recon Pendant"
+msgstr ""
+
+#: ../items/categories/level_7.txt:207
+msgid "Adventurer Sorcerer Spellbook"
+msgstr ""
+
+#: ../items/categories/level_7.txt:218
+msgid "Warrior Shortsword"
+msgstr ""
+
+#: ../items/categories/level_7.txt:230
+msgid "Ranger Shortbow"
+msgstr ""
+
+#: ../items/categories/level_7.txt:242
+msgid "Wizard Rod"
+msgstr ""
+
+#: ../items/categories/level_7.txt:254
+msgid "Paladin Iron Buckler"
+msgstr ""
+
+#: ../items/categories/level_7.txt:265
+msgid "Adventurer Burn Ring"
+msgstr ""
+
+#: ../items/categories/level_7.txt:275
+msgid "Adventurer Frost Ring"
+msgstr ""
+
+#: ../items/categories/level_7.txt:285
+msgid "Adventurer Electric Ring"
+msgstr ""
+
+#: ../items/categories/level_7.txt:295
+msgid "Adventurer Shadow Ring"
+msgstr ""
+
+#: ../items/categories/level_7.txt:305
+msgid "Adventurer Knowledge Ring"
+msgstr ""
+
+#: ../items/categories/level_7.txt:315
+msgid "Adventurer Prosperity Ring"
+msgstr ""
+
+#: ../items/categories/level_7.txt:325
+msgid "Adventurer Loot Ring"
+msgstr ""
+
+#: ../items/categories/level_10.txt:5
+msgid "Fighting Chain Coif"
+msgstr ""
+
+#: ../items/categories/level_10.txt:17
+msgid "Recon Chain Coif"
+msgstr ""
+
+#: ../items/categories/level_10.txt:29
+msgid "Sorcerer Silk Hood"
+msgstr ""
+
+#: ../items/categories/level_10.txt:41
+msgid "Fighting Chain Cuirass"
+msgstr ""
+
+#: ../items/categories/level_10.txt:53
+msgid "Recon Chain Cuirass"
+msgstr ""
+
+#: ../items/categories/level_10.txt:65
+msgid "Sorcerer Silk Vest"
+msgstr ""
+
+#: ../items/categories/level_10.txt:77
+msgid "Fighting Chain Greaves"
+msgstr ""
+
+#: ../items/categories/level_10.txt:89
+msgid "Recon Chain Greaves"
+msgstr ""
+
+#: ../items/categories/level_10.txt:101
+msgid "Sorcerer Silk Skirt"
+msgstr ""
+
+#: ../items/categories/level_10.txt:113
+msgid "Fighting Chain Boots"
+msgstr ""
+
+#: ../items/categories/level_10.txt:125
+msgid "Recon Chain Boots"
+msgstr ""
+
+#: ../items/categories/level_10.txt:137
+msgid "Sorcerer Silk Boots"
+msgstr ""
+
+#: ../items/categories/level_10.txt:149
+msgid "Fighting Chain Gloves"
+msgstr ""
+
+#: ../items/categories/level_10.txt:161
+msgid "Recon Chain Gloves"
+msgstr ""
+
+#: ../items/categories/level_10.txt:173
+msgid "Sorcerer Silk Sleeves"
+msgstr ""
+
+#: ../items/categories/level_10.txt:185
+msgid "Wandering Warrior Leather Belt"
+msgstr ""
+
+#: ../items/categories/level_10.txt:196
+msgid "Wandering Ranger Pendant"
+msgstr ""
+
+#: ../items/categories/level_10.txt:207
+msgid "Wandering Wizard Spellbook"
+msgstr ""
+
+#: ../items/categories/level_10.txt:218
+msgid "Fighting Longsword"
+msgstr ""
+
+#: ../items/categories/level_10.txt:230
+msgid "Recon Longbow"
+msgstr ""
+
+#: ../items/categories/level_10.txt:242
+msgid "Sorcerer Staff"
+msgstr ""
+
+#: ../items/categories/level_10.txt:254
+msgid "Keeper Crest Shield"
+msgstr ""
+
+#: ../items/categories/level_10.txt:265
+msgid "Wandering Blaze Ring"
+msgstr ""
+
+#: ../items/categories/level_10.txt:275
+msgid "Wandering Freeze Ring"
+msgstr ""
+
+#: ../items/categories/level_10.txt:285
+msgid "Wandering Shock Ring"
+msgstr ""
+
+#: ../items/categories/level_10.txt:295
+msgid "Wandering Gloom Ring"
+msgstr ""
+
+#: ../items/categories/level_10.txt:305
+msgid "Wandering Intellectual Ring"
+msgstr ""
+
+#: ../items/categories/level_10.txt:315
+msgid "Wandering Lucrative Ring"
+msgstr ""
+
+#: ../items/categories/level_10.txt:325
+msgid "Wandering Artifact Ring"
+msgstr ""
+
+#: ../items/categories/level_16_unique.txt:4
+msgid "Fleshband"
+msgstr ""
+
+#: ../items/categories/level_16_unique.txt:6
 msgid ""
-"Fire a spray of burning embers at close range. Effective against armored "
-"enemies."
+"Smooth to the touch. Upon wearing it, it tightens itself around the finger."
 msgstr ""
 
-#: ../powers/base/ranger/multishot.txt:1
-msgid "Multishot"
+#: ../items/categories/level_16_unique.txt:20
+msgid "Soulband"
 msgstr ""
 
-#: ../powers/base/ranger/multishot.txt:2
-msgid "Shoot three projectiles simultaneously."
+#: ../items/categories/level_16_unique.txt:22
+msgid ""
+"Glowing when worn, it clears the wearer's mind and allows them to deeply "
+"focus."
 msgstr ""
 
-#: ../powers/base/ranger/bear_trap.txt:1
-msgid "Bear Trap"
+#: ../items/categories/level_16_unique.txt:36
+msgid "Underworld Cloak"
+msgstr "Podsvetný plášť"
+
+#: ../items/categories/level_16_unique.txt:48
+msgid "Underworld Platemail"
 msgstr ""
 
-#: ../powers/base/ranger/bear_trap.txt:2
-msgid "This trap deals extra ranged weapon damage and immobilizes the target."
+#: ../items/categories/level_16_unique.txt:60
+msgid "Underworld Boots"
+msgstr "Podsvetné čižmy"
+
+#: ../items/categories/level_16_unique.txt:72
+msgid "Underworld Armguards"
 msgstr ""
 
-#: ../powers/base/ranger/caltrops.txt:1
-msgid "Caltrops"
+#: ../items/categories/level_16_unique.txt:84
+msgid "Underworld Greaves"
 msgstr ""
 
-#: ../powers/base/ranger/caltrops.txt:2
-msgid "This trap deals reduced ranged weapon damage and slows the target."
+#: ../items/categories/level_16_unique.txt:96
+msgid "Underworld Tome"
+msgstr "Podsvetná kniha"
+
+#: ../items/categories/level_16_unique.txt:107
+msgid "Underworld Blade"
 msgstr ""
 
-#: ../powers/base/ranger/piercing_shot.txt:1
-msgid "Piercing Shot"
+#: ../items/categories/level_16_unique.txt:119
+msgid "Underworld Bow"
+msgstr "Podsvetný luk"
+
+#: ../items/categories/level_16_unique.txt:131
+msgid "Underworld Sceptre"
+msgstr "Podsvetné žezlo"
+
+#: ../items/categories/quest.txt:3
+msgid "Krolan's Key"
+msgstr "Krolanov kľúč"
+
+#: ../items/categories/quest.txt:13
+msgid "Krolan's Emerald"
 msgstr ""
 
-#: ../powers/base/ranger/piercing_shot.txt:2
-msgid "Fire a shot that ignores armor and goes through multiple enemies."
+#: ../items/categories/quest.txt:23
+msgid "Abasi's Journal"
+msgstr "Abasiho denník"
+
+#: ../items/categories/quest.txt:34
+msgid "Gold Family Ring"
 msgstr ""
 
-#: ../powers/base/ranger/haste.txt:3
-msgid "Move at an increased speed for a limited time."
+#: ../items/categories/quest.txt:45
+msgid "St. Maria Mausoleum Key"
 msgstr ""
 
-#: ../powers/base/magician/freeze.txt:1
-msgid "Freeze"
+#: ../items/categories/quest.txt:55
+msgid "St. Maria Catacombs Key"
 msgstr ""
 
-#: ../powers/base/magician/freeze.txt:4
-msgid "Create a ray of several piercing cold shards that slow enemies."
+#: ../items/categories/quest.txt:65
+msgid "Strange Sapphire A"
+msgstr "Zvláštny zafír A"
+
+#: ../items/categories/quest.txt:75
+msgid "Strange Sapphire B"
+msgstr "Zvláštny zafír B"
+
+#: ../items/categories/quest.txt:95
+msgid "Bear Figurine"
+msgstr "Figurína medveďa"
+
+#: ../items/categories/quest.txt:98
+msgid "Wood sculpture of a bear. A \"1\" is carved into the bottom."
+msgstr "Drevená soška medveďa. Na jej spodku je vyrezaný nápis „1“."
+
+#: ../items/categories/quest.txt:108
+msgid "Owl Figurine"
+msgstr "Figurína sovy"
+
+#: ../items/categories/quest.txt:111
+msgid "Wood sculpture of an owl. A \"2\" is carved into the bottom."
+msgstr "Drevená soška sovy. Na jej spodku je vyrezaný nápis „2“."
+
+#: ../items/categories/quest.txt:121
+msgid "Cat Figurine"
+msgstr "Figurína mačky"
+
+#: ../items/categories/quest.txt:124
+msgid "Wood sculpture of a cat. A \"3\" is carved into the bottom."
+msgstr "Drevená soška mačky. Na jej spodku je vyrezaný nápis „3“."
+
+#: ../items/categories/quest.txt:134
+msgid "Turtle Figurine"
+msgstr "Figurína korytnačky"
+
+#: ../items/categories/quest.txt:137
+msgid "Wood sculpture of a turtle. A \"4\" is carved into the bottom."
+msgstr "Drevená soška korytnačky. Na jej spodku je vyrezaný nápis „4“."
+
+#: ../items/categories/quest.txt:147
+msgid "Stormrock Key"
+msgstr ""
+
+#: ../items/categories/quest.txt:157
+msgid "Temple of Mez Basement Key"
+msgstr ""
+
+#: ../items/categories/quest.txt:167
+msgid "Temple of Mez Main Hall Key"
+msgstr ""
+
+#: ../items/categories/quest.txt:187
+msgid "Worn Note #1"
+msgstr "Opotrebovaný odkaz č. 1"
+
+#: ../items/categories/quest.txt:198
+msgid "Worn Note #2"
+msgstr "Opotrebovaný odkaz č. 2"
+
+#: ../items/categories/quest.txt:209
+msgid "Worn Note #3"
+msgstr "Opotrebovaný odkaz č. 3"
+
+#: ../items/categories/quest.txt:220
+msgid "Worn Note #4"
+msgstr "Opotrebovaný odkaz č. 4"
+
+#: ../items/categories/quest.txt:231
+msgid "Worn Note #5"
+msgstr "Opotrebovaný odkaz č. 5"
+
+#: ../items/categories/quest.txt:242
+msgid "Wizard's Tower Entrance Key"
+msgstr ""
+
+#: ../items/categories/quest.txt:252
+msgid "Wizard's Tower Research Hall Key"
+msgstr ""
+
+#: ../items/categories/quest.txt:273
+msgid "Lorund's Sword"
+msgstr "Lorundov meč"
+
+#: ../items/categories/quest.txt:285
+msgid "Nerin's Bow"
+msgstr "Nerinin luk"
+
+#: ../items/categories/quest.txt:297
+msgid "Kayl's Staff"
+msgstr "Palica Kayl"
+
+#: ../items/categories/quest.txt:309
+msgid "Underworld Stronghold Foyer Key"
+msgstr ""
+
+#: ../items/categories/quest.txt:319
+msgid "Underworld Stronghold Barracks Key"
+msgstr ""
+
+#: ../items/categories/quest.txt:329
+msgid "Treasure Chest Key"
+msgstr "Kľúč od truhlice s pokladom"
+
+#: ../items/categories/quest.txt:339
+msgid "Silver Family Ring"
+msgstr ""
+
+#: ../items/categories/quest.txt:365
+msgid ""
+"An odor of iron and its abrasive petals make this rare plant easy to "
+"identify."
+msgstr ""
+
+#: ../items/categories/quest.txt:376
+msgid ""
+"This mysterious black feather has a very sharp follicle, making it a "
+"suitable writing utensil."
+msgstr ""
+"Toto záhadné čierne pierko je, vďaka ostrému folikulu, vhodné na písanie."
+
+#: ../items/categories/quest.txt:387
+msgid "A dark, magical energy flows through the tip of this small blade."
+msgstr ""
+
+#: ../items/categories/quest.txt:395
+msgid "Vial of Your Blood"
+msgstr "Fľaštička s vašou krvou"
+
+#: ../items/categories/quest.txt:398
+msgid "Spoils of the Red Altar ritual."
+msgstr "Výťažok z rituálu na červenom oltári."
+
+#: ../items/categories/quest.txt:406
+msgid "Blood Inkwell"
+msgstr "Krvavý kalamár"
+
+#: ../items/categories/quest.txt:409
+msgid ""
+"According to Florin, this is the only ink capable of being used in the Book "
+"of the Dead."
+msgstr ""
+"Podľa Florina ide o jediný atrament, s ktorým sa dá písať do Knihy mŕtvych."
+
+#: ../items/categories/crafting.txt:39
+msgid "Mortar and Pestle"
+msgstr "Mažiar s paličkou"
+
+#: ../items/categories/crafting.txt:40
+msgid "Use empty bottles and various ingredients to create potions."
+msgstr "Kombináciou prázdnych fliaš a rôznych prísad môžete vytvoriť elixíry."
+
+#: ../items/categories/level_4_unique.txt:3
+msgid "Krolan's Hammer"
+msgstr "Krolanovo kladivo"
+
+#: ../items/categories/level_4_unique.txt:4
+msgid "An essential tool for any blacksmith."
+msgstr "Nevyhnutný nástroj pre každého kováča."
+
+#: ../items/categories/level_4_unique.txt:18
+msgid "Goblin Branch"
+msgstr "Goblinský konár"
+
+#: ../items/categories/level_4_unique.txt:19
+msgid "Mana flows inside its primitive exterior."
+msgstr "Zvonku vyzerá primitívne, no vnútri tečie mana."
+
+#: ../items/categories/level_4_unique.txt:34
+msgid "Ardwen's Gloves"
+msgstr "Ardwenove rukavice"
+
+#: ../items/categories/level_4_unique.txt:35
+msgid "These hands built a village."
+msgstr "Tieto ruky postavili dedinu."
+
+#: ../items/categories/level_4_unique.txt:50
+msgid "Blood Tunic"
+msgstr ""
+
+#: ../items/categories/level_4_unique.txt:51
+msgid "When worn, this shirt heats the wearers veins."
+msgstr "Táto košeľa hreje žily nositeľa."
+
+#: ../items/categories/level_4_unique.txt:65
+msgid "Dark Steppers"
+msgstr ""
+
+#: ../items/categories/level_4_unique.txt:66
+msgid "Dancing through the shadows."
+msgstr ""
+
+#: ../items/categories/level_4_unique.txt:79
+msgid "Seagate's Tri-pants"
+msgstr ""
+
+#: ../items/categories/level_4_unique.txt:80
+msgid ""
+"These ragged trousers are covered in scorch marks, yet are cold to the "
+"touch."
+msgstr ""
+
+#: ../items/categories/level_4_unique.txt:95
+msgid "Ardwen's Ring"
+msgstr "Ardwenov prsteň"
+
+#: ../items/categories/level_4_unique.txt:96
+msgid "Lochport's finest."
+msgstr ""
+
+#: ../items/categories/level_16.txt:5
+msgid "Warlord Plate Helmet"
+msgstr ""
+
+#: ../items/categories/level_16.txt:17
+msgid "Sniper Plate Helmet"
+msgstr ""
+
+#: ../items/categories/level_16.txt:29
+msgid "Archwizard Velvet Hood"
+msgstr ""
+
+#: ../items/categories/level_16.txt:41
+msgid "Warlord Plate Cuirass"
+msgstr ""
+
+#: ../items/categories/level_16.txt:53
+msgid "Sniper Plate Cuirass"
+msgstr ""
+
+#: ../items/categories/level_16.txt:65
+msgid "Archwizard Velvet Vest"
+msgstr ""
+
+#: ../items/categories/level_16.txt:77
+msgid "Warlord Plate Greaves"
+msgstr ""
+
+#: ../items/categories/level_16.txt:89
+msgid "Sniper Plate Greaves"
+msgstr ""
+
+#: ../items/categories/level_16.txt:101
+msgid "Archwizard Velvet Skirt"
+msgstr ""
+
+#: ../items/categories/level_16.txt:113
+msgid "Warlord Plate Boots"
+msgstr ""
+
+#: ../items/categories/level_16.txt:125
+msgid "Sniper Plate Boots"
+msgstr ""
+
+#: ../items/categories/level_16.txt:137
+msgid "Archwizard Velvet Boots"
+msgstr ""
+
+#: ../items/categories/level_16.txt:149
+msgid "Warlord Plate Gauntlets"
+msgstr ""
+
+#: ../items/categories/level_16.txt:161
+msgid "Sniper Plate Gauntlets"
+msgstr ""
+
+#: ../items/categories/level_16.txt:173
+msgid "Archwizard Velvet Sleeves"
+msgstr ""
+
+#: ../items/categories/level_16.txt:185
+msgid "Master Warlord Leather Belt"
+msgstr ""
+
+#: ../items/categories/level_16.txt:196
+msgid "Master Sniper Pendant"
+msgstr ""
+
+#: ../items/categories/level_16.txt:207
+msgid "Master Archwizard Spellbook"
+msgstr ""
+
+#: ../items/categories/level_16.txt:218
+msgid "Warlord Greatsword"
+msgstr ""
+
+#: ../items/categories/level_16.txt:230
+msgid "Sniper Greatbow"
+msgstr ""
+
+#: ../items/categories/level_16.txt:242
+msgid "Archwizard Greatstaff"
+msgstr ""
+
+#: ../items/categories/level_16.txt:254
+msgid "Templar Tower Shield"
+msgstr ""
+
+#: ../items/categories/level_16.txt:265
+msgid "Master Inferno Ring"
+msgstr ""
+
+#: ../items/categories/level_16.txt:275
+msgid "Master Glacial Ring"
+msgstr ""
+
+#: ../items/categories/level_16.txt:285
+msgid "Master Volt Ring"
+msgstr ""
+
+#: ../items/categories/level_16.txt:295
+msgid "Master Void Ring"
+msgstr ""
+
+#: ../items/categories/level_16.txt:305
+msgid "Master Scholar Ring"
+msgstr ""
+
+#: ../items/categories/level_16.txt:315
+msgid "Master Affluence Ring"
+msgstr ""
+
+#: ../items/categories/level_16.txt:325
+msgid "Master Relic Ring"
+msgstr ""
+
+#: ../items/categories/level_11.txt:5
+msgid "Warrior Chain Coif"
+msgstr ""
+
+#: ../items/categories/level_11.txt:17
+msgid "Ranger Chain Coif"
+msgstr ""
+
+#: ../items/categories/level_11.txt:29
+msgid "Wizard Silk Hood"
+msgstr ""
+
+#: ../items/categories/level_11.txt:41
+msgid "Warrior Chain Cuirass"
+msgstr ""
+
+#: ../items/categories/level_11.txt:53
+msgid "Ranger Chain Cuirass"
+msgstr ""
+
+#: ../items/categories/level_11.txt:65
+msgid "Wizard Silk Vest"
+msgstr ""
+
+#: ../items/categories/level_11.txt:77
+msgid "Warrior Chain Greaves"
+msgstr ""
+
+#: ../items/categories/level_11.txt:89
+msgid "Ranger Chain Greaves"
+msgstr ""
+
+#: ../items/categories/level_11.txt:101
+msgid "Wizard Silk Skirt"
+msgstr ""
+
+#: ../items/categories/level_11.txt:113
+msgid "Warrior Chain Boots"
+msgstr ""
+
+#: ../items/categories/level_11.txt:125
+msgid "Ranger Chain Boots"
+msgstr ""
+
+#: ../items/categories/level_11.txt:137
+msgid "Wizard Silk Boots"
+msgstr ""
+
+#: ../items/categories/level_11.txt:149
+msgid "Warrior Chain Gloves"
+msgstr ""
+
+#: ../items/categories/level_11.txt:161
+msgid "Ranger Chain Gloves"
+msgstr ""
+
+#: ../items/categories/level_11.txt:173
+msgid "Wizard Silk Sleeves"
+msgstr ""
+
+#: ../items/categories/level_11.txt:185
+msgid "Adventurer Warrior Leather Belt"
+msgstr ""
+
+#: ../items/categories/level_11.txt:196
+msgid "Adventurer Ranger Pendant"
+msgstr ""
+
+#: ../items/categories/level_11.txt:207
+msgid "Adventurer Wizard Spellbook"
+msgstr ""
+
+#: ../items/categories/level_11.txt:218
+msgid "Warrior Longsword"
+msgstr ""
+
+#: ../items/categories/level_11.txt:230
+msgid "Ranger Longbow"
+msgstr ""
+
+#: ../items/categories/level_11.txt:242
+msgid "Wizard Staff"
+msgstr ""
+
+#: ../items/categories/level_11.txt:254
+msgid "Paladin Crest Shield"
+msgstr ""
+
+#: ../items/categories/level_11.txt:265
+msgid "Adventurer Blaze Ring"
+msgstr ""
+
+#: ../items/categories/level_11.txt:275
+msgid "Adventurer Freeze Ring"
+msgstr ""
+
+#: ../items/categories/level_11.txt:285
+msgid "Adventurer Shock Ring"
+msgstr ""
+
+#: ../items/categories/level_11.txt:295
+msgid "Adventurer Gloom Ring"
+msgstr ""
+
+#: ../items/categories/level_11.txt:305
+msgid "Adventurer Intellectual Ring"
+msgstr ""
+
+#: ../items/categories/level_11.txt:315
+msgid "Adventurer Lucrative Ring"
+msgstr ""
+
+#: ../items/categories/level_11.txt:325
+msgid "Adventurer Artifact Ring"
+msgstr ""
+
+#: ../items/categories/level_9.txt:5
+msgid "Chain Coif"
+msgstr ""
+
+#: ../items/categories/level_9.txt:14
+msgid "Chain Cuirass"
+msgstr ""
+
+#: ../items/categories/level_9.txt:23
+msgid "Chain Greaves"
+msgstr ""
+
+#: ../items/categories/level_9.txt:32
+msgid "Chain Boots"
+msgstr ""
+
+#: ../items/categories/level_9.txt:41
+msgid "Chain Gloves"
+msgstr ""
+
+#: ../items/categories/level_9.txt:50
+msgid "Silk Hood"
+msgstr ""
+
+#: ../items/categories/level_9.txt:59
+msgid "Silk Vest"
+msgstr ""
+
+#: ../items/categories/level_9.txt:68
+msgid "Silk Skirt"
+msgstr ""
+
+#: ../items/categories/level_9.txt:77
+msgid "Silk Boots"
+msgstr ""
+
+#: ../items/categories/level_9.txt:86
+msgid "Silk Sleeves"
+msgstr ""
+
+#: ../items/categories/level_9.txt:95
+msgid "Longsword"
+msgstr "Dlhý meč"
+
+#: ../items/categories/level_9.txt:104
+msgid "Longbow"
+msgstr "Dlhý luk"
+
+#: ../items/categories/level_9.txt:113
+msgid "Staff"
+msgstr "Palica"
+
+#: ../items/categories/level_9.txt:122
+msgid "Crest Shield"
+msgstr ""
+
+#: ../items/categories/level_6.txt:5
+msgid "Fighting Leather Hood"
+msgstr ""
+
+#: ../items/categories/level_6.txt:17
+msgid "Recon Leather Hood"
+msgstr ""
+
+#: ../items/categories/level_6.txt:29
+msgid "Sorcerer Wool Hood"
+msgstr ""
+
+#: ../items/categories/level_6.txt:41
+msgid "Fighting Leather Tunic"
+msgstr ""
+
+#: ../items/categories/level_6.txt:53
+msgid "Recon Leather Tunic"
+msgstr ""
+
+#: ../items/categories/level_6.txt:65
+msgid "Sorcerer Wool Vest"
+msgstr ""
+
+#: ../items/categories/level_6.txt:77
+msgid "Fighting Leather Pants"
+msgstr ""
+
+#: ../items/categories/level_6.txt:89
+msgid "Recon Leather Pants"
+msgstr ""
+
+#: ../items/categories/level_6.txt:101
+msgid "Sorcerer Wool Skirt"
+msgstr ""
+
+#: ../items/categories/level_6.txt:113
+msgid "Fighting Leather Boots"
+msgstr ""
+
+#: ../items/categories/level_6.txt:125
+msgid "Recon Leather Boots"
+msgstr ""
+
+#: ../items/categories/level_6.txt:137
+msgid "Sorcerer Wool Boots"
+msgstr ""
+
+#: ../items/categories/level_6.txt:149
+msgid "Fighting Leather Gloves"
+msgstr ""
+
+#: ../items/categories/level_6.txt:161
+msgid "Recon Leather Gloves"
+msgstr ""
+
+#: ../items/categories/level_6.txt:173
+msgid "Sorcerer Wool Sleeves"
+msgstr ""
+
+#: ../items/categories/level_6.txt:185
+msgid "Wandering Fighting Leather Belt"
+msgstr ""
+
+#: ../items/categories/level_6.txt:196
+msgid "Wandering Recon Pendant"
+msgstr ""
+
+#: ../items/categories/level_6.txt:207
+msgid "Wandering Sorcerer Spellbook"
+msgstr ""
+
+#: ../items/categories/level_6.txt:218
+msgid "Fighting Shortsword"
+msgstr ""
+
+#: ../items/categories/level_6.txt:230
+msgid "Recon Shortbow"
+msgstr ""
+
+#: ../items/categories/level_6.txt:242
+msgid "Sorcerer Rod"
+msgstr ""
+
+#: ../items/categories/level_6.txt:254
+msgid "Keeper Iron Buckler"
+msgstr ""
+
+#: ../items/categories/level_6.txt:265
+msgid "Wandering Burn Ring"
+msgstr ""
+
+#: ../items/categories/level_6.txt:275
+msgid "Wandering Frost Ring"
+msgstr ""
+
+#: ../items/categories/level_6.txt:285
+msgid "Wandering Electric Ring"
+msgstr ""
+
+#: ../items/categories/level_6.txt:295
+msgid "Wandering Shadow Ring"
+msgstr ""
+
+#: ../items/categories/level_6.txt:305
+msgid "Wandering Knowledge Ring"
+msgstr ""
+
+#: ../items/categories/level_6.txt:315
+msgid "Wandering Prosperity Ring"
+msgstr ""
+
+#: ../items/categories/level_6.txt:325
+msgid "Wandering Loot Ring"
+msgstr ""
+
+#: ../items/categories/level_3.txt:5
+msgid "Warrior Cloth Shirt"
+msgstr "Látková košeľa bojovníka"
+
+#: ../items/categories/level_3.txt:15
+msgid "Ranger Cloth Shirt"
+msgstr "Látková košeľa hliadky"
+
+#: ../items/categories/level_3.txt:25
+msgid "Wizard Cloth Shirt"
+msgstr "Látková košeľa mága"
+
+#: ../items/categories/level_3.txt:35
+msgid "Warrior Cloth Pants"
+msgstr "Látkové nohavice bojovníka"
+
+#: ../items/categories/level_3.txt:45
+msgid "Ranger Cloth Pants"
+msgstr "Látkové nohavice hliadky"
+
+#: ../items/categories/level_3.txt:55
+msgid "Wizard Cloth Pants"
+msgstr "Látkové nohavice mága"
+
+#: ../items/categories/level_3.txt:65
+msgid "Warrior Cloth Sandals"
+msgstr "Látkové sandále bojovníka"
+
+#: ../items/categories/level_3.txt:75
+msgid "Ranger Cloth Sandals"
+msgstr "Látkové sandále hliadky"
+
+#: ../items/categories/level_3.txt:85
+msgid "Wizard Cloth Sandals"
+msgstr "Látkové sandále mága"
+
+#: ../items/categories/level_3.txt:94
+msgid "Warrior Cloth Gloves"
+msgstr "Látkové rukavice bojovníka"
+
+#: ../items/categories/level_3.txt:104
+msgid "Ranger Cloth Gloves"
+msgstr "Látkové rukavice hliadky"
+
+#: ../items/categories/level_3.txt:114
+msgid "Wizard Cloth Gloves"
+msgstr "Látkové rukavice mága"
+
+#: ../items/categories/level_3.txt:123
+msgid "Adventurer Leather Belt"
+msgstr ""
+
+#: ../items/categories/level_3.txt:132
+msgid "Adventurer Pendant"
+msgstr ""
+
+#: ../items/categories/level_3.txt:141
+msgid "Adventurer Spellbook"
+msgstr ""
+
+#: ../items/categories/level_3.txt:150
+msgid "Warrior Dagger"
+msgstr ""
+
+#: ../items/categories/level_3.txt:162
+msgid "Ranger Slingshot"
+msgstr ""
+
+#: ../items/categories/level_3.txt:174
+msgid "Wizard Wand"
+msgstr ""
+
+#: ../items/categories/level_3.txt:186
+msgid "Paladin Wood Buckler"
+msgstr ""
+
+#: ../items/categories/level_3.txt:197
+msgid "Adventurer Fire Ring"
+msgstr ""
+
+#: ../items/categories/level_3.txt:206
+msgid "Adventurer Ice Ring"
+msgstr ""
+
+#: ../items/categories/level_3.txt:215
+msgid "Adventurer Lightning Ring"
+msgstr ""
+
+#: ../items/categories/level_3.txt:224
+msgid "Adventurer Dark Ring"
+msgstr ""
+
+#: ../items/categories/level_3.txt:233
+msgid "Adventurer Experience Ring"
+msgstr ""
+
+#: ../items/categories/level_3.txt:242
+msgid "Adventurer Wealth Ring"
+msgstr ""
+
+#: ../items/categories/level_3.txt:251
+msgid "Adventurer Treasure Ring"
+msgstr ""
+
+#: ../items/categories/level_12.txt:5
+msgid "Warlord Chain Coif"
+msgstr ""
+
+#: ../items/categories/level_12.txt:17
+msgid "Sniper Chain Coif"
+msgstr ""
+
+#: ../items/categories/level_12.txt:29
+msgid "Archwizard Silk Hood"
+msgstr ""
+
+#: ../items/categories/level_12.txt:41
+msgid "Warlord Chain Cuirass"
+msgstr ""
+
+#: ../items/categories/level_12.txt:53
+msgid "Sniper Chain Cuirass"
+msgstr ""
+
+#: ../items/categories/level_12.txt:65
+msgid "Archwizard Silk Vest"
+msgstr ""
+
+#: ../items/categories/level_12.txt:77
+msgid "Warlord Chain Greaves"
+msgstr ""
+
+#: ../items/categories/level_12.txt:89
+msgid "Sniper Chain Greaves"
+msgstr ""
+
+#: ../items/categories/level_12.txt:101
+msgid "Archwizard Silk Skirt"
+msgstr ""
+
+#: ../items/categories/level_12.txt:113
+msgid "Warlord Chain Boots"
+msgstr ""
+
+#: ../items/categories/level_12.txt:125
+msgid "Sniper Chain Boots"
+msgstr ""
+
+#: ../items/categories/level_12.txt:137
+msgid "Archwizard Silk Boots"
+msgstr ""
+
+#: ../items/categories/level_12.txt:149
+msgid "Warlord Chain Gloves"
+msgstr ""
+
+#: ../items/categories/level_12.txt:161
+msgid "Sniper Chain Gloves"
+msgstr ""
+
+#: ../items/categories/level_12.txt:173
+msgid "Archwizard Silk Sleeves"
+msgstr ""
+
+#: ../items/categories/level_12.txt:185
+msgid "Master Warrior Leather Belt"
+msgstr ""
+
+#: ../items/categories/level_12.txt:196
+msgid "Master Ranger Pendant"
+msgstr ""
+
+#: ../items/categories/level_12.txt:207
+msgid "Master Wizard Spellbook"
+msgstr ""
+
+#: ../items/categories/level_12.txt:218
+msgid "Warlord Longsword"
+msgstr ""
+
+#: ../items/categories/level_12.txt:230
+msgid "Sniper Longbow"
+msgstr ""
+
+#: ../items/categories/level_12.txt:242
+msgid "Archwizard Staff"
+msgstr ""
+
+#: ../items/categories/level_12.txt:254
+msgid "Templar Crest Shield"
+msgstr ""
+
+#: ../items/categories/level_12.txt:265
+msgid "Master Blaze Ring"
+msgstr ""
+
+#: ../items/categories/level_12.txt:275
+msgid "Master Freeze Ring"
+msgstr ""
+
+#: ../items/categories/level_12.txt:285
+msgid "Master Shock Ring"
+msgstr ""
+
+#: ../items/categories/level_12.txt:295
+msgid "Master Gloom Ring"
+msgstr ""
+
+#: ../items/categories/level_12.txt:305
+msgid "Master Intellectual Ring"
+msgstr ""
+
+#: ../items/categories/level_12.txt:315
+msgid "Master Lucrative Ring"
+msgstr ""
+
+#: ../items/categories/level_12.txt:325
+msgid "Master Artifact Ring"
+msgstr ""
+
+#: ../items/categories/level_8_unique.txt:3
+msgid "Amir Blade"
+msgstr "Amirský meč"
+
+#: ../items/categories/level_8_unique.txt:4
+msgid "A remnant of those who guarded Fort Amir."
+msgstr "Pozostatok stráže pevnosti Amir."
+
+#: ../items/categories/level_8_unique.txt:18
+msgid "Huntsman Bow"
+msgstr "Lovecký luk"
+
+#: ../items/categories/level_8_unique.txt:19
+msgid "Compact enough to be deadly at all ranges of combat."
+msgstr ""
+
+#: ../items/categories/level_8_unique.txt:34
+msgid "Greed Cowl"
+msgstr ""
+
+#: ../items/categories/level_8_unique.txt:35
+msgid "Riches fit for a queen."
+msgstr "Bohatstvo hodné kráľovnej."
+
+#: ../items/categories/level_8_unique.txt:49
+msgid "Battle Leathers"
+msgstr ""
+
+#: ../items/categories/level_8_unique.txt:50
+msgid "Designed to keep its wearer moving forward."
+msgstr ""
+
+#: ../items/categories/level_8_unique.txt:64
+msgid "Escape Boots"
+msgstr "Únikové čižmy"
+
+#: ../items/categories/level_8_unique.txt:65
+msgid "Running away doesn't mean the battle is lost."
+msgstr "Útek ešte neznamená, že je bitka stratená."
+
+#: ../items/categories/level_8_unique.txt:79
+msgid "Mez's Wraps"
+msgstr ""
+
+#: ../items/categories/level_8_unique.txt:80
+msgid "With its layers of reptilian skin, not much can penetrate this armor."
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:5
+msgid "Lost Totem"
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:6
+msgid "The ancient scripture contained appears to be some sort of magic."
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:21
+msgid "Mog's Axe"
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:22
+msgid "Not as sleek as an arrow, but just as effective."
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:36
+msgid "Guardsman Cuirass"
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:37
+msgid "A royal mail with a 'K' engraved on the breast."
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:53
+msgid "Inferno Pendant"
+msgstr "Pekelný prívesok"
+
+#: ../items/categories/level_12_unique.txt:54
+msgid "Hot. Hot. Hot."
+msgstr "Páli. Páli. Páli."
+
+#: ../items/categories/level_12_unique.txt:69
+msgid "Alchemist's Skirt"
+msgstr "Sukňa alchymistu"
+
+#: ../items/categories/level_12_unique.txt:70
+msgid "Knowledge of formulating many concoctions bestows its wearer."
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:87
+msgid "Drinking potions may create another potion of the same type."
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:96
+msgid "Metzger's Battlemace"
+msgstr ""
+
+#: ../items/categories/level_12_unique.txt:97
+msgid "Swinging this mace around leaves a clouded trail of dark smoke."
+msgstr ""
+
+#: ../items/categories/potions.txt:8
+msgid "Restore 25% of maximum HP"
+msgstr "Obnoví 25 % z maxima HP"
+
+#: ../items/categories/potions.txt:20
+msgid "Restore 25% of maximum MP"
+msgstr "Obnoví 25 % z maxima MP"
+
+#: ../items/categories/potions.txt:33
+msgid "Temporarily increase regeneration and movement speed"
+msgstr ""
+
+#: ../items/categories/potions.txt:46
+msgid "Restore 25% of both HP and MP"
+msgstr ""
+
+#: ../items/categories/potions.txt:59
+msgid "Temporarily increases the ability to find items and gold"
+msgstr ""
+
+#: ../items/categories/potions.txt:72
+msgid "Temporarily increases the resistance to all forms of magic by 50%"
+msgstr ""
+
+#: ../items/categories/potions.txt:85
+msgid "Restore 50% of maximum HP"
+msgstr ""
+
+#: ../items/categories/potions.txt:98
+msgid "Restore 75% of maximum HP"
+msgstr ""
+
+#: ../items/categories/potions.txt:111
+msgid "Restore 50% of maximum MP"
+msgstr ""
+
+#: ../items/categories/potions.txt:124
+msgid "Restore 75% of maximum MP"
+msgstr ""
+
+#: ../items/categories/level_14.txt:5
+msgid "Fighting Plate Helmet"
+msgstr ""
+
+#: ../items/categories/level_14.txt:17
+msgid "Recon Plate Helmet"
+msgstr ""
+
+#: ../items/categories/level_14.txt:29
+msgid "Sorcerer Velvet Hood"
+msgstr ""
+
+#: ../items/categories/level_14.txt:41
+msgid "Fighting Plate Cuirass"
+msgstr ""
+
+#: ../items/categories/level_14.txt:53
+msgid "Recon Plate Cuirass"
+msgstr ""
+
+#: ../items/categories/level_14.txt:65
+msgid "Sorcerer Velvet Vest"
+msgstr ""
+
+#: ../items/categories/level_14.txt:77
+msgid "Fighting Plate Greaves"
+msgstr ""
+
+#: ../items/categories/level_14.txt:89
+msgid "Recon Plate Greaves"
+msgstr ""
+
+#: ../items/categories/level_14.txt:101
+msgid "Sorcerer Velvet Skirt"
+msgstr ""
+
+#: ../items/categories/level_14.txt:113
+msgid "Fighting Plate Boots"
+msgstr ""
+
+#: ../items/categories/level_14.txt:125
+msgid "Recon Plate Boots"
+msgstr ""
+
+#: ../items/categories/level_14.txt:137
+msgid "Sorcerer Velvet Boots"
+msgstr ""
+
+#: ../items/categories/level_14.txt:149
+msgid "Fighting Plate Gauntlets"
+msgstr ""
+
+#: ../items/categories/level_14.txt:161
+msgid "Recon Plate Gauntlets"
+msgstr ""
+
+#: ../items/categories/level_14.txt:173
+msgid "Sorcerer Velvet Sleeves"
+msgstr ""
+
+#: ../items/categories/level_14.txt:185
+msgid "Wandering Warlord Leather Belt"
+msgstr ""
+
+#: ../items/categories/level_14.txt:196
+msgid "Wandering Sniper Pendant"
+msgstr ""
+
+#: ../items/categories/level_14.txt:207
+msgid "Wandering Archwizard Spellbook"
+msgstr ""
+
+#: ../items/categories/level_14.txt:218
+msgid "Fighting Greatsword"
+msgstr ""
+
+#: ../items/categories/level_14.txt:230
+msgid "Recon Greatbow"
+msgstr ""
+
+#: ../items/categories/level_14.txt:242
+msgid "Sorcerer Greatstaff"
+msgstr ""
+
+#: ../items/categories/level_14.txt:254
+msgid "Keeper Tower Shield"
+msgstr ""
+
+#: ../items/categories/level_14.txt:265
+msgid "Wandering Inferno Ring"
+msgstr ""
+
+#: ../items/categories/level_14.txt:275
+msgid "Wandering Glacial Ring"
+msgstr ""
+
+#: ../items/categories/level_14.txt:285
+msgid "Wandering Volt Ring"
+msgstr ""
+
+#: ../items/categories/level_14.txt:295
+msgid "Wandering Void Ring"
+msgstr ""
+
+#: ../items/categories/level_14.txt:305
+msgid "Wandering Scholar Ring"
+msgstr ""
+
+#: ../items/categories/level_14.txt:315
+msgid "Wandering Affluence Ring"
+msgstr ""
+
+#: ../items/categories/level_14.txt:325
+msgid "Wandering Relic Ring"
+msgstr ""
+
+#: ../powers/base/magician/burn.txt:1
+msgid "Burn"
+msgstr ""
+
+#: ../powers/base/magician/burn.txt:4
+msgid "Blast multiple enemies in a distant area with fire."
 msgstr ""
 
 #: ../powers/base/magician/energy_flow.txt:1
 msgid "Energy Flow"
-msgstr ""
+msgstr "Tok energie"
 
 #: ../powers/base/magician/energy_flow.txt:2
 msgid "Mana reserves are increased and regenerate faster."
+msgstr "Zvýši zásobu many a zrýchli jej regeneráciu."
+
+#: ../powers/base/magician/fireball.txt:1
+msgid "Fireball"
+msgstr ""
+
+#: ../powers/base/magician/fireball.txt:2
+msgid "Launch a ball of fire that does extra mental damage."
 msgstr ""
 
 #: ../powers/base/magician/thunderstrike.txt:1
@@ -4402,20 +4840,8 @@ msgid ""
 "movement-impaired enemies."
 msgstr ""
 
-#: ../powers/base/magician/ice_bolt.txt:1
-msgid "Ice Bolt"
-msgstr ""
-
-#: ../powers/base/magician/ice_bolt.txt:2
-msgid "Launch a chunk of ice that slows enemies."
-msgstr ""
-
-#: ../powers/base/magician/fireball.txt:1
-msgid "Fireball"
-msgstr ""
-
-#: ../powers/base/magician/fireball.txt:2
-msgid "Launch a ball of fire that does extra mental damage."
+#: ../powers/base/magician/shield.txt:4
+msgid "Create a force field that absorbs damage."
 msgstr ""
 
 #: ../powers/base/magician/shock.txt:1
@@ -4428,41 +4854,45 @@ msgid ""
 "impaired enemies."
 msgstr ""
 
-#: ../powers/base/magician/shield.txt:4
-msgid "Create a force field that absorbs damage."
+#: ../powers/base/magician/ice_bolt.txt:1
+msgid "Ice Bolt"
 msgstr ""
 
-#: ../powers/base/magician/burn.txt:1
-msgid "Burn"
+#: ../powers/base/magician/ice_bolt.txt:2
+msgid "Launch a chunk of ice that slows enemies."
 msgstr ""
 
-#: ../powers/base/magician/burn.txt:4
-msgid "Blast multiple enemies in a distant area with fire."
+#: ../powers/base/magician/freeze.txt:1
+msgid "Freeze"
 msgstr ""
 
-#: ../powers/base/warrior/warcry.txt:1
-msgid "Warcry"
-msgstr ""
-
-#: ../powers/base/warrior/warcry.txt:4
-msgid "Remove debuffs and become immune to debuffs for a limited time."
+#: ../powers/base/magician/freeze.txt:4
+msgid "Create a ray of several piercing cold shards that slow enemies."
 msgstr ""
 
 #: ../powers/base/warrior/quake.txt:1
 msgid "Quake"
-msgstr ""
+msgstr "Zemetrasenie"
 
 #: ../powers/base/warrior/quake.txt:4
 msgid "Knock back nearby enemies with a chance to stun."
-msgstr ""
+msgstr "Odhodí okolitých nepriateľov späť a zároveň má šancu ich omráčiť."
 
-#: ../powers/base/warrior/throw_axe.txt:1
-msgid "Throw Axe"
-msgstr ""
+#: ../powers/base/warrior/blood_strike.txt:1
+msgid "Blood Strike"
+msgstr "Krvavý úder"
 
-#: ../powers/base/warrior/throw_axe.txt:2
-msgid "Throw an axe to deal extra melee weapon damage."
-msgstr ""
+#: ../powers/base/warrior/blood_strike.txt:2
+msgid "Deal a powerful blow that inflicts a bleeding wound."
+msgstr "Silný úder, ktorý spôsobí krvácajúcu ranu."
+
+#: ../powers/base/warrior/throw_knife.txt:1
+msgid "Throw Knife"
+msgstr "Vrh noža"
+
+#: ../powers/base/warrior/throw_knife.txt:2
+msgid "Throw a knife to deal reduced melee weapon damage."
+msgstr "Vyhodí nôž, ktorý spôsobí časť zranenia zbraní nablízko."
 
 #: ../powers/base/warrior/stone_wall.txt:1
 msgid "Stone Wall"
@@ -4472,20 +4902,12 @@ msgstr ""
 msgid "Withstand stronger attacks with more health and absorption."
 msgstr ""
 
-#: ../powers/base/warrior/throw_knife.txt:1
-msgid "Throw Knife"
-msgstr ""
+#: ../powers/base/warrior/shield_bash.txt:1
+msgid "Shield Bash"
+msgstr "Úder štítom"
 
-#: ../powers/base/warrior/throw_knife.txt:2
-msgid "Throw a knife to deal reduced melee weapon damage."
-msgstr ""
-
-#: ../powers/base/warrior/blood_strike.txt:1
-msgid "Blood Strike"
-msgstr ""
-
-#: ../powers/base/warrior/blood_strike.txt:2
-msgid "Deal a powerful blow that inflicts a bleeding wound."
+#: ../powers/base/warrior/shield_bash.txt:2
+msgid "Dash into enemies, crushing them with sheer force."
 msgstr ""
 
 #: ../powers/base/warrior/cleave.txt:1
@@ -4494,28 +4916,95 @@ msgstr ""
 
 #: ../powers/base/warrior/cleave.txt:2
 msgid "Attack all enemies in a wide arc."
+msgstr "Zaútočí na všetkých nepriateľov v širokom oblúku."
+
+#: ../powers/base/warrior/throw_axe.txt:1
+msgid "Throw Axe"
+msgstr "Vrh sekery"
+
+#: ../powers/base/warrior/throw_axe.txt:2
+msgid "Throw an axe to deal extra melee weapon damage."
 msgstr ""
 
-#: ../powers/base/warrior/shield_bash.txt:1
-msgid "Shield Bash"
+#: ../powers/base/warrior/warcry.txt:1
+msgid "Warcry"
+msgstr "Bojový pokrik"
+
+#: ../powers/base/warrior/warcry.txt:4
+msgid "Remove debuffs and become immune to debuffs for a limited time."
+msgstr ""
+"Odstráni negatívne efekty a poskytne dočasnú imunitu voči negatívnym efektom"
+
+#: ../powers/base/ranger/bear_trap.txt:1
+msgid "Bear Trap"
+msgstr "Pasca na medvede"
+
+#: ../powers/base/ranger/bear_trap.txt:2
+msgid "This trap deals extra ranged weapon damage and immobilizes the target."
 msgstr ""
 
-#: ../powers/base/warrior/shield_bash.txt:2
-msgid "Dash into enemies, crushing them with sheer force."
+#: ../powers/base/ranger/multishot.txt:1
+msgid "Multishot"
 msgstr ""
 
-#: ../powers/categories/warrior.txt:7
-msgid "Swing"
+#: ../powers/base/ranger/multishot.txt:2
+msgid "Shoot three projectiles simultaneously."
 msgstr ""
 
-#: ../powers/categories/warrior.txt:10
-msgid "Basic melee attack."
+#: ../powers/base/ranger/wolfs_eye.txt:1
+msgid "Wolf's Eye"
+msgstr "Vlčie oko"
+
+#: ../powers/base/ranger/wolfs_eye.txt:2
+msgid "Improves the ability to hit and critically wound enemies."
+msgstr "Zlepší vašu schopnosť zasiahnuť a kriticky zraniť nepriateľov."
+
+#: ../powers/base/ranger/rapid_fire.txt:1
+msgid "Rapid Fire"
 msgstr ""
 
-#: ../powers/categories/quest.txt:4
+#: ../powers/base/ranger/rapid_fire.txt:2
+msgid "Fire five low power missiles in quick succession."
+msgstr ""
+
+#: ../powers/base/ranger/shoot.txt:1
+msgid "Shoot"
+msgstr "Výstrel"
+
+#: ../powers/base/ranger/shoot.txt:4
+msgid "Basic ranged attack."
+msgstr "Základný útok na diaľku."
+
+#: ../powers/base/ranger/haste.txt:3
+msgid "Move at an increased speed for a limited time."
+msgstr ""
+
+#: ../powers/base/ranger/ember_shot.txt:1
+msgid "Ember Shot"
+msgstr ""
+
+#: ../powers/base/ranger/ember_shot.txt:2
 msgid ""
-"Performing the ritual at the Red Altar has granted you faster regeneration."
+"Fire a spray of burning embers at close range. Effective against armored "
+"enemies."
 msgstr ""
+
+#: ../powers/base/ranger/caltrops.txt:1
+msgid "Caltrops"
+msgstr ""
+
+#: ../powers/base/ranger/caltrops.txt:2
+msgid "This trap deals reduced ranged weapon damage and slows the target."
+msgstr ""
+
+#: ../powers/base/ranger/piercing_shot.txt:1
+msgid "Piercing Shot"
+msgstr "Prenikavá strela"
+
+#: ../powers/base/ranger/piercing_shot.txt:2
+msgid "Fire a shot that ignores armor and goes through multiple enemies."
+msgstr ""
+"Vystrelí strelu, ktorá ignoruje zbroj a prechádza cez viacerých nepriateľov."
 
 #: ../powers/categories/magician.txt:7
 msgid "Channel"
@@ -4523,60 +5012,42 @@ msgstr ""
 
 #: ../powers/categories/magician.txt:10
 msgid "Basic magic attack."
+msgstr "Základný magický útok."
+
+#: ../powers/categories/quest.txt:4
+msgid ""
+"Performing the ritual at the Red Altar has granted you faster regeneration."
 msgstr ""
+"Vykonaním rituálu na červenom oltári ste získali rýchlejšiu regeneráciu."
+
+#: ../powers/categories/warrior.txt:7
+msgid "Swing"
+msgstr "Švih"
+
+#: ../powers/categories/warrior.txt:10
+msgid "Basic melee attack."
+msgstr "Základný útok zblízka."
 
 #: ../powers/trees/default.txt:11
 msgid "Magician"
-msgstr ""
+msgstr "Kúzelník"
 
-#: ../scripts/powers/goblin_steal.txt:8
-msgid "Goblin Thief stole a potion!"
-msgstr ""
-
-#: ../scripts/reset_amir.txt:11
-msgid "Reset quest: \"The One-Eyed Guardians\""
-msgstr ""
-
-#: ../scripts/reset_journal.txt:8
-msgid "Reset quest: \"The Merchant's Journal\""
-msgstr ""
-
-#: ../scripts/reset_krolan.txt:8
-msgid "Reset quest: \"Krolan's Missing\""
-msgstr ""
-
-#: ../scripts/reset_main.txt:59
-msgid "Reset quest: \"Return to Empyrean\""
-msgstr ""
-
-#: ../scripts/reset_martigan.txt:10
-msgid "Reset quest: \"Fallen Comrades\""
-msgstr ""
-
-#: ../scripts/reset_mog.txt:15
-msgid "Reset quest: \"The Lost Soul of the Mog Caverns\""
-msgstr ""
-
-#: ../scripts/reset_nasu.txt:11
-msgid "Reset quest: \"An Unusual Name...\""
-msgstr ""
-
-#: ../scripts/reset_naziamines.txt:9
-msgid "Reset quest: \"Trapped!\""
-msgstr ""
-
-#: ../scripts/reset_ort.txt:6
-msgid "Reset quest: \"Brother?\""
-msgstr ""
-
-#: ../scripts/reset_stormrock.txt:7
-msgid "Reset quest: \"Locked Out\""
-msgstr ""
-
-#: ../scripts/reset_torture.txt:9
-msgid "Reset quest: \"Warden's Notes\""
-msgstr ""
-
-#: ../scripts/unlock_waypoints.txt:14
+#: ../scripts/dev/waypoints_unlock.txt:14
 msgid "Unlocked all waypoints"
+msgstr "Odomkli sa všetky trasové body"
+
+#: ../scripts/dev/waypoints_lock.txt:14
+msgid "Locked all waypoints"
 msgstr ""
+
+#: ../scripts/maps/the_pit/locked_chest.txt:4
+msgid "It's locked."
+msgstr ""
+
+#: ../scripts/maps/the_pit/locked_chest.txt:10
+msgid "You try to unlock the chest, but it's sealed by an unknown power."
+msgstr ""
+
+#: ../scripts/powers/goblin_steal.txt:107
+msgid "Goblin Thief stole a potion!"
+msgstr "Zlodejský goblin ukradol elixír!"
